@@ -1,8 +1,11 @@
+const { DJ } = require('../models');
+
 const resolvers = {
   Query: {
-    DJs: async () => {
-      return DJs.find();
+    DJ: async () => {
+      return await DJ.find();
     },
   },
 };
+
 module.exports = resolvers;

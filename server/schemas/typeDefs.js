@@ -5,11 +5,17 @@ const typeDefs = gql`
     _id: ID
     firstName: String!
     lastName: String!
+    nickName: String
     Title: String
-    Shows: [String]
+    Shows: [Show]
+  }
+  type Show {
+    _id: ID
+    name: String!
+    host: DJ
   }
   type Query {
-    DJs: [DJ]!
+    DJ: [DJ]!
   }
 `;
 

@@ -1,0 +1,79 @@
+[
+  {
+    "firstName": "Sam",
+    "lastName": "Smith",
+    "nickName": "Smooth Sax",
+    "Title": "Station Manager",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Claire",
+    "lastName": "Carter",
+    "nickName": "Cool Cat",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Ben",
+    "lastName": "Nichols",
+    "nickName": "Blue Note",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Ray",
+    "lastName": "Reynolds",
+    "nickName": "Rhythm King",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Ella",
+    "lastName": "Valentine",
+    "nickName": "Vibes",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Stan",
+    "lastName": "Sullivan",
+    "nickName": "Swingin'",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Jessica",
+    "lastName": "James",
+    "nickName": "Jazzin'",
+    "Title": "DJ",
+    "Shows": []
+  },
+
+  {
+    "firstName": "Brenda",
+    "lastName": "Brooks",
+    "nickName": "Bebop",
+    "Title": "DJ",
+    "Shows": []
+  },
+  {
+    "firstName": "Gabe",
+    "lastName": "Grant",
+    "nickName": "Groovin'",
+    "Title": "DJ",
+    "Shows": []
+  },
+  {
+    "firstName": "Miles",
+    "lastName": "Marshall",
+    "nickName": "Mellow Mood",
+    "Title": "DJ",
+    "Shows": []
+  }
+]

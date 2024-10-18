@@ -1,3 +1,4 @@
-const DJ = require('./DJs');
+const DJ = require('./DJ');
+const Show = require('./Show');
 
-module.exports = { DJ };
+module.exports = { DJ, Show };

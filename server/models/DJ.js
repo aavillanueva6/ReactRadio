@@ -11,14 +11,18 @@ const DJsSchema = new Schema({
     required: true,
     trim: true,
   },
+  nickName: {
+    type: String,
+    trim: true,
+  },
   Title: {
     type: String,
     trim: true,
   },
   Shows: [
     {
-      type: String,
-      trim: true,
+      type: Schema.Types.ObjectId,
+      ref: 'Show',
     },
   ],
 });
