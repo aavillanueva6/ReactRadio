@@ -2,12 +2,12 @@ const { DJ, Show } = require('../models');
 
 const resolvers = {
   Query: {
-    DJ: async () => {
-      return await DJ.find();
+    djs: async () => {
+      return await DJ.find({}).populate('Shows');
     },
 
-    Show: async () => {
-      return await Show.find();
+    shows: async () => {
+      return await Show.find({}).populate('host');
     },
   },
 };

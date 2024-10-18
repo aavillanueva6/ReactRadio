@@ -15,8 +15,8 @@ const typeDefs = gql`
     host: DJ
   }
   type Query {
-    DJ: [DJ]
-    Show: [Show]
+    djs: [DJ]
+    shows: [Show]
   }
 `;
 
