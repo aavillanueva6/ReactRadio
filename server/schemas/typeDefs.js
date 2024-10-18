@@ -13,6 +13,8 @@ const typeDefs = gql`
     _id: ID
     name: String!
     host: DJ
+    shortDescription: String
+    longDescription: [String]
   }
   type Query {
     djs: [DJ]

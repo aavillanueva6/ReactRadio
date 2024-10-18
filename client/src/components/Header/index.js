@@ -1,16 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 const Header = () => {
   return (
-    <header className="">
-      <div className="">
-        <Link className="text-light" to="/">
-          <h1 className="m-0">WETF-LP</h1>
-        </Link>
-        <p className="m-0">The Jazz Station</p>
-      </div>
-    </header>
+    <>
+      <Navbar bg="secondary" className="">
+        <Container>
+          <Link to="/">
+            <Navbar.Brand>
+              <img
+                alt=""
+                src="/wetf_logo.png"
+                width="50"
+                height="50"
+                className="d-inline-block align-top"
+              />
+            </Navbar.Brand>
+          </Link>
+        </Container>
+      </Navbar>{' '}
+    </>
   );
 };
 

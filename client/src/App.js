@@ -10,6 +10,7 @@ import DJs from './pages/DJs';
 import Shows from './pages/Shows';
 import Schedule from './pages/Schedule';
 import SingleDJ from './pages/SingleDJ';
+import Donate from './pages/Donate';
 import InvalidPage from './pages/InvalidPage';
 
 // import components
@@ -34,6 +35,7 @@ function App() {
               <Route path="/shows" element={<Shows />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/djs/:djID" element={<SingleDJ />} />
+              <Route path="/donate" element={<Donate />} />
               {/* catch route to direct invalid URLs to an error page  */}
               <Route path="*" element={<InvalidPage />} />
             </Routes>

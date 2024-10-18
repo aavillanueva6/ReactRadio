@@ -11,6 +11,16 @@ const showSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'DJ',
   },
+  shortDescription: {
+    type: String,
+    trim: true,
+  },
+  longDescription: [
+    {
+      type: String,
+      trim: true,
+    },
+  ],
 });
 
 const Show = model('Show', showSchema);

@@ -20,7 +20,6 @@ db.once('open', async () => {
       await tempDJ.save();
 
       // reference DJ on Show model too
-      console.log(newShow, newShow._id, tempDJ._id);
       newShow.host = tempDJ._id;
       await newShow.save();
     }
