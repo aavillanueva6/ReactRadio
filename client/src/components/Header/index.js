@@ -13,7 +13,7 @@ const Header = () => {
             <Navbar.Brand>
               <img
                 alt=""
-                src="/wetf_logo.png"
+                src="/WETF_icon.svg"
                 width="50"
                 height="50"
                 className="d-inline-block align-top"

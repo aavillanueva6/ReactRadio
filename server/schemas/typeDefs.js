@@ -8,6 +8,7 @@ const typeDefs = gql`
     nickName: String
     Title: String
     Shows: [Show]
+    image: String
   }
   type Show {
     _id: ID

@@ -25,6 +25,10 @@ const DJsSchema = new Schema({
       ref: 'Show',
     },
   ],
+  image: {
+    type: String,
+    trim: true,
+  },
 });
 
 const DJ = model('DJ', DJsSchema);

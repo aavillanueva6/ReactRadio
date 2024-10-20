@@ -2,78 +2,88 @@
   {
     "firstName": "Sam",
     "lastName": "Smith",
-    "nickName": "Smooth Sax",
+    "nickName": "Smooth Sax Sam",
     "Title": "Station Manager",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-57-05_3702.png"
   },
 
   {
     "firstName": "Claire",
     "lastName": "Carter",
-    "nickName": "Cool Cat",
+    "nickName": "The Cool Cat",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-48-09_2810.png"
   },
 
   {
     "firstName": "Ben",
     "lastName": "Nichols",
-    "nickName": "Blue Note",
+    "nickName": "DJ Blue Note",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-53-48_2932.png"
   },
 
   {
     "firstName": "Ray",
     "lastName": "Reynolds",
-    "nickName": "Rhythm King",
+    "nickName": "The Rhythm King",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-05-46_7091.png"
   },
 
   {
     "firstName": "Ella",
     "lastName": "Valentine",
-    "nickName": "Vibes",
+    "nickName": "DJ Miss Vibes",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-49-22_3689.png"
   },
 
   {
     "firstName": "Stan",
     "lastName": "Sullivan",
-    "nickName": "Swingin'",
+    "nickName": "DJ Sully",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-58-38_1388.png"
   },
 
   {
     "firstName": "Jessica",
     "lastName": "James",
-    "nickName": "Jazzin'",
+    "nickName": "DJ Jessie Jazz",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-07-36_9714.png"
   },
 
   {
     "firstName": "Brenda",
     "lastName": "Brooks",
-    "nickName": "Bebop",
+    "nickName": "The Bebop Kid",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-44-03_1919.png"
   },
   {
     "firstName": "Gabe",
     "lastName": "Grant",
-    "nickName": "Groovin'",
+    "nickName": "The General",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-59-55_9217.png"
   },
   {
-    "firstName": "Miles",
+    "firstName": "Melissa",
     "lastName": "Marshall",
-    "nickName": "Mellow Mood",
+    "nickName": "DJ Mellow Mood",
     "Title": "DJ",
-    "Shows": []
+    "Shows": [],
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-02-44_4497.png"
   }
 ]

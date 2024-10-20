@@ -28,7 +28,7 @@ function App() {
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
-          <div className="container">
+          <div className="">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/djs" element={<DJs />} />
