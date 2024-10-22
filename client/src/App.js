@@ -7,9 +7,10 @@ import './App.css'; // create-react-app standard CSS file - need to remove this
 // import pages / views
 import Home from './pages/Home';
 import DJs from './pages/DJs';
-import Shows from './pages/Shows';
-import Schedule from './pages/Schedule';
 import SingleDJ from './pages/SingleDJ';
+import Shows from './pages/Shows';
+import SingleShow from './pages/SingleShow';
+import Schedule from './pages/Schedule';
 import Donate from './pages/Donate';
 import InvalidPage from './pages/InvalidPage';
 
@@ -32,9 +33,10 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/djs" element={<DJs />} />
-              <Route path="/shows" element={<Shows />} />
-              <Route path="/schedule" element={<Schedule />} />
               <Route path="/djs/:djUrl" element={<SingleDJ />} />
+              <Route path="/shows" element={<Shows />} />
+              <Route path="/shows/:show" element={<SingleShow />} />
+              <Route path="/schedule" element={<Schedule />} />
               <Route path="/donate" element={<Donate />} />
               {/* catch route to direct invalid URLs to an error page  */}
               <Route path="*" element={<InvalidPage />} />

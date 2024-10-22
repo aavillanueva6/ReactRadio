@@ -29,6 +29,7 @@ export const QUERY_SINGLE_DJ = gql`
       Shows {
         name
         url
+        _id
       }
     }
   }

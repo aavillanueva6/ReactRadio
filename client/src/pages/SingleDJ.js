@@ -1,7 +1,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DJ } from '../utils/queries';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 const textOutline = {
   color: '#fff',
@@ -51,8 +51,29 @@ const SingleDJ = () => {
             dj.bio.map((paragraph, i) => {
               return <p key={i}>{paragraph}</p>;
             })}
+
+          {dj.Shows[0] ? (
+            <>
+              <p className="lead">Listen to {dj.nickName} on:</p>
+            </>
+          ) : (
+            <></>
+          )}
+          {dj.Shows &&
+            dj.Shows.map((Show) => {
+              return (
+                <Link
+                  to={`/shows/${Show.url}`}
+                  key={Show._id}
+                  className="btn btn-dark mb-2"
+                >
+                  {Show.name}
+                </Link>
+              );
+            })}
         </div>
       </div>
+      {/* {to do: add links to DJ social media (fb, twitter, insta, etc.)} */}
     </>
   );
 };
