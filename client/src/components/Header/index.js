@@ -2,12 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 
+const navStyle = {
+  backgroundImage: `url('https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png')`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backdropFilter: 'blur(300px)',
+};
 const Header = () => {
   return (
     <>
-      <Navbar bg="secondary" className="">
+      <Navbar style={navStyle}>
         <Container>
           <Link to="/">
             <Navbar.Brand>

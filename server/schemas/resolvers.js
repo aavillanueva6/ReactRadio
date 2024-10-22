@@ -9,6 +9,10 @@ const resolvers = {
     shows: async () => {
       return await Show.find({}).populate('host');
     },
+
+    singleDJ: async (parent, { url }) => {
+      return await DJ.findOne({ url: url }).populate('Shows');
+    },
   },
 };
 

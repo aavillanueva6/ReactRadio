@@ -5,7 +5,12 @@
     "nickName": "Smooth Sax Sam",
     "Title": "Station Manager",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-57-05_3702.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-57-05_3702.png",
+    "url": "sam-smith",
+    "bio": [
+      "Sam Smith, better known as \"Smooth Sax,\" has been a part of the jazz scene since her teenage years and now serves as both a beloved DJ and the station manager of WETF 105.7. Growing up in New Orleans, Sam was immersed in the rich sounds of jazz, blues, and gospel, which ignited her deep passion for music. She started out as a saxophonist in local clubs before transitioning to radio in her early 30s. Her love for the warm, soulful tones of the saxophone earned her the nickname \"Smooth Sax,\" and she's been sharing her love of jazz with listeners ever since.",
+      "As the station manager, Sam is instrumental in shaping WETF's programming and overseeing its growth. Her leadership ensures that the station remains a vibrant platform for jazz enthusiasts, curating not only her own smooth jazz show but also guiding contributions from DJs across the country. With her deep knowledge of jazz history, personal experience as a musician, and dedication to the station's mission, Sam is a driving force behind WETF's success. Whether managing day-to-day operations or spinning Coltrane classics on air, Sam's influence and passion are evident throughout the station."
+    ]
   },
 
   {
@@ -14,7 +19,12 @@
     "nickName": "The Cool Cat",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-48-09_2810.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-48-09_2810.png",
+    "url": "claire-carter",
+    "bio": [
+      "Claire Carter, also known as \"Cool Cat,\" brings a laid-back, West Coast vibe to WETF. Hailing from San Francisco, Claire grew up listening to the smooth sounds of cool jazz, and her love for the genre eventually led her to study music theory in college. Claire spent years as a jazz critic and writer before transitioning to radio, where her deep appreciation for jazz and her relaxed, conversational style make her a listener favorite.",
+      "Claire’s shows often highlight the coolest, most atmospheric jazz, from the understated elegance of Chet Baker to the modern tones of Kamasi Washington. Her nickname, \"Cool Cat,\" reflects her smooth, unhurried approach to both life and music. Claire’s interviews with jazz artists often feel more like intimate conversations, and she’s known for bringing out the best in her guests."
+    ]
   },
 
   {
@@ -23,7 +33,12 @@
     "nickName": "DJ Blue Note",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-53-48_2932.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-53-48_2932.png",
+    "url": "ben-nichols",
+    "bio": [
+      "Ben Nichols, better known as \"Blue Note,\" has been a staple of the WETF team since its founding. Originally from Boston, Ben grew up listening to the iconic Blue Note Records catalog, which fueled his love for soulful, blues-infused jazz. With a background in sound engineering, Ben is known for his technical ear and ability to break down the complex rhythms and harmonies that define the bluesy side of jazz.",
+      "On air, Ben brings that same expertise to his listeners, offering deep dives into the emotional and historical context behind the music. His show, packed with both well-known classics and obscure gems, is a favorite among die-hard jazz fans. Known as \"Blue Note\" for his appreciation of the bluesier side of the genre, Ben has a passion for keeping the raw emotion of jazz alive."
+    ]
   },
 
   {
@@ -32,7 +47,12 @@
     "nickName": "The Rhythm King",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-05-46_7091.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-05-46_7091.png",
+    "url": "ray-reynolds",
+    "bio": [
+      "Ray Reynolds, dubbed the \"Rhythm King,\" is all about energy and spontaneity. Born in Chicago, Ray was raised in a city known for its rich jazz history. His father was a drummer in a local jazz band, and Ray grew up tapping along to the fast-paced beats of bebop and big band swing. After spending years as a session drummer and occasional bandleader, Ray shifted to radio, where his infectious energy quickly caught on with listeners.",
+      "Ray's show is known for its fast tempos and unpredictable tracks, focusing on the more upbeat, rhythm-heavy side of jazz. His deep love for improvisation and the interplay between musicians shines through in his commentary, and his passion for rhythm gives him his nickname, \"Rhythm King.\" Whether he's breaking down classic drum solos or spinning hard-hitting bebop, Ray keeps the groove alive."
+    ]
   },
 
   {
@@ -41,7 +61,12 @@
     "nickName": "DJ Miss Vibes",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-49-22_3689.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-49-22_3689.png",
+    "url": "ella-valentine",
+    "bio": [
+      "Ella Valentine, known on air as \"DJ Miss Vibes,\" brings a modern, soulful energy to WETF. A Miami native, Ella grew up surrounded by the vibrant sounds of Latin jazz, salsa, and traditional jazz. Her love for the vibraphone and the positive energy she radiates both on and off the air earned her the nickname \"DJ Miss Vibes.\" Ella began her DJ career while attending university in Miami, where she also developed a strong passion for music education.",
+      "On her show, Ella blends contemporary jazz with global influences, creating a rich, diverse listening experience. Her upbeat personality and smooth delivery make her a listener favorite, especially when she shares the stories behind the music. Passionate about highlighting underrepresented voices in jazz, Ella frequently showcases emerging artists and female musicians, offering a platform for new talent to shine alongside the legends."
+    ]
   },
 
   {
@@ -50,7 +75,12 @@
     "nickName": "DJ Sully",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-58-38_1388.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-58-38_1388.png",
+    "url": "stan-sullivan",
+    "bio": [
+      "Stan Sullivan, known as \"DJ Sully,\" is WETF’s resident swing expert. Born and raised in Kansas City, a historic hub for jazz, Stan grew up idolizing big band leaders like Count Basie and Duke Ellington. His early fascination with the big band era led him to study jazz history, and he became a well-known jazz historian before transitioning to radio, where he shares his passion for swing with a broader audience.",
+      "On air, DJ Sully’s show is a lively celebration of big band music and the joyous rhythms that defined the swing era. His deep knowledge of jazz history and engaging, energetic style have made him a listener favorite. Whether he’s diving into a classic Count Basie performance or exploring lesser-known gems from the era, DJ Sully keeps the spirit of swing alive, introducing new generations to the music’s infectious energy."
+    ]
   },
 
   {
@@ -59,7 +89,13 @@
     "nickName": "DJ Jessie Jazz",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-07-36_9714.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-07-36_9714.png",
+    "url": "jessica-james",
+    "bio": [
+      "Jessica James, known on air as \"DJ Jessie Jazz,\" is a vibrant force in the world of jazz radio. Born and raised in New York City, Jessica grew up surrounded by the iconic sounds of jazz clubs in Harlem, where her father worked as a pianist. This early exposure to jazz legends like Dizzy Gillespie and Ella Fitzgerald fueled her passion for the genre and led her to pursue a degree in jazz performance. With a natural flair for both music and entertainment, Jessica quickly transitioned from performing on stage to hosting her own show, where her lively energy and deep love for jazz shine through.",
+      "As \"DJ Jessie Jazz,\" she brings a dynamic and high-energy approach to her broadcasts, with a special focus on bebop and fast-paced, improvisational jazz. Her show features both timeless classics and fresh takes, making it a favorite for listeners who crave an engaging, exciting musical experience. Jessica’s ability to mix the old with the new and her deep knowledge of jazz history ensure that her broadcasts are always educational and entertaining. Off the air, she is a dedicated advocate for music education, often working with young musicians to help them find their voice in the jazz world.",
+      "Off the air, Jessica is a passionate advocate for music education, working with schools and community programs to bring jazz to the next generation. She often invites young musicians to perform on her show, giving them a platform to showcase their talents. Whether she’s hosting live events or spinning records, Jessica James is dedicated to keeping the vibrant spirit of jazz alive and well."
+    ]
   },
 
   {
@@ -68,7 +104,13 @@
     "nickName": "The Bebop Kid",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-44-03_1919.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-44-03_1919.png",
+    "url": "brenda-brooks",
+    "bio": [
+      "Brenda Brooks, better known as \"The Bebop Kid,\" is a beloved voice in the jazz world, known for her deep passion for the fast-paced, intricate rhythms of bebop. Born in St. Louis, Brenda grew up surrounded by music, with her grandfather being a local trumpeter. Her early exposure to the lively, unpredictable nature of bebop inspired her to pick up the trumpet herself, and she quickly became immersed in the local jazz scene. Her dedication to the genre and her youthful energy earned her the nickname \"The Bebop Kid.\"",
+      "As a DJ on WETF, Brenda brings her extensive knowledge of bebop to the airwaves, curating a mix of bebop classics from icons like Charlie Parker and Dizzy Gillespie, as well as fresh tracks from contemporary artists pushing the genre forward. Her show is fast-paced, much like the music she loves, with in-depth commentary that breaks down complex improvisations and chord progressions for her audience. Brenda is also a champion of female musicians in jazz, working to ensure that their contributions to bebop are recognized and celebrated.",
+      "Beyond the radio, Brenda is an advocate for women in jazz, working to amplify the voices of female musicians and composers in a male-dominated industry. She regularly collaborates with jazz festivals and educational programs, creating opportunities for young women to find their place in the world of jazz. Her dedication to both the music and its future ensures that bebop will continue to thrive for years to come."
+    ]
   },
   {
     "firstName": "Gabe",
@@ -76,7 +118,13 @@
     "nickName": "The General",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-59-55_9217.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-59-55_9217.png",
+    "url": "gabe-grant",
+    "bio": [
+      "Gabe Grant, known as \"The General,\" is a commanding presence in the world of jazz radio. Raised in Detroit, Gabe grew up with a deep love for the Motown sound alongside his passion for jazz. He started playing bass in local jazz and soul bands as a teenager, where he developed a strong appreciation for groove-heavy rhythms and the importance of leadership in music. His nickname, \"The General,\" reflects his ability to guide listeners through a wide range of jazz styles, from funky bass lines to more traditional rhythms, with precision and authority.",
+      "As a DJ on WETF, Gabe’s show is a celebration of the grooviest and most soulful sides of jazz. He mixes jazz-funk, bebop, and classic R&B influences into his sets, creating a sound that appeals to a broad audience. Whether he’s breaking down complex basslines or diving into the history of jazz legends, \"The General\" keeps his listeners engaged with his deep knowledge and strong sense of rhythm. Outside of radio, Gabe is active in the jazz community, hosting jam sessions and encouraging collaboration between musicians of all styles and backgrounds.",
+      "When he’s not on the air, Gabe is an active member of the jazz community, often hosting live events and jam sessions in his hometown. His passion for collaboration and improvisation is at the heart of everything he does, and he’s known for creating a welcoming space for musicians to experiment and grow. Gabe’s easygoing, approachable style makes him a beloved figure among both listeners and fellow musicians, and his show continues to be a favorite for those who love to groove."
+    ]
   },
   {
     "firstName": "Melissa",
@@ -84,6 +132,12 @@
     "nickName": "DJ Mellow Mood",
     "Title": "DJ",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-02-44_4497.png"
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-02-44_4497.png",
+    "url": "melissa-marshall",
+    "bio": [
+      "Melissa Marshall, known as \"DJ Mellow Mood,\" is renowned for her ability to create serene, introspective jazz experiences on WETF. Originally from Seattle, Melissa grew up surrounded by the city’s rich music culture, but it was jazz that captured her heart. With a particular affinity for smooth, contemplative sounds, she earned the nickname \"Mellow Mood\" for her ability to craft late-night playlists that evoke a sense of calm and reflection. Her passion for creating peaceful atmospheres comes from her early love of ballads and jazz greats like Bill Evans and Stan Getz.",
+      "On air, DJ Mellow Mood’s show is a soothing blend of soft jazz, ballads, and smooth classics that are perfect for winding down the evening. Melissa's calming voice, combined with her deep understanding of the emotional layers within jazz, allows her to connect with listeners on a deeply personal level. She frequently shares the emotional stories behind the music she plays, offering a gentle yet insightful commentary that helps listeners appreciate the quieter, more introspective side of jazz.",
+      "Outside of her work on WETF, Melissa is a passionate advocate for mental health, frequently collaborating with local organizations to promote the healing power of music. She hosts meditation sessions and mindfulness workshops, incorporating jazz to help people find peace and balance. DJ Mellow Mood’s dedication to creating tranquil, uplifting spaces through music has made her a cherished voice in the jazz community."
+    ]
   }
 ]

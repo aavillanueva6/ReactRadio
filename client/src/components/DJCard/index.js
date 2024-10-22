@@ -21,7 +21,7 @@ const DJCard = ({ dj }) => {
 
       {dj.Shows && dj.Shows.map((show) => <p key={show.name}>{show.name}</p>)}
       <p>
-        <Link to={`/djs/${dj._id}`} className="btn btn-secondary">
+        <Link to={`/djs/${dj.url}`} className="btn btn-secondary">
           View profile »
         </Link>
       </p>

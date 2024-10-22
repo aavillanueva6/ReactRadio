@@ -9,6 +9,8 @@ const typeDefs = gql`
     Title: String
     Shows: [Show]
     image: String
+    url: String
+    bio: [String]
   }
   type Show {
     _id: ID
@@ -16,10 +18,12 @@ const typeDefs = gql`
     host: DJ
     shortDescription: String
     longDescription: [String]
+    url: String
   }
   type Query {
     djs: [DJ]
     shows: [Show]
+    singleDJ(url: String!): DJ
   }
 `;
 

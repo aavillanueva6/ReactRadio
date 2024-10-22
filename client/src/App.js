@@ -34,7 +34,7 @@ function App() {
               <Route path="/djs" element={<DJs />} />
               <Route path="/shows" element={<Shows />} />
               <Route path="/schedule" element={<Schedule />} />
-              <Route path="/djs/:djID" element={<SingleDJ />} />
+              <Route path="/djs/:djUrl" element={<SingleDJ />} />
               <Route path="/donate" element={<Donate />} />
               {/* catch route to direct invalid URLs to an error page  */}
               <Route path="*" element={<InvalidPage />} />
