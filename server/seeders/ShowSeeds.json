@@ -7,7 +7,8 @@
       "Each episode features a curated selection of slow, soothing tracks from artists like Miles Davis, Bill Evans, and Norah Jones. Listeners can expect stories behind the music, deep dives into legendary nightclubs, and interviews with contemporary jazz artists who specialize in the soft and moody side of jazz.",
       "\"Midnight Moods\" is designed to be a companion for those seeking peace and introspection in the late hours. With soft, thoughtful commentary and minimal interruptions, the show allows the music to take center stage, providing a perfect end to the day."
     ],
-    "url": "midnight-moods"
+    "url": "midnight-moods",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/MidnightMoods.png"
   },
   {
     "name": "Bebop Bistro",
@@ -17,7 +18,8 @@
       "Listeners will be treated to rapid-fire solos, intricate melodies, and unpredictable rhythms that showcase the skill and innovation of bebop musicians. Each episode includes a \"Spotlight Session\" where the host breaks down a classic bebop tune, dissecting the improvisational choices and the magic behind the music.",
       "\"Bebop Bistro\" invites listeners into the world of jazz cafés and nightclubs, where the musicians push the boundaries of what jazz could be. It’s a celebration of creativity and virtuosity, perfect for listeners who enjoy a more adventurous musical journey."
     ],
-    "url": "bebop-bistro"
+    "url": "bebop-bistro",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/BebopBistro.png"
   },
   {
     "name": "Swingin' Sundays",
@@ -27,7 +29,8 @@
       "The show focuses on both well-known hits and hidden gems from the golden age of swing. Each episode features \"The Big Band Breakdown,\" a segment that dives into the history and stories behind a famous big band leader or iconic swing track, giving listeners a deeper appreciation for the music.",
       "\"Swingin’ Sundays\" is all about bringing joy, movement, and nostalgia to the weekend. Whether you’re dancing in your living room or relaxing with family, the energetic rhythms and uplifting spirit of swing provide the perfect soundtrack for a lively Sunday."
     ],
-    "url": "swingin-sundays"
+    "url": "swingin-sundays",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/SwinginSundays.png"
   },
   {
     "name": "Blue Note Lounge",
@@ -37,7 +40,8 @@
       "Each episode features a segment called \"Blues & Beyond,\" where the host explores the influence of the blues on jazz, showcasing iconic collaborations and the shared roots of these genres. The show also includes live recordings and rare tracks that capture the raw, spontaneous energy of jazz-blues performances.",
       "\"Blue Note Lounge\" is perfect for those who enjoy a blend of melancholy and melody, where deep emotions are expressed through soulful instrumentation and stirring vocals. It’s a show for listeners who appreciate music that speaks to the heart and soul."
     ],
-    "url": "blue-note-lounge"
+    "url": "blue-note-lounge",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/BlueNoteLounge.png"
   },
   {
     "name": "The Jazz Journey",
@@ -47,7 +51,8 @@
       "Listeners will be immersed in the storytelling of jazz’s most significant moments, from the birth of swing to the rise of bebop and cool jazz. The host introduces key figures like Louis Armstrong, John Coltrane, and Herbie Hancock, weaving their personal stories with the broader narrative of jazz’s development.",
       "\"The Jazz Journey\" is perfect for both new listeners and longtime fans. It offers an educational, immersive experience, filled with historical context and musical discovery. By the end of each episode, listeners will feel as though they’ve traveled through time, witnessing the growth of jazz from its roots to its modern forms."
     ],
-    "url": "the-jazz-journey"
+    "url": "the-jazz-journey",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheJazzJourney.png"
   },
   {
     "name": "Cool Cats & Hot Notes",
@@ -57,6 +62,7 @@
       "The program's hallmark is its \"Jam Session Spotlight,\" where the host plays rare or famous live recordings of legendary jazz jam sessions. These moments showcase the improvisational magic that happens when great musicians come together to create music in the moment, full of energy and passion.",
       "\"Cool Cats & Hot Notes\" is ideal for jazz lovers who thrive on the dynamic, unpredictable nature of live jazz performances. Whether you’re looking to get energized after work or gear up for an evening out, this program brings the lively, infectious spirit of jazz straight to your speakers."
     ],
-    "url": "cool-cats-hot-notes"
+    "url": "cool-cats-hot-notes",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/CoolCatsHotNotes.png"
   }
 ]

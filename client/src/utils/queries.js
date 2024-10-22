@@ -35,12 +35,29 @@ export const QUERY_SINGLE_DJ = gql`
   }
 `;
 
+export const QUERY_SHOWS = gql`
+  query shows {
+    shows {
+      _id
+      shortDescription
+      name
+      url
+      image
+      host {
+        nickName
+        url
+      }
+    }
+  }
+`;
+
 export const QUERY_SINGLE_SHOW = gql`
   query singleShow($url: String!) {
     singleShow(url: $url) {
       name
       longDescription
       _id
+      image
       host {
         nickName
         url

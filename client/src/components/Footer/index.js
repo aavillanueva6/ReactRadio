@@ -38,6 +38,11 @@ const Footer = () => {
               DJs
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/shows" className="nav-link px-2 text-body-secondary">
+              Shows
+            </Link>
+          </li>
         </ul>
       </footer>
     </div>

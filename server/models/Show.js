@@ -25,6 +25,10 @@ const showSchema = new Schema({
     type: String,
     trim: true,
   },
+  image: {
+    type: String,
+    trim: true,
+  },
 });
 
 const Show = model('Show', showSchema);

@@ -19,6 +19,7 @@ const typeDefs = gql`
     shortDescription: String
     longDescription: [String]
     url: String
+    image: String
   }
   type Query {
     djs: [DJ]
