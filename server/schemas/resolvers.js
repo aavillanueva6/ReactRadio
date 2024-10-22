@@ -13,6 +13,10 @@ const resolvers = {
     singleDJ: async (parent, { url }) => {
       return await DJ.findOne({ url: url }).populate('Shows');
     },
+
+    singleShow: async (parent, { url }) => {
+      return await Show.findOne({ url: url }).populate('host');
+    },
   },
 };
 

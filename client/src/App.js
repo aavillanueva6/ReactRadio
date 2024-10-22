@@ -35,7 +35,7 @@ function App() {
               <Route path="/djs" element={<DJs />} />
               <Route path="/djs/:djUrl" element={<SingleDJ />} />
               <Route path="/shows" element={<Shows />} />
-              <Route path="/shows/:show" element={<SingleShow />} />
+              <Route path="/shows/:showUrl" element={<SingleShow />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/donate" element={<Donate />} />
               {/* catch route to direct invalid URLs to an error page  */}

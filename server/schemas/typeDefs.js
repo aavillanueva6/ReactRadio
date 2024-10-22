@@ -24,6 +24,7 @@ const typeDefs = gql`
     djs: [DJ]
     shows: [Show]
     singleDJ(url: String!): DJ
+    singleShow(url: String!): Show
   }
 `;
 

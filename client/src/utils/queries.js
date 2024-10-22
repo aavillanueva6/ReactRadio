@@ -34,3 +34,17 @@ export const QUERY_SINGLE_DJ = gql`
     }
   }
 `;
+
+export const QUERY_SINGLE_SHOW = gql`
+  query singleShow($url: String!) {
+    singleShow(url: $url) {
+      name
+      longDescription
+      _id
+      host {
+        nickName
+        url
+      }
+    }
+  }
+`;
