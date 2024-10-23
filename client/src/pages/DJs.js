@@ -10,7 +10,7 @@ const DJs = () => {
 
   return (
     <>
-      <div className="container marketing">
+      <div className="container">
         <div className="p-5 text-center">
           <h1 className="display-4">WETF DJs</h1>
         </div>

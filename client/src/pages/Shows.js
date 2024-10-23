@@ -14,6 +14,9 @@ const Shows = () => {
   return (
     <>
       <div className="container">
+        <div className="p-5 text-center">
+          <h1 className="display-4">WETF Shows</h1>
+        </div>
         {shows.map((show, i) => {
           return <ShowCardShort key={i} show={show} />;
         })}

@@ -56,22 +56,26 @@ const SingleDJ = () => {
             {dj.Shows[0] ? (
               <>
                 <p className="lead">Listen to {dj.nickName} on:</p>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    {dj.Shows &&
+                      dj.Shows.map((Show) => {
+                        return (
+                          <Link
+                            to={`/shows/${Show.url}`}
+                            key={Show._id}
+                            className="btn btn-dark mb-2 col-5 mx-2"
+                          >
+                            {Show.name}
+                          </Link>
+                        );
+                      })}
+                  </div>
+                </div>
               </>
             ) : (
               <></>
             )}
-            {dj.Shows &&
-              dj.Shows.map((Show) => {
-                return (
-                  <Link
-                    to={`/shows/${Show.url}`}
-                    key={Show._id}
-                    className="btn btn-dark mb-2"
-                  >
-                    {Show.name}
-                  </Link>
-                );
-              })}
           </div>
         </div>
       </div>
