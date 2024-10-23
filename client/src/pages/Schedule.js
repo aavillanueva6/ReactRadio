@@ -46,16 +46,16 @@ const Schedule = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container justify-content-evenly">
         <div className="p-5 text-center">
           <h1 className="display-4">Weekly Schedule</h1>
         </div>
-        <div className=" justify-content-center">
+        <div className="row justify-content-evenly">
           {daysOfWeek.map((day) => {
             return (
               <button
-                className={`btn ${
-                  displayDay === day ? 'btn-secondary' : 'btn-primary'
+                className={`col btn ${
+                  displayDay === day ? 'btn-secondary' : 'btn-outline-primary'
                 } rounded-pill mx-auto`}
                 type="button"
                 name={day}
