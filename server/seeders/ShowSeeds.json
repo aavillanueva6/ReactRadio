@@ -79,7 +79,7 @@
       "The show often highlights tracks by artists like Chet Baker, Miles Davis, Norah Jones, and more, with sets that flow seamlessly from one mellow groove to the next. Whether you're a night owl looking for a peaceful retreat or someone who enjoys ending the day on a soulful note, Late Night Lounge offers the perfect soundscape. The host’s soft-spoken insights into the music add to the tranquil vibe, creating an intimate listening experience."
     ],
     "url": "late-night-lounge",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/LateNightLounge.png",
     "schedule": []
   },
   {
@@ -90,7 +90,7 @@
       "The show’s infectious energy makes it the perfect way to shake off the week and dive into the weekend. With its upbeat tempo and vibrant selection of tracks, Funky Fridays encourages listeners to let loose and enjoy the groove-heavy side of jazz. The DJ provides fun insights into the tracks, sharing stories of how jazz and funk collided to create some of the most timeless danceable jazz music. This is a feel-good show designed to uplift and energize."
     ],
     "url": "funky-fridays",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/FunkyFriday.png",
     "schedule": []
   },
   {
@@ -101,7 +101,7 @@
       "Swing Time Radio is more than just a nostalgia trip. The host dives deep into the rich history behind the music, exploring the cultural movements that shaped the swing era and its lasting impact on jazz. Listeners will hear everything from iconic recordings to lesser-known gems, as well as modern interpretations that keep the swing spirit alive. Whether you're a seasoned swing dancer or just love the upbeat, lively sound of big band music, this show is sure to please."
     ],
     "url": "swing-time-radio",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/SwingTimeRadio.png",
     "schedule": []
   },
   {
@@ -113,7 +113,7 @@
       "Whether you're relaxing at home, driving through the night, or simply in need of some tranquility, Late Night Lullabies offers a musical retreat. It’s a show designed to provide a sense of warmth and comfort, with jazz serving as the perfect soundtrack to peaceful nights."
     ],
     "url": "late-night-lullabies",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/LateNightLullabies.png",
     "schedule": []
   },
   {
@@ -125,7 +125,7 @@
       "The Bop Stop isn’t just for jazz aficionados; it’s for anyone who wants to feel the pulse of a genre that continues to inspire and challenge musicians. Whether you’re a longtime bebop lover or new to the style, the insightful commentary and exhilarating playlists make this show an unmissable experience for anyone seeking a musical adrenaline rush."
     ],
     "url": "the-bop-stop",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheBopStop.png",
     "schedule": []
   },
   {
@@ -137,7 +137,7 @@
       "Whether you’re a longtime jazz fan or someone discovering these classics for the first time, Standards & Stories offers a rich, educational experience that enhances your connection to the music. The show is a reminder of how these songs have shaped both jazz and popular culture, continuing to inspire musicians and audiences alike."
     ],
     "url": "standards-stories",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/StandardsAndStories.png",
     "schedule": []
   },
   {
@@ -149,7 +149,7 @@
       "For listeners who love music that defies categorization, Fusion Groove is a perfect fit. Whether you’re drawn to the funky grooves, the rock-influenced solos, or the expansive, exploratory nature of fusion, this show opens up a world where jazz meets innovation, proving that jazz continues to evolve in thrilling ways."
     ],
     "url": "fusion-groove",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/FusionGroove.png",
     "schedule": []
   },
   {
@@ -161,7 +161,7 @@
       "The Next Note isn’t just about the music—it’s about the future of jazz as an art form. The host invites listeners to join in on a journey of discovery, exploring how modern artists are keeping the spirit of jazz alive while challenging its conventions. If you’re curious about where jazz is headed next, this is the show that will keep you tuned in to the cutting edge of the genre."
     ],
     "url": "the-next-note",
-    "image": "",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheNextNote.png",
     "schedule": []
   }
 ]

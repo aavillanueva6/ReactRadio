@@ -1,30 +1,30 @@
 [
   {
-    "day": "sunday",
+    "day": "Sunday",
     "startTime24": "8",
     "startTime12": "8AM",
     "endTime12": "12AM"
   },
   {
-    "day": "tuesday",
+    "day": "Tuesday",
     "startTime24": "16",
     "startTime12": "4PM",
     "endTime12": "7PM"
   },
   {
-    "day": "wednesday",
+    "day": "Wednesday",
     "startTime24": "18",
     "startTime12": "6PM",
     "endTime12": "10PM"
   },
   {
-    "day": "thursday",
+    "day": "Thursday",
     "startTime24": "2",
     "startTime12": "2AM",
     "endTime12": "5AM"
   },
   {
-    "day": "saturday",
+    "day": "Saturday",
     "startTime24": "2",
     "startTime12": "2AM",
     "endTime12": "7AM"

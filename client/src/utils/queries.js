@@ -72,11 +72,16 @@ export const QUERY_SINGLE_DAY = gql`
       day
       show {
         name
+        url
+        shortDescription
         host {
           nickName
+          url
         }
       }
       startTime24
+      startTime12
+      endTime12
     }
   }
 `;
