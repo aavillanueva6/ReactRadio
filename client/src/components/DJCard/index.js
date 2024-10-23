@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const linkStyle = { textDecoration: 'none', color: 'inherit' };
+
 const DJCard = ({ dj }) => {
   return (
     <div key={dj._id} className="col-md-4">
@@ -19,7 +21,15 @@ const DJCard = ({ dj }) => {
       </h2>
       <p className="lead">{dj.nickName}</p>
 
-      {dj.Shows && dj.Shows.map((show) => <p key={show.name}>{show.name}</p>)}
+      {dj.Shows &&
+        dj.Shows.map((show) => (
+          <Link style={linkStyle} key={show.name} to={`/shows/${show.url}`}>
+            <p>
+              {show.name}
+              {console.log(show)}
+            </p>
+          </Link>
+        ))}
       <p>
         <Link to={`/djs/${dj.url}`} className="btn btn-secondary">
           View profile »

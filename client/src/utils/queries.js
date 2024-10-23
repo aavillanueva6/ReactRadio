@@ -6,6 +6,7 @@ export const QUERY_DJs = gql`
       firstName
       Shows {
         name
+        url
       }
       lastName
       nickName
