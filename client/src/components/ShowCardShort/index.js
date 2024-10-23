@@ -10,7 +10,7 @@ const ShowCardShort = ({ show }) => {
             <img
               src={show.image}
               className="img-fluid rounded-start"
-              alt={`${show.name} image`}
+              alt={`${show.name}`}
             />
           </Link>
         </div>

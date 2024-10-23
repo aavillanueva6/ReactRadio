@@ -7,6 +7,9 @@ import DJCard from '../components/DJCard';
 const DJs = () => {
   const { loading, data } = useQuery(QUERY_DJs);
   const djs = data?.djs || [];
+  if (loading) {
+    return <div>loading...</div>;
+  }
 
   return (
     <>

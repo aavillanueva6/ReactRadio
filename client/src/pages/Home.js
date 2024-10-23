@@ -1,5 +1,4 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
 
 const aboutData = {
   lead: [
@@ -18,7 +17,11 @@ const bannerImgSrc =
 const Home = () => {
   return (
     <>
-      <img className="img-fluid mx-auto d-block" src={bannerImgSrc}></img>
+      <img
+        className="img-fluid mx-auto d-block"
+        alt="WETF letters in lights in front of a moody cityscape"
+        src={bannerImgSrc}
+      ></img>
       <div className="container my-0">
         <div className="p-5 text-center bg-body-tertiary rounded-3">
           <h1 className="text-body-emphasis">About WETF</h1>

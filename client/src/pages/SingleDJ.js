@@ -30,7 +30,6 @@ const SingleDJ = () => {
               className="bd-placeholder-img rounded-circle card card-cover  overflow-hidden text-bg-dark rounded-4 shadow-lg"
               width="400"
               src={dj.image}
-              role="img"
               aria-label="Placeholder"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"

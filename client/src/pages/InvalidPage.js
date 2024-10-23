@@ -1,5 +1,4 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
 
 const InvalidPage = () => {

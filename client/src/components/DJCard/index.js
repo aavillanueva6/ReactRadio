@@ -11,7 +11,6 @@ const DJCard = ({ dj }) => {
         width="140"
         height="140"
         src={dj.image}
-        role="img"
         aria-label={`${dj.nickName} portrait`}
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
