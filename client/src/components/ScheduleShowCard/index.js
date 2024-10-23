@@ -15,10 +15,16 @@ const ScheduleShowCard = ({ show }) => {
             </div>
             <div className="col-9">
               <Link style={linkStyle} to={`/shows/${show.show.url}`}>
-                <div className="text-dark">{show.show.name}</div>
+                <div className="w-auto text-dark">{show.show.name}</div>
               </Link>
-              <Link style={linkStyle} to={`/djs/${show.show.host.url}`}>
-                <p className="text-secondary">{show.show.host.nickName}</p>
+              <Link
+                className="me-auto w-auto"
+                style={linkStyle}
+                to={`/djs/${show.show.host.url}`}
+              >
+                <p className="w-auto text-secondary">
+                  {show.show.host.nickName}
+                </p>
               </Link>
             </div>
           </div>

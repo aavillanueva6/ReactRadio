@@ -8,7 +8,7 @@ const ScheduleShowRow = ({ shows }) => {
         {shows[0].show ? (
           <ScheduleShowCard show={shows[0]} />
         ) : (
-          <div className="col-5"></div>
+          <div className="col-5 w-auto"></div>
         )}
         <div className="vr px-0"></div>
         <ScheduleShowCard show={shows[1]} />

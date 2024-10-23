@@ -46,38 +46,40 @@ const Schedule = () => {
 
   return (
     <>
-      <div className="container justify-content-evenly">
-        <div className="p-5 text-center">
-          <h1 className="display-4">Weekly Schedule</h1>
+      <div className="container p-0 bg-body-tertiary">
+        <div className="container justify-content-evenly">
+          <div className="p-5 text-center">
+            <h1 className="display-4">Weekly Schedule</h1>
+          </div>
+          <div className="row justify-content-evenly">
+            {daysOfWeek.map((day) => {
+              return (
+                <button
+                  className={`col btn ${
+                    displayDay === day ? 'btn-secondary' : 'btn-outline-primary'
+                  } rounded-pill mx-auto`}
+                  type="button"
+                  name={day}
+                  onClick={handleClick}
+                >
+                  {day}
+                </button>
+              );
+            })}
+          </div>
         </div>
-        <div className="row justify-content-evenly">
-          {daysOfWeek.map((day) => {
+        <div className="container mt-5">
+          <div className="row">
+            <p className="col text-center lead">{displayDay}</p>
+          </div>
+          {pairedResults.map((e, i) => {
             return (
-              <button
-                className={`col btn ${
-                  displayDay === day ? 'btn-secondary' : 'btn-outline-primary'
-                } rounded-pill mx-auto`}
-                type="button"
-                name={day}
-                onClick={handleClick}
-              >
-                {day}
-              </button>
+              <>
+                <ScheduleShowRow shows={e}></ScheduleShowRow>
+              </>
             );
           })}
         </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row">
-          <p className="col text-center lead">{displayDay}</p>
-        </div>
-        {pairedResults.map((e, i) => {
-          return (
-            <>
-              <ScheduleShowRow shows={e}></ScheduleShowRow>
-            </>
-          );
-        })}
       </div>
     </>
   );
