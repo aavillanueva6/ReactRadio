@@ -23,54 +23,56 @@ const SingleDJ = () => {
   }
   return (
     <>
-      <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary">
-        <div className="d-flex col justify-content-center">
-          <img
-            className="bd-placeholder-img rounded-circle card card-cover  overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            width="400"
-            src={dj.image}
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
+      <div className="container ">
+        <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary">
+          <div className="d-flex col justify-content-center">
+            <img
+              className="bd-placeholder-img rounded-circle card card-cover  overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              width="400"
+              src={dj.image}
+              role="img"
+              aria-label="Placeholder"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+          </div>
         </div>
-      </div>
-      <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 py-0 bg-secondary">
-        <div className="d-flex flex-column h-100 pb-5 pt-0  text-white text-shadow-1">
-          <h3
-            className="pt-0 mt-0 mb-0 display-5 lh-1 fw-bold"
-            style={textOutline}
-          >
-            {dj.firstName} {dj.lastName}
-          </h3>
-          <h4 className="pt-0 mt-0 mb-4 display-6 lh-1" style={textOutline}>
-            {dj.nickName} - {dj.Title}
-          </h4>
-          {dj.bio &&
-            dj.bio.map((paragraph, i) => {
-              return <p key={i}>{paragraph}</p>;
-            })}
+        <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 py-0 bg-secondary">
+          <div className="d-flex flex-column h-100 pb-5 pt-0  text-white text-shadow-1">
+            <h3
+              className="pt-0 mt-0 mb-0 display-5 lh-1 fw-bold"
+              style={textOutline}
+            >
+              {dj.firstName} {dj.lastName}
+            </h3>
+            <h4 className="pt-0 mt-0 mb-4 display-6 lh-1" style={textOutline}>
+              {dj.nickName} - {dj.Title}
+            </h4>
+            {dj.bio &&
+              dj.bio.map((paragraph, i) => {
+                return <p key={i}>{paragraph}</p>;
+              })}
 
-          {dj.Shows[0] ? (
-            <>
-              <p className="lead">Listen to {dj.nickName} on:</p>
-            </>
-          ) : (
-            <></>
-          )}
-          {dj.Shows &&
-            dj.Shows.map((Show) => {
-              return (
-                <Link
-                  to={`/shows/${Show.url}`}
-                  key={Show._id}
-                  className="btn btn-dark mb-2"
-                >
-                  {Show.name}
-                </Link>
-              );
-            })}
+            {dj.Shows[0] ? (
+              <>
+                <p className="lead">Listen to {dj.nickName} on:</p>
+              </>
+            ) : (
+              <></>
+            )}
+            {dj.Shows &&
+              dj.Shows.map((Show) => {
+                return (
+                  <Link
+                    to={`/shows/${Show.url}`}
+                    key={Show._id}
+                    className="btn btn-dark mb-2"
+                  >
+                    {Show.name}
+                  </Link>
+                );
+              })}
+          </div>
         </div>
       </div>
       {/* {to do: add links to DJ social media (fb, twitter, insta, etc.)} */}
