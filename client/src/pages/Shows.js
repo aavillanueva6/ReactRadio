@@ -15,11 +15,13 @@ const Shows = () => {
     <>
       <div className="container">
         <div className="p-5 text-center">
-          <h1 className="display-4">WETF Shows</h1>
+          <div className="display-4">WETF Shows</div>
         </div>
-        {shows.map((show, i) => {
-          return <ShowCardShort key={i} show={show} />;
-        })}
+        <div className="row justify-content-center">
+          {shows.map((show, i) => {
+            return <ShowCardShort key={i} show={show} />;
+          })}
+        </div>
       </div>
     </>
   );

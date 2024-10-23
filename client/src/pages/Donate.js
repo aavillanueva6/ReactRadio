@@ -52,10 +52,10 @@ const donateData = {
 const Donate = () => {
   return (
     <>
-      <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 className="display-4 fw-normal text-body-emphasis">
-          Support Independent Radio
-        </h1>
+      <div className="container mx-auto text-center">
+        <div className="text-center p-5">
+          <h1 className="display-4">Support Independent Radio</h1>
+        </div>
         {donateData.infoText.map((paragraph, i) => {
           return (
             <p className="text-body-secondary" key={i}>

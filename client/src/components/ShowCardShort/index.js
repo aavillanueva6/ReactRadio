@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const ShowCardShort = ({ show }) => {
   return (
-    <div className="row mx-auto  card mb-3" style={{ maxWidth: '540px' }}>
+    <div className="col-5 mx-auto px-0 card mb-3" style={{ maxWidth: '540px' }}>
       <div className="row g-0">
         <div className="col-md-4">
           <Link to={`/shows/${show.url}`}>
             <img
               src={show.image}
               className="img-fluid rounded-start"
-              alt="..."
+              alt={`${show.name} image`}
             />
           </Link>
         </div>

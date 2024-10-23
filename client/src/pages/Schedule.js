@@ -47,6 +47,9 @@ const Schedule = () => {
   return (
     <>
       <div className="container">
+        <div className="p-5 text-center">
+          <h1 className="display-4">Weekly Schedule</h1>
+        </div>
         <div className=" justify-content-center">
           {daysOfWeek.map((day) => {
             return (
