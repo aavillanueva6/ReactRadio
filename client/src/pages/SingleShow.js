@@ -17,38 +17,42 @@ const SingleShow = () => {
 
   return (
     <>
-      <div className="container justify-content-center ">
-        <div className="card mb-3" style={{ maxWidth: '540px' }}>
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src={show.image}
-                className="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">{show.name}</h5>
-                <div className="mb-1">
-                  <Link
-                    className=" link-primary link-underline-opacity-0"
-                    to={`/djs/${show.host.url}`}
-                  >
-                    <h6 className="card-text">
-                      Hosted by {show.host.nickName}
-                    </h6>
-                  </Link>
+      <div className="container  p-5 justify-content-center ">
+        <div className="row">
+          <div className="card mb-3 col-md-8 ps-0">
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img
+                  src={show.image}
+                  className="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">{show.name}</h5>
+                  <div className="mb-1">
+                    <Link
+                      className=" link-primary link-underline-opacity-0"
+                      to={`/djs/${show.host.url}`}
+                    >
+                      <h6 className="card-text">
+                        Hosted by {show.host.nickName}
+                      </h6>
+                    </Link>
+                  </div>
+                  {show.longDescription &&
+                    show.longDescription.map((paragraph, i) => (
+                      <p className="card-text" key={i}>
+                        {paragraph}
+                      </p>
+                    ))}
                 </div>
-                {show.longDescription &&
-                  show.longDescription.map((paragraph, i) => (
-                    <p className="card-text" key={i}>
-                      {paragraph}
-                    </p>
-                  ))}
               </div>
             </div>
           </div>
+          {/* <div className="col-md-4">hello there</div> */}
+          {/* todo: add dropdown menu to select a different show */}
         </div>
       </div>
     </>
