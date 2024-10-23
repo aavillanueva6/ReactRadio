@@ -1,4 +1,4 @@
-const { DJ, Show } = require('../models');
+const { DJ, Show, WeeklySchedule } = require('../models');
 
 const resolvers = {
   Query: {
@@ -16,6 +16,13 @@ const resolvers = {
 
     singleShow: async (parent, { url }) => {
       return await Show.findOne({ url: url }).populate('host');
+    },
+
+    schedule: async (parent, { day }) => {
+      return await WeeklySchedule.find({ day: day }).populate('show').populate({
+        path: 'show',
+        populate: 'host',
+      });
     },
   },
 };

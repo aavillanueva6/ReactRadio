@@ -65,3 +65,18 @@ export const QUERY_SINGLE_SHOW = gql`
     }
   }
 `;
+
+export const QUERY_SINGLE_DAY = gql`
+  query singleDay($day: String!) {
+    schedule(day: $day) {
+      day
+      show {
+        name
+        host {
+          nickName
+        }
+      }
+      startTime24
+    }
+  }
+`;

@@ -20,12 +20,22 @@ const typeDefs = gql`
     longDescription: [String]
     url: String
     image: String
+    schedule: [WeeklySchedule]
+  }
+  type WeeklySchedule {
+    _id: ID
+    day: String
+    startTime24: Int
+    startTime12: String
+    endTime12: String
+    show: Show
   }
   type Query {
     djs: [DJ]
     shows: [Show]
     singleDJ(url: String!): DJ
     singleShow(url: String!): Show
+    schedule(day: String!): [WeeklySchedule]
   }
 `;
 

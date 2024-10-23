@@ -1,0 +1,26 @@
+[
+  {
+    "day": "sunday",
+    "startTime24": "12",
+    "startTime12": "12PM",
+    "endTime12": "4PM"
+  },
+  {
+    "day": "tuesday",
+    "startTime24": "5",
+    "startTime12": "5AM",
+    "endTime12": "9AM"
+  },
+  {
+    "day": "thursday",
+    "startTime24": "12",
+    "startTime12": "12PM",
+    "endTime12": "4PM"
+  },
+  {
+    "day": "saturday",
+    "startTime24": "16",
+    "startTime12": "4PM",
+    "endTime12": "10PM"
+  }
+]

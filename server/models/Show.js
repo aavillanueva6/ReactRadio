@@ -29,6 +29,12 @@ const showSchema = new Schema({
     type: String,
     trim: true,
   },
+  schedule: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'WeeklySchedule',
+    },
+  ],
 });
 
 const Show = model('Show', showSchema);
