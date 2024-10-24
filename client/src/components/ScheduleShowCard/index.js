@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const linkStyle = { textDecoration: 'none', color: 'inherit' };
-
 const ScheduleShowCard = ({ show }) => {
   console.log(show);
   return (
@@ -14,12 +12,14 @@ const ScheduleShowCard = ({ show }) => {
               {show.startTime12} - {show.endTime12}
             </div>
             <div className="col-md-9">
-              <Link style={linkStyle} to={`/shows/${show.show.url}`}>
+              <Link
+                className="text-decoration-none"
+                to={`/shows/${show.show.url}`}
+              >
                 <div className="w-auto text-dark">{show.show.name}</div>
               </Link>
               <Link
-                className="me-auto w-auto"
-                style={linkStyle}
+                className="me-auto w-auto text-decoration-none"
                 to={`/djs/${show.show.host.url}`}
               >
                 <p className="w-auto text-secondary">

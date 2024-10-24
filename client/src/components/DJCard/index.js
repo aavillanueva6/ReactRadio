@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const linkStyle = { textDecoration: 'none', color: 'inherit' };
-
 const DJCard = ({ dj }) => {
   return (
     <div key={dj._id} className="mx-auto col text-center">
@@ -22,7 +20,11 @@ const DJCard = ({ dj }) => {
 
       {dj.Shows &&
         dj.Shows.map((show) => (
-          <Link style={linkStyle} key={show.name} to={`/shows/${show.url}`}>
+          <Link
+            className="text-decoration-none text-dark"
+            key={show.name}
+            to={`/shows/${show.url}`}
+          >
             <div>
               {show.name}
               {console.log(show)}
