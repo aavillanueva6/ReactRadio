@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <img
-        className="img-fluid mx-auto d-block"
+        className="img-fluid mx-auto d-block mt-5"
         alt="WETF letters in lights in front of a moody cityscape"
         src={bannerImgSrc}
       ></img>

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 const navStyle = {
-  backgroundImage: `url('https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png')`,
+  backgroundImage: `url('https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity_forHeader.png')`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   backdropFilter: 'blur(300px)',
