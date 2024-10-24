@@ -25,11 +25,11 @@ const Home = () => {
       <div className="container my-0">
         <div className="p-5 text-center bg-body-tertiary rounded-3">
           <h1 className="text-body-emphasis">About WETF</h1>
-          {aboutData.lead.map((paragraph) => (
-            <p className="lead">{paragraph}</p>
-          ))}
-          {aboutData.body.map((paragraph) => (
-            <p className="">{paragraph}</p>
+          <p className="lead">{aboutData.lead}</p>
+          {aboutData.body.map((paragraph, i) => (
+            <p key={`about-paragraph-${i}`} className="">
+              {paragraph}
+            </p>
           ))}
         </div>
       </div>

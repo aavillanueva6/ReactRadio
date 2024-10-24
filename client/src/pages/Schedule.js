@@ -52,7 +52,7 @@ const Schedule = () => {
             <h1 className="display-4">Weekly Schedule</h1>
           </div>
           <div className="row justify-content-evenly">
-            {daysOfWeek.map((day) => {
+            {daysOfWeek.map((day, i) => {
               return (
                 <button
                   className={`col btn ${
@@ -61,6 +61,7 @@ const Schedule = () => {
                   type="button"
                   name={day}
                   onClick={handleClick}
+                  key={`weekday-button-${i}`}
                 >
                   {day}
                 </button>
@@ -79,9 +80,10 @@ const Schedule = () => {
           </div>
           {pairedResults.map((e, i) => {
             return (
-              <>
-                <ScheduleShowRow shows={e}></ScheduleShowRow>
-              </>
+              <ScheduleShowRow
+                key={`show-card-${i}`}
+                shows={e}
+              ></ScheduleShowRow>
             );
           })}
         </div>

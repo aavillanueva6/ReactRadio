@@ -25,10 +25,7 @@ const DJCard = ({ dj }) => {
             key={show.name}
             to={`/shows/${show.url}`}
           >
-            <div>
-              {show.name}
-              {console.log(show)}
-            </div>
+            <div>{show.name}</div>
           </Link>
         ))}
       <p>
