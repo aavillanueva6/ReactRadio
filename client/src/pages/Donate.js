@@ -67,7 +67,7 @@ const Donate = () => {
         <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
           {donateData.donationLevel.map((level, i) => {
             return (
-              <div key={`${level.levelName}-card-${i}`} className="col-3">
+              <div key={`${level.levelName}-card-${i}`} className="col-md-3">
                 <div className={level.levelTheme.card}>
                   <div className={level.levelTheme.cardHeader}>
                     <h4 className="my-0 fw-normal">{level.levelName}</h4>

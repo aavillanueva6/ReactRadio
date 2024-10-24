@@ -17,7 +17,7 @@ const DJs = () => {
         <div className="p-5 text-center">
           <h1 className="display-4">WETF DJs</h1>
         </div>
-        <div className="row justify-content-center">
+        <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
           {djs.map((dj) => (
             <DJCard key={dj._id} dj={dj} />
           ))}

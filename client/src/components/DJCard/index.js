@@ -5,7 +5,7 @@ const linkStyle = { textDecoration: 'none', color: 'inherit' };
 
 const DJCard = ({ dj }) => {
   return (
-    <div key={dj._id} className="mx-auto col-sm-4 text-center">
+    <div key={dj._id} className="mx-auto col text-center">
       <img
         className="rounded-circle mx-auto"
         width="140"
