@@ -72,6 +72,11 @@ const Schedule = () => {
           <div className="row">
             <p className="col text-center lead">{displayDay}</p>
           </div>
+          <div className="row">
+            <p className="col text-center fw-light fst-italic fs-6">
+              All show times listed in Eastern time zone (EST/EDT)
+            </p>
+          </div>
           {pairedResults.map((e, i) => {
             return (
               <>
