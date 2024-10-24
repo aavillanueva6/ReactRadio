@@ -15,7 +15,9 @@ const resolvers = {
     },
 
     singleShow: async (parent, { url }) => {
-      return await Show.findOne({ url: url }).populate('host');
+      return await Show.findOne({ url: url })
+        .populate('host')
+        .populate('schedule');
     },
 
     schedule: async (parent, { day }) => {

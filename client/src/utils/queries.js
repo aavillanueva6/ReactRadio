@@ -63,6 +63,11 @@ export const QUERY_SINGLE_SHOW = gql`
         nickName
         url
       }
+      schedule {
+        day
+        startTime12
+        endTime12
+      }
     }
   }
 `;

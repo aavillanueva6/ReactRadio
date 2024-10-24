@@ -36,7 +36,7 @@ const SingleShow = () => {
                       className=" link-primary link-underline-opacity-0"
                       to={`/djs/${show.host.url}`}
                     >
-                      <h6 className="card-text">
+                      <h6 className="card-text text-dark">
                         Hosted by {show.host.nickName}
                       </h6>
                     </Link>
@@ -47,6 +47,18 @@ const SingleShow = () => {
                         {paragraph}
                       </p>
                     ))}
+                  <div className="lead">
+                    Listen to <span className="fw-bolder">{show.name}</span>{' '}
+                    live:
+                  </div>
+                  {show.schedule.map((airing) => (
+                    <p className="my-2">
+                      {airing.day}s {airing.startTime12} to {airing.endTime12}
+                    </p>
+                  ))}
+                  <div className="mt-3 fs-6 fst-italic">
+                    All times are listed in the Eastern time zone (EST/EDT)
+                  </div>
                 </div>
               </div>
             </div>
