@@ -10,10 +10,10 @@ const ScheduleShowCard = ({ show }) => {
       <div className="col-5">
         <div className="container">
           <div className="row">
-            <div className="col-3">
-              {show.startTime12}-{show.endTime12}
+            <div className="col-md-3">
+              {show.startTime12} - {show.endTime12}
             </div>
-            <div className="col-9">
+            <div className="col-md-9">
               <Link style={linkStyle} to={`/shows/${show.show.url}`}>
                 <div className="w-auto text-dark">{show.show.name}</div>
               </Link>
