@@ -1,17 +1,31 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { useParams, Link } from 'react-router-dom';
-import { QUERY_SINGLE_SHOW } from '../utils/queries';
+import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
 
 const SingleShow = () => {
   const { showUrl } = useParams();
-  const { loading, data } = useQuery(QUERY_SINGLE_SHOW, {
+  const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
     variables: { url: showUrl },
   });
-  const show = data?.singleShow || {};
-  console.log(show.longDescription);
+  const show = q1Data?.singleShow || {};
+  const { loading: q2Loading, data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
+    variables: { url: showUrl },
+  });
+  let shows = q2Data?.shows || [];
+  shows = shows.filter((e) => e.name !== show.name);
 
-  if (loading) {
+  shows = shows.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+
+  if (q1Loading) {
     return <div>loading...</div>;
   }
 
@@ -25,7 +39,7 @@ const SingleShow = () => {
                 <img
                   src={show.image}
                   className="img-fluid rounded-start"
-                  alt="..."
+                  alt="showCard"
                 />
               </div>
               <div className="col-md-8">
@@ -43,7 +57,10 @@ const SingleShow = () => {
                   </div>
                   {show.longDescription &&
                     show.longDescription.map((paragraph, i) => (
-                      <p className="card-text" key={i}>
+                      <p
+                        className="card-text"
+                        key={`description paragraph-${i}`}
+                      >
                         {paragraph}
                       </p>
                     ))}
@@ -51,8 +68,8 @@ const SingleShow = () => {
                     Listen to <span className="fw-bolder">{show.name}</span>{' '}
                     live:
                   </div>
-                  {show.schedule.map((airing) => (
-                    <p className="my-2">
+                  {show.schedule.map((airing, i) => (
+                    <p key={`airing-${i}`} className="my-2">
                       {airing.day}s {airing.startTime12} to {airing.endTime12}
                     </p>
                   ))}
@@ -63,7 +80,27 @@ const SingleShow = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-4">hello there</div> */}
+          <div className="col-md-4">
+            <div className="dropdown">
+              <button
+                className="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore Other <span className="fw-bolder">Shows</span>
+              </button>
+              <ul className="dropdown-menu">
+                {shows.map((show, i) => (
+                  <li key={`${show.url}-list-item-${i}`}>
+                    <Link className="dropdown-item" to={`/shows/${show.url}`}>
+                      {show.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
           {/* todo: add dropdown menu to select a different show */}
         </div>
       </div>

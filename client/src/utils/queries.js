@@ -91,3 +91,13 @@ export const QUERY_SINGLE_DAY = gql`
     }
   }
 `;
+
+export const QUERY_SHOW_NAMES_URLS = gql`
+  query shows {
+    shows {
+      _id
+      name
+      url
+    }
+  }
+`;
