@@ -16,7 +16,7 @@ const daysOfWeek = [
 
 const Schedule = () => {
   const [displayDay, SetDisplayDay] = useState(`${daysOfWeek[date.getDay()]}`);
-  const { loading, data } = useQuery(QUERY_SINGLE_DAY, {
+  const { loading, data, client } = useQuery(QUERY_SINGLE_DAY, {
     variables: { day: displayDay },
   });
   if (loading) {
@@ -44,6 +44,13 @@ const Schedule = () => {
     SetDisplayDay(e.target.name);
   };
 
+  const prefetchData = (e) => {
+    client.query({
+      query: QUERY_SINGLE_DAY,
+      variables: { day: e.target.name },
+    });
+  };
+
   return (
     <>
       <div className="container p-0 bg-body-tertiary">
@@ -61,6 +68,8 @@ const Schedule = () => {
                   type="button"
                   name={day}
                   onClick={handleClick}
+                  onMouseEnter={prefetchData}
+                  onFocus={prefetchData}
                   key={`weekday-button-${i}`}
                 >
                   {day}
