@@ -43,7 +43,13 @@ const Header = () => {
               />
             </Navbar.Brand>
           </Link>
-          <Button onClick={handleListenLiveClick} variant="outline-primary">
+          <Button
+            size="sm"
+            className="p-1"
+            onClick={handleListenLiveClick}
+            variant="outline-primary"
+          >
+            <p className="p-0 m-0">Listen Live</p>
             <i className={liveStreamButtonIcon}></i>
             <audio id="liveRadioStream" preload="none">
               <source
