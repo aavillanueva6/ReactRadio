@@ -16,6 +16,7 @@ const Header = () => {
   const [playingLiveStream, SetPlayingLiveStream] = useState(false);
   const [liveStreamButtonIcon, SetLiveStreamButtonIcon] =
     useState('fa-solid fa-play');
+  const [listeningLive, SetListeningLive] = useState(true);
 
   const handleListenLiveClick = () => {
     const audioElement = document.getElementById('liveRadioStream');
@@ -27,7 +28,16 @@ const Header = () => {
       audioElement.pause();
       SetPlayingLiveStream(false);
       SetLiveStreamButtonIcon('fa-solid fa-play');
+      SetListeningLive(false);
     }
+  };
+  const handleJumpToLiveClick = () => {
+    const audioElement = document.getElementById('liveRadioStream');
+    audioElement.load();
+    audioElement.play();
+    SetPlayingLiveStream(true);
+    SetLiveStreamButtonIcon('fa-solid fa-pause');
+    SetListeningLive(true);
   };
 
   return (
@@ -45,7 +55,6 @@ const Header = () => {
               />
             </Navbar.Brand>
           </Link>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -82,7 +91,18 @@ const Header = () => {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
-
+          {listeningLive ? (
+            <></>
+          ) : (
+            <Button
+              size="sm"
+              className="p-1"
+              onClick={handleJumpToLiveClick}
+              variant="outline-primary"
+            >
+              <p className="p-0 m-0">Jump to live</p>
+            </Button>
+          )}
           <Button
             size="sm"
             className="p-1"
