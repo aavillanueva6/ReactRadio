@@ -54,6 +54,11 @@ const Header = () => {
               </Link>
               <NavDropdown title="Menu" id="basic-nav-dropdown">
                 <NavDropdown.Item>
+                  <Link to="/" className="nav-link p-0 text-body-secondary">
+                    Home
+                  </Link>
+                </NavDropdown.Item>{' '}
+                <NavDropdown.Item>
                   <Link
                     to="/schedule"
                     className="nav-link p-0 text-body-secondary"
