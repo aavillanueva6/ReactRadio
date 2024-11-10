@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 
 const navStyle = {
@@ -30,7 +32,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar className=" sticky-top" style={navStyle}>
+      <Navbar expand="sm" className=" sticky-top" style={navStyle}>
         <Container>
           <Link to="/">
             <Navbar.Brand>
@@ -43,6 +45,39 @@ const Header = () => {
               />
             </Navbar.Brand>
           </Link>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Link to="/donate" className="nav-link px-2 text-dark fw-bolder">
+                Support WETF
+              </Link>
+              <NavDropdown title="Menu" id="basic-nav-dropdown">
+                <NavDropdown.Item>
+                  <Link
+                    to="/schedule"
+                    className="nav-link p-0 text-body-secondary"
+                  >
+                    Schedule
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/djs" className="nav-link p-0 text-body-secondary">
+                    DJs
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link
+                    to="/shows"
+                    className="nav-link p-0 text-body-secondary"
+                  >
+                    Shows
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
+
           <Button
             size="sm"
             className="p-1"
