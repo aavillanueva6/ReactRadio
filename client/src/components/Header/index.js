@@ -14,23 +14,22 @@ const navStyle = {
 };
 
 const Header = () => {
-  const [playingLiveStream, SetPlayingLiveStream] = useState(false);
+  const [playingStream, SetPlayingStream] = useState(false);
   const [liveStreamButtonIcon, SetLiveStreamButtonIcon] =
     useState('fa-solid fa-play');
   const [listeningLive, SetListeningLive] = useState(true);
   const [streamButtonHovered, SetStreamButtonHovered] = useState(false);
   const [buttonDisabled, SetButtonDisabled] = useState(false);
+  const [loadingAudio, SetLoadingAudio] = useState(false);
 
   const handleListenLiveClick = () => {
     const audioElement = document.getElementById('liveRadioStream');
-    if (!playingLiveStream) {
-      audioElement.play();
-      SetPlayingLiveStream(true);
-      SetLiveStreamButtonIcon('fa-solid fa-pause');
+    if (!playingStream) {
+      playAudio(audioElement);
       handleAudioButtonState(audioElement);
     } else {
       audioElement.pause();
-      SetPlayingLiveStream(false);
+      SetPlayingStream(false);
       SetLiveStreamButtonIcon('fa-solid fa-play');
       SetListeningLive(false);
     }
@@ -38,11 +37,15 @@ const Header = () => {
   const handleJumpToLiveClick = () => {
     const audioElement = document.getElementById('liveRadioStream');
     audioElement.load();
-    audioElement.play();
-    SetPlayingLiveStream(true);
-    SetLiveStreamButtonIcon('fa-solid fa-pause');
-    SetListeningLive(true);
+    playAudio(audioElement);
     handleAudioButtonState(audioElement);
+    SetListeningLive(true);
+  };
+  const playAudio = (audioElement) => {
+    audioElement.play();
+    SetLoadingAudio(true);
+    SetPlayingStream(true);
+    SetLiveStreamButtonIcon('fa-solid fa-pause');
   };
   const handleFetchAudioStream = () => {
     if (!streamButtonHovered) {
@@ -54,6 +57,7 @@ const Header = () => {
   const handleAudioButtonState = (audioElement) => {
     SetButtonDisabled(true);
     audioElement.onplaying = () => {
+      SetLoadingAudio(false);
       SetButtonDisabled(false);
     };
   };
@@ -83,7 +87,16 @@ const Header = () => {
             variant="outline-primary"
           >
             <p className="p-0 m-0">Listen Live</p>
-            <i className={liveStreamButtonIcon}></i>
+            {loadingAudio ? (
+              <div
+                className="spinner-border spinner-border-sm text-primary"
+                role="status"
+              >
+                <span className="visually-hidden">Loading...</span>
+              </div>
+            ) : (
+              <i className={liveStreamButtonIcon}></i>
+            )}
             <audio id="liveRadioStream" preload="none">
               <source
                 src="https://ssl-proxy.icastcenter.com/get.php?type=Icecast&server=199.180.72.2&port=9007&mount=/stream&data=mp3"
