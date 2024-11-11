@@ -42,7 +42,6 @@ const Header = () => {
     SetPlayingLiveStream(true);
     SetLiveStreamButtonIcon('fa-solid fa-pause');
     SetListeningLive(true);
-
     handleAudioButtonState(audioElement);
   };
   const handleFetchAudioStream = () => {
@@ -55,7 +54,6 @@ const Header = () => {
   const handleAudioButtonState = (audioElement) => {
     SetButtonDisabled(true);
     audioElement.onplaying = () => {
-      console.log('playing now');
       SetButtonDisabled(false);
     };
   };
@@ -75,6 +73,36 @@ const Header = () => {
               />
             </Navbar.Brand>
           </Link>
+
+          <Button
+            size="sm"
+            className="p-1"
+            onClick={handleListenLiveClick}
+            onMouseEnter={handleFetchAudioStream}
+            disabled={buttonDisabled}
+            variant="outline-primary"
+          >
+            <p className="p-0 m-0">Listen Live</p>
+            <i className={liveStreamButtonIcon}></i>
+            <audio id="liveRadioStream" preload="none">
+              <source
+                src="https://ssl-proxy.icastcenter.com/get.php?type=Icecast&server=199.180.72.2&port=9007&mount=/stream&data=mp3"
+                type="audio/mp3"
+              />
+            </audio>
+          </Button>
+          {listeningLive ? (
+            <></>
+          ) : (
+            <Button
+              size="sm"
+              className="p-1 ms-1"
+              onClick={handleJumpToLiveClick}
+              variant="outline-primary"
+            >
+              <p className="p-0 m-0">Jump to live</p>
+            </Button>
+          )}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -111,35 +139,6 @@ const Header = () => {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
-          {listeningLive ? (
-            <></>
-          ) : (
-            <Button
-              size="sm"
-              className="p-1"
-              onClick={handleJumpToLiveClick}
-              variant="outline-primary"
-            >
-              <p className="p-0 m-0">Jump to live</p>
-            </Button>
-          )}
-          <Button
-            size="sm"
-            className="p-1"
-            onClick={handleListenLiveClick}
-            onMouseEnter={handleFetchAudioStream}
-            disabled={buttonDisabled}
-            variant="outline-primary"
-          >
-            <p className="p-0 m-0">Listen Live</p>
-            <i className={liveStreamButtonIcon}></i>
-            <audio id="liveRadioStream" preload="none">
-              <source
-                src="https://ssl-proxy.icastcenter.com/get.php?type=Icecast&server=199.180.72.2&port=9007&mount=/stream&data=mp3"
-                type="audio/mp3"
-              />
-            </audio>
-          </Button>
         </Container>
       </Navbar>
     </>
