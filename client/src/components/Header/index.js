@@ -12,11 +12,14 @@ const navStyle = {
   backgroundRepeat: 'no-repeat',
   backdropFilter: 'blur(300px)',
 };
+
 const Header = () => {
   const [playingLiveStream, SetPlayingLiveStream] = useState(false);
   const [liveStreamButtonIcon, SetLiveStreamButtonIcon] =
     useState('fa-solid fa-play');
   const [listeningLive, SetListeningLive] = useState(true);
+  const [streamButtonHovered, SetStreamButtonHovered] = useState(false);
+  const [buttonDisabled, SetButtonDisabled] = useState(false);
 
   const handleListenLiveClick = () => {
     const audioElement = document.getElementById('liveRadioStream');
@@ -24,6 +27,7 @@ const Header = () => {
       audioElement.play();
       SetPlayingLiveStream(true);
       SetLiveStreamButtonIcon('fa-solid fa-pause');
+      handleAudioButtonState(audioElement);
     } else {
       audioElement.pause();
       SetPlayingLiveStream(false);
@@ -38,6 +42,22 @@ const Header = () => {
     SetPlayingLiveStream(true);
     SetLiveStreamButtonIcon('fa-solid fa-pause');
     SetListeningLive(true);
+
+    handleAudioButtonState(audioElement);
+  };
+  const handleFetchAudioStream = () => {
+    if (!streamButtonHovered) {
+      const audioElement = document.getElementById('liveRadioStream');
+      audioElement.load();
+      SetStreamButtonHovered(true);
+    }
+  };
+  const handleAudioButtonState = (audioElement) => {
+    SetButtonDisabled(true);
+    audioElement.onplaying = () => {
+      console.log('playing now');
+      SetButtonDisabled(false);
+    };
   };
 
   return (
@@ -107,6 +127,8 @@ const Header = () => {
             size="sm"
             className="p-1"
             onClick={handleListenLiveClick}
+            onMouseEnter={handleFetchAudioStream}
+            disabled={buttonDisabled}
             variant="outline-primary"
           >
             <p className="p-0 m-0">Listen Live</p>
