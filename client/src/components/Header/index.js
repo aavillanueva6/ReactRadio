@@ -178,7 +178,7 @@ const Header = () => {
                   id="basic-nav-dropdown"
                   aria-expanded="false"
                   role="button"
-                  className="nav-link dropdown-toggle text-primary"
+                  className="p-2 nav-link dropdown-toggle text-primary"
                   tabIndex="0"
                   href="#"
                   data-bs-toggle="dropdown"
