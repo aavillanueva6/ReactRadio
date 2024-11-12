@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DAY } from '../utils/queries';
 import ScheduleShowRow from '../components/ScheduleShowRow';
+import PHScheduleShowRow from '../components/PHScheduleShowRow';
 
 const date = new Date();
 const daysOfWeek = [
@@ -19,9 +20,9 @@ const Schedule = () => {
   const { loading, data, client } = useQuery(QUERY_SINGLE_DAY, {
     variables: { day: displayDay },
   });
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
 
   const queryResults = data?.schedule || [];
   let orderedResults = [...queryResults];
@@ -40,6 +41,13 @@ const Schedule = () => {
       pairedResults.push([orderedResults[i], orderedResults[j]]);
     }
   }
+
+  const phPairedResults = [
+    [0, 1],
+    [2, 3],
+    [4, 5],
+  ];
+
   const handleClick = (e) => {
     SetDisplayDay(e.target.name);
   };
@@ -87,14 +95,25 @@ const Schedule = () => {
               All show times listed in Eastern time zone (EST/EDT)
             </p>
           </div>
-          {pairedResults.map((e, i) => {
-            return (
-              <ScheduleShowRow
-                key={`show-card-${i}`}
-                shows={e}
-              ></ScheduleShowRow>
-            );
-          })}
+          {loading ? (
+            <>
+              {phPairedResults.map((e, i) => {
+                return (
+                  <PHScheduleShowRow
+                    aria-hidden="true"
+                    shows={e}
+                    key={`SSRplaceholder-${i}`}
+                  />
+                );
+              })}
+            </>
+          ) : (
+            <>
+              {pairedResults.map((e, i) => {
+                return <ScheduleShowRow key={`show-card-${i}`} shows={e} />;
+              })}
+            </>
+          )}
         </div>
       </div>
     </>
