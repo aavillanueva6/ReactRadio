@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 
 const navStyle = {
@@ -116,40 +115,111 @@ const Header = () => {
               <p className="p-0 m-0">Jump to live</p>
             </Button>
           )}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          {/* <Navbar.Toggle
+            className="text-primary"
+            aria-controls="basic-navbar-nav"
+          /> */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#basic-navbar-nav"
+            aria-controls="basic-navbar-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Link to="/donate" className="nav-link px-2 text-dark fw-bolder">
+              <Link
+                to="/donate"
+                className="nav-link px-2 text-primary fw-bolder"
+              >
                 Support WETF
               </Link>
-              <NavDropdown title="Menu" id="basic-nav-dropdown">
-                <NavDropdown.Item>
-                  <Link to="/" className="nav-link p-0 text-body-secondary">
+              {/* <NavDropdown
+                className="fw-bold"
+                title="Menu"
+                id="basic-nav-dropdown-bsreact"
+              >
+                <Link
+                  to="/"
+                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                  role="button"
+                >
+                  Home
+                </Link>
+                <Link
+                  to="/schedule"
+                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                  role="button"
+                >
+                  Schedule
+                </Link>
+                <Link
+                  to="/djs"
+                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                  role="button"
+                >
+                  DJs
+                </Link>
+                <Link
+                  to="/shows"
+                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                  role="button"
+                >
+                  Shows
+                </Link>
+              </NavDropdown> */}
+
+              <div className="nav-item dropdown">
+                <a
+                  id="basic-nav-dropdown"
+                  aria-expanded="false"
+                  role="button"
+                  className="nav-link dropdown-toggle text-primary"
+                  tabIndex="0"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Menu
+                </a>
+                <div
+                  aria-labelledby="basic-nav-dropdown"
+                  data-bs-popper="static"
+                  className="dropdown-menu"
+                >
+                  <Link
+                    to="/"
+                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                    role="button"
+                  >
                     Home
                   </Link>
-                </NavDropdown.Item>{' '}
-                <NavDropdown.Item>
                   <Link
                     to="/schedule"
-                    className="nav-link p-0 text-body-secondary"
+                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                    role="button"
                   >
                     Schedule
                   </Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item>
-                  <Link to="/djs" className="nav-link p-0 text-body-secondary">
+                  <Link
+                    to="/djs"
+                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                    role="button"
+                  >
                     DJs
                   </Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item>
                   <Link
                     to="/shows"
-                    className="nav-link p-0 text-body-secondary"
+                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
+                    role="button"
                   >
                     Shows
                   </Link>
-                </NavDropdown.Item>
-              </NavDropdown>
+                </div>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
