@@ -1,0 +1,47 @@
+{
+  "infoText": [
+    "At WETF 105.7, we pride ourselves on being a truly independent voice for jazz, bringing the best music to listeners without commercial influence. As a 501(c)3 nonprofit organization, we rely on the generosity of our audience to keep the station thriving. Your donations help us maintain our high-quality programming, support our talented DJs from around the country, and ensure we can continue sharing jazz’s rich history and vibrant future with listeners near and far. Every dollar counts toward preserving the music you love and providing a platform for new and emerging artists.",
+    "By contributing to WETF, you’re not only supporting the station but also becoming part of a community that values jazz and its legacy. Because we are listener-funded, your donations ensure that our programming remains free from corporate sponsorship and aligned with the heart and soul of the music. Whether it's a one-time gift or a recurring contribution, your support helps sustain this beloved station, keeping jazz alive on the airwaves for future generations. Please consider donating today and keeping WETF strong, independent, and focused on what matters most: the music."
+  ],
+  "donationLevel": [
+    {
+      "levelName": "Supporter",
+      "levelCost": "$5",
+      "levelBenefit": [
+        "this is a benefit of the Supporter level",
+        "this is another benefit of the Supporter level"
+      ],
+      "levelTheme": {
+        "card": "card mb-4 rounded-3 shadow-sm",
+        "button": "w-100 btn btn-lg btn-outline-primary",
+        "cardHeader": "card-header py-3"
+      }
+    },
+    {
+      "levelName": "Patron",
+      "levelCost": "$15",
+      "levelBenefit": [
+        "this is a benefit of the Supporter level",
+        "this is another benefit of the Supporter level"
+      ],
+      "levelTheme": {
+        "card": "card mb-4 rounded-3 shadow-sm",
+        "button": "w-100 btn btn-lg btn-outline-primary",
+        "cardHeader": "card-header py-3"
+      }
+    },
+    {
+      "levelName": "Benefactor",
+      "levelCost": "$50",
+      "levelBenefit": [
+        "this is a benefit of the Supporter level",
+        "this is another benefit of the Supporter level"
+      ],
+      "levelTheme": {
+        "card": "card mb-4 rounded-3 shadow-sm border-primary",
+        "button": "w-100 btn btn-lg btn-primary",
+        "cardHeader": "card-header py-3 text-bg-primary border-primary"
+      }
+    }
+  ]
+}
