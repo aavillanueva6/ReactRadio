@@ -5,12 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
-const navStyle = {
-  backgroundImage: `url('https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity_forHeader.png')`,
-  backgroundSize: 'cover',
-  backgroundRepeat: 'no-repeat',
-  backdropFilter: 'blur(300px)',
-};
+const headerData = require('../../utils/data/headerData.json');
+
+const navStyle = headerData.navStyle;
 
 const Header = () => {
   const [playingStream, SetPlayingStream] = useState(false);
@@ -65,14 +62,14 @@ const Header = () => {
     <>
       <Navbar expand="sm" className=" sticky-top" style={navStyle}>
         <Container>
-          <Link to="/">
+          <Link to={headerData.logoLink.destination}>
             <Navbar.Brand>
               <img
-                alt="WETF Logo"
-                src="/WETF_icon.svg"
-                width="50"
-                height="50"
-                className="d-inline-block align-top"
+                alt={headerData.logoLink.imgAlt}
+                src={headerData.logoLink.imgSrc}
+                width={headerData.logoLink.imgWidth}
+                height={headerData.logoLink.imgHeight}
+                className={headerData.logoLink.imgClassName}
               />
             </Navbar.Brand>
           </Link>
@@ -98,8 +95,8 @@ const Header = () => {
             )}
             <audio id="liveRadioStream" preload="none">
               <source
-                src="https://ssl-proxy.icastcenter.com/get.php?type=Icecast&server=199.180.72.2&port=9007&mount=/stream&data=mp3"
-                type="audio/mp3"
+                src={headerData.audioElement.src}
+                type={headerData.audioElement.type}
               />
             </audio>
           </Button>
@@ -115,10 +112,6 @@ const Header = () => {
               <p className="p-0 m-0">Jump to live</p>
             </Button>
           )}
-          {/* <Navbar.Toggle
-            className="text-primary"
-            aria-controls="basic-navbar-nav"
-          /> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -138,41 +131,6 @@ const Header = () => {
               >
                 Support WETF
               </Link>
-              {/* <NavDropdown
-                className="fw-bold"
-                title="Menu"
-                id="basic-nav-dropdown-bsreact"
-              >
-                <Link
-                  to="/"
-                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                  role="button"
-                >
-                  Home
-                </Link>
-                <Link
-                  to="/schedule"
-                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                  role="button"
-                >
-                  Schedule
-                </Link>
-                <Link
-                  to="/djs"
-                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                  role="button"
-                >
-                  DJs
-                </Link>
-                <Link
-                  to="/shows"
-                  className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                  role="button"
-                >
-                  Shows
-                </Link>
-              </NavDropdown> */}
-
               <div className="nav-item dropdown">
                 <a
                   id="basic-nav-dropdown"
@@ -190,34 +148,18 @@ const Header = () => {
                   data-bs-popper="static"
                   className="dropdown-menu"
                 >
-                  <Link
-                    to="/"
-                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                    role="button"
-                  >
-                    Home
-                  </Link>
-                  <Link
-                    to="/schedule"
-                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                    role="button"
-                  >
-                    Schedule
-                  </Link>
-                  <Link
-                    to="/djs"
-                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                    role="button"
-                  >
-                    DJs
-                  </Link>
-                  <Link
-                    to="/shows"
-                    className="nav-link px-3 py-1 text-body-secondary dropdown-item"
-                    role="button"
-                  >
-                    Shows
-                  </Link>
+                  {headerData.dropdownLinks.map((e, i) => {
+                    return (
+                      <Link
+                        key={`header-dropdown-link-${i}`}
+                        to={e.destination}
+                        className={e.className}
+                        role={e.role}
+                      >
+                        {e.text}
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </Nav>
