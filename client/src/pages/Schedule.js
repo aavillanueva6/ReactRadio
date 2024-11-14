@@ -115,6 +115,19 @@ const Schedule = () => {
             </>
           )}
         </div>
+        <div className="container justify-content-evenly">
+          <div className=" text-center">
+            <a
+              href="https://aav-react-radio.s3.us-west-2.amazonaws.com/WETF_weekly_schedule.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-primary m-2"
+              type="button"
+            >
+              Download a printer friendly schedule here
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
