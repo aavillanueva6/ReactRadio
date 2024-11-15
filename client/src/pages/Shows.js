@@ -2,14 +2,11 @@ import React from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SHOWS } from '../utils/queries';
 import ShowCardShort from '../components/ShowCardShort';
+import PHShowCardShort from '../components/PHShowCardShort';
 
 const Shows = () => {
   const { loading, data } = useQuery(QUERY_SHOWS);
   const shows = data?.shows || [];
-
-  if (loading) {
-    return <div>loading...</div>;
-  }
 
   return (
     <>
@@ -18,9 +15,17 @@ const Shows = () => {
           <div className="display-4">WETF Shows</div>
         </div>
         <div className="row justify-content-center">
-          {shows.map((show, i) => {
-            return <ShowCardShort key={i} show={show} />;
-          })}
+          {loading ? (
+            <>
+              <PHShowCardShort />
+            </>
+          ) : (
+            <>
+              {shows.map((show, i) => {
+                return <ShowCardShort key={i} show={show} />;
+              })}
+            </>
+          )}
         </div>
       </div>
     </>
