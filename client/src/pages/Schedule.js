@@ -62,7 +62,6 @@ const Schedule = () => {
 
   const handleClick = (e) => {
     SetDisplayDay(e.target.name);
-    console.log(date.getDate(), date.getMonth() + 1, date.getFullYear());
   };
 
   const prefetchData = (e) => {
