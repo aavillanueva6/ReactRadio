@@ -1,0 +1,12 @@
+{
+  "printableSchedules": [
+    {
+      "src": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETF_weekly_schedule.pdf",
+      "effectiveDate": "Nov 14 2024"
+    },
+    {
+      "src": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETF_schedule_old.pdf",
+      "effectiveDate": "Nov 10, 2024"
+    }
+  ]
+}

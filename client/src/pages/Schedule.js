@@ -14,6 +14,18 @@ const daysOfWeek = [
   'Friday',
   'Saturday',
 ];
+const scheduleData = require('../utils/data/scheduleData.json');
+
+let printableScheduleSrc = '';
+for (let i = 0; i < scheduleData.printableSchedules.length; i++) {
+  let scheduleEffDate = Date.parse(
+    scheduleData.printableSchedules[i].effectiveDate
+  );
+  if (scheduleEffDate <= date) {
+    printableScheduleSrc = scheduleData.printableSchedules[i].src;
+    break;
+  }
+}
 
 const Schedule = () => {
   const [displayDay, SetDisplayDay] = useState(`${daysOfWeek[date.getDay()]}`);
@@ -50,6 +62,7 @@ const Schedule = () => {
 
   const handleClick = (e) => {
     SetDisplayDay(e.target.name);
+    console.log(date.getDate(), date.getMonth() + 1, date.getFullYear());
   };
 
   const prefetchData = (e) => {
@@ -118,7 +131,7 @@ const Schedule = () => {
         <div className="container justify-content-evenly">
           <div className=" text-center">
             <a
-              href="https://aav-react-radio.s3.us-west-2.amazonaws.com/WETF_weekly_schedule.pdf"
+              href={printableScheduleSrc}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-primary m-2"
