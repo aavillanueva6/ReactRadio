@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Schedule" className="nav-link px-2 text-body-secondary">
+            <Link to="/schedule" className="nav-link px-2 text-body-secondary">
               Schedule
             </Link>
           </li>
