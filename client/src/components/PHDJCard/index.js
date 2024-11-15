@@ -14,7 +14,6 @@ const PHDJCard = ({ dj }) => {
         <span className="placeholder  w-100"></span>
       </div>
       <div className="lead">
-        {' '}
         <span className="placeholder bg-secondary  w-100"></span>
       </div>
 
@@ -22,8 +21,8 @@ const PHDJCard = ({ dj }) => {
         <span className="placeholder bg-secondary  w-100"></span>
       </p>
       <div
-        tabindex="-1"
-        class="btn btn-secondary disabled placeholder col-6 mb-3"
+        tabIndex="-1"
+        className="btn btn-secondary disabled placeholder col-6 mb-3"
         aria-hidden="true"
       ></div>
     </div>
