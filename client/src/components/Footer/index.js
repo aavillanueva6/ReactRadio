@@ -1,48 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const footerData = require('../../utils/data/footerData.json');
+
 const Footer = () => {
   return (
     <div className="container">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p className="col-md-4 mb-0 text-body-secondary">
-          © 2024 Alejandro Villanueva
+          © {footerData.copyrightYear} {footerData.owner}
         </p>
-        <Link to="/">
+        <Link to={footerData.logoLink.destination}>
           <img
-            alt=""
-            src="/WETF_icon.svg"
-            width="40"
-            height="40"
-            className="d-inline-block align-top"
+            alt={footerData.logoLink.imgAlt}
+            src={footerData.logoLink.imgSrc}
+            width={footerData.logoLink.imgWidth}
+            height={footerData.logoLink.imgHeight}
+            className={footerData.logoLink.imgClassName}
           />
         </Link>
         <ul className="nav col-md-4 justify-content-end">
-          <li className="nav-item">
-            <Link to="/" className="nav-link px-2 text-body-secondary">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/schedule" className="nav-link px-2 text-body-secondary">
-              Schedule
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/donate" className="nav-link px-2 text-body-secondary">
-              Support
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/djs" className="nav-link px-2 text-body-secondary">
-              DJs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/shows" className="nav-link px-2 text-body-secondary">
-              Shows
-            </Link>
-          </li>
+          {footerData.links.map((link) => {
+            return (
+              <li className="nav-item" role={link.role} key={link.text}>
+                <Link to={link.destination} className={link.className}>
+                  {link.text}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </footer>
     </div>

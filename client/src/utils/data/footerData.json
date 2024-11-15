@@ -1,0 +1,44 @@
+{
+  "copyrightYear": "2024",
+  "owner": "Alejandro Villanueva",
+  "logoLink": {
+    "destination": "/",
+    "imgAlt": "WETF Logo",
+    "imgSrc": "/WETF_icon.svg",
+    "imgWidth": "40",
+    "imgHeight": "40",
+    "imgClassName": "d-inline-block align-top"
+  },
+  "links": [
+    {
+      "destination": "/",
+      "className": "nav-link px-2 text-body-secondary",
+      "role": "button",
+      "text": "Home"
+    },
+    {
+      "destination": "/schedule",
+      "className": "nav-link px-2 text-body-secondary",
+      "role": "button",
+      "text": "Schedule"
+    },
+    {
+      "destination": "/donate",
+      "className": "nav-link px-2 text-body-secondary",
+      "role": "button",
+      "text": "Support"
+    },
+    {
+      "destination": "/djs",
+      "className": "nav-link px-2 text-body-secondary",
+      "role": "button",
+      "text": "DJs"
+    },
+    {
+      "destination": "/shows",
+      "className": "nav-link px-2 text-body-secondary",
+      "role": "button",
+      "text": "Shows"
+    }
+  ]
+}
