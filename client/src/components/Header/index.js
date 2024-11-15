@@ -148,10 +148,10 @@ const Header = () => {
                   data-bs-popper="static"
                   className="dropdown-menu"
                 >
-                  {headerData.dropdownLinks.map((e, i) => {
+                  {headerData.dropdownLinks.map((e) => {
                     return (
                       <Link
-                        key={`header-dropdown-link-${i}`}
+                        key={e.text}
                         to={e.destination}
                         className={e.className}
                         role={e.role}

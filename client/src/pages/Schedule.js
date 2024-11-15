@@ -90,7 +90,7 @@ const Schedule = () => {
                   onClick={handleClick}
                   onMouseEnter={prefetchData}
                   onFocus={prefetchData}
-                  key={`weekday-button-${i}`}
+                  key={`weekday-button-${day}`}
                 >
                   {day}
                 </button>
@@ -109,20 +109,20 @@ const Schedule = () => {
           </div>
           {loading ? (
             <>
-              {phPairedResults.map((e, i) => {
+              {phPairedResults.map((e) => {
                 return (
                   <PHScheduleShowRow
                     aria-hidden="true"
                     shows={e}
-                    key={`SSRplaceholder-${i}`}
+                    key={`SSRplaceholder-${e}`}
                   />
                 );
               })}
             </>
           ) : (
             <>
-              {pairedResults.map((e, i) => {
-                return <ScheduleShowRow key={`show-card-${i}`} shows={e} />;
+              {pairedResults.map((e) => {
+                return <ScheduleShowRow key={e[1].startTime24} shows={e} />;
               })}
             </>
           )}

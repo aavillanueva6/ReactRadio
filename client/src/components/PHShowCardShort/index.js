@@ -3,10 +3,10 @@ import React from 'react';
 const placeholderCards = [0, 1, 2, 3, 4, 5, 6, 7];
 
 const PHShowCardShort = () => {
-  return placeholderCards.map((e, i) => {
+  return placeholderCards.map((e) => {
     return (
       <div
-        key={`show-card-placeholder-${i}`}
+        key={`show-card-placeholder-${e}`}
         className="col-5 mx-auto px-0 card mb-3"
         style={{ maxWidth: '540px' }}
       >

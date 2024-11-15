@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PHDJCard = ({ dj }) => {
+const PHDJCard = () => {
   return (
     <div className="mx-auto col text-center placeholder-glow">
       <img

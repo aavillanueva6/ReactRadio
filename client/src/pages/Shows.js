@@ -21,8 +21,8 @@ const Shows = () => {
             </>
           ) : (
             <>
-              {shows.map((show, i) => {
-                return <ShowCardShort key={i} show={show} />;
+              {shows.map((show) => {
+                return <ShowCardShort key={show._id} show={show} />;
               })}
             </>
           )}
