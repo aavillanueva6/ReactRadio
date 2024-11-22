@@ -18,6 +18,9 @@ import InvalidPage from './pages/InvalidPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+// import ErrorBoundary
+import ErrorBoundary from './components/ErrorBoundary';
+
 const client = new ApolloClient({
   uri: '/graphql',
   cache: new InMemoryCache(),
@@ -33,9 +36,23 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/djs" element={<DJs />} />
-              <Route path="/djs/:djUrl" element={<SingleDJ />} />
+              <Route
+                path="/djs/:djUrl"
+                element={
+                  <ErrorBoundary fallback={<InvalidPage />}>
+                    <SingleDJ />
+                  </ErrorBoundary>
+                }
+              />
               <Route path="/shows" element={<Shows />} />
-              <Route path="/shows/:showUrl" element={<SingleShow />} />
+              <Route
+                path="/shows/:showUrl"
+                element={
+                  <ErrorBoundary fallback={<InvalidPage />}>
+                    <SingleShow />
+                  </ErrorBoundary>
+                }
+              />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/donate" element={<Donate />} />
               {/* catch route to direct invalid URLs to an error page  */}
