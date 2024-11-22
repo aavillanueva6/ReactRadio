@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { useParams, Link } from 'react-router-dom';
 import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
@@ -23,6 +23,10 @@ const SingleShow = () => {
       return 1;
     }
     return 0;
+  });
+
+  useEffect(() => {
+    document.title = `WETF 105.7 - ${show.name}`;
   });
 
   if (q1Loading) {

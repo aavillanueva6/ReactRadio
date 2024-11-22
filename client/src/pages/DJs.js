@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 
 import { QUERY_DJs } from '../utils/queries';
@@ -10,6 +10,10 @@ const DJs = () => {
   const djs = data?.djs || [];
 
   const phDJs = [0, 1, 2, 3, 4, 5, 6];
+
+  useEffect(() => {
+    document.title = 'WETF 105.7 - DJs';
+  }, []);
 
   return (
     <>

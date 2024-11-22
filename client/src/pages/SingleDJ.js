@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DJ } from '../utils/queries';
 import { useParams, Link } from 'react-router-dom';
@@ -17,6 +17,10 @@ const SingleDJ = () => {
     variables: { url: djUrl },
   });
   const dj = data?.singleDJ || {};
+
+  useEffect(() => {
+    document.title = `WETF 105.7 - ${dj.firstName} ${dj.lastName}`;
+  });
 
   if (loading) {
     return <div>Loading...</div>;

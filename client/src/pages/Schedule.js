@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DAY } from '../utils/queries';
 import ScheduleShowRow from '../components/ScheduleShowRow';
@@ -70,6 +70,10 @@ const Schedule = () => {
       variables: { day: e.target.name },
     });
   };
+
+  useEffect(() => {
+    document.title = 'WETF 105.7 - Schedule';
+  }, []);
 
   return (
     <>

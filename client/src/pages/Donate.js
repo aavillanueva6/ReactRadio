@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const donateData = require('../utils/data/donateData.json');
 
 const Donate = () => {
+  useEffect(() => {
+    document.title = 'WETF 105.7 - Support WETF';
+  }, []);
+
   return (
     <>
       <div className="container mx-auto text-center">

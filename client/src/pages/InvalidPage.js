@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const InvalidPage = () => {
+  useEffect(() => {
+    document.title = 'Not Found';
+  }, []);
+
   return (
     <>
       <div className="container">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_SHOWS } from '../utils/queries';
 import ShowCardShort from '../components/ShowCardShort';
@@ -7,6 +7,10 @@ import PHShowCardShort from '../components/PHShowCardShort';
 const Shows = () => {
   const { loading, data } = useQuery(QUERY_SHOWS);
   const shows = data?.shows || [];
+
+  useEffect(() => {
+    document.title = 'WETF 105.7 - Shows';
+  }, []);
 
   return (
     <>

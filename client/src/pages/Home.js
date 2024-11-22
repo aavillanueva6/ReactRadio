@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const homeData = require('../utils/data/homeData.json');
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'WETF 105.7 - The Jazz Station';
+  }, []);
+
   return (
     <>
       <img
