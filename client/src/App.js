@@ -2,8 +2,6 @@ import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import './App.css'; // create-react-app standard CSS file - need to remove this
-
 // import pages / views
 import Home from './pages/Home';
 import DJs from './pages/DJs';
