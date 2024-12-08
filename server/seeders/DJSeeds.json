@@ -1,143 +1,558 @@
 [
   {
-    "firstName": "Sam",
-    "lastName": "Smith",
-    "nickName": "Smooth Sax Sam",
-    "Title": "Station Manager",
+    "firstName": "Eliud",
+    "lastName": "Villanueva",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-57-05_3702.png",
-    "url": "sam-smith",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
+    "url": "eliud-villanueva",
     "bio": [
-      "Sam Smith, better known as \"Smooth Sax,\" has been a part of the jazz scene since her teenage years and now serves as both a beloved DJ and the station manager of WETF 105.7. Growing up in New Orleans, Sam was immersed in the rich sounds of jazz, blues, and gospel, which ignited her deep passion for music. She started out as a saxophonist in local clubs before transitioning to radio in her early 30s. Her love for the warm, soulful tones of the saxophone earned her the nickname \"Smooth Sax,\" and she's been sharing her love of jazz with listeners ever since.",
-      "As the station manager, Sam is instrumental in shaping WETF's programming and overseeing its growth. Her leadership ensures that the station remains a vibrant platform for jazz enthusiasts, curating not only her own smooth jazz show but also guiding contributions from DJs across the country. With her deep knowledge of jazz history, personal experience as a musician, and dedication to the station's mission, Sam is a driving force behind WETF's success. Whether managing day-to-day operations or spinning Coltrane classics on air, Sam's influence and passion are evident throughout the station."
+      "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
     ]
   },
 
   {
-    "firstName": "Claire",
-    "lastName": "Carter",
-    "nickName": "The Cool Cat",
-    "Title": "DJ",
+    "firstName": "Stephen",
+    "lastName": "Merriman",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-48-09_2810.png",
-    "url": "claire-carter",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/steve-merriman.webp",
+    "url": "stephen-merriman",
     "bio": [
-      "Claire Carter, also known as \"Cool Cat,\" brings a laid-back, West Coast vibe to WETF. Hailing from San Francisco, Claire grew up listening to the smooth sounds of cool jazz, and her love for the genre eventually led her to study music theory in college. Claire spent years as a jazz critic and writer before transitioning to radio, where her deep appreciation for jazz and her relaxed, conversational style make her a listener favorite.",
-      "Claire’s shows often highlight the coolest, most atmospheric jazz, from the understated elegance of Chet Baker to the modern tones of Kamasi Washington. Her nickname, \"Cool Cat,\" reflects her smooth, unhurried approach to both life and music. Claire’s interviews with jazz artists often feel more like intimate conversations, and she’s known for bringing out the best in her guests."
+      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
     ]
   },
 
   {
-    "firstName": "Ben",
-    "lastName": "Nichols",
-    "nickName": "DJ Blue Note",
-    "Title": "DJ",
+    "firstName": "Mary",
+    "lastName": "Merriman",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-53-48_2932.png",
-    "url": "ben-nichols",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mary-merriman.webp",
+    "url": "mary-merriman",
     "bio": [
-      "Ben Nichols, better known as \"Blue Note,\" has been a staple of the WETF team since its founding. Originally from Boston, Ben grew up listening to the iconic Blue Note Records catalog, which fueled his love for soulful, blues-infused jazz. With a background in sound engineering, Ben is known for his technical ear and ability to break down the complex rhythms and harmonies that define the bluesy side of jazz.",
-      "On air, Ben brings that same expertise to his listeners, offering deep dives into the emotional and historical context behind the music. His show, packed with both well-known classics and obscure gems, is a favorite among die-hard jazz fans. Known as \"Blue Note\" for his appreciation of the bluesier side of the genre, Ben has a passion for keeping the raw emotion of jazz alive."
+      "WETF founding board member, jazz bassist and co-founder and producer for Merrimans’ Playhouse. For information on the Playhouse, visit its website at merrimansplayhouse.org."
     ]
   },
 
   {
-    "firstName": "Ray",
-    "lastName": "Reynolds",
-    "nickName": "The Rhythm King",
-    "Title": "DJ",
+    "firstName": "Glenda Rae",
+    "lastName": "Hernandez",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-05-46_7091.png",
-    "url": "ray-reynolds",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
+    "url": "glenda-rae-hernandez",
     "bio": [
-      "Ray Reynolds, dubbed the \"Rhythm King,\" is all about energy and spontaneity. Born in Chicago, Ray was raised in a city known for its rich jazz history. His father was a drummer in a local jazz band, and Ray grew up tapping along to the fast-paced beats of bebop and big band swing. After spending years as a session drummer and occasional bandleader, Ray shifted to radio, where his infectious energy quickly caught on with listeners.",
-      "Ray's show is known for its fast tempos and unpredictable tracks, focusing on the more upbeat, rhythm-heavy side of jazz. His deep love for improvisation and the interplay between musicians shines through in his commentary, and his passion for rhythm gives him his nickname, \"Rhythm King.\" Whether he's breaking down classic drum solos or spinning hard-hitting bebop, Ray keeps the groove alive."
+      "Founding member of the WETF board, and the station’s secretary/treasurer."
     ]
   },
 
   {
-    "firstName": "Ella",
-    "lastName": "Valentine",
-    "nickName": "DJ Miss Vibes",
-    "Title": "DJ",
+    "firstName": "Adriana",
+    "lastName": "Ponce-Diaz",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-19_23-49-22_3689.png",
-    "url": "ella-valentine",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/adriana-ponce-diaz.webp",
+    "url": "adriana-ponce-diaz",
     "bio": [
-      "Ella Valentine, known on air as \"DJ Miss Vibes,\" brings a modern, soulful energy to WETF. A Miami native, Ella grew up surrounded by the vibrant sounds of Latin jazz, salsa, and traditional jazz. Her love for the vibraphone and the positive energy she radiates both on and off the air earned her the nickname \"DJ Miss Vibes.\" Ella began her DJ career while attending university in Miami, where she also developed a strong passion for music education.",
-      "On her show, Ella blends contemporary jazz with global influences, creating a rich, diverse listening experience. Her upbeat personality and smooth delivery make her a listener favorite, especially when she shares the stories behind the music. Passionate about highlighting underrepresented voices in jazz, Ella frequently showcases emerging artists and female musicians, offering a platform for new talent to shine alongside the legends."
+      "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else’s tasks."
     ]
   },
 
   {
-    "firstName": "Stan",
-    "lastName": "Sullivan",
-    "nickName": "DJ Sully",
-    "Title": "DJ",
+    "firstName": "Tish",
+    "lastName": "Adams",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-58-38_1388.png",
-    "url": "stan-sullivan",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Tish-Adams.webp",
+    "url": "tish-adams",
     "bio": [
-      "Stan Sullivan, known as \"DJ Sully,\" is WETF’s resident swing expert. Born and raised in Kansas City, a historic hub for jazz, Stan grew up idolizing big band leaders like Count Basie and Duke Ellington. His early fascination with the big band era led him to study jazz history, and he became a well-known jazz historian before transitioning to radio, where he shares his passion for swing with a broader audience.",
-      "On air, DJ Sully’s show is a lively celebration of big band music and the joyous rhythms that defined the swing era. His deep knowledge of jazz history and engaging, energetic style have made him a listener favorite. Whether he’s diving into a classic Count Basie performance or exploring lesser-known gems from the era, DJ Sully keeps the spirit of swing alive, introducing new generations to the music’s infectious energy."
+      "Jazz vocalist and 25-plus-year radio veteran who brings a passion for standards and not-so-standards to WETF. Tish has utmost respect for the jazz legends, is grateful for those who carry the torch today and always inspired by those young artists who are eager to carry jazz into tomorrow. Her program, “Mornin’ with Tish”, spans her own musical library with a wide range of moods and textures."
     ]
   },
 
   {
-    "firstName": "Jessica",
-    "lastName": "James",
-    "nickName": "DJ Jessie Jazz",
-    "Title": "DJ",
+    "firstName": "Dee",
+    "lastName": "Alexander",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-07-36_9714.png",
-    "url": "jessica-james",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Dee-Alexander.webp",
+    "url": "dee-alexander",
     "bio": [
-      "Jessica James, known on air as \"DJ Jessie Jazz,\" is a vibrant force in the world of jazz radio. Born and raised in New York City, Jessica grew up surrounded by the iconic sounds of jazz clubs in Harlem, where her father worked as a pianist. This early exposure to jazz legends like Dizzy Gillespie and Ella Fitzgerald fueled her passion for the genre and led her to pursue a degree in jazz performance. With a natural flair for both music and entertainment, Jessica quickly transitioned from performing on stage to hosting her own show, where her lively energy and deep love for jazz shine through.",
-      "As \"DJ Jessie Jazz,\" she brings a dynamic and high-energy approach to her broadcasts, with a special focus on bebop and fast-paced, improvisational jazz. Her show features both timeless classics and fresh takes, making it a favorite for listeners who crave an engaging, exciting musical experience. Jessica’s ability to mix the old with the new and her deep knowledge of jazz history ensure that her broadcasts are always educational and entertaining. Off the air, she is a dedicated advocate for music education, often working with young musicians to help them find their voice in the jazz world.",
-      "Off the air, Jessica is a passionate advocate for music education, working with schools and community programs to bring jazz to the next generation. She often invites young musicians to perform on her show, giving them a platform to showcase their talents. Whether she’s hosting live events or spinning records, Jessica James is dedicated to keeping the vibrant spirit of jazz alive and well."
+      "Prominent Chicago-based jazz vocalist and host of “This Is Jazz” originating out of WFMT-Chicago."
     ]
   },
 
   {
-    "firstName": "Brenda",
-    "lastName": "Brooks",
-    "nickName": "The Bebop Kid",
-    "Title": "DJ",
+    "firstName": "David",
+    "lastName": "Basse",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-44-03_1919.png",
-    "url": "brenda-brooks",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/david-basse.webp",
+    "url": "david-basse",
     "bio": [
-      "Brenda Brooks, better known as \"The Bebop Kid,\" is a beloved voice in the jazz world, known for her deep passion for the fast-paced, intricate rhythms of bebop. Born in St. Louis, Brenda grew up surrounded by music, with her grandfather being a local trumpeter. Her early exposure to the lively, unpredictable nature of bebop inspired her to pick up the trumpet herself, and she quickly became immersed in the local jazz scene. Her dedication to the genre and her youthful energy earned her the nickname \"The Bebop Kid.\"",
-      "As a DJ on WETF, Brenda brings her extensive knowledge of bebop to the airwaves, curating a mix of bebop classics from icons like Charlie Parker and Dizzy Gillespie, as well as fresh tracks from contemporary artists pushing the genre forward. Her show is fast-paced, much like the music she loves, with in-depth commentary that breaks down complex improvisations and chord progressions for her audience. Brenda is also a champion of female musicians in jazz, working to ensure that their contributions to bebop are recognized and celebrated.",
-      "Beyond the radio, Brenda is an advocate for women in jazz, working to amplify the voices of female musicians and composers in a male-dominated industry. She regularly collaborates with jazz festivals and educational programs, creating opportunities for young women to find their place in the world of jazz. Her dedication to both the music and its future ensures that bebop will continue to thrive for years to come."
+      "Host of “Jazz with David Basse”, began broadcasting career at Kansas University decades ago, creator of NPR comedy/jazz series “Twelfth Street Jump”."
     ]
   },
+
   {
-    "firstName": "Gabe",
-    "lastName": "Grant",
-    "nickName": "The General",
-    "Title": "DJ",
+    "firstName": "Brent",
+    "lastName": "Banulis",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_00-59-55_9217.png",
-    "url": "gabe-grant",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
+    "url": "brent-banulis",
     "bio": [
-      "Gabe Grant, known as \"The General,\" is a commanding presence in the world of jazz radio. Raised in Detroit, Gabe grew up with a deep love for the Motown sound alongside his passion for jazz. He started playing bass in local jazz and soul bands as a teenager, where he developed a strong appreciation for groove-heavy rhythms and the importance of leadership in music. His nickname, \"The General,\" reflects his ability to guide listeners through a wide range of jazz styles, from funky bass lines to more traditional rhythms, with precision and authority.",
-      "As a DJ on WETF, Gabe’s show is a celebration of the grooviest and most soulful sides of jazz. He mixes jazz-funk, bebop, and classic R&B influences into his sets, creating a sound that appeals to a broad audience. Whether he’s breaking down complex basslines or diving into the history of jazz legends, \"The General\" keeps his listeners engaged with his deep knowledge and strong sense of rhythm. Outside of radio, Gabe is active in the jazz community, hosting jam sessions and encouraging collaboration between musicians of all styles and backgrounds.",
-      "When he’s not on the air, Gabe is an active member of the jazz community, often hosting live events and jam sessions in his hometown. His passion for collaboration and improvisation is at the heart of everything he does, and he’s known for creating a welcoming space for musicians to experiment and grow. Gabe’s easygoing, approachable style makes him a beloved figure among both listeners and fellow musicians, and his show continues to be a favorite for those who love to groove."
+      "WETF board member and program director, founder of the New England Jazz Hall of Fame, host of “Collector’s Choice”, “Big Band Blowout” and “Saturday Night/Last Call.”"
     ]
   },
+
   {
-    "firstName": "Melissa",
-    "lastName": "Marshall",
-    "nickName": "DJ Mellow Mood",
-    "Title": "DJ",
+    "firstName": "John",
+    "lastName": "Clark",
+    "nickName": "",
+    "Title": "",
     "Shows": [],
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/2024-10-20_01-02-44_4497.png",
-    "url": "melissa-marshall",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/John-Clark.webp",
+    "url": "john-clark",
     "bio": [
-      "Melissa Marshall, known as \"DJ Mellow Mood,\" is renowned for her ability to create serene, introspective jazz experiences on WETF. Originally from Seattle, Melissa grew up surrounded by the city’s rich music culture, but it was jazz that captured her heart. With a particular affinity for smooth, contemplative sounds, she earned the nickname \"Mellow Mood\" for her ability to craft late-night playlists that evoke a sense of calm and reflection. Her passion for creating peaceful atmospheres comes from her early love of ballads and jazz greats like Bill Evans and Stan Getz.",
-      "On air, DJ Mellow Mood’s show is a soothing blend of soft jazz, ballads, and smooth classics that are perfect for winding down the evening. Melissa's calming voice, combined with her deep understanding of the emotional layers within jazz, allows her to connect with listeners on a deeply personal level. She frequently shares the emotional stories behind the music she plays, offering a gentle yet insightful commentary that helps listeners appreciate the quieter, more introspective side of jazz.",
-      "Outside of her work on WETF, Melissa is a passionate advocate for mental health, frequently collaborating with local organizations to promote the healing power of music. She hosts meditation sessions and mindfulness workshops, incorporating jazz to help people find peace and balance. DJ Mellow Mood’s dedication to creating tranquil, uplifting spaces through music has made her a cherished voice in the jazz community."
+      "Clarinetist, sax man and leader of “The Wolverines”, one of the nation’s most highly acclaimed exponents of “traditional” jazz; a highly respected researcher and lecturer on the subject and host of “Jazz Focus.” For more on the Wolverines and Clark’s writings, research and podcasts, visit John Clark/New England Traditional Jazz Plus."
+    ]
+  },
+
+  {
+    "firstName": "Larry",
+    "lastName": "Dwyer",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/larry-dwyer.webp",
+    "url": "larry-dwyer",
+    "bio": [
+      "Host of “Jazz Everybody Likes,” pianist/trombonist, leader of the most popular jazz trio in South Bend for decades, director of jazz studies at the University of Notre Dame."
+    ]
+  },
+
+  {
+    "firstName": "Mike",
+    "lastName": "Finnerty",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mike-finnerty.webp",
+    "url": "mike-finnerty",
+    "bio": [
+      "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector’s Choice” and “Mornin’ with Mike.”"
+    ]
+  },
+
+  {
+    "firstName": "Jane",
+    "lastName": "Fischer",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "",
+    "url": "jane-fischer",
+    "bio": [""]
+  },
+
+  {
+    "firstName": "Russ",
+    "lastName": "Hamer",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/russ-hamer.webp",
+    "url": "russ-hamer",
+    "bio": [
+      "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
+    ]
+  },
+
+  {
+    "firstName": "Mark",
+    "lastName": "Gridley",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Mark-Gridley.webp",
+    "url": "mark-gridley",
+    "bio": [
+      "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America’s most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
+    ]
+  },
+
+  {
+    "firstName": "Monika",
+    "lastName": "Herzig",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/monika-herzig.webp",
+    "url": "monika-herzig",
+    "bio": [
+      "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener’s Companion”, leader of international touring group Sheroes, Indiana University Bloomington Arts Administration faculty and editor of “Jazz Education in Research and Practice”.  monikaherzig.com"
+    ]
+  },
+
+  {
+    "firstName": "John",
+    "lastName": "Hill",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/John-Hill.webp",
+    "url": "john-hill",
+    "bio": [
+      "Jazz aficionado, 35-year veteran as a jazz radio broadcaster and host of “This is Jazz” originating out of WFMT Chicago."
+    ]
+  },
+
+  {
+    "firstName": "Rob",
+    "lastName": "Hoff",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Rob-Hoff.webp",
+    "url": "rob-hoff",
+    "bio": [
+      "During his undergraduate years in New York City in the 1960s, Rob took the opportunity to hear many legendary jazz artists, which deepened his appreciation for the genre. With a passion to share the music with others, he became a jazz radio broadcaster with WQLN, an NPR station in Erie, PA. Five decades later, his enthusiasm is undiminished as you will hear on his Friday noon and Sunday 9 p.m. “Collector’s Choice” and his “Nocturne” show at 11 p.m. Sundays."
+    ]
+  },
+
+  {
+    "firstName": "David Brent",
+    "lastName": "Johnson",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/david-brent-johnson.webp",
+    "url": "david-brent-johnson",
+    "bio": [
+      "Host of “Night Lights” at 10 p.m. which originates out of WFIU in Bloomington and featuring jazz,1945-90 — a time span that Johnson notes “weirdly parallels Miles Davis’s recordings and the Cold War.”"
+    ]
+  },
+
+  {
+    "firstName": "Gloria",
+    "lastName": "Krolak",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/gloria-krolak.webp",
+    "url": "gloria-krolak",
+    "bio": [
+      "Gloria is the first and only radio host to present a regular program featuring the vibraphone. She is a 14-year veteran of radio, a journalist who has written for “Jersey Jazz” and was that magazine’s first poetry editor. Gloria produced the “Jazz Vibes Showcase” at the Arts Center of Coastal Carolina in Hilton Head, South Carolina, featuring five of the world’s outstanding vibraphonists. Her book “Jazz Lines…free verse in the key of jazz”, was released in 2019, and most recently, she and vibraphonist Steve Yeager shared the billing on “Jazz Lines Spoken”, which featured her poetry set to Yeager’s music. Check out her website at www.gloriajazz.com."
+    ]
+  },
+
+  {
+    "firstName": "Jake",
+    "lastName": "Longwell",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jake-longwell.webp",
+    "url": "jake-longwell",
+    "bio": [
+      "Longwell has always had a passion for radio, obtaining an associate’s degree in radio and working at several stations in Geneva, New York. Host of “Jazz Scene”, “Jazz Progressions”, and “Jazz and More.” Jake is blind, able to see only slightly out of one eye, which requires him to produce his shows from his apartment, where he sorts his CDs and reads liner notes just inches from his face."
+    ]
+  },
+
+  {
+    "firstName": "Rob",
+    "lastName": "Markel",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "",
+    "url": "rob-markel",
+    "bio": [
+      "Host of “Vinyl Decisions” airing at 6 p.m. Wednesdays, Rob broke into the radio scene during his college years (1990s) at Tufts when he hosted shows on WMFO 91.5 in the Boston area which featured jazz and folk. More recently, his “Mental Notes” shows have featured the “contemporary classical” genre. Almost the entire collection of Rob’s jazz recordings consists of used vinyl records that have been meticulously reconditioned for playing on air."
+    ]
+  },
+
+  {
+    "firstName": "Joan",
+    "lastName": "Merrill",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/joan-merrill.webp",
+    "url": "joan-merrill",
+    "bio": [
+      "Host of “The Great American Songbook”, producer of 14 “Jazz Profiles” shows for NPR, representative for major jazz singers, wrote liner notes, produced several records and websites, including carmenmcrae.com, and the documentary film “Say It With Jazz.” She lives in the Seattle area."
+    ]
+  },
+
+  {
+    "firstName": "Matt",
+    "lastName": "Merten",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
+    "url": "matt-merten",
+    "bio": [
+      "Host of “Mornin’ with Matt,” a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology; trombonist/ arranger, founder of Notre Dame’s New Orleans Brass Band."
+    ]
+  },
+
+  {
+    "firstName": "Bill",
+    "lastName": "O'Connell",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/bill-oconnell.webp",
+    "url": "bill-oconnell",
+    "bio": [
+      "Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WETF’s radio program “New Vintage”, hosted by Bill O’Connell. He formed his own big band in 1988, knowing that his calling was playing modern big band arrangements. "
+    ]
+  },
+
+  {
+    "firstName": "Middleton",
+    "lastName": "O'Malley",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/middleton-omalley.webp",
+    "url": "middleton-omalley",
+    "bio": [
+      "Host of “Mornin’ with Middie” at 8 a.m. Mondays (Eastern Time). His interest in jazz began in a country kitchen dancing with his mom to Erroll Garner’s “Concert By The Sea”. Then eagerly awaiting each issue of Down Beat and buying vinyl records. He has seen Dizzy in Berlin; Mongo at the Lighthouse, sold a house to Terence Blanchard, and had terrifying conversations with Lorraine Gordon at the Village Vanguard. He idolized Boston Jazz deejay Eric Jackson and has spent years as a Jazz deejay in New Orleans. His mission? Honor the musicians and entertain his listeners."
+    ]
+  },
+
+  {
+    "firstName": "Linda",
+    "lastName": "Poindexter",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/linda-poindexter.webp",
+    "url": "linda-poindexter",
+    "bio": [
+      "Host of (Wednesday) “Mornin’ with Linda Kay”, Linda’s radio career began in the 1970s and included on-air host, interviewer and producer. She enjoys sharing and utilizing her voice and talents in various ways. An avid listener of music, Linda loves the creative vibes of jazz. She makes her home in the New Haven, Connecticut area."
+    ]
+  },
+
+  {
+    "firstName": "Jon",
+    "lastName": "Pollack",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jon-pollack.webp",
+    "url": "jon-pollack",
+    "bio": [
+      "One of the Boston area’s most veteran jazz hosts, whose show, “The Jazz Train”, originates from WMBR-FM on the MIT campus in Cambridge."
+    ]
+  },
+
+  {
+    "firstName": "Scott",
+    "lastName": "Prebys",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/scott-prebys.webp",
+    "url": "scott-prebys",
+    "bio": [
+      "Native son of South Bend, jazz percussionist, retired director of jazz studies at the University of Mary in Bismarck, N.D. Host of “Prebys on Jazz” which originated on the “Prairie Public Radio” network."
+    ]
+  },
+
+  {
+    "firstName": "Tom",
+    "lastName": "Reney",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/tom-reney.webp",
+    "url": "tom-reney",
+    "bio": [
+      "Historian, author of books and articles on jazz, longtime host of “Jazz a la Mode” which is simulcast out of New England Public Media in Springfield/Amherst, Mass. For a look at Reney’s podcasts and published works, including profiles and obituaries on significant jazz artists, club owners, producers, journalists and broadcasters, search the internet for JazzBeat with Tom Reney."
+    ]
+  },
+
+  {
+    "firstName": "Richard",
+    "lastName": "Rose",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/RIchard-Rose.webp",
+    "url": "richard-rose",
+    "bio": [
+      "Professor emeritus at Miami Dade College and professional bassist and composer. Dr. Rose has helped Mark Gridley create and produce “Reflections on Jazz Styles” for WETF. He holds a Doctor of Musical Arts degree from the University of Texas at Austin, Master of Science degree from Florida International University and a Bachelor of Music degree from the University of Miami and has completed post-doctoral work at FIU and Loyola University, New Orleans. Versed in a number of musical styles, he has taught about the music business and music production as well as jazz and popular music appreciation."
+    ]
+  },
+
+  {
+    "firstName": "Jana Lee",
+    "lastName": "Ross",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jana-lee-ross.webp",
+    "url": "jana-lee-ross",
+    "bio": [
+      "Lifelong pianist and vocalist, Jana Lee is comfortable with classical music as well as jazz, and she often combines the two in her performances. Host of “This is Jazz” out of WFMT, she began her career as host of “Jazz Beyond Midnight” in Colorado Springs, which is still her home, and worked her way up to become director of music for Classical 88.7 KCME. She also went on to help launch KCME’s sister station, Jazz 93.5. "
+    ]
+  },
+
+  {
+    "firstName": "Clay",
+    "lastName": "Ryder",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/clay-ryder.webp",
+    "url": "clay-ryder",
+    "bio": [
+      "Clay Ryder, host of “Sound Ideas”, is also a pianist, record collector, and all-around jazz afficionado. He studied music at California State University, Chico in the mid-1980s, and his love for jazz dates back to his earliest years listening to KJAZ and KRE in the San Francisco Bay Area, during which time he also began performing in various ensembles."
+    ]
+  },
+
+  {
+    "firstName": "Dave",
+    "lastName": "Schwan",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/dave-schwan.webp",
+    "url": "dave-schwan",
+    "bio": [
+      "Native of northwest Indiana, avid jazz fan since age 5, longtime host of WFMT’s “This Is Jazz.”"
+    ]
+  },
+
+  {
+    "firstName": "Avery",
+    "lastName": "Sharpe",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/avery_sharpe.webp",
+    "url": "avery-sharpe",
+    "bio": [
+      "Friday night host of “Jazz a la Mode”, Avery is a bassist/bandleader/recording artist/composer/ educator, whose credits include performances with Archie Shepp, Art Blakey, Dizzy Gillespie, Wynton Marsalis, Yusef Lateef and 20-plus years performing and recording with McCoy Tyner. Educational activities include numerous workshops, clinics and residencies in the US and abroad. Recognitions include The NAACP Martin Luther King Special Achievement Award, several National Endowment of the Arts grants and the New England for the Arts Achievement in Jazz Award. For more, visit www.averysharpe.com"
+    ]
+  },
+
+  {
+    "firstName": "Peter",
+    "lastName": "Sokolowski",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Peter-Sokolowski.webp",
+    "url": "peter-sokolowski",
+    "bio": [
+      "Alternate voice of “Jazz a la Mode” from New England Public Media, freelance musician, blogger and podcaster."
+    ]
+  },
+
+  {
+    "firstName": "Bex",
+    "lastName": "Taylor",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/bex-taylor.webp",
+    "url": "bex-taylor",
+    "bio": [
+      "Wednesday night host of “Jazz a la Mode” from New England Public Media (Springfield/Amherst, Mass.) Avid record collector with a love of Blue Note Records and the Great American Songbook."
+    ]
+  },
+
+  {
+    "firstName": "Phil",
+    "lastName": "Tierney",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Phil-Tierney.webp",
+    "url": "phil-tierney",
+    "bio": [
+      "Retired high school history teacher Phil Tierney has always had a love of jazz, from its earliest performances to it’s modern marvels. He’s taken that love of the genre and turned it into action in his beloved Berkshire County in Massachusetts. He currently serves as a board member of Berkshires Jazz Inc., as the producer of the organization’s local jazz performance television series, and as the host of “Berkshire Jazz,” a program which originates from 89.7 WTBR-FM, Pittsfield Community Radio."
+    ]
+  },
+
+  {
+    "firstName": "Dick",
+    "lastName": "Vacca",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Dick-Vacca.webp",
+    "url": "dick-vacca",
+    "bio": [
+      "Alternate host for Brent Banulis on Wednesday’s “Collector’s Choice/Jazz From New England” series, author of “Boston Jazz Chronicles”, the definitive history of jazz in Boston. For a look at his archival material and latest articles, visit richardvacca.com."
+    ]
+  },
+
+  {
+    "firstName": "Laurie",
+    "lastName": "Villanueva",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/laurie-villanueva.webp",
+    "url": "laurie-villanueva",
+    "bio": [
+      "Laurie, contributor of WETF’s “Happy Birthday, Dear Jazz Artist” feature that airs at 10 a.m. (Eastern Time) throughout the week, has been working with fellow WETF family members, such as Joan Merrill and Rob Hoff, as well as National Public Media to ensure that WETF listeners will never forget those who have shaped America’s only original art form over the past 100-plus years."
+    ]
+  },
+
+  {
+    "firstName": "Stanley",
+    "lastName": "Welch",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Stanley-Welch.webp",
+    "url": "stanley-welch",
+    "bio": [
+      "WETF’s “Night Owl” host at 11 p.m. Monday-Friday. Welch began his jazz programming and hosting career more than 45 years ago in New Haven, Conn., and has been hosting the weekly “Jazz Haven” program at WNHH in New Haven since 2017. (jazzhaven.org   newhavenindependent.org)"
+    ]
+  },
+
+  {
+    "firstName": "Lori",
+    "lastName": "Williams",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/lori-williams.webp",
+    "url": "lori-williams",
+    "bio": [
+      "Immersed in traditional jazz from an early age, Lori is a veteran jazz vocalist and music educator with a BA in mass media. Founder of “positivemusicpm.org”, Ms. Williams’s “Collector’s Choice” sessions focus on women in jazz, the international scene and young performers dedicated to the roots and traditions of the music. She is based in Atlanta, Georgia."
+    ]
+  },
+
+  {
+    "firstName": "Lisa",
+    "lastName": "Yves",
+    "nickName": "",
+    "Title": "",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/lisa-yves.webp",
+    "url": "lisa-yves",
+    "bio": [
+      "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "
     ]
   }
 ]
