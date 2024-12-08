@@ -3,25 +3,37 @@ import { Link } from 'react-router-dom';
 
 const DJCard = ({ dj }) => {
   return (
-    <div key={dj._id} className="mx-auto col text-center">
-      <img
-        className="rounded-circle mx-auto"
-        width="140"
-        height="140"
-        src={dj.image}
-        aria-label={`${dj.nickName} portrait`}
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      />
-      <div className="h2 fw-normal ">
+    <div key={dj._id} className='mx-auto col text-center'>
+      <div
+        className='rounded-circle mx-auto'
+        style={{
+          backgroundImage: `url('${dj.image}')`,
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'auto 140px',
+          width: '140px',
+          height: '140px',
+        }}
+      >
+        <img
+          className='rounded-circle mx-auto'
+          width='140'
+          height='140'
+          src={dj.image}
+          aria-label={`${dj.nickName} portrait`}
+          focusable='false'
+          style={{ opacity: 0.0 }}
+        />
+      </div>
+      <div className='h2 fw-normal '>
         {dj.firstName} {dj.lastName}
       </div>
-      <div className="lead">{dj.nickName}</div>
+      <div className='lead'>{dj.nickName}</div>
 
       {dj.Shows &&
         dj.Shows.map((show) => (
           <Link
-            className="text-decoration-none text-dark"
+            className='text-decoration-none text-dark'
             key={show.name}
             to={`/shows/${show.url}`}
           >
@@ -29,7 +41,7 @@ const DJCard = ({ dj }) => {
           </Link>
         ))}
       <p>
-        <Link to={`/djs/${dj.url}`} className="btn btn-secondary">
+        <Link to={`/djs/${dj.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>
