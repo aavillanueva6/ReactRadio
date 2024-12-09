@@ -1,0 +1,62 @@
+{
+  "name": "Jazz à La Mode",
+  "host": [
+    { "name": "Tom Reney" },
+    { "name": "Avery Sharpe" },
+    { "name": "Peter Sokolowski" },
+    { "name": "Bex Taylor" }
+  ],
+  "shortDescription": "",
+  "longDescription": [
+    "Jazz à la Mode draws on the rich and varied traditions of jazz from the 1920s to the present. Whether it’s a classic recording by Louis Armstrong or Billie Holiday, a great standard by Harold Arlen or Duke Ellington, modern jazz landmarks by Miles Davis or John Coltrane, or the latest by Gregory Porter or Wynton Marsalis, Jazz à la Mode has plenty to satisfy your tastes.",
+    "",
+    ""
+  ],
+  "url": "jazz-a-la-mode",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Tuesday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Wednesday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Thursday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Friday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Saturday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    }
+  ],
+  "source": "WFCR, New England Public Media"
+}

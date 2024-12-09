@@ -23,6 +23,12 @@ const WeeklyScheduleSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'Show',
   },
+  host: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'DJ',
+    },
+  ],
 });
 
 const WeeklySchedule = model('WeeklySchedule', WeeklyScheduleSchema);

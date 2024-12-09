@@ -15,12 +15,13 @@ const typeDefs = gql`
   type Show {
     _id: ID
     name: String!
-    host: DJ
+    host: [DJ]
     shortDescription: String
     longDescription: [String]
     url: String
     image: String
     schedule: [WeeklySchedule]
+    source: String
   }
   type WeeklySchedule {
     _id: ID
@@ -29,6 +30,7 @@ const typeDefs = gql`
     startTime12: String
     endTime12: String
     show: Show
+    host: [DJ]
   }
   type Query {
     djs: [DJ]

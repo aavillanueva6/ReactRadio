@@ -1,0 +1,25 @@
+{
+  "name": "American Songbook",
+  "host": [{ "name": "Jim Jazz" }],
+  "shortDescription": "",
+  "longDescription": ["", "", ""],
+  "url": "american-songbook",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime24": "0",
+      "startTime12": "12AM",
+      "endTime12": "1AM",
+      "host": [{ "name": "Jim Jazz" }]
+    },
+    {
+      "day": "Saturday",
+      "startTime24": "17",
+      "startTime12": "5PM",
+      "endTime12": "6PM",
+      "host": [{ "name": "Jim Jazz" }]
+    }
+  ],
+  "source": "WETF - The Jazz Station"
+}

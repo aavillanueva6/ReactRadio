@@ -1,0 +1,32 @@
+{
+  "name": "Afro-Cuban Latin",
+  "host": [{ "name": "Russell Hamer" }],
+  "shortDescription": "",
+  "longDescription": ["", "", ""],
+  "url": "afro-cuban-latin",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime24": "14",
+      "startTime12": "2PM",
+      "endTime12": "3PM",
+      "host": [{ "name": "Russell Hamer" }]
+    },
+    {
+      "day": "Friday",
+      "startTime24": "09",
+      "startTime12": "9AM",
+      "endTime12": "10AM",
+      "host": [{ "name": "Russell Hamer" }]
+    },
+    {
+      "day": "Saturday",
+      "startTime24": "19",
+      "startTime12": "7PM",
+      "endTime12": "8PM",
+      "host": [{ "name": "Russell Hamer" }]
+    }
+  ],
+  "source": "WETF - The Jazz Station"
+}

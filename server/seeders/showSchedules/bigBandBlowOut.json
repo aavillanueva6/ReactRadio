@@ -1,0 +1,18 @@
+{
+  "name": "Big Band Blow Out",
+  "host": [{ "name": "Brent Banulis" }],
+  "shortDescription": "",
+  "longDescription": ["", "", ""],
+  "url": "big-band-blow-out",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Tuesday",
+      "startTime24": "18",
+      "startTime12": "6PM",
+      "endTime12": "6:30PM",
+      "host": [{ "name": "Brent Banulis" }]
+    }
+  ],
+  "source": "WETF - The Jazz Station"
+}

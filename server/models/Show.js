@@ -7,10 +7,12 @@ const showSchema = new Schema({
     trim: true,
     unique: true,
   },
-  host: {
-    type: Schema.Types.ObjectId,
-    ref: 'DJ',
-  },
+  host: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'DJ',
+    },
+  ],
   shortDescription: {
     type: String,
     trim: true,
@@ -35,6 +37,10 @@ const showSchema = new Schema({
       ref: 'WeeklySchedule',
     },
   ],
+  source: {
+    type: String,
+    trim: true,
+  },
 });
 
 const Show = model('Show', showSchema);

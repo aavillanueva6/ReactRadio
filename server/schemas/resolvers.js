@@ -21,10 +21,9 @@ const resolvers = {
     },
 
     schedule: async (parent, { day }) => {
-      return await WeeklySchedule.find({ day: day }).populate('show').populate({
-        path: 'show',
-        populate: 'host',
-      });
+      return await WeeklySchedule.find({ day: day })
+        .populate('show')
+        .populate('dj');
     },
   },
 };

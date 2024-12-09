@@ -1,0 +1,58 @@
+{
+  "name": "This is Jazz",
+  "host": [
+    { "name": "Dave Schwan" },
+    { "name": "John Hill" },
+    { "name": "Dee Alexander" },
+    { "name": "Jana Lee Ross" }
+  ],
+  "shortDescription": "",
+  "longDescription": ["", "", ""],
+  "url": "",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Tuesday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Wednesday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Thursday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Friday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Saturday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "",
+      "startTime12": "",
+      "endTime12": ""
+    }
+  ],
+  "source": "WFMT, Chicago"
+}

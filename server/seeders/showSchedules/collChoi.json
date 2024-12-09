@@ -1,0 +1,86 @@
+{
+  "name": "Collector's Choice",
+  "host": [
+    { "name": "Mike Finnerty" },
+    { "name": "Brent Banulis" },
+    { "name": "Rob Hoff" },
+    { "name": "Lori Williams" }
+  ],
+  "shortDescription": "",
+  "longDescription": ["", "", ""],
+  "url": "collectors-choice",
+  "image": "",
+  "schedule": [
+    {
+      "day": "Monday",
+      "startTime24": "12",
+      "startTime12": "12PM",
+      "endTime12": "1PM",
+      "host": [{ "name": "Lori Williams" }]
+    },
+    {
+      "day": "Tuesday",
+      "startTime24": "12",
+      "startTime12": "12PM",
+      "endTime12": "3PM",
+      "host": [{ "name": "Mike Finnerty" }]
+    },
+    {
+      "day": "Wednesday",
+      "startTime24": "12",
+      "startTime12": "12PM",
+      "endTime12": "1PM",
+      "host": [{ "name": "Brent Banulis" }]
+    },
+    {
+      "day": "Thursday",
+      "startTime24": "12",
+      "startTime12": "12PM",
+      "endTime12": "3PM",
+      "host": [{ "name": "Mike Finnerty" }]
+    },
+    {
+      "day": "Friday",
+      "startTime24": "12",
+      "startTime12": "12PM",
+      "endTime12": "1PM",
+      "host": [{ "name": "Rob Hoff" }]
+    },
+    {
+      "day": "Saturday",
+      "startTime24": "0",
+      "startTime12": "12AM",
+      "endTime12": "3AM",
+      "host": [{ "name": "Mike Finnerty" }]
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "0",
+      "startTime12": "12AM",
+      "endTime12": "3AM",
+      "host": [{ "name": "Mike Finnerty" }]
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "17",
+      "startTime12": "5PM",
+      "endTime12": "6PM",
+      "host": [{ "name": "Brent Banulis" }]
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "18",
+      "startTime12": "6PM",
+      "endTime12": "7PM",
+      "host": [{ "name": "Rob Hoff" }]
+    },
+    {
+      "day": "Sunday",
+      "startTime24": "19",
+      "startTime12": "7PM",
+      "endTime12": "8PM",
+      "host": [{ "name": "Lori Williams" }]
+    }
+  ],
+  "source": "WETF - The Jazz Station"
+}
