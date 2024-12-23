@@ -1,52 +1,17 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Mornin' with Middie",
+  "host": [{ "name": "Middelton O'Malley" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "mornin-with-middie",
   "image": "",
   "schedule": [
     {
       "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "8",
+      "startTime12": "8:00 AM",
+      "endTime12": "10:00 AM",
+      "host": [{ "name": "Middelton O'Malley" }]
     }
   ],
   "source": "WETF - The Jazz Station"

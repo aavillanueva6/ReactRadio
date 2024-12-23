@@ -1,52 +1,31 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Reflections on Jazz",
+  "host": [{ "name": "Mark Gridley" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "reflections-on-jazz",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "11",
+      "startTime12": "11:00 AM",
+      "endTime12": "12:00 PM",
+      "host": [{ "name": "Mark Gridley" }]
     },
     {
       "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "17",
+      "startTime12": "5:00 PM",
+      "endTime12": "6:00 PM",
+      "host": [{ "name": "Mark Gridley" }]
     },
     {
       "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "11",
+      "startTime12": "11:00 AM",
+      "endTime12": "12:00 PM",
+      "host": [{ "name": "Mark Gridley" }]
     }
   ],
   "source": "WETF - The Jazz Station"

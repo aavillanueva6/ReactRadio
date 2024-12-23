@@ -1,52 +1,17 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Morning Gloria",
+  "host": [{ "name": "Gloria Klorak" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "morning-gloria",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "8",
+      "startTime12": "8:00 AM",
+      "endTime12": "8:30 AM",
+      "host": [{ "name": "Gloria Klorak" }]
     }
   ],
   "source": "WETF - The Jazz Station"

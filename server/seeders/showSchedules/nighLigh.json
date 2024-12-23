@@ -1,6 +1,6 @@
 {
   "name": "Night Lights",
-  "host": [{ "name": "David Brent Johson" }],
+  "host": [{ "name": "David Brent Johnson" }],
   "shortDescription": "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
   "longDescription": [
     "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
@@ -13,46 +13,11 @@
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "22",
+      "startTime12": "10:00 PM",
+      "endTime12": "11:00 PM",
+      "host": [{ "name": "David Brent Johnson" }]
     }
   ],
   "source": "WFIU, Public Radio from Indiana University"

@@ -1,52 +1,24 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "State of Indiana",
+  "host": [{ "name": "Leslie Fuller" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "state-of-indiana",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "19",
+      "startTime12": "7:00 PM",
+      "endTime12": "8:00 PM",
+      "host": [{ "name": "Leslie Fuller" }]
     },
     {
       "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "12",
+      "startTime12": "12:00 PM",
+      "endTime12": "1:00 PM",
+      "host": [{ "name": "Leslie Fuller" }]
     }
   ],
   "source": "WETF - The Jazz Station"

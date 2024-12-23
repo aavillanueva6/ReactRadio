@@ -1,52 +1,24 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Talking Jazz",
+  "host": [{ "name": "Monika Herzig" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "talking-jazz",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "11",
+      "startTime12": "11:00 AM",
+      "endTime12": "12:00 PM",
+      "host": [{ "name": "Monika Herzig" }]
     },
     {
       "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "18",
+      "startTime12": "6:00 PM",
+      "endTime12": "7:00 PM",
+      "host": [{ "name": "Monika Herzig" }]
     }
   ],
   "source": "WETF - The Jazz Station"

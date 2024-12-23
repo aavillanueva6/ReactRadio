@@ -1,6 +1,6 @@
 {
   "name": "Sound Ideas",
-  "host": [{ "name": "" }],
+  "host": [{ "name": "Clay Ryder" }],
   "shortDescription": "More than just a jazz show, each episode of Sound Ideas presents some great story telling by jazz and blues musicians and spoken word artists. By exploring the many different genres within the Jazz idiom, the show appeals to both the jazz aficionado and those who listen on the jazz periphery.",
   "longDescription": [
     "What is Sound Ideas?",
@@ -14,46 +14,18 @@
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "9",
+      "startTime12": "9:00 AM",
+      "endTime12": "10:00 AM",
+      "host": [{ "name": "Clay Ryder" }]
     },
     {
       "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "18",
+      "startTime12": "6:00 PM",
+      "endTime12": "7:00 PM",
+      "host": [{ "name": "Clay Ryder" }]
     }
   ],
   "source": ""
