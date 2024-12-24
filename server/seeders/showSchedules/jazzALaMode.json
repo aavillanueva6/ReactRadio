@@ -17,45 +17,33 @@
   "schedule": [
     {
       "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "20",
+      "startTime12": "8:00 PM",
+      "endTime12": "11:00 PM"
     },
     {
       "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "20",
+      "startTime12": "8:00 PM",
+      "endTime12": "11:00 PM"
     },
     {
       "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "20",
+      "startTime12": "8:00 PM",
+      "endTime12": "11:00 PM"
     },
     {
       "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "20",
+      "startTime12": "8:00 PM",
+      "endTime12": "11:00 PM"
     },
     {
       "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "20",
+      "startTime12": "8:00 PM",
+      "endTime12": "11:00 PM"
     }
   ],
   "source": "WFCR, New England Public Media"

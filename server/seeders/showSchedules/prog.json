@@ -1,52 +1,17 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Progressions",
+  "host": [{ "name": "Jake" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "progressions",
   "image": "",
   "schedule": [
     {
       "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "13",
+      "startTime12": "1:00 PM",
+      "endTime12": "2:00 PM",
+      "host": [{ "name": "Jake Longwell" }]
     }
   ],
   "source": ""

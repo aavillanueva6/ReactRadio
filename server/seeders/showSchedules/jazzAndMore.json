@@ -1,52 +1,17 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Jazz and More",
+  "host": [{ "name": "Jake Longwell" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "jazz-and-more",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "7",
+      "startTime12": "7:00 AM",
+      "endTime12": "10:00 AM",
+      "host": [{ "name": "Jake Longwell" }]
     }
   ],
   "source": "PRX???"

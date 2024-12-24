@@ -1,52 +1,17 @@
 {
-  "name": "",
-  "host": [{ "name": "" }],
+  "name": "Last Call",
+  "host": [{ "name": "Brent Banulis" }],
   "shortDescription": "",
   "longDescription": ["", "", ""],
-  "url": "",
+  "url": "last-call",
   "image": "",
   "schedule": [
     {
-      "day": "Monday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Friday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
       "day": "Saturday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "",
-      "startTime12": "",
-      "endTime12": ""
+      "startTime24": "23",
+      "startTime12": "11:00 PM",
+      "endTime12": "12:00 AM",
+      "host": [{ "name": "Brent Banulis" }]
     }
   ],
   "source": "WETF - The Jazz Station"
