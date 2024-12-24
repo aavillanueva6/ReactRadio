@@ -1,18 +1,9 @@
-{
-  "name": "Mornin' with Matt",
-  "host": [{ "name": "Matt Merten" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "mornin-with-matt",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Thursday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "9:00 AM",
-      "host": [{ "name": "Matt Merten" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Thursday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "9:00 AM",
+    "host": [{ "name": "Matt Merten" }]
+  }
+]

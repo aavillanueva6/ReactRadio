@@ -1,25 +1,16 @@
-{
-  "name": "Jazz Everybody Likes",
-  "host": [{ "name": "Larry Dwyer" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "jazz-everybody-likes",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "11",
-      "startTime12": "11:00 AM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Larry Dwyer" }]
-    },
-    {
-      "day": "Friday",
-      "startTime24": "16",
-      "startTime12": "4:00 PM",
-      "endTime12": "5:00 PM",
-      "host": [{ "name": "Larry Dwyer" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "11",
+    "startTime12": "11:00 AM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Larry Dwyer" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "16",
+    "startTime12": "4:00 PM",
+    "endTime12": "5:00 PM",
+    "host": [{ "name": "Larry Dwyer" }]
+  }
+]

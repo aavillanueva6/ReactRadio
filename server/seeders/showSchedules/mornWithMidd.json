@@ -1,18 +1,9 @@
-{
-  "name": "Mornin' with Middie",
-  "host": [{ "name": "Middelton O'Malley" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "mornin-with-middie",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "10:00 AM",
-      "host": [{ "name": "Middelton O'Malley" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "10:00 AM",
+    "host": [{ "name": "Middelton O'Malley" }]
+  }
+]

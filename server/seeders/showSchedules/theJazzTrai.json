@@ -1,25 +1,16 @@
-{
-  "name": "The Jazz Train",
-  "host": [{ "name": "Jon Pollack" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "the-jazz-train",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Tuesday",
-      "startTime24": "8.5",
-      "startTime12": "8:30 AM",
-      "endTime12": "10:00 AM",
-      "host": [{ "name": "Jon Pollack" }]
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "18.5",
-      "startTime12": "6:30 PM",
-      "endTime12": "8:00 PM",
-      "host": [{ "name": "Jon Pollack" }]
-    }
-  ],
-  "source": ""
-}
+[
+  {
+    "day": "Tuesday",
+    "startTime24": "8.5",
+    "startTime12": "8:30 AM",
+    "endTime12": "10:00 AM",
+    "host": [{ "name": "Jon Pollack" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "18.5",
+    "startTime12": "6:30 PM",
+    "endTime12": "8:00 PM",
+    "host": [{ "name": "Jon Pollack" }]
+  }
+]

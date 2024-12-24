@@ -1,167 +1,388 @@
 [
   {
-    "name": "Midnight Moods",
-    "shortDescription": "A late-night show featuring smooth, mellow jazz for unwinding.",
-    "longDescription": [
-      "\"Midnight Moods\" is the perfect show for those late-night listeners seeking a smooth, relaxing experience. Airing from 11 p.m. to 2 a.m., this program creates an intimate atmosphere, playing ballads and soft jazz to help wind down after a long day. The playlist leans toward sultry saxophones, gentle piano, and velvety vocals, giving the night an air of tranquility.",
-      "Each episode features a curated selection of slow, soothing tracks from artists like Miles Davis, Bill Evans, and Norah Jones. Listeners can expect stories behind the music, deep dives into legendary nightclubs, and interviews with contemporary jazz artists who specialize in the soft and moody side of jazz.",
-      "\"Midnight Moods\" is designed to be a companion for those seeking peace and introspection in the late hours. With soft, thoughtful commentary and minimal interruptions, the show allows the music to take center stage, providing a perfect end to the day."
-    ],
-    "url": "midnight-moods",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/MidnightMoods.png",
-    "schedule": []
+    "name": "Afro-Cuban Latin",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "afro-cuban-latin",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "russell-hamer" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Bebop Bistro",
-    "shortDescription": "A lively program highlighting bebop and fast-paced jazz classics.",
-    "longDescription": [
-      "\"Bebop Bistro\" is a fast-paced, high-energy show that brings the vibrant world of bebop to life. Hosted during the afternoon drive from 3 p.m. to 5 p.m., the program captures the excitement and improvisational brilliance that defined bebop in the 1940s and 50s. Artists like Charlie Parker, Dizzy Gillespie, and Thelonious Monk are front and center, providing a thrilling ride for jazz lovers.",
-      "Listeners will be treated to rapid-fire solos, intricate melodies, and unpredictable rhythms that showcase the skill and innovation of bebop musicians. Each episode includes a \"Spotlight Session\" where the host breaks down a classic bebop tune, dissecting the improvisational choices and the magic behind the music.",
-      "\"Bebop Bistro\" invites listeners into the world of jazz cafés and nightclubs, where the musicians push the boundaries of what jazz could be. It’s a celebration of creativity and virtuosity, perfect for listeners who enjoy a more adventurous musical journey."
-    ],
-    "url": "bebop-bistro",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/BebopBistro.png",
-    "schedule": []
+    "name": "American Songbook",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "american-songbook",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jim-jazz" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Swingin' Sundays",
-    "shortDescription": "A weekend show dedicated to big band and swing-era hits.",
-    "longDescription": [
-      "\"Swingin’ Sundays\" is a weekend celebration of the big band and swing era, airing from 12 p.m. to 3 p.m. every Sunday. This program transports listeners to the dance halls of the 1930s and 40s, where bands like Count Basie, Duke Ellington, and Benny Goodman ruled the airwaves. With its upbeat rhythms and lively brass sections, this show is a perfect backdrop for Sunday afternoon activities.",
-      "The show focuses on both well-known hits and hidden gems from the golden age of swing. Each episode features \"The Big Band Breakdown,\" a segment that dives into the history and stories behind a famous big band leader or iconic swing track, giving listeners a deeper appreciation for the music.",
-      "\"Swingin’ Sundays\" is all about bringing joy, movement, and nostalgia to the weekend. Whether you’re dancing in your living room or relaxing with family, the energetic rhythms and uplifting spirit of swing provide the perfect soundtrack for a lively Sunday."
-    ],
-    "url": "swingin-sundays",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/SwinginSundays.png",
-    "schedule": []
+    "name": "Berkshire Jazz",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "berkshire-jazz",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "phil-tierney" }],
+    "source": "WTBR Pittsfield, MA"
   },
   {
-    "name": "Blue Note Lounge",
-    "shortDescription": "A cool, laid-back mix of bluesy jazz and soulful tunes.",
-    "longDescription": [
-      "\"Blue Note Lounge\" is a cool, blues-infused jazz show that airs from 8 p.m. to 10 p.m. This program blends the soulful, emotional depth of the blues with the improvisational spirit of jazz, offering listeners a rich, introspective experience. With artists like John Coltrane, B.B. King, and Billie Holiday in rotation, the show highlights the crossroads where jazz and blues meet.",
-      "Each episode features a segment called \"Blues & Beyond,\" where the host explores the influence of the blues on jazz, showcasing iconic collaborations and the shared roots of these genres. The show also includes live recordings and rare tracks that capture the raw, spontaneous energy of jazz-blues performances.",
-      "\"Blue Note Lounge\" is perfect for those who enjoy a blend of melancholy and melody, where deep emotions are expressed through soulful instrumentation and stirring vocals. It’s a show for listeners who appreciate music that speaks to the heart and soul."
-    ],
-    "url": "blue-note-lounge",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/BlueNoteLounge.png",
-    "schedule": []
+    "name": "Big Band Blow Out",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "big-band-blow-out",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "brent-banulis" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "The Jazz Journey",
-    "shortDescription": "An exploration of jazz through different eras and styles.",
-    "longDescription": [
-      "\"The Jazz Journey\" takes listeners on an exploration through the rich history and diverse styles of jazz. Airing from 7 p.m. to 9 p.m., this program dives into different eras, from early New Orleans jazz to the avant-garde movements of the 1960s and beyond. Each episode focuses on a specific time period, geographical region, or subgenre, guiding listeners through the evolution of jazz.",
-      "Listeners will be immersed in the storytelling of jazz’s most significant moments, from the birth of swing to the rise of bebop and cool jazz. The host introduces key figures like Louis Armstrong, John Coltrane, and Herbie Hancock, weaving their personal stories with the broader narrative of jazz’s development.",
-      "\"The Jazz Journey\" is perfect for both new listeners and longtime fans. It offers an educational, immersive experience, filled with historical context and musical discovery. By the end of each episode, listeners will feel as though they’ve traveled through time, witnessing the growth of jazz from its roots to its modern forms."
+    "name": "Collector's Choice",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "collectors-choice",
+    "image": "",
+    "schedule": [],
+    "host": [
+      { "url": "mike-finnerty" },
+      { "url": "brent-banulis" },
+      { "url": "rob-hoff" },
+      { "url": "lori-williams" }
     ],
-    "url": "the-jazz-journey",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheJazzJourney.png",
-    "schedule": []
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Cool Cats & Hot Notes",
-    "shortDescription": "A high-energy program that features upbeat jazz and improvisational performances.",
-    "longDescription": [
-      "\"Cool Cats & Hot Notes\" is an exciting, high-energy program that airs from 5 p.m. to 7 p.m., featuring upbeat jazz tracks and live recordings that capture the spontaneous spirit of jazz. This show highlights everything from classic swing and bebop to modern fusion, focusing on music that makes listeners tap their feet and feel the rhythm.",
-      "The program's hallmark is its \"Jam Session Spotlight,\" where the host plays rare or famous live recordings of legendary jazz jam sessions. These moments showcase the improvisational magic that happens when great musicians come together to create music in the moment, full of energy and passion.",
-      "\"Cool Cats & Hot Notes\" is ideal for jazz lovers who thrive on the dynamic, unpredictable nature of live jazz performances. Whether you’re looking to get energized after work or gear up for an evening out, this program brings the lively, infectious spirit of jazz straight to your speakers."
-    ],
-    "url": "cool-cats-hot-notes",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/CoolCatsHotNotes.png",
-    "schedule": []
+    "name": "Happy Birthday Dear Jazz Artist",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "happy-birthday-dear-jazz-artist",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "laurie-villanueva" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Late Night Lounge",
-    "shortDescription": "A laid-back, atmospheric show perfect for unwinding with smooth, late-night jazz.",
+    "name": "Jazz A La Mode",
+    "shortDescription": "",
     "longDescription": [
-      "Late Night Lounge is the perfect companion for those quiet, reflective hours when the world slows down, and the music takes center stage. Hosted by a smooth-voiced DJ, this late-night show features a selection of the most relaxing and atmospheric jazz, blending everything from smooth jazz standards to contemporary chill-out jazz tracks. With dim lights and a calm mood, Late Night Lounge provides the ideal backdrop for winding down the day or easing into the early hours of the morning.",
-      "The show often highlights tracks by artists like Chet Baker, Miles Davis, Norah Jones, and more, with sets that flow seamlessly from one mellow groove to the next. Whether you're a night owl looking for a peaceful retreat or someone who enjoys ending the day on a soulful note, Late Night Lounge offers the perfect soundscape. The host’s soft-spoken insights into the music add to the tranquil vibe, creating an intimate listening experience."
+      "Jazz à la Mode draws on the rich and varied traditions of jazz from the 1920s to the present. Whether it’s a classic recording by Louis Armstrong or Billie Holiday, a great standard by Harold Arlen or Duke Ellington, modern jazz landmarks by Miles Davis or John Coltrane, or the latest by Gregory Porter or Wynton Marsalis, Jazz à la Mode has plenty to satisfy your tastes.",
+      "",
+      ""
     ],
-    "url": "late-night-lounge",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/LateNightLounge.png",
-    "schedule": []
+    "url": "jazz-a-la-mode",
+    "image": "",
+    "schedule": [],
+    "host": [
+      { "url": "tom-reney" },
+      { "url": "avery-sharpe" },
+      { "url": "peter-sokolowski" },
+      { "url": "bex-taylor" }
+    ],
+    "source": "WFCR, New England Public Media"
   },
   {
-    "name": "Funky Fridays",
-    "shortDescription": "A high-energy celebration of jazz-funk and soul-jazz grooves to kick off the weekend.",
-    "longDescription": [
-      "Get ready to groove with Funky Fridays, the show that gets your weekend started with a bang. From jazz-funk to soul-jazz, this show celebrates the upbeat, rhythmic side of jazz that gets your feet moving. Hosted by a DJ with a deep love for groove-heavy tracks, Funky Fridays offers a mix of classics from legends like Herbie Hancock, George Benson, and Roy Ayers alongside contemporary jazz-funk artists pushing the boundaries of the genre.",
-      "The show’s infectious energy makes it the perfect way to shake off the week and dive into the weekend. With its upbeat tempo and vibrant selection of tracks, Funky Fridays encourages listeners to let loose and enjoy the groove-heavy side of jazz. The DJ provides fun insights into the tracks, sharing stories of how jazz and funk collided to create some of the most timeless danceable jazz music. This is a feel-good show designed to uplift and energize."
-    ],
-    "url": "funky-fridays",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/FunkyFriday.png",
-    "schedule": []
+    "name": "Jazz and More",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-and-more",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jake-longwell" }],
+    "source": "PRX???"
   },
   {
-    "name": "Swing Time Radio",
-    "shortDescription": "A lively celebration of big band and swing jazz, keeping the golden era of jazz alive.",
-    "longDescription": [
-      "Step back into the golden age of jazz with Swing Time Radio, a show dedicated to the big band sound that defined a generation. Hosted by an enthusiastic swing aficionado, this show transports listeners to the dance halls of the 1930s and 40s, where legends like Duke Ellington, Benny Goodman, and Glenn Miller reigned supreme. Each episode is a joyful celebration of the era’s infectious rhythms and smooth melodies, guaranteed to get your toes tapping.",
-      "Swing Time Radio is more than just a nostalgia trip. The host dives deep into the rich history behind the music, exploring the cultural movements that shaped the swing era and its lasting impact on jazz. Listeners will hear everything from iconic recordings to lesser-known gems, as well as modern interpretations that keep the swing spirit alive. Whether you're a seasoned swing dancer or just love the upbeat, lively sound of big band music, this show is sure to please."
-    ],
-    "url": "swing-time-radio",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/SwingTimeRadio.png",
-    "schedule": []
+    "name": "Jazz Everybody Likes",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-everybody-likes",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "larry-dwyer" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Late Night Lullabies",
-    "shortDescription": "A serene journey through the softest, most relaxing jazz to ease listeners into the night.",
-    "longDescription": [
-      "Late Night Lullabies is the perfect companion for those quiet, reflective hours when the world slows down. This show delves into the softer side of jazz, with a focus on smooth ballads, soft piano solos, and gentle saxophone tunes. The playlist is carefully curated to create a peaceful, calming atmosphere, featuring artists like Bill Evans, Chet Baker, and Stan Getz.",
-      "This late-night show is a sanctuary for listeners seeking solace after a long day. The DJ interweaves their own meditative thoughts about the emotional depth of the music, helping listeners connect to the quiet stories told by each melody. Their soothing voice and expert curation of tunes encourage listeners to unwind, reflect, and find a moment of stillness.",
-      "Whether you're relaxing at home, driving through the night, or simply in need of some tranquility, Late Night Lullabies offers a musical retreat. It’s a show designed to provide a sense of warmth and comfort, with jazz serving as the perfect soundtrack to peaceful nights."
-    ],
-    "url": "late-night-lullabies",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/LateNightLullabies.png",
-    "schedule": []
+    "name": "Jazz Focus",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-focus",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "john-clark" }],
+    "source": "WETF - The Jazz Station"
   },
   {
-    "name": "The Bop Stop",
-    "shortDescription": "A deep dive into the fast-paced, improvisational world of bebop with classics and hidden gems.",
-    "longDescription": [
-      "The Bop Stop celebrates the electrifying energy of bebop, a genre that revolutionized jazz with its complex harmonies and fast tempos. The host brings their deep knowledge of bebop's history and influence to every episode, guiding listeners through the explosive works of legends like Charlie Parker, Dizzy Gillespie, and Thelonious Monk.",
-      "Each show is a whirlwind of intricate solos, rapid-fire chord changes, and rhythmic experimentation. The DJ breaks down the technical aspects of bebop, helping listeners understand the brilliance of improvisation and the pioneering spirit that drives the genre. Their excitement for the music is contagious, as they weave in anecdotes about the artists, moments in jazz history, and even interviews with contemporary musicians keeping bebop alive today.",
-      "The Bop Stop isn’t just for jazz aficionados; it’s for anyone who wants to feel the pulse of a genre that continues to inspire and challenge musicians. Whether you’re a longtime bebop lover or new to the style, the insightful commentary and exhilarating playlists make this show an unmissable experience for anyone seeking a musical adrenaline rush."
-    ],
-    "url": "the-bop-stop",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheBopStop.png",
-    "schedule": []
+    "name": "Jazz for Kids, 1 to 92",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-for-kids",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "lisa-yves" }],
+    "source": "PRX???"
   },
   {
-    "name": "Standards & Stories",
-    "shortDescription": "A celebration of the timeless jazz standards and the stories behind them, featuring iconic recordings and insightful commentary.",
-    "longDescription": [
-      "Standards & Stories brings listeners back to the golden age of jazz, where timeless standards like “Autumn Leaves,” “My Funny Valentine,” and “Take the A Train” defined an era. The show is a tribute to the great American songbook and the classic tunes that have stood the test of time. Each episode explores the origins, history, and cultural impact of these iconic songs, highlighting the artists who made them famous.",
-      "With a signature blend of enthusiasm and deep musical knowledge, these standards are brought to life by sharing the fascinating stories behind them. From Billie Holiday's emotional rendition of \"Strange Fruit\" to Miles Davis' groundbreaking take on \"Someday My Prince Will Come,\" the show unearths the personal and historical context that gives each song its unique power. Through interviews, archival recordings, and expert commentary, listeners gain a deeper appreciation for the artistry and enduring relevance of these timeless tunes.",
-      "Whether you’re a longtime jazz fan or someone discovering these classics for the first time, Standards & Stories offers a rich, educational experience that enhances your connection to the music. The show is a reminder of how these songs have shaped both jazz and popular culture, continuing to inspire musicians and audiences alike."
-    ],
-    "url": "standards-stories",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/StandardsAndStories.png",
-    "schedule": []
+    "name": "Jazz Haven",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-haven",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "stan-welch" }],
+    "source": "WNNH, Community Radio"
   },
   {
-    "name": "Fusion Groove",
-    "shortDescription": "A show exploring the electrifying world of jazz fusion, blending jazz with rock, funk, and world music.",
-    "longDescription": [
-      "Fusion Groove delves into one of jazz’s most adventurous subgenres—jazz fusion. Known for its electrifying blend of jazz improvisation with elements of rock, funk, and even world music, jazz fusion pushed the boundaries of what jazz could be. The show explores both the classic fusion era of the 1970s, with pioneers like Miles Davis, Weather Report, and Herbie Hancock, as well as more contemporary fusion artists.",
-      "Each episode takes listeners on a journey through the intense rhythms, electric guitars, and bold experimentation that define fusion. The DJ, a bass player themself, brings a musician’s insight to the intricate basslines, tight grooves, and layered soundscapes that make fusion so exciting. Their personal anecdotes about playing in jazz-funk bands and a deep appreciation for the genre give the show an authentic, insider’s perspective.",
-      "For listeners who love music that defies categorization, Fusion Groove is a perfect fit. Whether you’re drawn to the funky grooves, the rock-influenced solos, or the expansive, exploratory nature of fusion, this show opens up a world where jazz meets innovation, proving that jazz continues to evolve in thrilling ways."
-    ],
-    "url": "fusion-groove",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/FusionGroove.png",
-    "schedule": []
+    "name": "Jazz Scene",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-scene",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jake-longwell" }],
+    "source": "PRX???"
   },
   {
-    "name": "The Next Note",
-    "shortDescription": "A forward-looking show highlighting modern jazz innovators and the future of the genre.",
+    "name": "Jazz with David Basse",
+    "shortDescription": "",
     "longDescription": [
-      "The Next Note is dedicated to the jazz artists of today who are pushing the boundaries of the genre and taking jazz in exciting new directions. This show introduces listeners to the cutting-edge musicians who are redefining jazz for the 21st century. From avant-garde experimentation to jazz blended with hip-hop, electronic music, and global influences, The Next Note is all about innovation.",
-      "Each episode features in-depth interviews with contemporary artists, live recordings from modern jazz festivals, and the latest releases from the jazz world. The DJ's deep appreciation for the history of jazz allows them to draw connections between the past and present, showing how today’s innovators are building on the legacy of legends like Miles Davis and John Coltrane. This show is a platform for musicians who refuse to be boxed in, encouraging listeners to expand their understanding of what jazz can be.",
-      "The Next Note isn’t just about the music—it’s about the future of jazz as an art form. The host invites listeners to join in on a journey of discovery, exploring how modern artists are keeping the spirit of jazz alive while challenging its conventions. If you’re curious about where jazz is headed next, this is the show that will keep you tuned in to the cutting edge of the genre."
+      "Jazz with David Basse explores jazz’s wide range of forms and influences. You’ll hear everything from roots music and rare classic cuts to blues, Latin and the latest releases. Drawing on his lifelong experience as a jazz musician and recording artist, David punctuates his handpicked tracks with insights, anecdotes and interview snippets that bring to life the quintessential American musical genre.",
+      "",
+      ""
     ],
-    "url": "the-next-note",
-    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/TheNextNote.png",
-    "schedule": []
+    "url": "jazz-with-david-basse",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "david-basse" }],
+    "source": "PRX???"
+  },
+  {
+    "name": "Last Call",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "last-call",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "brent-banulis" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Morning Gloria",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "morning-gloria",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "gloria-klorak" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Mornin' with Linda Kay",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "mornin-with-linda-kay",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "linda-poindexter" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Mornin' with Matt",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "mornin-with-matt",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "matt-merten" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Mornin' with Middie",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "mornin-with-middie",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "middelton-omalley" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Mornin' with Mike",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "mornin-with-mike",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "mike-finnerty" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Mornin' with Tish",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "mornin-with-tish",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "tish-adams" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "New Vintage",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "new-vintage",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "bill-oconnell" }],
+    "source": "WDCB"
+  },
+  {
+    "name": "Night Lights",
+    "shortDescription": "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
+    "longDescription": [
+      "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
+      "Covering artists such as Jackie McLean, Charles Mingus, and Nina Simone and themes ranging from jazz recordings of spirituals to avant-garde interpretations of the Great American Songbook, Night Lights also features many lesser-known talents of post-1945 jazz, such as saxophonist J.R. Monterose, trumpeter Freddie Webster, and piano/singer duo Dick and Kiz Harp.",
+      "Johnson also plans to devote more programs to musicians from the 1970s and 80s. “I’ve already done some shows on people like (pianist) Don Pullen and (guitarist) Emily Remler,” he says. “I think there’s a tendency to look at those decades as the decades of fusion and the Young Lions, but there was so much more going on than that.”",
+      "Night Lights made its debut on WFIU in July 2004 and can now be heard on stations across the country. Every program is archived after broadcast for online listening, and the show has garnered a following on the Internet. Longtime jazz writer and producer Chris Albertson says: Close to 60 years of listening to jazz and participating in its furtherance has not dulled my enthusiasm, but it has made me more selective when it comes to treating my ears to the good sounds. In an era of uninformed radio presenters and borderline music, David Brent Johnson’s well-researched and delightfully eclectic Night Lights program stands out.",
+      "“Night Lights is a program of jazz in sound, story and song,” says Johnson. “I try to make each show a sort of cultural narrative about whatever artist or theme I’m highlighting. It’s great music and great history, and I want the program to reflect that.”"
+    ],
+    "url": "night-lights",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "david-brent-johnson" }],
+    "source": "WFIU, Public Radio from Indiana University"
+  },
+  {
+    "name": "Nocturne",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "nocturne",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "rob-hoff" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Prebys on Jazz",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "prebys-on-jazz",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "scott-prebys" }],
+    "source": "PRX???"
+  },
+  {
+    "name": "Progressions",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "progressions",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jake-longwell" }],
+    "source": "PRX???"
+  },
+  {
+    "name": "Reflections on Jazz",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "reflections-on-jazz",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "mark-gridley" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Sound Ideas",
+    "shortDescription": "More than just a jazz show, each episode of Sound Ideas presents some great story telling by jazz and blues musicians and spoken word artists. By exploring the many different genres within the Jazz idiom, the show appeals to both the jazz aficionado and those who listen on the jazz periphery.",
+    "longDescription": [
+      "What is Sound Ideas?",
+      "More than just a jazz show, each episode presents some great story telling by jazz and blues musicians and spoken word artists. By exploring the many different genres within the Jazz idiom, the show appeals to both the jazz aficionado and those who listen on the jazz periphery. In both cases, listeners enjoy exposure to a broad cross-section of this creative art without the limitations of stylistic labels. Spoken word features reflect jazz sensitivities or the life of the jazz musician and offer a unique twist on the many colors and hues painted with a brush called jazz.",
+      "One aspect of Jazz that distinguishes the art form is its ability to engage the listener on different levels (intellectual, emotional, spiritual, etc.) simultaneously. Jazz is a musical oxymoron. Jazz is a classical music, a high art form that demands much from its performers and at times from its audience; yet jazz is as down home as fried chicken, baked beans, cornbread, and your favorite glass of beer or soda.",
+      "Jazz comes from toil in the fields reassured by the gospel on Sunday morning. Jazz oozes out from under the doorframe at the late night rent party. Jazz emanates from a student practicing with his or her Jamey Aebersold play-along records. Jazz is created at the university in an advanced composition class. Jazz is created by tales spun by the stand-up comic. Jazz is about learning; it's about life experience.",
+      "Listening to jazz on the melodic level reveals one experience, listening on the harmonic, another. Listening to the stories that are embedded in the melodic and harmonic levels takes the listener to another plane of communication.",
+      "Jazz is a language, and as with all languages, if one doesn't know the vocabulary and the grammar, there isn't much to gain from the interaction. With practice, however, picking up a language enables communication; and with time, the subtle nuances, the play on words (or notes), and inclusion in the greater discussion can lead to a rich and very satisfying experience. Sound Ideas seeks to engage the listener and broaden his or her musical horizons."
+    ],
+    "url": "sounds-ideas",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "clay-ryder" }],
+    "source": "PRX???"
+  },
+  {
+    "name": "State of Indiana",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "state-of-indiana",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "leslie-fuller" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Talking Jazz",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "talking-jazz",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "monika-herzig" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "The Jazz Train",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "the-jazz-train",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jon-pollack" }],
+    "source": "PRX???"
+  },
+  {
+    "name": "The Nite Owl",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "the-nite-owl",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "stan-welch" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "This is Jazz",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "this-is-jazz",
+    "image": "",
+    "schedule": [],
+    "host": [
+      { "url": "dave-schwan" },
+      { "url": "john-hill" },
+      { "url": "dee-alexander" },
+      { "url": "jana-lee-ross" }
+    ],
+    "source": "WFMT, Chicago"
+  },
+  {
+    "name": "Touch of Classics",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "touch-of-classics",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "jane-fischer" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Vinyl Decisions",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "vinyl-decisions",
+    "image": "",
+    "schedule": [],
+    "host": [{ "url": "robert-markel" }],
+    "source": "WETF - The Jazz Station"
   }
 ]

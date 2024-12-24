@@ -17,15 +17,15 @@ const DJs = () => {
 
   return (
     <>
-      <div className="container">
-        <div className="p-5 text-center">
-          <h1 className="display-4">WETF DJs</h1>
+      <div className='container'>
+        <div className='p-5 text-center'>
+          <h1 className='display-4'>WETF Members</h1>
         </div>
-        <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+        <div className='row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center'>
           {loading
             ? phDJs.map((e, i) => (
                 <PHDJCard
-                  aria-hidden="true"
+                  aria-hidden='true'
                   dj={e}
                   key={`placeholder-dj-card-${e}`}
                 />

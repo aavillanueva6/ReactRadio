@@ -1,18 +1,9 @@
-{
-  "name": "Jazz and More",
-  "host": [{ "name": "Jake Longwell" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "jazz-and-more",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Sunday",
-      "startTime24": "7",
-      "startTime12": "7:00 AM",
-      "endTime12": "10:00 AM",
-      "host": [{ "name": "Jake Longwell" }]
-    }
-  ],
-  "source": "PRX???"
-}
+[
+  {
+    "day": "Sunday",
+    "startTime24": "7",
+    "startTime12": "7:00 AM",
+    "endTime12": "10:00 AM",
+    "host": [{ "name": "Jake Longwell" }]
+  }
+]

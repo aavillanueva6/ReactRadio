@@ -1,18 +1,9 @@
-{
-  "name": "Progressions",
-  "host": [{ "name": "Jake" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "progressions",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "13",
-      "startTime12": "1:00 PM",
-      "endTime12": "2:00 PM",
-      "host": [{ "name": "Jake Longwell" }]
-    }
-  ],
-  "source": ""
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "13",
+    "startTime12": "1:00 PM",
+    "endTime12": "2:00 PM",
+    "host": [{ "name": "Jake Longwell" }]
+  }
+]

@@ -1,60 +1,51 @@
-{
-  "name": "Happy Birthday Dear Jazz Artist",
-  "host": [{ "name": "Laurie Villanueva" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "happy-birthday-dear-jazz-artist",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Friday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    },
-    {
-      "day": "Sunday",
-      "startTime24": "10",
-      "startTime12": "10AM",
-      "endTime12": "11AM",
-      "host": [{ "name": "Laurie Villanueva" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Saturday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  },
+  {
+    "day": "Sunday",
+    "startTime24": "10",
+    "startTime12": "10AM",
+    "endTime12": "11AM",
+    "host": [{ "name": "Laurie Villanueva" }]
+  }
+]

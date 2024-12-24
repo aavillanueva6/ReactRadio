@@ -1,32 +1,23 @@
-{
-  "name": "Jazz Focus",
-  "host": [{ "name": "John Clark" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "jazz-focus",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "19",
-      "startTime12": "7:00 PM",
-      "endTime12": "8:00 PM",
-      "host": [{ "name": "John Clark" }]
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "9",
-      "startTime12": "9:00 AM",
-      "endTime12": "10:00 AM",
-      "host": [{ "name": "John Clark" }]
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "16",
-      "startTime12": "4:00 PM",
-      "endTime12": "5:00 PM",
-      "host": [{ "name": "John Clark" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "19",
+    "startTime12": "7:00 PM",
+    "endTime12": "8:00 PM",
+    "host": [{ "name": "John Clark" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "9",
+    "startTime12": "9:00 AM",
+    "endTime12": "10:00 AM",
+    "host": [{ "name": "John Clark" }]
+  },
+  {
+    "day": "Saturday",
+    "startTime24": "16",
+    "startTime12": "4:00 PM",
+    "endTime12": "5:00 PM",
+    "host": [{ "name": "John Clark" }]
+  }
+]

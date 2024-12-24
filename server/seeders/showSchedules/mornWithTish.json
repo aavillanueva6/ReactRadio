@@ -1,18 +1,9 @@
-{
-  "name": "Mornin' With Tish",
-  "host": [{ "name": "Tish Adams" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "mornin-with-tish",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Saturday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "9:00 AM",
-      "host": [{ "name": "Tish Adams" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Saturday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "9:00 AM",
+    "host": [{ "name": "Tish Adams" }]
+  }
+]

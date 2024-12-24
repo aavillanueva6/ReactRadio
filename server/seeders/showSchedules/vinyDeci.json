@@ -1,18 +1,9 @@
-{
-  "name": "Vinyl Decisions",
-  "host": [{ "name": "Robert Markel" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "vinyl-decisions",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Wednesday",
-      "startTime24": "18",
-      "startTime12": "6:00 PM",
-      "endTime12": "8:00 PM",
-      "host": [{ "name": "Robert Markel" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Wednesday",
+    "startTime24": "18",
+    "startTime12": "6:00 PM",
+    "endTime12": "8:00 PM",
+    "host": [{ "name": "Robert Markel" }]
+  }
+]

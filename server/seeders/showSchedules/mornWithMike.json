@@ -1,18 +1,9 @@
-{
-  "name": "Mornin' with Mike",
-  "host": [{ "name": "Mike Finnerty" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "mornin-with-mike",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Friday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "9:00 AM",
-      "host": [{ "name": "Mike Finnerty" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Friday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "9:00 AM",
+    "host": [{ "name": "Mike Finnerty" }]
+  }
+]

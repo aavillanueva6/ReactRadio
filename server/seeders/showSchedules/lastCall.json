@@ -1,18 +1,9 @@
-{
-  "name": "Last Call",
-  "host": [{ "name": "Brent Banulis" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "last-call",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Saturday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Brent Banulis" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Saturday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Brent Banulis" }]
+  }
+]

@@ -1,46 +1,37 @@
-{
-  "name": "The Nite Owl",
-  "host": [{ "name": "Stan Welch" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "the-nite-owl",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Stan Welch" }]
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Stan Welch" }]
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Stan Welch" }]
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Stan Welch" }]
-    },
-    {
-      "day": "Friday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Stan Welch" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Stan Welch" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Stan Welch" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Stan Welch" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Stan Welch" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Stan Welch" }]
+  }
+]

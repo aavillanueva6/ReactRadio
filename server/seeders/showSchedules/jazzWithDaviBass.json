@@ -1,50 +1,37 @@
-{
-  "name": "Jazz with David Basse",
-  "host": [{ "name": "David Basse" }],
-  "shortDescription": "",
-  "longDescription": [
-    "Jazz with David Basse explores jazz’s wide range of forms and influences. You’ll hear everything from roots music and rare classic cuts to blues, Latin and the latest releases. Drawing on his lifelong experience as a jazz musician and recording artist, David punctuates his handpicked tracks with insights, anecdotes and interview snippets that bring to life the quintessential American musical genre.",
-    "",
-    ""
-  ],
-  "url": "jazz-with-david-basse",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "15",
-      "startTime12": "3:00 PM",
-      "endTime12": "6:00 PM",
-      "host": [{ "name": "David Basse" }]
-    },
-    {
-      "day": "Tuesday",
-      "startTime24": "0",
-      "startTime12": "12:00 AM",
-      "endTime12": "3:00 AM",
-      "host": [{ "name": "David Basse" }]
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "0",
-      "startTime12": "12:00 AM",
-      "endTime12": "3:00 AM",
-      "host": [{ "name": "David Basse" }]
-    },
-    {
-      "day": "Thursday",
-      "startTime24": "0",
-      "startTime12": "12:00 AM",
-      "endTime12": "3:00 AM",
-      "host": [{ "name": "David Basse" }]
-    },
-    {
-      "day": "Friday",
-      "startTime24": "0",
-      "startTime12": "12:00 AM",
-      "endTime12": "3:00 AM",
-      "host": [{ "name": "David Basse" }]
-    }
-  ],
-  "source": ""
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "15",
+    "startTime12": "3:00 PM",
+    "endTime12": "6:00 PM",
+    "host": [{ "name": "David Basse" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "0",
+    "startTime12": "12:00 AM",
+    "endTime12": "3:00 AM",
+    "host": [{ "name": "David Basse" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "0",
+    "startTime12": "12:00 AM",
+    "endTime12": "3:00 AM",
+    "host": [{ "name": "David Basse" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "0",
+    "startTime12": "12:00 AM",
+    "endTime12": "3:00 AM",
+    "host": [{ "name": "David Basse" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "0",
+    "startTime12": "12:00 AM",
+    "endTime12": "3:00 AM",
+    "host": [{ "name": "David Basse" }]
+  }
+]

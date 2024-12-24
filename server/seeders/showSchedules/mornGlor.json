@@ -1,18 +1,9 @@
-{
-  "name": "Morning Gloria",
-  "host": [{ "name": "Gloria Klorak" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "morning-gloria",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Tuesday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "8:30 AM",
-      "host": [{ "name": "Gloria Klorak" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Tuesday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "8:30 AM",
+    "host": [{ "name": "Gloria Klorak" }]
+  }
+]

@@ -1,25 +1,16 @@
-{
-  "name": "Jazz Scene",
-  "host": [{ "name": "Jake Longwell" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "jazz-scene",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Monday",
-      "startTime24": "2",
-      "startTime12": "2:00 AM",
-      "endTime12": "3:00 AM",
-      "host": [{ "name": "Jake Longwell" }]
-    },
-    {
-      "day": "Wednesday",
-      "startTime24": "13",
-      "startTime12": "1:00 PM",
-      "endTime12": "2:00 PM",
-      "host": [{ "name": "Jake Longwell" }]
-    }
-  ],
-  "source": "PRX???"
-}
+[
+  {
+    "day": "Monday",
+    "startTime24": "2",
+    "startTime12": "2:00 AM",
+    "endTime12": "3:00 AM",
+    "host": [{ "name": "Jake Longwell" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "13",
+    "startTime12": "1:00 PM",
+    "endTime12": "2:00 PM",
+    "host": [{ "name": "Jake Longwell" }]
+  }
+]

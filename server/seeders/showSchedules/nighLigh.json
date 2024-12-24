@@ -1,24 +1,9 @@
-{
-  "name": "Night Lights",
-  "host": [{ "name": "David Brent Johnson" }],
-  "shortDescription": "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
-  "longDescription": [
-    "Night Lights, is a weekly one-hour jazz radio program hosted by David Brent Johnson, focusing on jazz from the 1945-1990 era—a timespan that, as Johnson notes, “weirdly parallels Miles Davis on record and the Cold War.”",
-    "Covering artists such as Jackie McLean, Charles Mingus, and Nina Simone and themes ranging from jazz recordings of spirituals to avant-garde interpretations of the Great American Songbook, Night Lights also features many lesser-known talents of post-1945 jazz, such as saxophonist J.R. Monterose, trumpeter Freddie Webster, and piano/singer duo Dick and Kiz Harp.",
-    "Johnson also plans to devote more programs to musicians from the 1970s and 80s. “I’ve already done some shows on people like (pianist) Don Pullen and (guitarist) Emily Remler,” he says. “I think there’s a tendency to look at those decades as the decades of fusion and the Young Lions, but there was so much more going on than that.”",
-    "Night Lights made its debut on WFIU in July 2004 and can now be heard on stations across the country. Every program is archived after broadcast for online listening, and the show has garnered a following on the Internet. Longtime jazz writer and producer Chris Albertson says: Close to 60 years of listening to jazz and participating in its furtherance has not dulled my enthusiasm, but it has made me more selective when it comes to treating my ears to the good sounds. In an era of uninformed radio presenters and borderline music, David Brent Johnson’s well-researched and delightfully eclectic Night Lights program stands out.",
-    "“Night Lights is a program of jazz in sound, story and song,” says Johnson. “I try to make each show a sort of cultural narrative about whatever artist or theme I’m highlighting. It’s great music and great history, and I want the program to reflect that.”"
-  ],
-  "url": "night-lights",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Sunday",
-      "startTime24": "22",
-      "startTime12": "10:00 PM",
-      "endTime12": "11:00 PM",
-      "host": [{ "name": "David Brent Johnson" }]
-    }
-  ],
-  "source": "WFIU, Public Radio from Indiana University"
-}
+[
+  {
+    "day": "Sunday",
+    "startTime24": "22",
+    "startTime12": "10:00 PM",
+    "endTime12": "11:00 PM",
+    "host": [{ "name": "David Brent Johnson" }]
+  }
+]

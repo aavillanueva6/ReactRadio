@@ -1,18 +1,9 @@
-{
-  "name": "Jazz Haven",
-  "host": [{ "name": "Stan Welch" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "jazz-haven",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Wednesday",
-      "startTime24": "14",
-      "startTime12": "2:00 PM",
-      "endTime12": "3:00 PM",
-      "host": [{ "name": "Stan Welch" }]
-    }
-  ],
-  "source": "WNNH, Community Radio"
-}
+[
+  {
+    "day": "Wednesday",
+    "startTime24": "14",
+    "startTime12": "2:00 PM",
+    "endTime12": "3:00 PM",
+    "host": [{ "name": "Stan Welch" }]
+  }
+]

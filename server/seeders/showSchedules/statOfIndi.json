@@ -1,25 +1,16 @@
-{
-  "name": "State of Indiana",
-  "host": [{ "name": "Leslie Fuller" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "state-of-indiana",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Thursday",
-      "startTime24": "19",
-      "startTime12": "7:00 PM",
-      "endTime12": "8:00 PM",
-      "host": [{ "name": "Leslie Fuller" }]
-    },
-    {
-      "day": "Saturday",
-      "startTime24": "12",
-      "startTime12": "12:00 PM",
-      "endTime12": "1:00 PM",
-      "host": [{ "name": "Leslie Fuller" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Thursday",
+    "startTime24": "19",
+    "startTime12": "7:00 PM",
+    "endTime12": "8:00 PM",
+    "host": [{ "name": "Leslie Fuller" }]
+  },
+  {
+    "day": "Saturday",
+    "startTime24": "12",
+    "startTime12": "12:00 PM",
+    "endTime12": "1:00 PM",
+    "host": [{ "name": "Leslie Fuller" }]
+  }
+]

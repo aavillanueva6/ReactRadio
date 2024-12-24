@@ -1,18 +1,9 @@
-{
-  "name": "Nocturne",
-  "host": [{ "name": "Rob Hoff" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "nocturne",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Sunday",
-      "startTime24": "23",
-      "startTime12": "11:00 PM",
-      "endTime12": "12:00 AM",
-      "host": [{ "name": "Rob Hoff" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Sunday",
+    "startTime24": "23",
+    "startTime12": "11:00 PM",
+    "endTime12": "12:00 AM",
+    "host": [{ "name": "Rob Hoff" }]
+  }
+]

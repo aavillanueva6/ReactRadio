@@ -1,18 +1,9 @@
-{
-  "name": "Mornin' with Linda Kay",
-  "host": [{ "name": "Linda Poindexter" }],
-  "shortDescription": "",
-  "longDescription": ["", "", ""],
-  "url": "mornin-with-linda-kay",
-  "image": "",
-  "schedule": [
-    {
-      "day": "Wednesday",
-      "startTime24": "8",
-      "startTime12": "8:00 AM",
-      "endTime12": "9:00 AM",
-      "host": [{ "name": "Linda Poindexter" }]
-    }
-  ],
-  "source": "WETF - The Jazz Station"
-}
+[
+  {
+    "day": "Wednesday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "9:00 AM",
+    "host": [{ "name": "Linda Poindexter" }]
+  }
+]
