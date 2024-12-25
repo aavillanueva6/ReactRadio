@@ -61,6 +61,7 @@ export const QUERY_SINGLE_SHOW = gql`
       image
       host {
         nickName
+        fullName
         url
       }
       schedule {
