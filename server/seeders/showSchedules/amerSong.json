@@ -2,15 +2,15 @@
   {
     "day": "Monday",
     "startTime24": "0",
-    "startTime12": "12AM",
-    "endTime12": "1AM",
+    "startTime12": "12:00 AM",
+    "endTime12": "1:00 AM",
     "hosturl": [{ "url": "jim-jazz" }]
   },
   {
     "day": "Saturday",
     "startTime24": "17",
-    "startTime12": "5PM",
-    "endTime12": "6PM",
+    "startTime12": "5:00 PM",
+    "endTime12": "6:00 PM",
     "hosturl": [{ "url": "jim-jazz" }]
   }
 ]
