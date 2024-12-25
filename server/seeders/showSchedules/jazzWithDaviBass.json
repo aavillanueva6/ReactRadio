@@ -4,34 +4,34 @@
     "startTime24": "15",
     "startTime12": "3:00 PM",
     "endTime12": "6:00 PM",
-    "host": [{ "name": "David Basse" }]
+    "hosturl": [{ "url": "david-basse" }]
   },
   {
     "day": "Tuesday",
     "startTime24": "0",
     "startTime12": "12:00 AM",
     "endTime12": "3:00 AM",
-    "host": [{ "name": "David Basse" }]
+    "hosturl": [{ "url": "david-basse" }]
   },
   {
     "day": "Wednesday",
     "startTime24": "0",
     "startTime12": "12:00 AM",
     "endTime12": "3:00 AM",
-    "host": [{ "name": "David Basse" }]
+    "hosturl": [{ "url": "david-basse" }]
   },
   {
     "day": "Thursday",
     "startTime24": "0",
     "startTime12": "12:00 AM",
     "endTime12": "3:00 AM",
-    "host": [{ "name": "David Basse" }]
+    "hosturl": [{ "url": "david-basse" }]
   },
   {
     "day": "Friday",
     "startTime24": "0",
     "startTime12": "12:00 AM",
     "endTime12": "3:00 AM",
-    "host": [{ "name": "David Basse" }]
+    "hosturl": [{ "url": "david-basse" }]
   }
 ]

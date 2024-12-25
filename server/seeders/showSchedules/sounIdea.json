@@ -4,13 +4,13 @@
     "startTime24": "9",
     "startTime12": "9:00 AM",
     "endTime12": "10:00 AM",
-    "host": [{ "name": "Clay Ryder" }]
+    "hosturl": [{ "url": "clay-ryder" }]
   },
   {
     "day": "Saturday",
     "startTime24": "18",
     "startTime12": "6:00 PM",
     "endTime12": "7:00 PM",
-    "host": [{ "name": "Clay Ryder" }]
+    "hosturl": [{ "url": "clay-ryder" }]
   }
 ]

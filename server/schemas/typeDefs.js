@@ -5,6 +5,7 @@ const typeDefs = gql`
     _id: ID
     firstName: String!
     lastName: String!
+    fullName: String
     nickName: String
     Title: String
     Shows: [Show]
@@ -22,11 +23,12 @@ const typeDefs = gql`
     image: String
     schedule: [WeeklySchedule]
     source: String
+    hosturl: [Hosturl]
   }
   type WeeklySchedule {
     _id: ID
     day: String
-    startTime24: Int
+    startTime24: Float
     startTime12: String
     endTime12: String
     show: Show
@@ -38,6 +40,10 @@ const typeDefs = gql`
     singleDJ(url: String!): DJ
     singleShow(url: String!): Show
     schedule(day: String!): [WeeklySchedule]
+  }
+  type Hosturl {
+    _id: ID
+    url: String
   }
 `;
 

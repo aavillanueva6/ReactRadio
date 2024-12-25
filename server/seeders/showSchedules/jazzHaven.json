@@ -4,6 +4,6 @@
     "startTime24": "14",
     "startTime12": "2:00 PM",
     "endTime12": "3:00 PM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   }
 ]

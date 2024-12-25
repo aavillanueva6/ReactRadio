@@ -24,7 +24,7 @@ const mornGlor = require('./showSchedules/mornGlor.json');
 const mornWithLindKay = require('./showSchedules/mornWithLindKay.json');
 const mornWithMatt = require('./showSchedules/mornWithMatt.json');
 const mornWithMidd = require('./showSchedules/mornWithMidd.json');
-const mornWithMike = require('./showSchedules/morWithMike.json');
+const mornWithMike = require('./showSchedules/mornWithMike.json');
 const mornWithTish = require('./showSchedules/mornWithTish.json');
 const newVint = require('./showSchedules/newVint.json');
 const nighLigh = require('./showSchedules/nighLigh.json');
@@ -76,7 +76,7 @@ db.once('open', async () => {
     );
     const mornWithMattData = await WeeklySchedule.insertMany(mornWithMatt);
     const mornWithMiddData = await WeeklySchedule.insertMany(mornWithMidd);
-    const morWithMikeData = await WeeklySchedule.insertMany(mornWithMike);
+    const mornWithMikeData = await WeeklySchedule.insertMany(mornWithMike);
     const mornWithTishData = await WeeklySchedule.insertMany(mornWithTish);
     const newVintData = await WeeklySchedule.insertMany(newVint);
     const nighLighData = await WeeklySchedule.insertMany(nighLigh);
@@ -226,7 +226,7 @@ db.once('open', async () => {
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of morWithMikeData) {
+    for (e of mornWithMikeData) {
       let tempShow = shows[19];
       tempShow.schedule.push(e._id);
       await tempShow.save();
@@ -340,14 +340,17 @@ db.once('open', async () => {
     }
 
     for (newShow of shows) {
-      // randomly add each show to a DJ
-      const tempDJ = djs[Math.floor(Math.random() * djs.length)];
-      tempDJ.Shows.push(newShow._id);
-      await tempDJ.save();
+      for (let i = 0; i < newShow.hosturl.length; i++) {
+        console.log(newShow);
+        const tempHostUrl = newShow.hosturl[i].url;
+        const tempDJ = djs.filter((dj) => dj.url === tempHostUrl);
+        tempDJ[0].Shows.push(newShow._id);
+        await tempDJ[0].save();
 
-      // reference DJ on Show model too
-      newShow.host = tempDJ._id;
-      await newShow.save();
+        newShow.host.push(tempDJ[0]._id);
+        await newShow.save();
+        console.log(newShow);
+      }
     }
 
     console.log('all done!');

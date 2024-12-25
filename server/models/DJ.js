@@ -11,6 +11,10 @@ const DJsSchema = new Schema({
     required: true,
     trim: true,
   },
+  fullName: {
+    type: String,
+    trim: true,
+  },
   nickName: {
     type: String,
     trim: true,

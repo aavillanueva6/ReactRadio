@@ -4,13 +4,13 @@
     "startTime24": "11",
     "startTime12": "11:00 AM",
     "endTime12": "12:00 PM",
-    "host": [{ "name": "Monika Herzig" }]
+    "hosturl": [{ "url": "monika-herzig" }]
   },
   {
     "day": "Thursday",
     "startTime24": "18",
     "startTime12": "6:00 PM",
     "endTime12": "7:00 PM",
-    "host": [{ "name": "Monika Herzig" }]
+    "hosturl": [{ "url": "monika-herzig" }]
   }
 ]

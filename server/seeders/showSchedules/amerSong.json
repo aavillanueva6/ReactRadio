@@ -4,13 +4,13 @@
     "startTime24": "0",
     "startTime12": "12AM",
     "endTime12": "1AM",
-    "host": [{ "name": "Jim Jazz" }]
+    "hosturl": [{ "url": "jim-jazz" }]
   },
   {
     "day": "Saturday",
     "startTime24": "17",
     "startTime12": "5PM",
     "endTime12": "6PM",
-    "host": [{ "name": "Jim Jazz" }]
+    "hosturl": [{ "url": "jim-jazz" }]
   }
 ]

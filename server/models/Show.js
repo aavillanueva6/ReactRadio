@@ -41,6 +41,7 @@ const showSchema = new Schema({
     type: String,
     trim: true,
   },
+  hosturl: [{ type: Object }],
 });
 
 const Show = model('Show', showSchema);

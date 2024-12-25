@@ -4,69 +4,69 @@
     "startTime24": "12",
     "startTime12": "12PM",
     "endTime12": "1PM",
-    "host": [{ "name": "Lori Williams" }]
+    "hosturl": [{ "url": "lori-williams" }]
   },
   {
     "day": "Tuesday",
     "startTime24": "12",
     "startTime12": "12PM",
     "endTime12": "3PM",
-    "host": [{ "name": "Mike Finnerty" }]
+    "hosturl": [{ "url": "mike-finnerty" }]
   },
   {
     "day": "Wednesday",
     "startTime24": "12",
     "startTime12": "12PM",
     "endTime12": "1PM",
-    "host": [{ "name": "Brent Banulis" }]
+    "hosturl": [{ "url": "brent-banulis" }]
   },
   {
     "day": "Thursday",
     "startTime24": "12",
     "startTime12": "12PM",
     "endTime12": "3PM",
-    "host": [{ "name": "Mike Finnerty" }]
+    "hosturl": [{ "url": "mike-finnerty" }]
   },
   {
     "day": "Friday",
     "startTime24": "12",
     "startTime12": "12PM",
     "endTime12": "1PM",
-    "host": [{ "name": "Rob Hoff" }]
+    "hosturl": [{ "url": "rob-hoff" }]
   },
   {
     "day": "Saturday",
     "startTime24": "0",
     "startTime12": "12AM",
     "endTime12": "3AM",
-    "host": [{ "name": "Mike Finnerty" }]
+    "hosturl": [{ "url": "mike-finnerty" }]
   },
   {
     "day": "Sunday",
     "startTime24": "0",
     "startTime12": "12AM",
     "endTime12": "3AM",
-    "host": [{ "name": "Mike Finnerty" }]
+    "hosturl": [{ "url": "mike-finnerty" }]
   },
   {
     "day": "Sunday",
     "startTime24": "17",
     "startTime12": "5PM",
     "endTime12": "6PM",
-    "host": [{ "name": "Brent Banulis" }]
+    "hosturl": [{ "url": "brent-banulis" }]
   },
   {
     "day": "Sunday",
     "startTime24": "18",
     "startTime12": "6PM",
     "endTime12": "7PM",
-    "host": [{ "name": "Rob Hoff" }]
+    "hosturl": [{ "url": "rob-hoff" }]
   },
   {
     "day": "Sunday",
     "startTime24": "19",
     "startTime12": "7PM",
     "endTime12": "8PM",
-    "host": [{ "name": "Lori Williams" }]
+    "hosturl": [{ "url": "lori-williams" }]
   }
 ]

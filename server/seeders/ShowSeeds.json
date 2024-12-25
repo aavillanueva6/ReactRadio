@@ -6,7 +6,7 @@
     "url": "afro-cuban-latin",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "russell-hamer" }],
+    "hosturl": [{ "url": "russ-hamer" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -16,7 +16,7 @@
     "url": "american-songbook",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jim-jazz" }],
+    "hosturl": [{ "url": "jim-jazz" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -26,7 +26,7 @@
     "url": "berkshire-jazz",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "phil-tierney" }],
+    "hosturl": [{ "url": "phil-tierney" }],
     "source": "WTBR Pittsfield, MA"
   },
   {
@@ -36,7 +36,7 @@
     "url": "big-band-blow-out",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "brent-banulis" }],
+    "hosturl": [{ "url": "brent-banulis" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -46,7 +46,7 @@
     "url": "collectors-choice",
     "image": "",
     "schedule": [],
-    "host": [
+    "hosturl": [
       { "url": "mike-finnerty" },
       { "url": "brent-banulis" },
       { "url": "rob-hoff" },
@@ -61,7 +61,7 @@
     "url": "happy-birthday-dear-jazz-artist",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "laurie-villanueva" }],
+    "hosturl": [{ "url": "laurie-villanueva" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -75,7 +75,7 @@
     "url": "jazz-a-la-mode",
     "image": "",
     "schedule": [],
-    "host": [
+    "hosturl": [
       { "url": "tom-reney" },
       { "url": "avery-sharpe" },
       { "url": "peter-sokolowski" },
@@ -90,7 +90,7 @@
     "url": "jazz-and-more",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jake-longwell" }],
+    "hosturl": [{ "url": "jake-longwell" }],
     "source": "PRX???"
   },
   {
@@ -100,7 +100,7 @@
     "url": "jazz-everybody-likes",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "larry-dwyer" }],
+    "hosturl": [{ "url": "larry-dwyer" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -110,7 +110,7 @@
     "url": "jazz-focus",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "john-clark" }],
+    "hosturl": [{ "url": "john-clark" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -120,7 +120,7 @@
     "url": "jazz-for-kids",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "lisa-yves" }],
+    "hosturl": [{ "url": "lisa-yves" }],
     "source": "PRX???"
   },
   {
@@ -130,7 +130,7 @@
     "url": "jazz-haven",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "stan-welch" }],
+    "hosturl": [{ "url": "stan-welch" }],
     "source": "WNNH, Community Radio"
   },
   {
@@ -140,7 +140,7 @@
     "url": "jazz-scene",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jake-longwell" }],
+    "hosturl": [{ "url": "jake-longwell" }],
     "source": "PRX???"
   },
   {
@@ -154,7 +154,7 @@
     "url": "jazz-with-david-basse",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "david-basse" }],
+    "hosturl": [{ "url": "david-basse" }],
     "source": "PRX???"
   },
   {
@@ -164,7 +164,7 @@
     "url": "last-call",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "brent-banulis" }],
+    "hosturl": [{ "url": "brent-banulis" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -174,7 +174,7 @@
     "url": "morning-gloria",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "gloria-klorak" }],
+    "hosturl": [{ "url": "gloria-krolak" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -184,7 +184,7 @@
     "url": "mornin-with-linda-kay",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "linda-poindexter" }],
+    "hosturl": [{ "url": "linda-poindexter" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -194,7 +194,7 @@
     "url": "mornin-with-matt",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "matt-merten" }],
+    "hosturl": [{ "url": "matt-merten" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -204,7 +204,7 @@
     "url": "mornin-with-middie",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "middelton-omalley" }],
+    "hosturl": [{ "url": "middleton-omalley" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -214,7 +214,7 @@
     "url": "mornin-with-mike",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "mike-finnerty" }],
+    "hosturl": [{ "url": "mike-finnerty" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -224,7 +224,7 @@
     "url": "mornin-with-tish",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "tish-adams" }],
+    "hosturl": [{ "url": "tish-adams" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -234,7 +234,7 @@
     "url": "new-vintage",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "bill-oconnell" }],
+    "hosturl": [{ "url": "bill-oconnell" }],
     "source": "WDCB"
   },
   {
@@ -250,7 +250,7 @@
     "url": "night-lights",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "david-brent-johnson" }],
+    "hosturl": [{ "url": "david-brent-johnson" }],
     "source": "WFIU, Public Radio from Indiana University"
   },
   {
@@ -260,7 +260,7 @@
     "url": "nocturne",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "rob-hoff" }],
+    "hosturl": [{ "url": "rob-hoff" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -270,7 +270,7 @@
     "url": "prebys-on-jazz",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "scott-prebys" }],
+    "hosturl": [{ "url": "scott-prebys" }],
     "source": "PRX???"
   },
   {
@@ -280,7 +280,7 @@
     "url": "progressions",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jake-longwell" }],
+    "hosturl": [{ "url": "jake-longwell" }],
     "source": "PRX???"
   },
   {
@@ -290,7 +290,7 @@
     "url": "reflections-on-jazz",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "mark-gridley" }],
+    "hosturl": [{ "url": "mark-gridley" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -307,7 +307,7 @@
     "url": "sounds-ideas",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "clay-ryder" }],
+    "hosturl": [{ "url": "clay-ryder" }],
     "source": "PRX???"
   },
   {
@@ -317,7 +317,7 @@
     "url": "state-of-indiana",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "leslie-fuller" }],
+    "hosturl": [{ "url": "leslie-fuller" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -327,7 +327,7 @@
     "url": "talking-jazz",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "monika-herzig" }],
+    "hosturl": [{ "url": "monika-herzig" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -337,7 +337,7 @@
     "url": "the-jazz-train",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jon-pollack" }],
+    "hosturl": [{ "url": "jon-pollack" }],
     "source": "PRX???"
   },
   {
@@ -347,7 +347,7 @@
     "url": "the-nite-owl",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "stan-welch" }],
+    "hosturl": [{ "url": "stan-welch" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -357,7 +357,7 @@
     "url": "this-is-jazz",
     "image": "",
     "schedule": [],
-    "host": [
+    "hosturl": [
       { "url": "dave-schwan" },
       { "url": "john-hill" },
       { "url": "dee-alexander" },
@@ -372,7 +372,7 @@
     "url": "touch-of-classics",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "jane-fischer" }],
+    "hosturl": [{ "url": "jane-fischer" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -382,7 +382,7 @@
     "url": "vinyl-decisions",
     "image": "",
     "schedule": [],
-    "host": [{ "url": "robert-markel" }],
+    "hosturl": [{ "url": "rob-markel" }],
     "source": "WETF - The Jazz Station"
   }
 ]

@@ -4,6 +4,6 @@
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Rob Hoff" }]
+    "hosturl": [{ "url": "rob-hoff" }]
   }
 ]

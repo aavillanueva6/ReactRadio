@@ -4,6 +4,6 @@
     "startTime24": "7",
     "startTime12": "7:00 AM",
     "endTime12": "10:00 AM",
-    "host": [{ "name": "Jake Longwell" }]
+    "hosturl": [{ "url": "jake-longwell" }]
   }
 ]

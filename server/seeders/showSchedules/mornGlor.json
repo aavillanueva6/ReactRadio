@@ -4,6 +4,6 @@
     "startTime24": "8",
     "startTime12": "8:00 AM",
     "endTime12": "8:30 AM",
-    "host": [{ "name": "Gloria Klorak" }]
+    "hosturl": [{ "url": "gloria-klorak" }]
   }
 ]

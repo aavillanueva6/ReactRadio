@@ -4,6 +4,6 @@
     "startTime24": "8",
     "startTime12": "8:00 AM",
     "endTime12": "10:00 AM",
-    "host": [{ "name": "Middelton O'Malley" }]
+    "hosturl": [{ "url": "middelton-omalley" }]
   }
 ]

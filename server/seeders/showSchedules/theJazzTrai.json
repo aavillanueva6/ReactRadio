@@ -4,13 +4,13 @@
     "startTime24": "8.5",
     "startTime12": "8:30 AM",
     "endTime12": "10:00 AM",
-    "host": [{ "name": "Jon Pollack" }]
+    "urlhost": [{ "url": "jon-pollack" }]
   },
   {
     "day": "Tuesday",
     "startTime24": "18.5",
     "startTime12": "6:30 PM",
     "endTime12": "8:00 PM",
-    "host": [{ "name": "Jon Pollack" }]
+    "hosturl": [{ "url": "jon-pollack" }]
   }
 ]

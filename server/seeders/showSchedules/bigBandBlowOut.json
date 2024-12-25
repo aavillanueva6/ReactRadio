@@ -4,6 +4,6 @@
     "startTime24": "18",
     "startTime12": "6PM",
     "endTime12": "6:30PM",
-    "host": [{ "name": "Brent Banulis" }]
+    "hosturl": [{ "url": "brent-banulis" }]
   }
 ]

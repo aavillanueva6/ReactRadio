@@ -4,34 +4,34 @@
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   },
   {
     "day": "Tuesday",
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   },
   {
     "day": "Wednesday",
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   },
   {
     "day": "Thursday",
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   },
   {
     "day": "Friday",
     "startTime24": "23",
     "startTime12": "11:00 PM",
     "endTime12": "12:00 AM",
-    "host": [{ "name": "Stan Welch" }]
+    "hosturl": [{ "url": "stan-welch" }]
   }
 ]

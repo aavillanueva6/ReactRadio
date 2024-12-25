@@ -4,6 +4,6 @@
     "startTime24": "22",
     "startTime12": "10:00 PM",
     "endTime12": "11:00 PM",
-    "host": [{ "name": "David Brent Johnson" }]
+    "hosturl": [{ "url": "david-brent-johnson" }]
   }
 ]
