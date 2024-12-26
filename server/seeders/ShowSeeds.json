@@ -374,15 +374,5 @@
     "schedule": [],
     "hosturl": [{ "url": "jane-fischer" }],
     "source": "WETF - The Jazz Station"
-  },
-  {
-    "name": "Vinyl Decisions",
-    "shortDescription": "",
-    "longDescription": ["", "", ""],
-    "url": "vinyl-decisions",
-    "image": "",
-    "schedule": [],
-    "hosturl": [{ "url": "rob-markel" }],
-    "source": "WETF - The Jazz Station"
   }
 ]

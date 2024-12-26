@@ -4,7 +4,7 @@
     "lastName": "Villanueva",
     "fullName": "Eliud Villanueva",
     "nickName": "",
-    "Title": "WETF founding board member, station manager and chief engineer",
+    "Title": "WETF founding board member, Secretary and Tresurer, station manager and chief engineer",
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
     "url": "eliud-villanueva",
     "bio": [
@@ -30,7 +30,7 @@
     "lastName": "Hernandez",
     "fullName": "Glenda Rae",
     "nickName": "",
-    "Title": "WETF founding board member",
+    "Title": "WETF founding board member, and Treasurer Emeritus",
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
     "url": "glenda-rae-hernandez",
     "bio": [
@@ -53,7 +53,7 @@
     "lastName": "Banulis",
     "fullName": "Brent Banulis",
     "nickName": "",
-    "Title": "WETF board member",
+    "Title": "President of the WETF board",
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
     "url": "rob-hoff",
     "bio": [""]
@@ -66,6 +66,16 @@
     "Title": "WETF board member",
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Marian-Stetler-Emery.jpg",
     "url": "marian-stetler-emery",
+    "bio": [""]
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Merten",
+    "fullName": "Matt Merten",
+    "nickName": "",
+    "Title": "WETF board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
+    "url": "matt-merten",
     "bio": [""]
   }
 ]

@@ -7,6 +7,13 @@
     "hosturl": [{ "url": "russ-hamer" }]
   },
   {
+    "day": "Wednesday",
+    "startTime24": "18",
+    "startTime12": "6:00 PM",
+    "endTime12": "8:00 PM",
+    "hosturl": [{ "url": "russ-hamer" }]
+  },
+  {
     "day": "Friday",
     "startTime24": "9",
     "startTime12": "9:00 AM",

@@ -19,7 +19,7 @@ const resolvers = {
     },
 
     singleBM: async (parent, { url }) => {
-      return await DJ.findOne({ url: url });
+      return await BoardMember.findOne({ url: url });
     },
 
     singleShow: async (parent, { url }) => {

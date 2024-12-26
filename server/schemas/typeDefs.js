@@ -52,6 +52,7 @@ const typeDefs = gql`
     singleShow(url: String!): Show
     schedule(day: String!): [WeeklySchedule]
     boardMembers: [BoardMember]
+    singleBM(url: String!): BoardMember
   }
   type Hosturl {
     _id: ID

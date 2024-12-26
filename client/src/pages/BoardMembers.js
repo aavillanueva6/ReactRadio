@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 
 import { QUERY_BOARD } from '../utils/queries';
-import DJCard from '../components/DJCard';
+import BMCard from '../components/BMCard';
 import PHDJCard from '../components/PHDJCard';
 
 const BoardMembers = () => {
@@ -31,7 +31,7 @@ const BoardMembers = () => {
                 />
               ))
             : boardMembers.map((member) => (
-                <DJCard key={member._id} dj={member} />
+                <BMCard key={member._id} bm={member} />
               ))}
         </div>
       </div>

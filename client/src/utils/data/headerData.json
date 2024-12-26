@@ -31,16 +31,28 @@
       "text": "Schedule"
     },
     {
+      "destination": "/board",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "WETF Board"
+    },
+    {
       "destination": "/djs",
       "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
       "role": "button",
-      "text": "DJs"
+      "text": "Contributors"
     },
     {
       "destination": "/shows",
       "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
       "role": "button",
       "text": "Shows"
+    },
+    {
+      "destination": "/donate",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Support WETF"
     }
   ]
 }

@@ -40,7 +40,6 @@ const theJazzTrai = require('./showSchedules/theJazzTrai.json');
 const theNiteOwl = require('./showSchedules/theNiteOwl.json');
 const thisIsJazz = require('./showSchedules/thisIsJazz.json');
 const toucOfClassics = require('./showSchedules/toucOfClassics.json');
-const vinyDeci = require('./showSchedules/vinyDeci.json');
 
 db.once('open', async () => {
   try {
@@ -94,7 +93,6 @@ db.once('open', async () => {
     const theNiteOwlData = await WeeklySchedule.insertMany(theNiteOwl);
     const thisIsJazzData = await WeeklySchedule.insertMany(thisIsJazz);
     const toucOfClassicsData = await WeeklySchedule.insertMany(toucOfClassics);
-    const vinyDeciData = await WeeklySchedule.insertMany(vinyDeci);
 
     for (e of afroCubaLatiData) {
       let tempShow = shows[0];
@@ -329,13 +327,6 @@ db.once('open', async () => {
     }
     for (e of toucOfClassicsData) {
       let tempShow = shows[33];
-      tempShow.schedule.push(e._id);
-      await tempShow.save();
-      e.show = tempShow._id;
-      await e.save();
-    }
-    for (e of vinyDeciData) {
-      let tempShow = shows[34];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import pages / views
 import Home from './pages/Home';
 import BoardMembers from './pages/BoardMembers';
+import SingleBoardMember from './pages/SingleBoardMember';
 import DJs from './pages/DJs';
 import SingleDJ from './pages/SingleDJ';
 import Shows from './pages/Shows';
@@ -35,6 +36,14 @@ function App() {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/board' element={<BoardMembers />} />
+              <Route
+                path='/board/:bmUrl'
+                element={
+                  <ErrorBoundary fallback={<InvalidPage />}>
+                    <SingleBoardMember />
+                  </ErrorBoundary>
+                }
+              />
               <Route path='/djs' element={<DJs />} />
               <Route
                 path='/djs/:djUrl'
