@@ -64,7 +64,10 @@ const SingleDJ = () => {
 
             {dj.Shows[0] ? (
               <>
-                <p className='lead'>Listen to {dj.nickName} on:</p>
+                <p className='lead'>
+                  Listen to {dj.nickName ? dj.nickName : dj.firstName} on:
+                </p>
+                {console.log(dj.fullName)}
                 <div className='container'>
                   <div className='row justify-content-center'>
                     {dj.Shows &&
