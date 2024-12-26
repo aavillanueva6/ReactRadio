@@ -34,7 +34,14 @@ const Donate = () => {
           </div>
         </div>
       </div>
-      <div className='container my-4'>{donateData.afterPledgeSection.text}</div>
+      <div className='container my-4'>
+        <span
+          className={donateData.afterPledgeSection.textSection.class}
+          style={donateData.afterPledgeSection.textSection.style}
+        >
+          {donateData.afterPledgeSection.textSection.text}
+        </span>
+      </div>
       <div className='container my-4'>
         <div className='row justify-content-between'>
           {donateData.afterPledgeSection.otherSupportMethods.map((method) => (
@@ -47,15 +54,13 @@ const Donate = () => {
                   <i className={`${method.icon.src}`} />
                 </div>
                 <div className='row'>
-                  <span className={`${method.header.style} h5`}>
+                  <span className={`${method.header.class}`}>
                     {method.header.text}
                   </span>
                 </div>
                 <div className='row'>
-                  <span className={method.body.style}>
-                    <small className='text-body-secondary'>
-                      {method.body.text}
-                    </small>
+                  <span className={method.body.class} style={method.body.style}>
+                    {method.body.text}
                   </span>
                 </div>
               </div>

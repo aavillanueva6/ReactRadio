@@ -8,13 +8,18 @@
     "url": "https://www.paypal.com/donate?hosted_button_id=DACU8C2AL8WC2"
   },
   "afterPledgeSection": {
-    "text": "All donations are welcome and can be made by sending a check to WETF The Jazz Station, P.O. Box 485, South Bend, IN 46624 or by using the donation link above. WETF is a registered nonprofit enterprise under the federal 501(c)(3) tax code. Donations, no matter how small, will help WETF and jazzradiowetf.org to keep delivering the best in jazz 24 hours, seven days a week with minimal interruptions for commercials and announcements.",
+    "textSection": {
+      "text": "All donations are welcome and can be made by sending a check to WETF The Jazz Station, P.O. Box 485, South Bend, IN 46624 or by using the donation link above. WETF is a registered nonprofit enterprise under the federal 501(c)(3) tax code. Donations, no matter how small, will help WETF and jazzradiowetf.org to keep delivering the best in jazz 24 hours, seven days a week with minimal interruptions for commercials and announcements.",
+      "class": "",
+      "style": {}
+    },
     "otherSupportMethods": [
       {
-        "header": { "text": "Underwriters", "style": "" },
+        "header": { "text": "Underwriters", "class": "h5" },
         "body": {
           "text": "WETF is looking for underwriters to support its mission. For annual support of $5,000 or more, underwriters will be acknowledged on-air daily a minimum of three times. Interested parties should contact station manager Eliud Villanueva at 574-307-0743.",
-          "style": ""
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
         },
         "icon": {
           "src": "fa-regular fa-compass",
@@ -22,10 +27,11 @@
         }
       },
       {
-        "header": { "text": "Volunteers", "style": "" },
+        "header": { "text": "Volunteers", "class": "h5" },
         "body": {
           "text": "WETF is seeking volunteers to oversee its studios and answer phones at the Marycrest building on Western Avenue in South Bend. Those interested, please call 574-307-0743.",
-          "style": ""
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
         },
         "icon": {
           "src": "fa-regular fa-handshake",
@@ -33,10 +39,11 @@
         }
       },
       {
-        "header": { "text": "Interns", "style": "" },
+        "header": { "text": "Interns", "class": "h5" },
         "body": {
           "text": "WETF is offering a paid opportunity for a qualified intern to work at the station and learn about the inner workings of a low-power radio station. Interested parties should submit their applications and brief resumes to WETF c/o The WETF Directors, P.O. Box 485, South Bend, IN 46624.",
-          "style": ""
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
         },
         "icon": {
           "src": "fa-regular fa-pen-to-square",
