@@ -13,6 +13,17 @@ const typeDefs = gql`
     url: String
     bio: [String]
   }
+  type BoardMember {
+    _id: ID
+    firstName: String!
+    lastName: String!
+    fullName: String
+    nickName: String
+    Title: String
+    image: String
+    url: String
+    bio: [String]
+  }
   type Show {
     _id: ID
     name: String!
@@ -40,6 +51,7 @@ const typeDefs = gql`
     singleDJ(url: String!): DJ
     singleShow(url: String!): Show
     schedule(day: String!): [WeeklySchedule]
+    boardMembers: [BoardMember]
   }
   type Hosturl {
     _id: ID

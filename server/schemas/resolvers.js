@@ -1,9 +1,13 @@
-const { DJ, Show, WeeklySchedule } = require('../models');
+const { DJ, Show, WeeklySchedule, BoardMember } = require('../models');
 
 const resolvers = {
   Query: {
     djs: async () => {
       return await DJ.find({}).populate('Shows');
+    },
+
+    boardMembers: async () => {
+      return await BoardMember.find({});
     },
 
     shows: async () => {
@@ -12,6 +16,10 @@ const resolvers = {
 
     singleDJ: async (parent, { url }) => {
       return await DJ.findOne({ url: url }).populate('Shows');
+    },
+
+    singleBM: async (parent, { url }) => {
+      return await DJ.findOne({ url: url });
     },
 
     singleShow: async (parent, { url }) => {

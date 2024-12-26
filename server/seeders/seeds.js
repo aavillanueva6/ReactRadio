@@ -1,8 +1,9 @@
 const db = require('../config/connection');
-const { DJ, Show } = require('../models');
-const WeeklySchedule = require('../models/WeeklySchedule');
+const { DJ, Show, WeeklySchedule, BoardMember } = require('../models');
+// const WeeklySchedule = require('../models/WeeklySchedule');
 const DJSeeds = require('./DJSeeds.json');
 const ShowSeeds = require('./ShowSeeds.json');
+const BoardMemberSeeds = require('./BoardMembers.json');
 
 //schedule data import
 const afroCubaLati = require('./showSchedules/afroCubaLati.json');
@@ -47,10 +48,12 @@ db.once('open', async () => {
     await DJ.deleteMany({});
     await Show.deleteMany({});
     await WeeklySchedule.deleteMany({});
+    await BoardMember.deleteMany({});
 
     // Bulk create each model
     const djs = await DJ.insertMany(DJSeeds);
     const shows = await Show.insertMany(ShowSeeds);
+    const boardMembers = await BoardMember.insertMany(BoardMemberSeeds);
     const afroCubaLatiData = await WeeklySchedule.insertMany(afroCubaLati);
     const amerSongData = await WeeklySchedule.insertMany(amerSong);
     const berkJazzData = await WeeklySchedule.insertMany(berkJazz);
@@ -341,7 +344,7 @@ db.once('open', async () => {
 
     for (newShow of shows) {
       for (let i = 0; i < newShow.hosturl.length; i++) {
-        console.log(newShow);
+        // console.log(newShow);
         const tempHostUrl = newShow.hosturl[i].url;
         const tempDJ = djs.filter((dj) => dj.url === tempHostUrl);
         tempDJ[0].Shows.push(newShow._id);
@@ -349,7 +352,7 @@ db.once('open', async () => {
 
         newShow.host.push(tempDJ[0]._id);
         await newShow.save();
-        console.log(newShow);
+        // console.log(newShow);
       }
     }
 

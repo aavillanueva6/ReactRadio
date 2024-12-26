@@ -18,6 +18,21 @@ export const QUERY_DJs = gql`
   }
 `;
 
+export const QUERY_BOARD = gql`
+  query getBoardMembers {
+    boardMembers {
+      firstName
+      lastName
+      fullName
+      nickName
+      Title
+      _id
+      image
+      url
+    }
+  }
+`;
+
 export const QUERY_SINGLE_DJ = gql`
   query singleDJ($url: String!) {
     singleDJ(url: $url) {
@@ -32,6 +47,19 @@ export const QUERY_SINGLE_DJ = gql`
         url
         _id
       }
+    }
+  }
+`;
+
+export const QUERY_SINGLE_BOARD_MEMBER = gql`
+  query singleBM($url: String!) {
+    singleBM(url: $url) {
+      firstName
+      lastName
+      nickName
+      Title
+      image
+      bio
     }
   }
 `;

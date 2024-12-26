@@ -1,0 +1,71 @@
+[
+  {
+    "firstName": "Eliud",
+    "lastName": "Villanueva",
+    "fullName": "Eliud Villanueva",
+    "nickName": "",
+    "Title": "WETF founding board member, station manager and chief engineer",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
+    "url": "eliud-villanueva",
+    "bio": [
+      "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
+    ]
+  },
+
+  {
+    "firstName": "Stephen",
+    "lastName": "Merriman",
+    "fullName": "Stephen Merriman",
+    "nickName": "",
+    "Title": "WETF founding board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/steve-merriman.webp",
+    "url": "stephen-merriman",
+    "bio": [
+      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
+    ]
+  },
+
+  {
+    "firstName": "Glenda Rae",
+    "lastName": "Hernandez",
+    "fullName": "Glenda Rae",
+    "nickName": "",
+    "Title": "WETF founding board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
+    "url": "glenda-rae-hernandez",
+    "bio": [
+      "Founding member of the WETF board, and the station’s secretary/treasurer."
+    ]
+  },
+
+  {
+    "firstName": "Mike",
+    "lastName": "Finnerty",
+    "fullName": "Mike Finnerty",
+    "nickName": "",
+    "Title": "WETF board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mike-finnerty.webp",
+    "url": "mike-finnerty",
+    "bio": [""]
+  },
+  {
+    "firstName": "Brent",
+    "lastName": "Banulis",
+    "fullName": "Brent Banulis",
+    "nickName": "",
+    "Title": "WETF board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
+    "url": "rob-hoff",
+    "bio": [""]
+  },
+  {
+    "firstName": "Marian",
+    "lastName": "Stetler Emery",
+    "fullName": "Marian Stetler Emery",
+    "nickName": "",
+    "Title": "WETF board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Marian-Stetler-Emery.jpg",
+    "url": "marian-stetler-emery",
+    "bio": [""]
+  }
+]

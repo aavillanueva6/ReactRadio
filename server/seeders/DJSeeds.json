@@ -1,74 +1,16 @@
 [
   {
-    "firstName": "Eliud",
-    "lastName": "Villanueva",
-    "fullName": "Eliud Villanueva",
-    "nickName": "",
-    "Title": "WETF founding board member, station manager and chief engineer",
-    "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
-    "url": "eliud-villanueva",
-    "bio": [
-      "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
-    ]
-  },
-
-  {
-    "firstName": "Stephen",
-    "lastName": "Merriman",
-    "fullName": "Stephen Merriman",
-    "nickName": "",
-    "Title": "WETF founding board member",
-    "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/steve-merriman.webp",
-    "url": "stephen-merriman",
-    "bio": [
-      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
-    ]
-  },
-
-  {
-    "firstName": "Mary",
-    "lastName": "Merriman",
-    "fullName": "Mary Merriman",
-    "nickName": "",
-    "Title": "WETF founding board member",
-    "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mary-merriman.webp",
-    "url": "mary-merriman",
-    "bio": [
-      "WETF founding board member, jazz bassist and co-founder and producer for Merrimans’ Playhouse. For information on the Playhouse, visit its website at merrimansplayhouse.org."
-    ]
-  },
-
-  {
-    "firstName": "Glenda Rae",
-    "lastName": "Hernandez",
-    "fullName": "Glenda Rae",
-    "nickName": "",
-    "Title": "WETF founding board member",
-    "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
-    "url": "glenda-rae-hernandez",
-    "bio": [
-      "Founding member of the WETF board, and the station’s secretary/treasurer."
-    ]
-  },
-
-  {
     "firstName": "Adriana",
     "lastName": "Ponce-Diaz",
     "fullName": "Adriana Ponce-Diaz",
     "nickName": "",
     "Title": "Progammer",
-    "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/adriana-ponce-diaz.webp",
     "url": "adriana-ponce-diaz",
     "bio": [
       "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else’s tasks."
     ]
   },
-
   {
     "firstName": "Tish",
     "lastName": "Adams",
@@ -609,18 +551,6 @@
     "bio": [
       "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "
     ]
-  },
-
-  {
-    "firstName": "Jim",
-    "lastName": "Jazz",
-    "fullName": "Jim Jazz",
-    "nickName": "",
-    "Title": "WETF Host",
-    "Shows": [],
-    "image": "",
-    "url": "jim-jazz",
-    "bio": [""]
   },
 
   {
