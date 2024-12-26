@@ -36,6 +36,14 @@ const SingleShow = () => {
   const hostCount = show.host.length;
   console.log(hostCount);
 
+  let showImageSrc = '';
+  if (show.image) {
+    showImageSrc = show.image;
+  } else {
+    showImageSrc =
+      'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
+  }
+
   return (
     <>
       {console.log(show)}
@@ -45,7 +53,7 @@ const SingleShow = () => {
             <div className='row g-0'>
               <div className='col-md-4'>
                 <img
-                  src={show.image}
+                  src={showImageSrc}
                   className='img-fluid rounded-start'
                   alt='showCard'
                 />

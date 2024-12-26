@@ -75,6 +75,7 @@ export const QUERY_SHOWS = gql`
       host {
         nickName
         url
+        fullName
       }
     }
   }

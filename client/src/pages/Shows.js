@@ -14,11 +14,12 @@ const Shows = () => {
 
   return (
     <>
-      <div className="container">
-        <div className="p-5 text-center">
-          <div className="display-4">WETF Shows</div>
+      {console.log(shows)}
+      <div className='container'>
+        <div className='p-5 text-center'>
+          <div className='display-4'>WETF Shows</div>
         </div>
-        <div className="row justify-content-center">
+        <div className='row justify-content-center'>
           {loading ? (
             <>
               <PHShowCardShort />
