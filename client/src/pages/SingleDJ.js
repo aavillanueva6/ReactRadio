@@ -27,29 +27,35 @@ const SingleDJ = () => {
   }
   return (
     <>
-      <div className="container ">
-        <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary">
-          <div className="d-flex col justify-content-center">
+      <div className='container '>
+        <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary'>
+          <div className='d-flex col justify-content-center'>
             <img
-              className="bd-placeholder-img rounded-circle card card-cover  overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              width="400"
+              className='bd-placeholder-img rounded-circle card card-cover  overflow-hidden text-bg-dark rounded-4 shadow-lg'
+              width='400'
               src={dj.image}
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
+              aria-label='Placeholder'
+              preserveAspectRatio='xMidYMid slice'
+              focusable='false'
             />
           </div>
         </div>
-        <div className="row row-cols-1 row-cols-lg-3 justify-content-center g-4 py-0 bg-secondary">
-          <div className="d-flex flex-column h-100 pb-5 pt-0  text-white text-shadow-1">
+        <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 py-0 bg-secondary'>
+          <div className='d-flex flex-column h-100 pb-5 pt-0  text-white text-shadow-1'>
             <h3
-              className="pt-0 mt-0 mb-0 display-5 lh-1 fw-bold"
+              className='pt-0 mt-0 mb-0 display-5 lh-1 fw-bold'
               style={textOutline}
             >
               {dj.firstName} {dj.lastName}
             </h3>
-            <h4 className="pt-0 mt-0 mb-4 display-6 lh-1" style={textOutline}>
-              {dj.nickName} - {dj.Title}
+            <h4 className='pt-0 mt-0 mb-4 display-6 lh-1' style={textOutline}>
+              {dj.nickName ? (
+                <>
+                  {dj.Title}- {dj.nickName}
+                </>
+              ) : (
+                <>{dj.Title}</>
+              )}
             </h4>
             {dj.bio &&
               dj.bio.map((paragraph, i) => {
@@ -58,16 +64,16 @@ const SingleDJ = () => {
 
             {dj.Shows[0] ? (
               <>
-                <p className="lead">Listen to {dj.nickName} on:</p>
-                <div className="container">
-                  <div className="row justify-content-center">
+                <p className='lead'>Listen to {dj.nickName} on:</p>
+                <div className='container'>
+                  <div className='row justify-content-center'>
                     {dj.Shows &&
                       dj.Shows.map((Show) => {
                         return (
                           <Link
                             to={`/shows/${Show.url}`}
                             key={Show._id}
-                            className="btn btn-dark mb-2 col-5 mx-2"
+                            className='btn btn-dark mb-2 col-5 mx-2'
                           >
                             {Show.name}
                           </Link>
