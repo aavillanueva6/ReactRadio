@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const DJsSchema = new Schema({
+const BoardMembersSchema = new Schema({
   firstName: {
     type: String,
     required: true,
@@ -23,12 +23,6 @@ const DJsSchema = new Schema({
     type: String,
     trim: true,
   },
-  Shows: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Show',
-    },
-  ],
   image: {
     type: String,
     trim: true,
@@ -40,6 +34,6 @@ const DJsSchema = new Schema({
   bio: [{ type: String }],
 });
 
-const DJ = model('DJ', DJsSchema);
+const BoardMember = model('BoardMember', BoardMembersSchema);
 
-module.exports = DJ;
+module.exports = BoardMember;

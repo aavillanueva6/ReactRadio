@@ -1,0 +1,16 @@
+[
+  {
+    "day": "Friday",
+    "startTime24": "18",
+    "startTime12": "6:00 PM",
+    "endTime12": "8:00 PM",
+    "hosturl": [{ "url": "jane-fischer" }]
+  },
+  {
+    "day": "Sunday",
+    "startTime24": "11",
+    "startTime12": "11:00 AM",
+    "endTime12": "1:00 PM",
+    "hosturl": [{ "url": "jane-fischer" }]
+  }
+]

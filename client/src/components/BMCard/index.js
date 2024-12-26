@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const DJCard = ({ dj }) => {
+const BMCard = ({ bm }) => {
   return (
-    <div key={dj._id} className='mx-auto col text-center'>
+    <div key={bm._id} className='mx-auto col text-center'>
       <div
         className='rounded-circle mx-auto'
         style={{
-          backgroundImage: `url('${dj.image}')`,
+          backgroundImage: `url('${bm.image}')`,
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'auto 140px',
@@ -19,29 +19,18 @@ const DJCard = ({ dj }) => {
           className='rounded-circle mx-auto'
           width='140'
           height='140'
-          src={dj.image}
-          aria-label={`${dj.nickName} portrait`}
+          src={bm.image}
+          aria-label={`${bm.nickName} portrait`}
           focusable='false'
           style={{ opacity: 0.0 }}
         />
       </div>
       <div className='h2 fw-normal '>
-        {dj.firstName} {dj.lastName}
+        {bm.firstName} {bm.lastName}
       </div>
-      <div className='lead'>{dj.nickName}</div>
-
-      {dj.Shows &&
-        dj.Shows.map((show) => (
-          <Link
-            className='text-decoration-none text-dark'
-            key={show.name}
-            to={`/shows/${show.url}`}
-          >
-            <div>{show.name}</div>
-          </Link>
-        ))}
+      <div className='lead'>{bm.nickName}</div>
       <p>
-        <Link to={`/djs/${dj.url}`} className='btn btn-secondary'>
+        <Link to={`/board/${bm.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>
@@ -49,4 +38,4 @@ const DJCard = ({ dj }) => {
   );
 };
 
-export default DJCard;
+export default BMCard;

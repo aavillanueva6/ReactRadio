@@ -1,0 +1,16 @@
+[
+  {
+    "day": "Monday",
+    "startTime24": "2",
+    "startTime12": "2:00 AM",
+    "endTime12": "3:00 AM",
+    "hosturl": [{ "url": "jake-longwell" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "13",
+    "startTime12": "1:00 PM",
+    "endTime12": "2:00 PM",
+    "hosturl": [{ "url": "jake-longwell" }]
+  }
+]

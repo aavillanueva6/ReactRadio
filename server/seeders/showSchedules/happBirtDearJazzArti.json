@@ -1,0 +1,51 @@
+[
+  {
+    "day": "Monday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Saturday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  },
+  {
+    "day": "Sunday",
+    "startTime24": "10",
+    "startTime12": "10:00 AM",
+    "endTime12": "11:00 AM",
+    "hosturl": [{ "url": "laurie-villanueva" }]
+  }
+]

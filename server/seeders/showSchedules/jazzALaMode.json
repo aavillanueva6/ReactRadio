@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Monday",
+    "startTime24": "20",
+    "startTime12": "8:00 PM",
+    "endTime12": "11:00 PM",
+    "hosturl": [{ "url": "bex-taylor" }]
+  },
+  {
+    "day": "Tuesday",
+    "startTime24": "20",
+    "startTime12": "8:00 PM",
+    "endTime12": "11:00 PM",
+    "hosturl": [{ "url": "bex-taylor" }]
+  },
+  {
+    "day": "Wednesday",
+    "startTime24": "20",
+    "startTime12": "8:00 PM",
+    "endTime12": "11:00 PM",
+    "hosturl": [{ "url": "bex-taylor" }]
+  },
+  {
+    "day": "Thursday",
+    "startTime24": "20",
+    "startTime12": "8:00 PM",
+    "endTime12": "11:00 PM",
+    "hosturl": [{ "url": "bex-taylor" }]
+  },
+  {
+    "day": "Friday",
+    "startTime24": "20",
+    "startTime12": "8:00 PM",
+    "endTime12": "11:00 PM",
+    "hosturl": [{ "url": "bex-taylor" }]
+  }
+]
