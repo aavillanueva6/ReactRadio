@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const donateData = require('../utils/data/donateData.json');
 
@@ -21,42 +22,47 @@ const Donate = () => {
           );
         })}
       </div>
-      <div className='container'>
-        <div className='row row-cols-1 row-cols-md-3 mb-3 text-center'>
-          {donateData.donationLevel.map((level, i) => {
-            return (
-              <div key={level.levelName} className='col'>
-                <div className={level.levelTheme.card}>
-                  <div className={level.levelTheme.cardHeader}>
-                    <h4 className='my-0 fw-normal'>{level.levelName}</h4>
-                  </div>
-                  <div className='card-body'>
-                    <h1 className='card-title pricing-card-title'>
-                      {level.levelCost}
-                      <small className='text-body-secondary fw-light'>
-                        /mo
-                      </small>
-                    </h1>
-                    <ul className='list-unstyled mt-3 mb-4'>
-                      {level.levelBenefit.map((benefit, j) => {
-                        return (
-                          <li key={`${level.levelName}-benefit-${j}`}>
-                            {benefit}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                    <button type='button' className={level.levelTheme.button}>
-                      Pledge Today
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+      <div className='container my-4'>
+        <div className='row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center'>
+          <div className='col'>
+            <Link
+              to={donateData.pledgeButton.url}
+              className={donateData.pledgeButton.theme}
+            >
+              Pledge Today
+            </Link>
+          </div>
         </div>
       </div>
-      <div></div>
+      <div className='container my-4'>{donateData.afterPledgeSection.text}</div>
+      <div className='container my-4'>
+        <div className='row justify-content-between'>
+          {donateData.afterPledgeSection.otherSupportMethods.map((method) => (
+            <Fragment key={method.header.text}>
+              <div className='col-sm-3'>
+                <div
+                  className='row text-primary text-center'
+                  style={method.icon.style}
+                >
+                  <i className={`${method.icon.src}`} />
+                </div>
+                <div className='row'>
+                  <span className={`${method.header.style} h5`}>
+                    {method.header.text}
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className={method.body.style}>
+                    <small className='text-body-secondary'>
+                      {method.body.text}
+                    </small>
+                  </span>
+                </div>
+              </div>
+            </Fragment>
+          ))}
+        </div>
+      </div>
     </>
   );
 };
