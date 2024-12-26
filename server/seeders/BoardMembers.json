@@ -1,41 +1,13 @@
 [
   {
-    "firstName": "Eliud",
-    "lastName": "Villanueva",
-    "fullName": "Eliud Villanueva",
+    "firstName": "Brent",
+    "lastName": "Banulis",
+    "fullName": "Brent Banulis",
     "nickName": "",
-    "Title": "WETF founding board member, Secretary and Tresurer, station manager and chief engineer",
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
-    "url": "eliud-villanueva",
-    "bio": [
-      "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
-    ]
-  },
-
-  {
-    "firstName": "Stephen",
-    "lastName": "Merriman",
-    "fullName": "Stephen Merriman",
-    "nickName": "",
-    "Title": "WETF founding board member",
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/steve-merriman.webp",
-    "url": "stephen-merriman",
-    "bio": [
-      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
-    ]
-  },
-
-  {
-    "firstName": "Glenda Rae",
-    "lastName": "Hernandez",
-    "fullName": "Glenda Rae",
-    "nickName": "",
-    "Title": "WETF founding board member, and Treasurer Emeritus",
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
-    "url": "glenda-rae-hernandez",
-    "bio": [
-      "Founding member of the WETF board, and the station’s secretary/treasurer."
-    ]
+    "Title": "President of the WETF board",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
+    "url": "rob-hoff",
+    "bio": [""]
   },
 
   {
@@ -49,13 +21,37 @@
     "bio": [""]
   },
   {
-    "firstName": "Brent",
-    "lastName": "Banulis",
-    "fullName": "Brent Banulis",
+    "firstName": "Glenda Rae",
+    "lastName": "Hernandez",
+    "fullName": "Glenda Rae",
     "nickName": "",
-    "Title": "President of the WETF board",
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
-    "url": "rob-hoff",
+    "Title": "WETF founding board member, and Treasurer Emeritus",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/glenda-rae-hernandez.webp",
+    "url": "glenda-rae-hernandez",
+    "bio": [
+      "Founding member of the WETF board, and the station’s secretary/treasurer."
+    ]
+  },
+  {
+    "firstName": "Stephen",
+    "lastName": "Merriman",
+    "fullName": "Stephen Merriman",
+    "nickName": "",
+    "Title": "WETF founding board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/steve-merriman.webp",
+    "url": "stephen-merriman",
+    "bio": [
+      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
+    ]
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Merten",
+    "fullName": "Matt Merten",
+    "nickName": "",
+    "Title": "WETF board member",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
+    "url": "matt-merten",
     "bio": [""]
   },
   {
@@ -69,13 +65,15 @@
     "bio": [""]
   },
   {
-    "firstName": "Matt",
-    "lastName": "Merten",
-    "fullName": "Matt Merten",
+    "firstName": "Eliud",
+    "lastName": "Villanueva",
+    "fullName": "Eliud Villanueva",
     "nickName": "",
-    "Title": "WETF board member",
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
-    "url": "matt-merten",
-    "bio": [""]
+    "Title": "WETF founding board member, Secretary and Tresurer, station manager and chief engineer",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Eliud-Villanueva.webp",
+    "url": "eliud-villanueva",
+    "bio": [
+      "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
+    ]
   }
 ]

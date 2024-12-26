@@ -123,17 +123,15 @@
   },
 
   {
-    "firstName": "Russ",
-    "lastName": "Hamer",
-    "fullName": "Russ Hamer",
+    "firstName": "Leslie",
+    "lastName": "Fuller",
+    "fullName": "Leslie Fuller",
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/russ-hamer.webp",
-    "url": "russ-hamer",
-    "bio": [
-      "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
-    ]
+    "image": "",
+    "url": "leslie-fuller",
+    "bio": [""]
   },
 
   {
@@ -149,7 +147,19 @@
       "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America’s most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
     ]
   },
-
+  {
+    "firstName": "Russ",
+    "lastName": "Hamer",
+    "fullName": "Russ Hamer",
+    "nickName": "",
+    "Title": "WETF Host",
+    "Shows": [],
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/russ-hamer.webp",
+    "url": "russ-hamer",
+    "bio": [
+      "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
+    ]
+  },
   {
     "firstName": "Monika",
     "lastName": "Herzig",
@@ -163,7 +173,6 @@
       "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener’s Companion”, leader of international touring group Sheroes, Indiana University Bloomington Arts Administration faculty and editor of “Jazz Education in Research and Practice”.  monikaherzig.com"
     ]
   },
-
   {
     "firstName": "John",
     "lastName": "Hill",
@@ -537,17 +546,5 @@
     "bio": [
       "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "
     ]
-  },
-
-  {
-    "firstName": "Leslie",
-    "lastName": "Fuller",
-    "fullName": "Leslie Fuller",
-    "nickName": "",
-    "Title": "WETF Host",
-    "Shows": [],
-    "image": "",
-    "url": "leslie-fuller",
-    "bio": [""]
   }
 ]
