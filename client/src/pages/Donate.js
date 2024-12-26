@@ -28,6 +28,7 @@ const Donate = () => {
             <Link
               to={donateData.pledgeButton.url}
               className={donateData.pledgeButton.theme}
+              target='_blank'
             >
               Pledge Today
             </Link>
