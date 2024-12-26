@@ -11,7 +11,7 @@ const Donate = () => {
   return (
     <>
       <div className='container mx-auto text-center'>
-        <div className='text-center p-5'>
+        <div className='text-center px-5 pt-5 pb-3'>
           <h1 className='display-4'>Support Independent Radio</h1>
         </div>
         {donateData.infoText.map((paragraph, i) => {
