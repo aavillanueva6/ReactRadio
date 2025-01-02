@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DAY } from '../utils/queries';
 import ScheduleShowRow from '../components/ScheduleShowRow';
@@ -32,9 +33,6 @@ const Schedule = () => {
   const { loading, data, client } = useQuery(QUERY_SINGLE_DAY, {
     variables: { day: displayDay },
   });
-  // if (loading) {
-  //   return <div>Loading...</div>;
-  // }
 
   const queryResults = data?.schedule || [];
   let orderedResults = [...queryResults];
@@ -71,25 +69,59 @@ const Schedule = () => {
     });
   };
 
-  useEffect(() => {
-    document.title = 'WETF 105.7 - Schedule';
-  }, []);
+  const PageMetadata = {
+    title: `WETF 105.7 - Schedule`,
+    meta: {
+      name: {
+        description: `Jazz Radio WETF on air schedule`,
+        keywords: `WETF, Jazz, Schedule`,
+        author: `Alejandro Villanueva`,
+        viewport: `width=device-width, initial-scale=1.0`,
+      },
+      property: {
+        ogLocale: `en_US`,
+        ogType: `website`,
+      },
+    },
+  };
+  PageMetadata.meta.property.ogTitle = PageMetadata.title;
+  PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
 
   return (
     <>
-      <div className="container p-0 bg-body-tertiary">
-        <div className="container justify-content-evenly">
-          <div className="p-5 text-center">
-            <h1 className="display-4">Weekly Schedule</h1>
+      <MetaTags>
+        <title>{PageMetadata.title}</title>
+        <meta name='description' content={PageMetadata.meta.name.description} />
+        <meta name='keywords' content={PageMetadata.meta.name.keywords} />
+        <meta name='author' content={PageMetadata.meta.name.author} />
+        <meta name='viewport' content={PageMetadata.meta.name.viewport} />
+        <meta
+          property='og:title'
+          content={PageMetadata.meta.property.ogTitle}
+        />
+        <meta
+          property='og:locale'
+          content={PageMetadata.meta.property.ogLocale}
+        />
+        <meta property='og:type' content={PageMetadata.meta.property.ogType} />
+        <meta
+          property='og:description'
+          content={PageMetadata.meta.property.ogDescription}
+        />
+      </MetaTags>
+      <div className='container p-0 bg-body-tertiary'>
+        <div className='container justify-content-evenly'>
+          <div className='p-5 text-center'>
+            <h1 className='display-4'>Weekly Schedule</h1>
           </div>
-          <div className="row justify-content-evenly">
+          <div className='row justify-content-evenly'>
             {daysOfWeek.map((day, i) => {
               return (
                 <button
                   className={`col btn ${
                     displayDay === day ? 'btn-secondary' : 'btn-outline-primary'
                   } rounded-pill mx-auto`}
-                  type="button"
+                  type='button'
                   name={day}
                   onClick={handleClick}
                   onMouseEnter={prefetchData}
@@ -102,12 +134,12 @@ const Schedule = () => {
             })}
           </div>
         </div>
-        <div className="container mt-5">
-          <div className="row">
-            <p className="col text-center lead">{displayDay}</p>
+        <div className='container mt-5'>
+          <div className='row'>
+            <p className='col text-center lead'>{displayDay}</p>
           </div>
-          <div className="row">
-            <p className="col text-center fw-light fst-italic fs-6">
+          <div className='row'>
+            <p className='col text-center fw-light fst-italic fs-6'>
               All show times listed in Eastern time zone (EST/EDT)
             </p>
           </div>
@@ -116,7 +148,7 @@ const Schedule = () => {
               {phPairedResults.map((e) => {
                 return (
                   <PHScheduleShowRow
-                    aria-hidden="true"
+                    aria-hidden='true'
                     shows={e}
                     key={`SSRplaceholder-${e}`}
                   />
@@ -131,14 +163,14 @@ const Schedule = () => {
             </>
           )}
         </div>
-        <div className="container justify-content-evenly">
-          <div className=" text-center">
+        <div className='container justify-content-evenly'>
+          <div className=' text-center'>
             <a
               href={printableScheduleSrc}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-outline-primary m-2"
-              type="button"
+              target='_blank'
+              rel='noopener noreferrer'
+              className='btn btn-outline-primary m-2'
+              type='button'
             >
               Download a printer friendly schedule here
             </a>
