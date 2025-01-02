@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
 import { useParams, Link } from 'react-router-dom';
@@ -19,15 +20,50 @@ const SingleBoardMember = () => {
   const boardMember = data?.singleBM || {};
   console.log(bmUrl);
 
-  useEffect(() => {
-    document.title = `WETF 105.7 - ${boardMember.firstName} ${boardMember.lastName}`;
-  });
-
   if (loading) {
     return <div>Loading...</div>;
   }
+
+  const PageMetadata = {
+    title: `WETF 105.7 - ${boardMember.firstName} ${boardMember.lastName}`,
+    meta: {
+      name: {
+        description: `Jazz Radio WETF Board Member, ${boardMember.firstName} ${boardMember.lastName}`,
+        keywords: `WETF, Jazz, ${boardMember.firstName} ${boardMember.lastName}`,
+        author: `Alejandro Villanueva`,
+        viewport: `width=device-width, initial-scale=1.0`,
+      },
+      property: {
+        ogLocale: `en_US`,
+        ogType: `website`,
+      },
+    },
+  };
+  PageMetadata.meta.property.ogTitle = PageMetadata.title;
+  PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
+
   return (
     <>
+      <MetaTags>
+        <title>{PageMetadata.title}</title>
+        <meta name='description' content={PageMetadata.meta.name.description} />
+        <meta name='keywords' content={PageMetadata.meta.name.keywords} />
+        <meta name='author' content={PageMetadata.meta.name.author} />
+        <meta name='viewport' content={PageMetadata.meta.name.viewport} />
+        <meta
+          property='og:title'
+          content={PageMetadata.meta.property.ogTitle}
+        />
+        <meta
+          property='og:locale'
+          content={PageMetadata.meta.property.ogLocale}
+        />
+        <meta property='og:type' content={PageMetadata.meta.property.ogType} />
+        <meta
+          property='og:description'
+          content={PageMetadata.meta.property.ogDescription}
+        />
+      </MetaTags>
       <div className='container '>
         <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary'>
           <div className='d-flex col justify-content-center'>

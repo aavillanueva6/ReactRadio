@@ -13,6 +13,7 @@ const BoardMembers = () => {
   const phDJs = [0, 1, 2, 3, 4, 5, 6];
 
   const PageMetadata = {
+    title: `WETF 105.7 - Board`,
     meta: {
       name: {
         description: `Jazz Radio WETF Board Members`,
@@ -21,18 +22,18 @@ const BoardMembers = () => {
         viewport: `width=device-width, initial-scale=1.0`,
       },
       property: {
-        ogTitle: `WETF 105.7 - Board`,
         ogLocale: `en_US`,
         ogType: `website`,
-        ogDescription: `Jazz Radio WETF Board Members`,
       },
     },
   };
+  PageMetadata.meta.property.ogTitle = PageMetadata.title;
+  PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
 
   return (
     <>
       <MetaTags>
-        <title>WETF 105.7 - Board</title>
+        <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
         <meta name='author' content={PageMetadata.meta.name.author} />
