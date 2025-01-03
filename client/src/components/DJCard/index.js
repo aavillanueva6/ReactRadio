@@ -31,6 +31,7 @@ const DJCard = ({ dj }) => {
           aria-label={`${dj.nickName} portrait`}
           focusable='false'
           style={{ opacity: 0.0 }}
+          loading='lazy'
         />
       </div>
       <div className='h2 fw-normal '>

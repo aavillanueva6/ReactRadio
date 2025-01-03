@@ -23,6 +23,7 @@ const BMCard = ({ bm }) => {
           aria-label={`${bm.nickName} portrait`}
           focusable='false'
           style={{ opacity: 0.0 }}
+          loading='lazy'
         />
       </div>
       <div className='h2 fw-normal '>
