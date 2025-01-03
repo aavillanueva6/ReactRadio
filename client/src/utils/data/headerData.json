@@ -1,6 +1,6 @@
 {
   "navStyle": {
-    "backgroundImage": "url('https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity_forHeader.png')",
+    "backgroundImage": "url('/assets/images/content/WETFBannerLightsCity_forHeader.webp')",
     "backgroundSize": "cover",
     "backgroundRepeat": "no-repeat",
     "backdropFilter": "blur(300px)"
