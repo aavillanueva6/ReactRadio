@@ -7,5 +7,9 @@
     "As a result of this national collaboration, WETF has developed a programming schedule that reflects the full spectrum of jazz culture in America. Shows like \"Bebop Bistro\" from Seattle, \"Blue Note Lounge\" from Boston, and \"Swingin' Sundays\" from Miami provide listeners with a journey through the diverse landscapes of jazz. Each show, whether locally produced or contributed by out-of-state DJs, brings its own unique flavor, making WETF not only a local station but a national voice in jazz broadcasting.",
     "Now, nearly a decade after its founding, WETF 105.7 has established itself as a leading jazz radio station in the Midwest and beyond. Its commitment to showcasing both classic jazz and emerging talents, combined with its innovative national partnerships, has earned it a dedicated listenership. With a growing presence online and through community events, the station continues to evolve, connecting new generations to the rich legacy of jazz while keeping the genre alive and thriving."
   ],
-  "bannerImgSrc": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png"
+  "bannerImg": {
+    "src": "/assets/images/content/home_page_hero.webp",
+    "alt": "band playing at Merrimans' Playhouse",
+    "class": "img-fluid mx-auto d-block mt-4"
+  }
 }

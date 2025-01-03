@@ -45,9 +45,9 @@ const Home = () => {
         />
       </MetaTags>
       <img
-        className='img-fluid mx-auto d-block mt-4'
-        alt='WETF letters in lights in front of a moody cityscape'
-        src={homeData.bannerImgSrc}
+        className={homeData.bannerImg.class}
+        alt={homeData.bannerImg.alt}
+        src={homeData.bannerImg.src}
       ></img>
       <div className='container my-0'>
         <div className='p-5 text-center bg-body-tertiary rounded-3'>
