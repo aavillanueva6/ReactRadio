@@ -44,9 +44,9 @@ function App() {
                   </ErrorBoundary>
                 }
               />
-              <Route path='/contributors' element={<DJs />} />
+              <Route path='/djs' element={<DJs />} />
               <Route
-                path='/contributors/:djUrl'
+                path='/djs/:djUrl'
                 element={
                   <ErrorBoundary fallback={<InvalidPage />}>
                     <SingleDJ />

@@ -37,7 +37,7 @@
       "text": "WETF Board"
     },
     {
-      "destination": "/contributors",
+      "destination": "/djs",
       "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
       "role": "button",
       "text": "Contributors"
