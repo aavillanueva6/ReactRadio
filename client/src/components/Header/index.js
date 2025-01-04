@@ -60,7 +60,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar expand="sm" className=" sticky-top" style={navStyle}>
+      <Navbar expand='sm' className='sticky-top' style={navStyle}>
         <Container>
           <Link to={headerData.logoLink.destination}>
             <Navbar.Brand>
@@ -75,25 +75,25 @@ const Header = () => {
           </Link>
 
           <Button
-            size="sm"
-            className="p-1"
+            size='sm'
+            className='p-1'
             onClick={handleListenLiveClick}
             onMouseEnter={handleFetchAudioStream}
             disabled={buttonDisabled}
-            variant="outline-primary"
+            variant='outline-primary'
           >
-            <p className="p-0 m-0">Listen Live</p>
+            <p className='p-0 m-0'>Listen Live</p>
             {loadingAudio ? (
               <div
-                className="spinner-border spinner-border-sm text-primary"
-                role="status"
+                className='spinner-border spinner-border-sm text-primary'
+                role='status'
               >
-                <span className="visually-hidden">Loading...</span>
+                <span className='visually-hidden'>Loading...</span>
               </div>
             ) : (
               <i className={liveStreamButtonIcon}></i>
             )}
-            <audio id="liveRadioStream" preload="none">
+            <audio id='liveRadioStream' preload='none'>
               <source
                 src={headerData.audioElement.src}
                 type={headerData.audioElement.type}
@@ -104,49 +104,49 @@ const Header = () => {
             <></>
           ) : (
             <Button
-              size="sm"
-              className="p-1 ms-1"
+              size='sm'
+              className='p-1 ms-1'
               onClick={handleJumpToLiveClick}
-              variant="outline-primary"
+              variant='outline-primary'
             >
-              <p className="p-0 m-0">Jump to live</p>
+              <p className='p-0 m-0'>Jump to live</p>
             </Button>
           )}
           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#basic-navbar-nav"
-            aria-controls="basic-navbar-nav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className='navbar-toggler'
+            type='button'
+            data-bs-toggle='collapse'
+            data-bs-target='#basic-navbar-nav'
+            aria-controls='basic-navbar-nav'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+          <Navbar.Collapse id='basic-navbar-nav'>
+            <Nav className='ms-auto'>
               <Link
-                to="/donate"
-                className="nav-link px-2 text-primary fw-bolder"
+                to='/donate'
+                className='nav-link px-2 text-primary fw-bolder'
               >
                 Support WETF
               </Link>
-              <div className="nav-item dropdown">
+              <div className='nav-item dropdown'>
                 <a
-                  id="basic-nav-dropdown"
-                  aria-expanded="false"
-                  role="button"
-                  className="p-2 nav-link dropdown-toggle text-primary"
-                  tabIndex="0"
-                  href="#"
-                  data-bs-toggle="dropdown"
+                  id='basic-nav-dropdown'
+                  aria-expanded='false'
+                  role='button'
+                  className='p-2 nav-link dropdown-toggle text-primary'
+                  tabIndex='0'
+                  href='#'
+                  data-bs-toggle='dropdown'
                 >
                   Menu
                 </a>
                 <div
-                  aria-labelledby="basic-nav-dropdown"
-                  data-bs-popper="static"
-                  className="dropdown-menu"
+                  aria-labelledby='basic-nav-dropdown'
+                  data-bs-popper='static'
+                  className='dropdown-menu'
                 >
                   {headerData.dropdownLinks.map((e) => {
                     return (
