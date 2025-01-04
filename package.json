@@ -17,5 +17,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "react-meta-tags": "^1.0.1"
   }
 }
