@@ -50,7 +50,7 @@ const DJCard = ({ dj }) => {
           </Link>
         ))}
       <p>
-        <Link to={`/djs/${dj.url}`} className='btn btn-secondary'>
+        <Link to={`/contributors/${dj.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>

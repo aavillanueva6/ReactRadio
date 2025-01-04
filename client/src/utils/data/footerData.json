@@ -35,10 +35,10 @@
       "text": "WETF Board"
     },
     {
-      "destination": "/djs",
+      "destination": "/contributors",
       "className": "nav-link px-2 text-body-secondary",
       "role": "button",
-      "text": "DJs"
+      "text": "Contributors"
     },
     {
       "destination": "/shows",
