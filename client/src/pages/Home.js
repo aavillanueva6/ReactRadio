@@ -48,6 +48,7 @@ const Home = () => {
         className={homeData.bannerImg.class}
         alt={homeData.bannerImg.alt}
         src={homeData.bannerImg.src}
+        style={homeData.bannerImg.style}
       ></img>
       <div className='container my-0'>
         <div className='p-5 text-center bg-body-tertiary rounded-3'>

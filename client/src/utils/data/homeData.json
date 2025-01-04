@@ -10,6 +10,11 @@
   "bannerImg": {
     "src": "/assets/images/content/home_page_hero.webp",
     "alt": "band playing at Merrimans' Playhouse",
-    "class": "img-fluid mx-auto d-block mt-4"
+    "class": "img-fluid mx-auto d-block mt-4",
+    "style": {
+      "aspectRatio": "auto 160/81",
+      "width": "100%",
+      "maxWidth": "1296px"
+    }
   }
 }
