@@ -81,7 +81,7 @@ const SingleBoardMember = () => {
             />
           </div>
         </div>
-        <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 py-0 bg-secondary'>
+        <div className='row row-cols-1 row-cols-lg-2 justify-content-center g-4 py-0 bg-secondary'>
           <div className='d-flex flex-column h-100 pb-5 pt-0  text-white text-shadow-1'>
             <h3
               className='pt-0 mt-0 mb-0 display-5 lh-1 fw-bold'

@@ -91,7 +91,7 @@ const SingleDJ = () => {
             <h4 className='pt-0 mt-0 mb-4 display-6 lh-1' style={textOutline}>
               {dj.nickName ? (
                 <>
-                  {dj.Title}- {dj.nickName}
+                  {dj.Title} - {dj.nickName}
                 </>
               ) : (
                 <>{dj.Title}</>
