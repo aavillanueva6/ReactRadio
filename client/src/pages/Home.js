@@ -116,9 +116,9 @@ const Home = () => {
             </strong>{' '}
             for the times to hear your preferred music, presented by more than
             two dozen carefully selected jazz hosts from throughout the country.
-            See the{' '}
+            See our{' '}
             <strong>
-              <Link to='/contributors'>Contributors page</Link>
+              <Link to='/contributors'>contributors page</Link>
             </strong>{' '}
             for details on our hosts.
           </p>
