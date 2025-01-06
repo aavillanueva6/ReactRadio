@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { Link } from 'react-router-dom';
 
 const InvalidPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const PageMetadata = {
     title: `Page Not Found`,
     meta: {

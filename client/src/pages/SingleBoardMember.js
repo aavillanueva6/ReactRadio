@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
@@ -13,6 +13,10 @@ const textOutline = {
 };
 
 const SingleBoardMember = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { bmUrl } = useParams();
   const { loading, data } = useQuery(QUERY_SINGLE_BOARD_MEMBER, {
     variables: { url: bmUrl },

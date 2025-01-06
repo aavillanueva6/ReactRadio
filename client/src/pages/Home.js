@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { Link } from 'react-router-dom';
 
 const homeData = require('../utils/data/homeData.json');
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const PageMetadata = {
     title: `WETF 105.7 - The Jazz Station`,
     meta: {

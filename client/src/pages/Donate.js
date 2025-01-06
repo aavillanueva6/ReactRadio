@@ -1,10 +1,14 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { Link } from 'react-router-dom';
 
 const donateData = require('../utils/data/donateData.json');
 
 const Donate = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const PageMetadata = {
     title: `WETF 105.7 - Support WETF`,
     meta: {

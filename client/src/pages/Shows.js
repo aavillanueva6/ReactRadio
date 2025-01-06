@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SHOWS } from '../utils/queries';
@@ -6,6 +6,10 @@ import ShowCardShort from '../components/ShowCardShort';
 import PHShowCardShort from '../components/PHShowCardShort';
 
 const Shows = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { loading, data } = useQuery(QUERY_SHOWS);
   const shows = data?.shows || [];
 

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { useParams, Link } from 'react-router-dom';
 import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
 
 const SingleShow = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { showUrl } = useParams();
   const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
     variables: { url: showUrl },

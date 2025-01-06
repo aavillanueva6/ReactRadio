@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 
@@ -7,6 +7,10 @@ import BMCard from '../components/BMCard';
 import PHDJCard from '../components/PHDJCard';
 
 const BoardMembers = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { loading, data } = useQuery(QUERY_BOARD);
   const boardMembers = data?.boardMembers || [];
 
