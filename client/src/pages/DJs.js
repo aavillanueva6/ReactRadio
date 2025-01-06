@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 
 import { useQuery } from '@apollo/client';
@@ -8,6 +8,10 @@ import DJCard from '../components/DJCard';
 import PHDJCard from '../components/PHDJCard';
 
 const DJs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { loading, data } = useQuery(QUERY_DJs);
   const djs = data?.djs || [];
 

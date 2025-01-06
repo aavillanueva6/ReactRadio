@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DAY } from '../utils/queries';
@@ -29,6 +29,10 @@ for (let i = 0; i < scheduleData.printableSchedules.length; i++) {
 }
 
 const Schedule = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [displayDay, SetDisplayDay] = useState(`${daysOfWeek[date.getDay()]}`);
   const { loading, data, client } = useQuery(QUERY_SINGLE_DAY, {
     variables: { day: displayDay },

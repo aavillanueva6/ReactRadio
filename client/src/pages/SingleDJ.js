@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DJ } from '../utils/queries';
@@ -13,6 +13,10 @@ const textOutline = {
 };
 
 const SingleDJ = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { djUrl } = useParams();
   const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
     variables: { url: djUrl },
