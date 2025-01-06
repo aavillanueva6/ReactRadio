@@ -27,6 +27,11 @@ const Home = () => {
   PageMetadata.meta.property.ogTitle = PageMetadata.title;
   PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
 
+  const genreLists = [
+    homeData.genreSection.ul.slice(0, homeData.genreSection.ul.length / 2),
+    homeData.genreSection.ul.slice(homeData.genreSection.ul.length / 2),
+  ];
+
   return (
     <>
       <MetaTags>
@@ -90,11 +95,17 @@ const Home = () => {
               <h3>{homeData.genreSection.header}</h3>
             </div>
             <div className='row'>
-              <ul>
-                {homeData.genreSection.ul.map((genre, i) => {
-                  return <li key={`${genre}-${i}`}>{genre}</li>;
-                })}
-              </ul>
+              {genreLists.map((list, i) => {
+                return (
+                  <div key={`genre-list-col-${i}`} className='col-6'>
+                    <ul>
+                      {list.map((genre, i) => {
+                        return <li key={`${genre}-${i}`}>{genre}</li>;
+                      })}
+                    </ul>
+                  </div>
+                );
+              })}
             </div>
           </div>
           <p>
