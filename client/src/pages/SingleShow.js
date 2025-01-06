@@ -107,7 +107,7 @@ const SingleShow = () => {
                         i === 0 ? (
                           <Link
                             className=' link-dark link-underline-opacity-0'
-                            to={`/djs/${host.url}`}
+                            to={`/contributors/${host.url}`}
                           >
                             {host.fullName}
                           </Link>
@@ -116,7 +116,7 @@ const SingleShow = () => {
                             <span>, </span>
                             <Link
                               className=' link-dark link-underline-opacity-0'
-                              to={`/djs/${host.url}`}
+                              to={`/contributors/${host.url}`}
                             >
                               {host.fullName}
                             </Link>
