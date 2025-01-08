@@ -92,7 +92,9 @@ const Home = () => {
           </div>
           <div className='col-lg-9'>
             <div className='row'>
-              <h3>{homeData.genreSection.header}</h3>
+              <p className={homeData.genreSection.header.class}>
+                {homeData.genreSection.header.text}
+              </p>
             </div>
             <div className='row'>
               {genreLists.map((list, i) => {
