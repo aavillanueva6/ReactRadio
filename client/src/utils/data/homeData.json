@@ -50,7 +50,10 @@
         "maxWidth": "308px"
       }
     },
-    "header": "When it comes to jazz, \"the art form\", WETF has it in every genre:",
+    "header": {
+      "text": "When it comes to jazz, \"the art form\", WETF has it in every genre:",
+      "class": "h3"
+    },
     "ul": [
       "Trad",
       "Swing",
