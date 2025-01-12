@@ -6,6 +6,7 @@
     "nickName": "",
     "Title": "Progammer",
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/adriana-ponce-diaz.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/adriana-ponce-diaz-sq.webp",
     "url": "adriana-ponce-diaz",
     "bio": [
       "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else’s tasks."
@@ -18,7 +19,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Tish-Adams.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/tish-adams.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/tish-adams-sq.webp",
     "url": "tish-adams",
     "bio": [
       "Jazz vocalist and 25-plus-year radio veteran who brings a passion for standards and not-so-standards to WETF. Tish has utmost respect for the jazz legends, is grateful for those who carry the torch today and always inspired by those young artists who are eager to carry jazz into tomorrow. Her program, “Mornin’ with Tish”, spans her own musical library with a wide range of moods and textures."
@@ -32,7 +34,8 @@
     "nickName": "",
     "Title": "WFMT Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Dee-Alexander.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/dee-alexander.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/dee-alexander-sq.webp",
     "url": "dee-alexander",
     "bio": [
       "Prominent Chicago-based jazz vocalist and host of “This Is Jazz” originating out of WFMT-Chicago.",
@@ -48,6 +51,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/david-basse.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/david-basse-sq.webp",
     "url": "david-basse",
     "bio": [
       "Host of “Jazz with David Basse”, began broadcasting career at Kansas University decades ago, creator of NPR comedy/jazz series “Twelfth Street Jump”."
@@ -61,7 +65,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Brent-Banulis.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/brent-banulis.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/brent-banulis-sq.webp",
     "url": "brent-banulis",
     "bio": [
       "WETF board member and program director, founder of the New England Jazz Hall of Fame, host of “Collector’s Choice”, “Big Band Blowout” and “Saturday Night/Last Call.”"
@@ -75,7 +80,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/John-Clark.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/john-clark.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/john-clark-sq.webp",
     "url": "john-clark",
     "bio": [
       "Clarinetist, sax man and leader of “The Wolverines”, one of the nation’s most highly acclaimed exponents of “traditional” jazz; a highly respected researcher and lecturer on the subject and host of “Jazz Focus.” For more on the Wolverines and Clark’s writings, research and podcasts, visit John Clark/New England Traditional Jazz Plus."
@@ -90,6 +96,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/larry-dwyer.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/larry-dwyer-sq.webp",
     "url": "larry-dwyer",
     "bio": [
       "Host of “Jazz Everybody Likes,” pianist/trombonist, leader of the most popular jazz trio in South Bend for decades, director of jazz studies at the University of Notre Dame."
@@ -104,6 +111,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mike-finnerty.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/mike-finnerty-sq.webp",
     "url": "mike-finnerty",
     "bio": [
       "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector’s Choice” and “Mornin’ with Mike.”"
@@ -118,6 +126,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "",
+    "sqImage": "",
     "url": "jane-fischer",
     "bio": [""]
   },
@@ -130,6 +139,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "",
+    "sqImage": "",
     "url": "leslie-fuller",
     "bio": [""]
   },
@@ -141,7 +151,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Mark-Gridley.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mark-gridley.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/mark-gridley-sq.webp",
     "url": "mark-gridley",
     "bio": [
       "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America’s most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
@@ -155,6 +166,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/russ-hamer.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/russ-hamer-sq.webp",
     "url": "russ-hamer",
     "bio": [
       "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
@@ -168,6 +180,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/monika-herzig.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/monika-herzig-sq.webp",
     "url": "monika-herzig",
     "bio": [
       "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener’s Companion”, leader of international touring group Sheroes, Indiana University Bloomington Arts Administration faculty and editor of “Jazz Education in Research and Practice”.  monikaherzig.com"
@@ -180,7 +193,8 @@
     "nickName": "",
     "Title": "WFMT Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/John-Hill.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/john-hill.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/john-hill-sq.webp",
     "url": "john-hill",
     "bio": [
       "Jazz aficionado, 35-year veteran as a jazz radio broadcaster and host of “This is Jazz” originating out of WFMT Chicago.",
@@ -195,7 +209,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Rob-Hoff.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/rob-hoff.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/rob-hoff-sq.webp",
     "url": "rob-hoff",
     "bio": [
       "During his undergraduate years in New York City in the 1960s, Rob took the opportunity to hear many legendary jazz artists, which deepened his appreciation for the genre. With a passion to share the music with others, he became a jazz radio broadcaster with WQLN, an NPR station in Erie, PA. Five decades later, his enthusiasm is undiminished as you will hear on his Friday noon and Sunday 9 p.m. “Collector’s Choice” and his “Nocturne” show at 11 p.m. Sundays."
@@ -210,6 +225,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/david-brent-johnson.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/david-brent-johnson-sq.webp",
     "url": "david-brent-johnson",
     "bio": [
       "For the past fifteen years David Brent Johnson has hosted WFIU’s nationally-syndicated historical jazz program Night Lights.",
@@ -228,6 +244,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/gloria-krolak.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/gloria-krolak-sq.webp",
     "url": "gloria-krolak",
     "bio": [
       "Gloria is the first and only radio host to present a regular program featuring the vibraphone. She is a 14-year veteran of radio, a journalist who has written for “Jersey Jazz” and was that magazine’s first poetry editor. Gloria produced the “Jazz Vibes Showcase” at the Arts Center of Coastal Carolina in Hilton Head, South Carolina, featuring five of the world’s outstanding vibraphonists. Her book “Jazz Lines…free verse in the key of jazz”, was released in 2019, and most recently, she and vibraphonist Steve Yeager shared the billing on “Jazz Lines Spoken”, which featured her poetry set to Yeager’s music. Check out her website at www.gloriajazz.com."
@@ -242,6 +259,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jake-longwell.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jake-longwell-sq.webp",
     "url": "jake-longwell",
     "bio": [
       "Longwell has always had a passion for radio, obtaining an associate’s degree in radio and working at several stations in Geneva, New York. Host of “Jazz Scene”, “Jazz Progressions”, and “Jazz and More.” Jake is blind, able to see only slightly out of one eye, which requires him to produce his shows from his apartment, where he sorts his CDs and reads liner notes just inches from his face."
@@ -256,6 +274,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/joan-merrill.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/joan-merrill-sq.webp",
     "url": "joan-merrill",
     "bio": [
       "Host of “The Great American Songbook”, producer of 14 “Jazz Profiles” shows for NPR, representative for major jazz singers, wrote liner notes, produced several records and websites, including carmenmcrae.com, and the documentary film “Say It With Jazz.” She lives in the Seattle area."
@@ -270,6 +289,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/matt-merten-sq.webp",
     "url": "matt-merten",
     "bio": [
       "Host of “Mornin’ with Matt,” a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology; trombonist/ arranger, founder of Notre Dame’s New Orleans Brass Band."
@@ -284,6 +304,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/bill-oconnell.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/bill-oconnell-sq.webp",
     "url": "bill-oconnell",
     "bio": [
       "Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WETF’s radio program “New Vintage”, hosted by Bill O’Connell. He formed his own big band in 1988, knowing that his calling was playing modern big band arrangements.",
@@ -300,6 +321,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/middleton-omalley.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/middleton-omalley-sq.webp",
     "url": "middleton-omalley",
     "bio": [
       "Host of “Mornin’ with Middie” at 8 a.m. Mondays (Eastern Time). His interest in jazz began in a country kitchen dancing with his mom to Erroll Garner’s “Concert By The Sea”. Then eagerly awaiting each issue of Down Beat and buying vinyl records. He has seen Dizzy in Berlin; Mongo at the Lighthouse, sold a house to Terence Blanchard, and had terrifying conversations with Lorraine Gordon at the Village Vanguard. He idolized Boston Jazz deejay Eric Jackson and has spent years as a Jazz deejay in New Orleans. His mission? Honor the musicians and entertain his listeners."
@@ -314,6 +336,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/linda-poindexter.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/linda-poindexter-sq.webp",
     "url": "linda-poindexter",
     "bio": [
       "Host of (Wednesday) “Mornin’ with Linda Kay”, Linda’s radio career began in the 1970s and included on-air host, interviewer and producer. She enjoys sharing and utilizing her voice and talents in various ways. An avid listener of music, Linda loves the creative vibes of jazz. She makes her home in the New Haven, Connecticut area."
@@ -328,6 +351,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jon-pollack.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jon-pollack-sq.webp",
     "url": "jon-pollack",
     "bio": [
       "One of the Boston area’s most veteran jazz hosts, whose show, “The Jazz Train”, originates from WMBR-FM on the MIT campus in Cambridge."
@@ -342,6 +366,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/scott-prebys.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/scott-prebys-sq.webp",
     "url": "scott-prebys",
     "bio": [
       "Native son of South Bend, jazz percussionist, retired director of jazz studies at the University of Mary in Bismarck, N.D. Host of “Prebys on Jazz” which originated on the “Prairie Public Radio” network."
@@ -356,6 +381,7 @@
     "Title": "WFCR Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/tom-reney.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/tom-reney-sq.webp",
     "url": "tom-reney",
     "bio": [
       "Historian, author of books and articles on jazz, longtime host of “Jazz a la Mode” which is simulcast out of New England Public Media in Springfield/Amherst, Mass. For a look at Reney’s podcasts and published works, including profiles and obituaries on significant jazz artists, club owners, producers, journalists and broadcasters, search the internet for JazzBeat with Tom Reney."
@@ -369,7 +395,8 @@
     "nickName": "",
     "Title": "Contributing Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/RIchard-Rose.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/richard-rose.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/richard-rose-sq.webp",
     "url": "richard-rose",
     "bio": [
       "Professor emeritus at Miami Dade College and professional bassist and composer. Dr. Rose has helped Mark Gridley create and produce “Reflections on Jazz Styles” for WETF. He holds a Doctor of Musical Arts degree from the University of Texas at Austin, Master of Science degree from Florida International University and a Bachelor of Music degree from the University of Miami and has completed post-doctoral work at FIU and Loyola University, New Orleans. Versed in a number of musical styles, he has taught about the music business and music production as well as jazz and popular music appreciation."
@@ -384,6 +411,7 @@
     "Title": "WFMT Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/jana-lee-ross.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jana-lee-ross-sq.webp",
     "url": "jana-lee-ross",
     "bio": [
       "Lifelong pianist and vocalist, Jana Lee is comfortable with classical music as well as jazz, and she often combines the two in her performances. Host of “This is Jazz” out of WFMT, she began her career as host of “Jazz Beyond Midnight” in Colorado Springs, which is still her home, and worked her way up to become director of music for Classical 88.7 KCME. She also went on to help launch KCME’s sister station, Jazz 93.5.",
@@ -401,6 +429,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/clay-ryder.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/clay-ryder-sq.webp",
     "url": "clay-ryder",
     "bio": [
       "Clay Ryder, host of “Sound Ideas”, is also a pianist, record collector, and all-around jazz afficionado. He studied music at California State University, Chico in the mid-1980s, and his love for jazz dates back to his earliest years listening to KJAZ and KRE in the San Francisco Bay Area, during which time he also began performing in various ensembles."
@@ -415,6 +444,7 @@
     "Title": "WFMT Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/dave-schwan.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/dave-schwan-sq.webp",
     "url": "dave-schwan",
     "bio": [
       "Native of northwest Indiana, avid jazz fan since age 5, longtime host of WFMT’s “This Is Jazz.”",
@@ -429,7 +459,8 @@
     "nickName": "",
     "Title": "WFCR Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/avery_sharpe.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/avery-sharpe.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/avery-sharpe-sq.webp",
     "url": "avery-sharpe",
     "bio": [
       "Friday night host of “Jazz a la Mode”, Avery is a bassist/bandleader/recording artist/composer/ educator, whose credits include performances with Archie Shepp, Art Blakey, Dizzy Gillespie, Wynton Marsalis, Yusef Lateef and 20-plus years performing and recording with McCoy Tyner. Educational activities include numerous workshops, clinics and residencies in the US and abroad. Recognitions include The NAACP Martin Luther King Special Achievement Award, several National Endowment of the Arts grants and the New England for the Arts Achievement in Jazz Award. For more, visit www.averysharpe.com"
@@ -443,7 +474,8 @@
     "nickName": "",
     "Title": "WFCR Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Peter-Sokolowski.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/peter-sokolowski.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/peter-sokolowski-sq.webp",
     "url": "peter-sokolowski",
     "bio": [
       "Alternate voice of “Jazz a la Mode” from New England Public Media, freelance musician, blogger and podcaster."
@@ -458,6 +490,7 @@
     "Title": "WFCR Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/bex-taylor.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/bex-taylor-sq.webp",
     "url": "bex-taylor",
     "bio": [
       "Wednesday night host of “Jazz a la Mode” from New England Public Media (Springfield/Amherst, Mass.) Avid record collector with a love of Blue Note Records and the Great American Songbook."
@@ -471,7 +504,8 @@
     "nickName": "",
     "Title": "WTBR Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Phil-Tierney.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/phil-tierney.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/phil-tierney-sq.webp",
     "url": "phil-tierney",
     "bio": [
       "Retired high school history teacher Phil Tierney has always had a love of jazz, from its earliest performances to it’s modern marvels. He’s taken that love of the genre and turned it into action in his beloved Berkshire County in Massachusetts. He currently serves as a board member of Berkshires Jazz Inc., as the producer of the organization’s local jazz performance television series, and as the host of “Berkshire Jazz,” a program which originates from 89.7 WTBR-FM, Pittsfield Community Radio."
@@ -485,7 +519,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Dick-Vacca.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/dick-vacca.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/dick-vacca-sq.webp",
     "url": "dick-vacca",
     "bio": [
       "Alternate host for Brent Banulis on Wednesday’s “Collector’s Choice/Jazz From New England” series, author of “Boston Jazz Chronicles”, the definitive history of jazz in Boston. For a look at his archival material and latest articles, visit richardvacca.com."
@@ -500,6 +535,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/laurie-villanueva.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/laurie-villanueva-sq.webp",
     "url": "laurie-villanueva",
     "bio": [
       "Laurie, contributor of WETF’s “Happy Birthday, Dear Jazz Artist” feature that airs at 10 a.m. (Eastern Time) throughout the week, has been working with fellow WETF family members, such as Joan Merrill and Rob Hoff, as well as National Public Media to ensure that WETF listeners will never forget those who have shaped America’s only original art form over the past 100-plus years."
@@ -513,7 +549,8 @@
     "nickName": "",
     "Title": "WETF Host",
     "Shows": [],
-    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/Stanley-Welch.webp",
+    "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/stanley-welch.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/stanley-welch-sq.webp",
     "url": "stan-welch",
     "bio": [
       "WETF’s “Night Owl” host at 11 p.m. Monday-Friday. Welch began his jazz programming and hosting career more than 45 years ago in New Haven, Conn., and has been hosting the weekly “Jazz Haven” program at WNHH in New Haven since 2017. (jazzhaven.org   newhavenindependent.org)"
@@ -528,6 +565,7 @@
     "Title": "WETF Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/lori-williams.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/lori-williams-sq.webp",
     "url": "lori-williams",
     "bio": [
       "Immersed in traditional jazz from an early age, Lori is a veteran jazz vocalist and music educator with a BA in mass media. Founder of “positivemusicpm.org”, Ms. Williams’s “Collector’s Choice” sessions focus on women in jazz, the international scene and young performers dedicated to the roots and traditions of the music. She is based in Atlanta, Georgia."
@@ -542,6 +580,7 @@
     "Title": "Contributing Host",
     "Shows": [],
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/lisa-yves.webp",
+    "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/lisa-yves-sq.webp",
     "url": "lisa-yves",
     "bio": [
       "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "

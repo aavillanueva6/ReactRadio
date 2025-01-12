@@ -9,13 +9,20 @@ const DJCard = ({ dj }) => {
     djImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
+  let djSqImageSrc = '';
+  if (dj.sqImage != '') {
+    djSqImageSrc = dj.sqImage;
+  } else {
+    djSqImageSrc =
+      'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
+  }
 
   return (
     <div key={dj._id} className='mx-auto col text-center'>
       <div
         className='rounded-circle mx-auto'
         style={{
-          backgroundImage: `url('${djImageSrc}')`,
+          backgroundImage: `url('${djSqImageSrc}')`,
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'auto 140px',
