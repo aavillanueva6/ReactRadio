@@ -10,6 +10,7 @@ const typeDefs = gql`
     Title: String
     Shows: [Show]
     image: String
+    sqImage: String
     url: String
     bio: [String]
   }
@@ -21,6 +22,7 @@ const typeDefs = gql`
     nickName: String
     Title: String
     image: String
+    sqImage: String
     url: String
     bio: [String]
   }

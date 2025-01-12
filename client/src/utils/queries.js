@@ -13,6 +13,7 @@ export const QUERY_DJs = gql`
       Title
       _id
       image
+      sqImage
       url
     }
   }
@@ -28,6 +29,7 @@ export const QUERY_BOARD = gql`
       Title
       _id
       image
+      sqImage
       url
     }
   }
