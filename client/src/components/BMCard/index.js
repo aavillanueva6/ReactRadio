@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const BMCard = ({ bm }) => {
   let bmImageSrc = '';
-  if (bm.image != '') {
+  if (bm.image !== '') {
     bmImageSrc = bm.image;
   } else {
     bmImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
   let bmSqImageSrc = '';
-  if (bm.sqImage != '') {
+  if (bm.sqImage !== '') {
     bmSqImageSrc = bm.sqImage;
   } else {
     bmSqImageSrc =
@@ -22,7 +22,7 @@ const BMCard = ({ bm }) => {
       <div
         className='rounded-circle mx-auto'
         style={{
-          backgroundImage: `url('${bm.sqImage}')`,
+          backgroundImage: `url('${bmSqImageSrc}')`,
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'auto 140px',
@@ -34,7 +34,7 @@ const BMCard = ({ bm }) => {
           className='rounded-circle mx-auto'
           width='140'
           height='140'
-          src={bm.image}
+          src={bmImageSrc}
           aria-label={`${bm.nickName} portrait`}
           focusable='false'
           style={{ opacity: 0.0 }}

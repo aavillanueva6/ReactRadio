@@ -19,7 +19,7 @@ const Footer = () => {
             className={footerData.logoLink.imgClassName}
           />
         </Link>
-        <ul role='list' className='nav col-md-4 justify-content-end'>
+        <ul className='nav col-md-4 justify-content-end'>
           {footerData.links.map((link) => {
             return (
               <li className='nav-item' role={link.role} key={link.text}>

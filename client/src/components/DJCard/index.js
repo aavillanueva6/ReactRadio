@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const DJCard = ({ dj }) => {
   let djImageSrc = '';
-  if (dj.image != '') {
+  if (dj.image !== '') {
     djImageSrc = dj.image;
   } else {
     djImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
   let djSqImageSrc = '';
-  if (dj.sqImage != '') {
+  if (dj.sqImage !== '') {
     djSqImageSrc = dj.sqImage;
   } else {
     djSqImageSrc =
