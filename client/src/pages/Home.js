@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import MetaTags from 'react-meta-tags';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 const homeData = require('../utils/data/homeData.json');
@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
@@ -53,7 +53,7 @@ const Home = () => {
           property='og:description'
           content={PageMetadata.meta.property.ogDescription}
         />
-      </MetaTags>
+      </Helmet>
       {/* banner image */}
       <img
         className={homeData.bannerImg.class}

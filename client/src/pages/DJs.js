@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import MetaTags from 'react-meta-tags';
+import { Helmet } from 'react-helmet';
 
 import { useQuery } from '@apollo/client';
 
@@ -37,7 +37,7 @@ const DJs = () => {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
@@ -56,7 +56,7 @@ const DJs = () => {
           property='og:description'
           content={PageMetadata.meta.property.ogDescription}
         />
-      </MetaTags>
+      </Helmet>
       <div className='container'>
         <div className='p-5 text-center'>
           <h1 className='display-4'>WETF Contributors</h1>

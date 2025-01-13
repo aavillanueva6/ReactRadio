@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import MetaTags from 'react-meta-tags';
+import { Helmet } from 'react-helmet';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
 import { useParams } from 'react-router-dom';
@@ -48,7 +48,7 @@ const SingleBoardMember = () => {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
@@ -67,7 +67,7 @@ const SingleBoardMember = () => {
           property='og:description'
           content={PageMetadata.meta.property.ogDescription}
         />
-      </MetaTags>
+      </Helmet>
       <div className='container '>
         <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary'>
           <div className='d-flex col justify-content-center'>

@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
-import MetaTags from 'react-meta-tags';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 const donateData = require('../utils/data/donateData.json');
@@ -29,7 +29,7 @@ const Donate = () => {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
@@ -48,7 +48,7 @@ const Donate = () => {
           property='og:description'
           content={PageMetadata.meta.property.ogDescription}
         />
-      </MetaTags>
+      </Helmet>
       <div className='container mx-auto text-center'>
         <div className='text-center px-5 pt-5 pb-3'>
           <h1 className='display-4'>Support Independent Radio</h1>
