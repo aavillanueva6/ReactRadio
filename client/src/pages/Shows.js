@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import MetaTags from 'react-meta-tags';
+import { Helmet } from 'react-helmet';
 import { useQuery } from '@apollo/client';
 import { QUERY_SHOWS } from '../utils/queries';
 import ShowCardShort from '../components/ShowCardShort';
@@ -33,7 +33,7 @@ const Shows = () => {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>{PageMetadata.title}</title>
         <meta name='description' content={PageMetadata.meta.name.description} />
         <meta name='keywords' content={PageMetadata.meta.name.keywords} />
@@ -52,7 +52,7 @@ const Shows = () => {
           property='og:description'
           content={PageMetadata.meta.property.ogDescription}
         />
-      </MetaTags>
+      </Helmet>
       {console.log(shows)}
       <div className='container'>
         <div className='p-5 text-center'>
