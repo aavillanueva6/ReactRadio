@@ -5,10 +5,11 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import './utils/custom.css';
+// import './utils/custom.css';
 import './utils/fontawesome/fontawesome.css';
 import './utils/fontawesome/regular.css';
 import './utils/fontawesome/solid.css';
+import './scss/custom.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
