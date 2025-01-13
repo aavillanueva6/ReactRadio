@@ -40,7 +40,6 @@ const Footer = () => {
         </Link>
         <ul className='nav col-md-4 justify-content-end'>
           {footerData.links.map((link: LinkInterface) => {
-            console.log(link);
             return (
               <li className='nav-item' role={link.role} key={link.text}>
                 <Link
