@@ -33,6 +33,10 @@ const DJsSchema = new Schema({
     type: String,
     trim: true,
   },
+  sqImage: {
+    type: String,
+    trim: true,
+  },
   url: {
     type: String,
     trim: true,

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import MetaTags from 'react-meta-tags';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const textOutline = {
   color: '#fff',

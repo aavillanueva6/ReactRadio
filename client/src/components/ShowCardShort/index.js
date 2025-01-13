@@ -9,9 +9,6 @@ const ShowCardShort = ({ show }) => {
     showImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
-  {
-    console.log(show);
-  }
 
   return (
     <div className='col-5 mx-auto px-0 card mb-3' style={{ maxWidth: '540px' }}>

@@ -14,7 +14,7 @@ const SingleShow = () => {
     variables: { url: showUrl },
   });
   const show = q1Data?.singleShow || {};
-  const { loading: q2Loading, data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
+  const { data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
     variables: { url: showUrl },
   });
   let shows = q2Data?.shows || [];
