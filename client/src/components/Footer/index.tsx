@@ -1,7 +1,26 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-const footerData = require('../../utils/data/footerData.json');
+interface LinkInterface {
+  className: string;
+  destination: string;
+  role: string;
+  text: string;
+}
+
+const footerData: {
+  copyrightYear: string;
+  owner: string;
+  logoLink: {
+    destination: string;
+    imgAlt: string;
+    imgSrc: string;
+    imgWidth: string;
+    imgHeight: string;
+    imgClassName: string;
+  };
+  links: LinkInterface[];
+} = require('../../utils/data/footerData.json');
 
 const Footer = () => {
   return (
@@ -20,7 +39,8 @@ const Footer = () => {
           />
         </Link>
         <ul className='nav col-md-4 justify-content-end'>
-          {footerData.links.map((link) => {
+          {footerData.links.map((link: LinkInterface) => {
+            console.log(link);
             return (
               <li className='nav-item' role={link.role} key={link.text}>
                 <Link
