@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 interface Host {
@@ -52,11 +52,12 @@ const ShowCardShort = ({ show }: { show }) => {
                   <Link
                     className=' link-dark link-underline-opacity-0'
                     to={`/contributors/${host.url}`}
+                    key={i}
                   >
                     {host.fullName}
                   </Link>
                 ) : (
-                  <>
+                  <Fragment key={i}>
                     <span>, </span>
                     <Link
                       className=' link-dark link-underline-opacity-0'
@@ -64,7 +65,7 @@ const ShowCardShort = ({ show }: { show }) => {
                     >
                       {host.fullName}
                     </Link>
-                  </>
+                  </Fragment>
                 )
               )}
             </p>
