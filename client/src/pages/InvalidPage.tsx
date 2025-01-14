@@ -2,12 +2,30 @@ import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-const InvalidPage = () => {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+const InvalidPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `Page Not Found`,
     meta: {
       name: {
@@ -19,6 +37,8 @@ const InvalidPage = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };

@@ -5,8 +5,50 @@ import { QUERY_SINGLE_DAY } from '../utils/queries';
 import ScheduleShowRow from '../components/ScheduleShowRow';
 import PHScheduleShowRow from '../components/PHScheduleShowRow';
 
-const date = new Date();
-const daysOfWeek = [
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+interface ScheduleDataType {
+  printableSchedules: Array<{
+    src: string;
+    effectiveDate: string;
+  }>;
+}
+
+interface ScheduleDataType {
+  day: string;
+  endTime12: string;
+  startTime12: string;
+  startTime24: number;
+  show: {
+    name: string;
+    shortDescription: string;
+    url: string;
+    host: Array<{
+      fullName: string;
+      nickName: string;
+      url: string;
+    }>;
+  };
+}
+
+const date: Date = new Date();
+const daysOfWeek: string[] = [
   'Sunday',
   'Monday',
   'Tuesday',
@@ -15,20 +57,20 @@ const daysOfWeek = [
   'Friday',
   'Saturday',
 ];
-const scheduleData = require('../utils/data/scheduleData.json');
+const scheduleData: ScheduleDataType = require('../utils/data/scheduleData.json');
 
-let printableScheduleSrc = '';
-for (let i = 0; i < scheduleData.printableSchedules.length; i++) {
-  let scheduleEffDate = Date.parse(
+let printableScheduleSrc: string = '';
+for (let i: number = 0; i < scheduleData.printableSchedules.length; i++) {
+  let scheduleEffDate: number = Date.parse(
     scheduleData.printableSchedules[i].effectiveDate
   );
-  if (scheduleEffDate <= date) {
+  if (scheduleEffDate <= Date.now()) {
     printableScheduleSrc = scheduleData.printableSchedules[i].src;
     break;
   }
 }
 
-const Schedule = () => {
+const Schedule: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -38,25 +80,27 @@ const Schedule = () => {
     variables: { day: displayDay },
   });
 
-  const queryResults = data?.schedule || [];
-  let orderedResults = [...queryResults];
+  const queryResults: ScheduleDataType[] = data?.schedule || [];
+
+  let orderedResults: ScheduleDataType[] = [...queryResults];
   orderedResults.sort((a, b) => {
     return a.startTime24 - b.startTime24;
   });
-  let pairedResults = [];
+  let pairedResults: ScheduleDataType[][] = [];
   for (
     let i = 0, j = Math.floor(orderedResults.length / 2);
     j < orderedResults.length;
     i++, j++
   ) {
     if (i === Math.floor(orderedResults.length / 2)) {
+      //@ts-ignore
       pairedResults.push([{}, orderedResults[j]]);
     } else {
       pairedResults.push([orderedResults[i], orderedResults[j]]);
     }
   }
 
-  const phPairedResults = [
+  const phPairedResults: number[][] = [
     [0, 1],
     [2, 3],
     [4, 5],
@@ -78,7 +122,7 @@ const Schedule = () => {
     });
   };
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - Schedule`,
     meta: {
       name: {
@@ -90,6 +134,8 @@ const Schedule = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -124,7 +170,7 @@ const Schedule = () => {
             <h1 className='display-4'>Weekly Schedule</h1>
           </div>
           <div className='row justify-content-evenly'>
-            {daysOfWeek.map((day, i) => {
+            {daysOfWeek.map((day: string, i) => {
               return (
                 <button
                   className={`col btn ${
