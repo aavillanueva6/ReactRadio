@@ -4,7 +4,25 @@ import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
 import { useParams } from 'react-router-dom';
 
-const textOutline = {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+const textOutline: Record<string, string> = {
   color: '#fff',
   textShadow: `1px 1px 0 #000,
     -1px 1px 0 #000,
@@ -12,7 +30,7 @@ const textOutline = {
     1px -1px 0 #000`,
 };
 
-const SingleBoardMember = () => {
+const SingleBoardMember: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -27,7 +45,7 @@ const SingleBoardMember = () => {
     return <div>Loading...</div>;
   }
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - ${boardMember.firstName} ${boardMember.lastName}`,
     meta: {
       name: {
@@ -39,6 +57,8 @@ const SingleBoardMember = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -75,8 +95,6 @@ const SingleBoardMember = () => {
               width='400'
               src={boardMember.image}
               aria-label='Placeholder'
-              preserveAspectRatio='xMidYMid slice'
-              focusable='false'
             />
           </div>
         </div>
@@ -98,7 +116,7 @@ const SingleBoardMember = () => {
               )}
             </h4>
             {boardMember.bio &&
-              boardMember.bio.map((paragraph, i) => {
+              boardMember.bio.map((paragraph: string, i: number) => {
                 return <p key={i}>{paragraph}</p>;
               })}
           </div>

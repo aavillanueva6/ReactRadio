@@ -5,15 +5,46 @@ import { QUERY_SHOWS } from '../utils/queries';
 import ShowCardShort from '../components/ShowCardShort';
 import PHShowCardShort from '../components/PHShowCardShort';
 
-const Shows = () => {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+interface ShowsType {
+  image: string;
+  name: string;
+  shortDescription: string;
+  url: string;
+  _id: string;
+  host: Array<{
+    fullName: string;
+    nickName: string;
+    url: string;
+  }>;
+}
+
+const Shows: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const { loading, data } = useQuery(QUERY_SHOWS);
-  const shows = data?.shows || [];
+  const shows: ShowsType[] = data?.shows || [];
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - Shows`,
     meta: {
       name: {
@@ -25,6 +56,8 @@ const Shows = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
