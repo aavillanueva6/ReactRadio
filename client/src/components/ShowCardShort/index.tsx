@@ -16,7 +16,6 @@ interface Show {
 }
 
 const ShowCardShort = ({ show }: { show }) => {
-  console.log(show);
   let showImageSrc: string = '';
   if (show.image) {
     showImageSrc = show.image;
