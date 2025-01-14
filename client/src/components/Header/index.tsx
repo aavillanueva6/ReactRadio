@@ -1,25 +1,60 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
-const headerData = require('../../utils/data/headerData.json');
+interface AudioElement {
+  src: string;
+  type: string;
+}
+interface HeaderLink {
+  className: string;
+  destination: string;
+  role: string;
+  text: string;
+}
+interface LogoLink {
+  destination: string;
+  imgAlt: string;
+  imgClassName: string;
+  imgHeight: string;
+  imgSrc: string;
+  imgWidth: string;
+}
+interface NavStyle {
+  backdropFilter: string;
+  backgroundImage: string;
+  backgroundRepeat: string;
+  backgroundSize: string;
+}
+interface HeaderData {
+  audioElement: AudioElement;
+  dropdownLinks: HeaderLink[];
+  logoLink: LogoLink;
+  navStyle: NavStyle;
+}
 
-const navStyle = headerData.navStyle;
+const headerData: HeaderData = require('../../utils/data/headerData.json');
+
+const navStyle: NavStyle = headerData.navStyle;
 
 const Header = () => {
-  const [playingStream, SetPlayingStream] = useState(false);
+  const [playingStream, SetPlayingStream] = useState<boolean>(false);
   const [liveStreamButtonIcon, SetLiveStreamButtonIcon] =
-    useState('fa-solid fa-play');
-  const [listeningLive, SetListeningLive] = useState(true);
-  const [streamButtonHovered, SetStreamButtonHovered] = useState(false);
-  const [buttonDisabled, SetButtonDisabled] = useState(false);
-  const [loadingAudio, SetLoadingAudio] = useState(false);
+    useState<string>('fa-solid fa-play');
+  const [listeningLive, SetListeningLive] = useState<boolean>(true);
+  const [streamButtonHovered, SetStreamButtonHovered] =
+    useState<boolean>(false);
+  const [buttonDisabled, SetButtonDisabled] = useState<boolean>(false);
+  const [loadingAudio, SetLoadingAudio] = useState<boolean>(false);
 
   const handleListenLiveClick = () => {
-    const audioElement = document.getElementById('liveRadioStream');
+    const audioElement = document.getElementById(
+      'liveRadioStream'
+    ) as HTMLAudioElement;
     if (!playingStream) {
       playAudio(audioElement);
       handleAudioButtonState(audioElement);
@@ -30,26 +65,34 @@ const Header = () => {
       SetListeningLive(false);
     }
   };
+
   const handleJumpToLiveClick = () => {
-    const audioElement = document.getElementById('liveRadioStream');
+    const audioElement = document.getElementById(
+      'liveRadioStream'
+    ) as HTMLAudioElement;
     audioElement.load();
     playAudio(audioElement);
     handleAudioButtonState(audioElement);
     SetListeningLive(true);
   };
+
   const playAudio = (audioElement) => {
     audioElement.play();
     SetLoadingAudio(true);
     SetPlayingStream(true);
     SetLiveStreamButtonIcon('fa-solid fa-pause');
   };
+
   const handleFetchAudioStream = () => {
+    const audioElement = document.getElementById(
+      'liveRadioStream'
+    ) as HTMLAudioElement;
     if (!streamButtonHovered) {
-      const audioElement = document.getElementById('liveRadioStream');
       audioElement.load();
       SetStreamButtonHovered(true);
     }
   };
+
   const handleAudioButtonState = (audioElement) => {
     SetButtonDisabled(true);
     audioElement.onplaying = () => {
@@ -137,7 +180,7 @@ const Header = () => {
                   aria-expanded='false'
                   role='button'
                   className='p-2 nav-link dropdown-toggle text-primary'
-                  tabIndex='0'
+                  tabIndex={0}
                   href='#'
                   data-bs-toggle='dropdown'
                 >
@@ -148,7 +191,7 @@ const Header = () => {
                   data-bs-popper='static'
                   className='dropdown-menu'
                 >
-                  {headerData.dropdownLinks.map((e) => {
+                  {headerData.dropdownLinks.map((e: HeaderLink) => {
                     return (
                       <Link
                         key={e.text}
