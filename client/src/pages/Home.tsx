@@ -2,14 +2,64 @@ import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-const homeData = require('../utils/data/homeData.json');
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
 
-const Home = () => {
+interface StyledTextType {
+  text: string;
+  class: string;
+  style: Record<string, string>;
+}
+
+interface StyledImgType {
+  src: string;
+  alt: string;
+  class: string;
+  style: Record<string, string>;
+}
+
+interface HomeDataType {
+  bannerImg: StyledImgType;
+  aboutText: {
+    heading: StyledTextType;
+  };
+  mapSection: {
+    img: StyledImgType;
+    p: StyledTextType;
+  };
+  genreSection: {
+    img: StyledImgType;
+    header: StyledTextType;
+    ul: string[];
+  };
+  endSection: {
+    img: StyledImgType;
+  };
+}
+
+const homeData: HomeDataType = require('../utils/data/homeData.json');
+
+const Home: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - The Jazz Station`,
     meta: {
       name: {
@@ -21,13 +71,15 @@ const Home = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
   PageMetadata.meta.property.ogTitle = PageMetadata.title;
   PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
 
-  const genreLists = [
+  const genreLists: Array<string[]> = [
     homeData.genreSection.ul.slice(0, homeData.genreSection.ul.length / 2),
     homeData.genreSection.ul.slice(homeData.genreSection.ul.length / 2),
   ];
@@ -97,11 +149,11 @@ const Home = () => {
               </p>
             </div>
             <div className='row'>
-              {genreLists.map((list, i) => {
+              {genreLists.map((list: string[], i: number) => {
                 return (
                   <div key={`genre-list-col-${i}`} className='col-6'>
                     <ul>
-                      {list.map((genre, i) => {
+                      {list.map((genre: string, i: number) => {
                         return <li key={`${genre}-${i}`}>{genre}</li>;
                       })}
                     </ul>
