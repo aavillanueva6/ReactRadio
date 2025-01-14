@@ -19,7 +19,7 @@ interface Schedule {
   endTime12: string;
   show: Show;
   startTime12: string;
-  startTime24: string;
+  startTime24: number;
 }
 
 const ScheduleShowRow = ({ shows }: { shows: Schedule[] }) => {
