@@ -1,15 +1,27 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-const BMCard = ({ bm }) => {
-  let bmImageSrc = '';
+interface BoardMember {
+  Title: string;
+  firstName: string;
+  fullName: string;
+  image: string;
+  lastName: string;
+  nickName: string;
+  sqImage: string;
+  url: string;
+  _id: string;
+}
+
+const BMCard = ({ bm }: { bm: BoardMember }) => {
+  let bmImageSrc: string = '';
   if (bm.image !== '') {
     bmImageSrc = bm.image;
   } else {
     bmImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
-  let bmSqImageSrc = '';
+  let bmSqImageSrc: string = '';
   if (bm.sqImage !== '') {
     bmSqImageSrc = bm.sqImage;
   } else {
@@ -36,7 +48,6 @@ const BMCard = ({ bm }) => {
           height='140'
           src={bmImageSrc}
           aria-label={`${bm.nickName} portrait`}
-          focusable='false'
           style={{ opacity: 0.0 }}
           loading='lazy'
         />
