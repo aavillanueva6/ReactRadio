@@ -6,17 +6,47 @@ import { QUERY_BOARD } from '../utils/queries';
 import BMCard from '../components/BMCard';
 import PHDJCard from '../components/PHDJCard';
 
-const BoardMembers = () => {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+interface BoardMemberType {
+  Title: string;
+  firstName: string;
+  fullName: string;
+  image: string;
+  lastName: string;
+  nickName: string;
+  sqImage: string;
+  url: string;
+  _id: string;
+}
+
+const BoardMembers: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const { loading, data } = useQuery(QUERY_BOARD);
-  const boardMembers = data?.boardMembers || [];
+  let boardMembers: BoardMemberType[] = data?.boardMembers || [];
 
-  const phDJs = [0, 1, 2, 3, 4, 5, 6];
+  const phDJs: number[] = [0, 1, 2, 3, 4, 5, 6];
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - Board`,
     meta: {
       name: {
@@ -28,6 +58,8 @@ const BoardMembers = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -62,14 +94,10 @@ const BoardMembers = () => {
         </div>
         <div className='row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center'>
           {loading
-            ? phDJs.map((e, i) => (
-                <PHDJCard
-                  aria-hidden='true'
-                  dj={e}
-                  key={`placeholder-dj-card-${e}`}
-                />
+            ? phDJs.map((e: number) => (
+                <PHDJCard aria-hidden='true' key={`placeholder-dj-card-${e}`} />
               ))
-            : boardMembers.map((member) => (
+            : boardMembers.map((member: BoardMemberType) => (
                 <BMCard key={member._id} bm={member} />
               ))}
         </div>
