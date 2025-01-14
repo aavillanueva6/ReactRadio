@@ -22,6 +22,15 @@ interface PageMetadataType {
   };
 }
 
+interface BoardMemberType {
+  Title: string;
+  bio: string[];
+  firstName: string;
+  image: string;
+  lastName: string;
+  nickName: string;
+}
+
 const textOutline: Record<string, string> = {
   color: '#fff',
   textShadow: `1px 1px 0 #000,
@@ -39,7 +48,7 @@ const SingleBoardMember: React.FC = () => {
   const { loading, data } = useQuery(QUERY_SINGLE_BOARD_MEMBER, {
     variables: { url: bmUrl },
   });
-  const boardMember = data?.singleBM || {};
+  const boardMember: BoardMemberType = data?.singleBM || {};
 
   if (loading) {
     return <div>Loading...</div>;
