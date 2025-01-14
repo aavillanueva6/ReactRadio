@@ -7,9 +7,7 @@ const PHDJCard = () => {
         className='placeholder rounded-circle mx-auto'
         width='140'
         height='140'
-        preserveAspectRatio='xMidYMid slice'
-        focusable='false'
-        alt='placeholder image while data is loaded'
+        alt='placeholder while data is loaded'
       />
       <div className='h2 fw-normal '>
         <span className='placeholder  w-100'></span>
@@ -22,7 +20,7 @@ const PHDJCard = () => {
         <span className='placeholder bg-secondary  w-100'></span>
       </p>
       <div
-        tabIndex='-1'
+        tabIndex={-1}
         className='btn btn-secondary disabled placeholder col-6 mb-3'
         aria-hidden='true'
       ></div>
