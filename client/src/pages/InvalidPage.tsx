@@ -1,23 +1,35 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import { useQuery } from '@apollo/client';
-import { QUERY_SHOWS } from '../utils/queries';
-import ShowCardShort from '../components/ShowCardShort';
-import PHShowCardShort from '../components/PHShowCardShort';
+import { Link } from 'react-router-dom';
 
-const Shows = () => {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+const InvalidPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const { loading, data } = useQuery(QUERY_SHOWS);
-  const shows = data?.shows || [];
-
-  const PageMetadata = {
-    title: `WETF 105.7 - Shows`,
+  const PageMetadata: PageMetadataType = {
+    title: `Page Not Found`,
     meta: {
       name: {
-        description: `Jazz Radio WETF programs`,
+        description: `Jazz Radio WETF | 404 page not found`,
         keywords: `WETF, Jazz`,
         author: `Alejandro Villanueva`,
         viewport: `width=device-width, initial-scale=1.0`,
@@ -25,6 +37,8 @@ const Shows = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -55,24 +69,34 @@ const Shows = () => {
       </Helmet>
       <div className='container'>
         <div className='p-5 text-center'>
-          <div className='display-4'>WETF Shows</div>
+          <h1 className='display-4'>Oops, nothing exists here :(</h1>
         </div>
-        <div className='row justify-content-center'>
-          {loading ? (
-            <>
-              <PHShowCardShort />
-            </>
-          ) : (
-            <>
-              {shows.map((show) => {
-                return <ShowCardShort key={show._id} show={show} />;
-              })}
-            </>
-          )}
+        <div>
+          We could not find the page you requested. You may be interested in
+          learning how you can support WETF. Check the link below:
         </div>
+        <Link to={`/donate`}>
+          <button
+            className={`btn btn-primary rounded-pill mx-auto`}
+            type='button'
+          >
+            Support WETF
+          </button>
+        </Link>
+        <div>
+          You can also head back to the home page by the button below this.
+        </div>
+        <Link to={`/`}>
+          <button
+            className={`btn btn-primary rounded-pill mx-auto`}
+            type='button'
+          >
+            WETF Home
+          </button>
+        </Link>
       </div>
     </>
   );
 };
 
-export default Shows;
+export default InvalidPage;
