@@ -1,8 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ShowCardShort = ({ show }) => {
-  let showImageSrc = '';
+interface Host {
+  nickName: string;
+  fullName: string;
+  url: string;
+}
+
+interface Show {
+  host: Host[];
+  image: string;
+  name: string;
+  shortDescription: string;
+  url: string;
+}
+
+const ShowCardShort = ({ show }: { show }) => {
+  console.log(show);
+  let showImageSrc: string = '';
   if (show.image) {
     showImageSrc = show.image;
   } else {
