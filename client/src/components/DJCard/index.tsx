@@ -1,15 +1,31 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-const DJCard = ({ dj }) => {
-  let djImageSrc = '';
+interface Shows {
+  name: string;
+  url: string;
+}
+interface DeeJay {
+  Shows: Shows[];
+  Title: string;
+  firstName: string;
+  image: string;
+  lastName: string;
+  nickName: string;
+  sqImage: string;
+  url: string;
+  _id: string;
+}
+
+const DJCard = ({ dj }: { dj: DeeJay }) => {
+  let djImageSrc: string = '';
   if (dj.image !== '') {
     djImageSrc = dj.image;
   } else {
     djImageSrc =
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
-  let djSqImageSrc = '';
+  let djSqImageSrc: string = '';
   if (dj.sqImage !== '') {
     djSqImageSrc = dj.sqImage;
   } else {
@@ -36,7 +52,6 @@ const DJCard = ({ dj }) => {
           height='140'
           src={djImageSrc}
           aria-label={`${dj.nickName} portrait`}
-          focusable='false'
           style={{ opacity: 0.0 }}
           loading='lazy'
         />
@@ -47,7 +62,7 @@ const DJCard = ({ dj }) => {
       <div className='lead'>{dj.nickName}</div>
 
       {dj.Shows &&
-        dj.Shows.map((show) => (
+        dj.Shows.map((show: Shows) => (
           <Link
             className='text-decoration-none text-dark'
             key={show.name}
