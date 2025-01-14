@@ -4,7 +4,39 @@ import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_DJ } from '../utils/queries';
 import { useParams, Link } from 'react-router-dom';
 
-const textOutline = {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+interface DJType {
+  Title: string;
+  bio: string[];
+  firstName: string;
+  image: string;
+  lastName: string;
+  nickName: string;
+  Shows: Array<{
+    name: string;
+    url: string;
+    _id: string;
+  }>;
+}
+
+const textOutline: Record<string, string> = {
   color: '#fff',
   textShadow: `1px 1px 0 #000,
     -1px 1px 0 #000,
@@ -12,7 +44,7 @@ const textOutline = {
     1px -1px 0 #000`,
 };
 
-const SingleDJ = () => {
+const SingleDJ: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -21,13 +53,13 @@ const SingleDJ = () => {
   const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
     variables: { url: djUrl },
   });
-  const dj = data?.singleDJ || {};
+  const dj: DJType = data?.singleDJ || {};
 
   if (loading) {
     return <div>Loading...</div>;
   }
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - ${dj.firstName} ${dj.lastName}`,
     meta: {
       name: {
@@ -39,6 +71,8 @@ const SingleDJ = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -75,8 +109,6 @@ const SingleDJ = () => {
               width='400'
               src={dj.image}
               aria-label='Placeholder'
-              preserveAspectRatio='xMidYMid slice'
-              focusable='false'
             />
           </div>
         </div>
@@ -98,7 +130,7 @@ const SingleDJ = () => {
               )}
             </h4>
             {dj.bio &&
-              dj.bio.map((paragraph, i) => {
+              dj.bio.map((paragraph: string, i: number) => {
                 return <p key={i}>{paragraph}</p>;
               })}
 

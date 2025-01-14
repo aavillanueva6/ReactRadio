@@ -4,7 +4,48 @@ import { useQuery } from '@apollo/client';
 import { useParams, Link } from 'react-router-dom';
 import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
 
-const SingleShow = () => {
+interface PageMetadataType {
+  title: string;
+  meta: {
+    name: {
+      description: string;
+      keywords: string;
+      author: string;
+      viewport: string;
+    };
+    property: {
+      ogLocale: string;
+      ogType: string;
+      ogTitle: string;
+      ogDescription: string;
+    };
+  };
+}
+
+interface ShowType {
+  image: string;
+  longDescription: string[];
+  name: string;
+  _id: string;
+  host: Array<{
+    fullName: string;
+    nickName: string;
+    url: string;
+  }>;
+  schedule: Array<{
+    day: string;
+    endTime12: string;
+    startTime12: string;
+  }>;
+}
+
+interface ShortShowType {
+  name: string;
+  url: string;
+  _id: string;
+}
+
+const SingleShow: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,11 +54,11 @@ const SingleShow = () => {
   const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
     variables: { url: showUrl },
   });
-  const show = q1Data?.singleShow || {};
+  const show: ShowType = q1Data?.singleShow || {};
   const { data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
     variables: { url: showUrl },
   });
-  let shows = q2Data?.shows || [];
+  let shows: ShortShowType[] = q2Data?.shows || [];
   shows = shows.filter((e) => e.name !== show.name);
 
   shows = shows.sort((a, b) => {
@@ -34,9 +75,7 @@ const SingleShow = () => {
     return <div>loading...</div>;
   }
 
-  const hostCount = show.host.length;
-
-  let showImageSrc = '';
+  let showImageSrc: string = '';
   if (show.image) {
     showImageSrc = show.image;
   } else {
@@ -44,7 +83,7 @@ const SingleShow = () => {
       'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
   }
 
-  const PageMetadata = {
+  const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - ${show.name}`,
     meta: {
       name: {
@@ -56,6 +95,8 @@ const SingleShow = () => {
       property: {
         ogLocale: `en_US`,
         ogType: `website`,
+        ogTitle: '',
+        ogDescription: '',
       },
     },
   };
@@ -101,7 +142,7 @@ const SingleShow = () => {
                   <div className='mb-1'>
                     <h6 className='card-text text-dark'>
                       Hosted by:{' '}
-                      {show.host.map((host, i, arr) =>
+                      {show.host.map((host, i: number) =>
                         i === 0 ? (
                           <Link
                             className=' link-dark link-underline-opacity-0'
@@ -169,7 +210,6 @@ const SingleShow = () => {
               </ul>
             </div>
           </div>
-          {/* todo: add dropdown menu to select a different show */}
         </div>
       </div>
     </>
