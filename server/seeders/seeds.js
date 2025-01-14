@@ -335,7 +335,6 @@ db.once('open', async () => {
 
     for (newShow of shows) {
       for (let i = 0; i < newShow.hosturl.length; i++) {
-        // console.log(newShow);
         const tempHostUrl = newShow.hosturl[i].url;
         const tempDJ = djs.filter((dj) => dj.url === tempHostUrl);
         tempDJ[0].Shows.push(newShow._id);
@@ -343,7 +342,6 @@ db.once('open', async () => {
 
         newShow.host.push(tempDJ[0]._id);
         await newShow.save();
-        // console.log(newShow);
       }
     }
 

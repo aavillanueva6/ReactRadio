@@ -53,7 +53,6 @@ const Shows = () => {
           content={PageMetadata.meta.property.ogDescription}
         />
       </Helmet>
-      {console.log(shows)}
       <div className='container'>
         <div className='p-5 text-center'>
           <div className='display-4'>WETF Shows</div>

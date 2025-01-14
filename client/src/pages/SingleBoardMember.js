@@ -22,7 +22,6 @@ const SingleBoardMember = () => {
     variables: { url: bmUrl },
   });
   const boardMember = data?.singleBM || {};
-  console.log(bmUrl);
 
   if (loading) {
     return <div>Loading...</div>;

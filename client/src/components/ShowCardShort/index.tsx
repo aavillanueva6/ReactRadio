@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-const ShowCardShort = ({ show }) => {
-  let showImageSrc = '';
+interface Host {
+  nickName: string;
+  fullName: string;
+  url: string;
+}
+
+interface Show {
+  host: Host[];
+  image: string;
+  name: string;
+  shortDescription: string;
+  url: string;
+}
+
+const ShowCardShort = ({ show }: { show }) => {
+  let showImageSrc: string = '';
   if (show.image) {
     showImageSrc = show.image;
   } else {
@@ -38,11 +52,12 @@ const ShowCardShort = ({ show }) => {
                   <Link
                     className=' link-dark link-underline-opacity-0'
                     to={`/contributors/${host.url}`}
+                    key={i}
                   >
                     {host.fullName}
                   </Link>
                 ) : (
-                  <>
+                  <Fragment key={i}>
                     <span>, </span>
                     <Link
                       className=' link-dark link-underline-opacity-0'
@@ -50,7 +65,7 @@ const ShowCardShort = ({ show }) => {
                     >
                       {host.fullName}
                     </Link>
-                  </>
+                  </Fragment>
                 )
               )}
             </p>

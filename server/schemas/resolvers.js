@@ -30,7 +30,7 @@ const resolvers = {
 
     schedule: async (parent, { day }) => {
       return await WeeklySchedule.find({ day: day })
-        .populate('show')
+        .populate({ path: 'show', populate: { path: 'host', model: 'DJ' } })
         .populate('dj');
     },
   },

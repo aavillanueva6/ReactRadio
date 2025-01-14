@@ -35,7 +35,6 @@ const SingleShow = () => {
   }
 
   const hostCount = show.host.length;
-  console.log(hostCount);
 
   let showImageSrc = '';
   if (show.image) {
@@ -85,7 +84,6 @@ const SingleShow = () => {
           content={PageMetadata.meta.property.ogDescription}
         />
       </Helmet>
-      {console.log(show)}
       <div className='container  p-5 justify-content-center '>
         <div className='row'>
           <div className='card mb-3 col-md-8 ps-0'>

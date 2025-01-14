@@ -114,6 +114,7 @@ export const QUERY_SINGLE_DAY = gql`
         shortDescription
         host {
           nickName
+          fullName
           url
         }
       }
