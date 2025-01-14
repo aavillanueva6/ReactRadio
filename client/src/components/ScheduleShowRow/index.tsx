@@ -23,7 +23,6 @@ interface Schedule {
 }
 
 const ScheduleShowRow = ({ shows }: { shows: Schedule[] }) => {
-  console.log(shows);
   return (
     <>
       <div className='row justify-content-evenly'>
