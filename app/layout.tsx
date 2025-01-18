@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from './ui/header';
 import Footer from './ui/footer';
+import './ui/custom.scss';
 
 export const metadata: Metadata = {
   title: {
