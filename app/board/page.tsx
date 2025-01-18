@@ -1,5 +1,6 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
+import { Metadata } from 'next';
 
 // import { QUERY_BOARD } from '../utils/queries';
 import BMCard from '../components/BMCard';
@@ -7,20 +8,7 @@ import PHDJCard from '../components/PHDJCard';
 
 interface PageMetadataType {
   title: string;
-  meta: {
-    name: {
-      description: string;
-      keywords: string;
-      author: string;
-      viewport: string;
-    };
-    property: {
-      ogLocale: string;
-      ogType: string;
-      ogTitle: string;
-      ogDescription: string;
-    };
-  };
+  description: string;
 }
 
 interface BoardMemberType {
@@ -35,29 +23,25 @@ interface BoardMemberType {
   _id: string;
 }
 
+const pageMetaData: PageMetadataType = {
+  title: 'Board',
+  description: `Jazz Radio WETF Board Members.`,
+};
+
+export const metadata: Metadata = {
+  title: pageMetaData.title,
+  description: pageMetaData.description,
+  openGraph: {
+    title: pageMetaData.title,
+    description: pageMetaData.description,
+  },
+};
+
 const BoardMembers: React.FC = () => {
   // const { loading, data } = useQuery(QUERY_BOARD);
   // let boardMembers: BoardMemberType[] = data?.boardMembers || [];
 
   // const phDJs: number[] = [0, 1, 2, 3, 4, 5, 6];
-
-  const PageMetadata: PageMetadataType = {
-    title: `WETF 105.7 - Board`,
-    meta: {
-      name: {
-        description: `Jazz Radio WETF Board Members`,
-        keywords: `WETF, Jazz`,
-        author: `Alejandro Villanueva`,
-        viewport: `width=device-width, initial-scale=1.0`,
-      },
-      property: {
-        ogLocale: `en_US`,
-        ogType: `website`,
-        ogTitle: '',
-        ogDescription: '',
-      },
-    },
-  };
 
   return (
     <>
