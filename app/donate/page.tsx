@@ -1,24 +1,10 @@
-'use client';
-
 import React, { Fragment, useEffect } from 'react';
 import Link from 'next/link';
+import { Metadata } from 'next';
 
 interface PageMetadataType {
   title: string;
-  meta: {
-    name: {
-      description: string;
-      keywords: string;
-      author: string;
-      viewport: string;
-    };
-    property: {
-      ogLocale: string;
-      ogType: string;
-      ogTitle: string;
-      ogDescription: string;
-    };
-  };
+  description: string;
 }
 
 interface DonateMethodType {
@@ -53,31 +39,23 @@ interface DonateDataType {
   };
 }
 
+const pageMetaData: PageMetadataType = {
+  title: 'Support WETF',
+  description: `Jazz Radio WETF donate to support independent non-profit radio.`,
+};
+
+export const metadata: Metadata = {
+  title: pageMetaData.title,
+  description: pageMetaData.description,
+  openGraph: {
+    title: pageMetaData.title,
+    description: pageMetaData.description,
+  },
+};
+
 const donateData: DonateDataType = require('../lib/donateData.json');
 
 const Donate: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  const PageMetadata: PageMetadataType = {
-    title: `WETF 105.7 - Support WETF`,
-    meta: {
-      name: {
-        description: `Jazz Radio WETF donate to support independent non-profit radio`,
-        keywords: `WETF, Jazz`,
-        author: `Alejandro Villanueva`,
-        viewport: `width=device-width, initial-scale=1.0`,
-      },
-      property: {
-        ogLocale: `en_US`,
-        ogType: `website`,
-        ogTitle: '',
-        ogDescription: '',
-      },
-    },
-  };
-
   return (
     <>
       <div className='container mx-auto text-center'>
