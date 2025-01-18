@@ -2,6 +2,11 @@ import type { Metadata } from 'next';
 import Header from './ui/header';
 import Footer from './ui/footer';
 import './ui/custom.scss';
+import './lib/fontawesome/fontawesome.css';
+import './lib/fontawesome/regular.css';
+import './lib/fontawesome/solid.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BootstrapClient from './components/BootstrapClient';
 
 export const metadata: Metadata = {
   title: {

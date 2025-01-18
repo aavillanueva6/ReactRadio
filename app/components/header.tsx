@@ -77,7 +77,7 @@ const Header = () => {
     SetListeningLive(true);
   };
 
-  const playAudio = (audioElement) => {
+  const playAudio = (audioElement: HTMLAudioElement) => {
     audioElement.play();
     SetLoadingAudio(true);
     SetPlayingStream(true);
@@ -94,7 +94,7 @@ const Header = () => {
     }
   };
 
-  const handleAudioButtonState = (audioElement) => {
+  const handleAudioButtonState = (audioElement: HTMLAudioElement) => {
     SetButtonDisabled(true);
     audioElement.onplaying = () => {
       SetLoadingAudio(false);
