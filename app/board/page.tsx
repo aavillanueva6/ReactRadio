@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useQuery } from '@apollo/client';
 
-import { QUERY_BOARD } from '../utils/queries';
+// import { QUERY_BOARD } from '../utils/queries';
 import BMCard from '../components/BMCard';
 import PHDJCard from '../components/PHDJCard';
 
@@ -36,14 +36,10 @@ interface BoardMemberType {
 }
 
 const BoardMembers: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // const { loading, data } = useQuery(QUERY_BOARD);
+  // let boardMembers: BoardMemberType[] = data?.boardMembers || [];
 
-  const { loading, data } = useQuery(QUERY_BOARD);
-  let boardMembers: BoardMemberType[] = data?.boardMembers || [];
-
-  const phDJs: number[] = [0, 1, 2, 3, 4, 5, 6];
+  // const phDJs: number[] = [0, 1, 2, 3, 4, 5, 6];
 
   const PageMetadata: PageMetadataType = {
     title: `WETF 105.7 - Board`,
@@ -69,7 +65,7 @@ const BoardMembers: React.FC = () => {
         <div className='p-5 text-center'>
           <h1 className='display-4'>WETF Board Members</h1>
         </div>
-        <div className='row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center'>
+        {/* <div className='row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center'>
           {loading
             ? phDJs.map((e: number) => (
                 <PHDJCard aria-hidden='true' key={`placeholder-dj-card-${e}`} />
@@ -77,7 +73,7 @@ const BoardMembers: React.FC = () => {
             : boardMembers.map((member: BoardMemberType) => (
                 <BMCard key={member._id} bm={member} />
               ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
