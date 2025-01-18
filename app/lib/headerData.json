@@ -1,6 +1,6 @@
 {
   "navStyle": {
-    "backgroundImage": "url('/assets/images/content/WETFBannerLightsCity_forHeader.webp')",
+    "backgroundImage": "url('/images/content/WETFBannerLightsCity_forHeader.webp')",
     "backgroundSize": "cover",
     "backgroundRepeat": "no-repeat",
     "backdropFilter": "blur(300px)"

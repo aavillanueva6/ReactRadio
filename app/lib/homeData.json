@@ -1,6 +1,6 @@
 {
   "bannerImg": {
-    "src": "/assets/images/content/home_page_hero.webp",
+    "src": "/images/content/home_page_hero.webp",
     "alt": "band playing at Merrimans' Playhouse",
     "class": "img-fluid mx-auto d-block mt-4",
     "style": {
@@ -17,7 +17,7 @@
   },
   "mapSection": {
     "img": {
-      "src": "/assets/images/content/WETF_sources_map.webp",
+      "src": "/images/content/WETF_sources_map.webp",
       "alt": "map showing cities that shows are produced from",
       "class": "img-fluid mx-auto, d-block",
       "style": {
@@ -33,7 +33,7 @@
   },
   "genreSection": {
     "img": {
-      "src": "/assets/images/content/Eliud_Villanueva_sq.webp",
+      "src": "/images/content/Eliud_Villanueva_sq.webp",
       "alt": "headshot of Eliud Villanueva, WETF founder and station manager",
       "class": "img-fluid mx-auto, d-block",
       "style": {
@@ -67,7 +67,7 @@
   },
   "endSection": {
     "img": {
-      "src": "/assets/images/content/Bex_Taylor_home_footer.webp",
+      "src": "/images/content/Bex_Taylor_home_footer.webp",
       "alt": "Bex Taylor, WFCR Host of Jazz A La Mode, searching the archives for her next show",
       "class": "img-fluid mx-auto, d-block",
       "style": {
