@@ -1,0 +1,55 @@
+{
+  "infoText": [
+    "At WETF 105.7, we pride ourselves on being a truly independent voice for jazz, bringing the best music to listeners without commercial influence. As a 501(c)(3) nonprofit organization, we rely on the generosity of our audience to keep the station thriving. Your donations help us maintain our high-quality programming, support our talented DJs from around the country, and ensure we can continue sharing jazz’s rich history and vibrant future with listeners near and far. Every dollar counts toward preserving the music you love and providing a platform for new and emerging artists.",
+    "By contributing to WETF, you’re not only supporting the station but also becoming part of a community that values jazz and its legacy. Because we are listener-funded, your donations ensure that our programming remains free from corporate sponsorship and aligned with the heart and soul of the music. Whether it's a one-time gift or a recurring contribution, your support helps sustain this beloved station, keeping jazz alive on the airwaves for future generations. Please consider donating today and keeping WETF strong, independent, and focused on what matters most: the music."
+  ],
+  "pledgeButton": {
+    "theme": "w-100 btn btn-lg btn-primary",
+    "url": "https://www.paypal.com/donate?hosted_button_id=DACU8C2AL8WC2"
+  },
+  "afterPledgeSection": {
+    "textSection": {
+      "text": "All donations are welcome and can be made by sending a check to WETF The Jazz Station, P.O. Box 485, South Bend, IN 46624 or by using the donation link above. WETF is a registered nonprofit enterprise under the federal 501(c)(3) tax code. Donations, no matter how small, will help WETF and jazzradiowetf.org to keep delivering the best in jazz 24 hours, seven days a week with minimal interruptions for commercials and announcements.",
+      "class": "",
+      "style": {}
+    },
+    "otherSupportMethods": [
+      {
+        "header": { "text": "Underwriters", "class": "h5" },
+        "body": {
+          "text": "WETF is looking for underwriters to support its mission. For annual support of $5,000 or more, underwriters will be acknowledged on-air daily a minimum of three times. Interested parties should contact station manager Eliud Villanueva at 574-307-0743.",
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
+        },
+        "icon": {
+          "src": "fa-regular fa-compass",
+          "style": { "fontSize": "3rem" }
+        }
+      },
+      {
+        "header": { "text": "Volunteers", "class": "h5" },
+        "body": {
+          "text": "WETF is seeking volunteers to oversee its studios and answer phones at the Marycrest building on Western Avenue in South Bend. Those interested, please call 574-307-0743.",
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
+        },
+        "icon": {
+          "src": "fa-regular fa-handshake",
+          "style": { "fontSize": "3rem" }
+        }
+      },
+      {
+        "header": { "text": "Interns", "class": "h5" },
+        "body": {
+          "text": "WETF is offering a paid opportunity for a qualified intern to work at the station and learn about the inner workings of a low-power radio station. Interested parties should submit their applications and brief resumes to WETF c/o The WETF Directors, P.O. Box 485, South Bend, IN 46624.",
+          "class": "text-body-secondary",
+          "style": { "fontSize": "0.75rem" }
+        },
+        "icon": {
+          "src": "fa-regular fa-pen-to-square",
+          "style": { "fontSize": "3rem" }
+        }
+      }
+    ]
+  }
+}

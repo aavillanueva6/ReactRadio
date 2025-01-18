@@ -1,0 +1,80 @@
+{
+  "bannerImg": {
+    "src": "/assets/images/content/home_page_hero.webp",
+    "alt": "band playing at Merrimans' Playhouse",
+    "class": "img-fluid mx-auto d-block mt-4",
+    "style": {
+      "aspectRatio": "auto 160/81",
+      "width": "100%",
+      "maxWidth": "1296px"
+    }
+  },
+  "aboutText": {
+    "heading": {
+      "text": "About WETF 105.7 - The Jazz Station",
+      "class": ""
+    }
+  },
+  "mapSection": {
+    "img": {
+      "src": "/assets/images/content/WETF_sources_map.webp",
+      "alt": "map showing cities that shows are produced from",
+      "class": "img-fluid mx-auto, d-block",
+      "style": {
+        "aspectRatio": "540/359",
+        "width": "100%",
+        "maxWidth": "720px"
+      }
+    },
+    "p": {
+      "text": "In addition to WETF’s locally produced shows, you can also hear outstanding jazz presenters from southern Indiana, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Illinois, Louisiana, Massachusetts, Missouri, New York, North Dakota, Ohio, Pennsylvania, Rhode Island, South Carolina and Washington.",
+      "class": "col-lg-4 fs-5"
+    }
+  },
+  "genreSection": {
+    "img": {
+      "src": "/assets/images/content/Eliud_Villanueva_sq.webp",
+      "alt": "headshot of Eliud Villanueva, WETF founder and station manager",
+      "class": "img-fluid mx-auto, d-block",
+      "style": {
+        "aspectRatio": "308/303",
+        "width": "100%",
+        "maxWidth": "308px"
+      }
+    },
+    "header": {
+      "text": "When it comes to jazz, \"the art form\", WETF has it in every genre:",
+      "class": "h3"
+    },
+    "ul": [
+      "Trad",
+      "Swing",
+      "Bebop",
+      "The all-time masters",
+      "American Song Book",
+      "The vocalists",
+      "Big Band",
+      "Afro-Cuban-Latin",
+      "Contemporary",
+      "Progressive",
+      "Avant Garde",
+      "Hard Bop",
+      "Third Stream",
+      "Ragtime",
+      "Blues",
+      "Stride"
+    ]
+  },
+  "endSection": {
+    "img": {
+      "src": "/assets/images/content/Bex_Taylor_home_footer.webp",
+      "alt": "Bex Taylor, WFCR Host of Jazz A La Mode, searching the archives for her next show",
+      "class": "img-fluid mx-auto, d-block",
+      "style": {
+        "aspectRatio": "",
+        "width": "100%",
+        "maxWidth": ""
+      }
+    }
+  }
+}
