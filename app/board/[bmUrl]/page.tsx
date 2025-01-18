@@ -1,24 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useQuery } from '@apollo/client';
-import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
-import { useParams } from 'react-router-dom';
+// import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
+// import { useParams } from 'react-router-dom';
+import { Metadata } from 'next';
 
 interface PageMetadataType {
   title: string;
-  meta: {
-    name: {
-      description: string;
-      keywords: string;
-      author: string;
-      viewport: string;
-    };
-    property: {
-      ogLocale: string;
-      ogType: string;
-      ogTitle: string;
-      ogDescription: string;
-    };
-  };
+  description: string;
 }
 
 interface BoardMemberType {
@@ -38,42 +26,37 @@ const textOutline: Record<string, string> = {
     1px -1px 0 #000`,
 };
 
+const pageMetaData: PageMetadataType = {
+  // title: `${boardMember.firstName} ${boardMember.lastName}`,
+  // description: `Jazz Radio WETF Board Member, ${boardMember.firstName} ${boardMember.lastName}.`,
+  title: 'placeholder',
+  description: 'placeholder',
+};
+
+export const metadata: Metadata = {
+  title: pageMetaData.title,
+  description: pageMetaData.description,
+  openGraph: {
+    title: pageMetaData.title,
+    description: pageMetaData.description,
+  },
+};
+
 const SingleBoardMember: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // const { bmUrl } = useParams();
+  // const { loading, data } = useQuery(QUERY_SINGLE_BOARD_MEMBER, {
+  //   variables: { url: bmUrl },
+  // });
+  // const boardMember: BoardMemberType = data?.singleBM || {};
 
-  const { bmUrl } = useParams();
-  const { loading, data } = useQuery(QUERY_SINGLE_BOARD_MEMBER, {
-    variables: { url: bmUrl },
-  });
-  const boardMember: BoardMemberType = data?.singleBM || {};
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  const PageMetadata: PageMetadataType = {
-    title: `WETF 105.7 - ${boardMember.firstName} ${boardMember.lastName}`,
-    meta: {
-      name: {
-        description: `Jazz Radio WETF Board Member, ${boardMember.firstName} ${boardMember.lastName}`,
-        keywords: `WETF, Jazz, ${boardMember.firstName} ${boardMember.lastName}`,
-        author: `Alejandro Villanueva`,
-        viewport: `width=device-width, initial-scale=1.0`,
-      },
-      property: {
-        ogLocale: `en_US`,
-        ogType: `website`,
-        ogTitle: '',
-        ogDescription: '',
-      },
-    },
-  };
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <>
-      <div className='container '>
+      <div>Individual board member</div>
+      {/* <div className='container '>
         <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary'>
           <div className='d-flex col justify-content-center'>
             <img
@@ -107,7 +90,7 @@ const SingleBoardMember: React.FC = () => {
               })}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* {to do: add links to DJ social media (fb, twitter, insta, etc.)} */}
     </>
   );
