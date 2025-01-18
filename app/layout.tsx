@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './lib/fontawesome/fontawesome.css';
 import './lib/fontawesome/regular.css';
 import './lib/fontawesome/solid.css';
