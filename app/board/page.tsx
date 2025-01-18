@@ -1,27 +1,27 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 import { Metadata } from 'next';
 
 // import { QUERY_BOARD } from '../utils/queries';
-import BMCard from '../components/BMCard';
-import PHDJCard from '../components/PHDJCard';
+// import BMCard from '../components/BMCard';
+// import PHDJCard from '../components/PHDJCard';
 
 interface PageMetadataType {
   title: string;
   description: string;
 }
 
-interface BoardMemberType {
-  Title: string;
-  firstName: string;
-  fullName: string;
-  image: string;
-  lastName: string;
-  nickName: string;
-  sqImage: string;
-  url: string;
-  _id: string;
-}
+// interface BoardMemberType {
+//   Title: string;
+//   firstName: string;
+//   fullName: string;
+//   image: string;
+//   lastName: string;
+//   nickName: string;
+//   sqImage: string;
+//   url: string;
+//   _id: string;
+// }
 
 const pageMetaData: PageMetadataType = {
   title: 'Board',
