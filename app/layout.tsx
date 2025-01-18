@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import Header from './ui/header';
-import Footer from './ui/footer';
-import './ui/custom.scss';
+import Header from './components/header';
+import Footer from './components/footer';
 import './lib/fontawesome/fontawesome.css';
 import './lib/fontawesome/regular.css';
 import './lib/fontawesome/solid.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapClient from './components/BootstrapClient';
+import './ui/custom.scss';
 
 export const metadata: Metadata = {
   title: {
