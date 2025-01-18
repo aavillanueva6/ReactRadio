@@ -1,6 +1,4 @@
-'use client';
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
 interface StyledTextType {
@@ -38,10 +36,6 @@ interface HomeDataType {
 const homeData: HomeDataType = require('./lib/homeData.json');
 
 const Home: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   const genreLists: Array<string[]> = [
     homeData.genreSection.ul.slice(0, homeData.genreSection.ul.length / 2),
     homeData.genreSection.ul.slice(homeData.genreSection.ul.length / 2),
