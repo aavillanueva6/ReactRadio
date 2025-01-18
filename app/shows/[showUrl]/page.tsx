@@ -1,24 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useQuery } from '@apollo/client';
-import { useParams, Link } from 'react-router-dom';
-import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
+// import { useParams, Link } from 'react-router-dom';
+// import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
+import { Metadata } from 'next';
 
 interface PageMetadataType {
   title: string;
-  meta: {
-    name: {
-      description: string;
-      keywords: string;
-      author: string;
-      viewport: string;
-    };
-    property: {
-      ogLocale: string;
-      ogType: string;
-      ogTitle: string;
-      ogDescription: string;
-    };
-  };
+  description: string;
 }
 
 interface ShowType {
@@ -44,65 +32,60 @@ interface ShortShowType {
   _id: string;
 }
 
+const pageMetaData: PageMetadataType = {
+  // title: `${show.name}`,
+  // description: `Jazz Radio WETF show ${show.name}.`,
+  title: 'placeholder',
+  description: 'placeholder',
+};
+
+export const metadata: Metadata = {
+  title: pageMetaData.title,
+  description: pageMetaData.description,
+  openGraph: {
+    title: pageMetaData.title,
+    description: pageMetaData.description,
+  },
+};
+
 const SingleShow: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // const { showUrl } = useParams();
+  // const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
+  //   variables: { url: showUrl },
+  // });
+  // const show: ShowType = q1Data?.singleShow || {};
+  // const { data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
+  //   variables: { url: showUrl },
+  // });
+  // let shows: ShortShowType[] = q2Data?.shows || [];
+  // shows = shows.filter((e) => e.name !== show.name);
 
-  const { showUrl } = useParams();
-  const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
-    variables: { url: showUrl },
-  });
-  const show: ShowType = q1Data?.singleShow || {};
-  const { data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
-    variables: { url: showUrl },
-  });
-  let shows: ShortShowType[] = q2Data?.shows || [];
-  shows = shows.filter((e) => e.name !== show.name);
+  // shows = shows.sort((a, b) => {
+  //   if (a.name < b.name) {
+  //     return -1;
+  //   }
+  //   if (a.name > b.name) {
+  //     return 1;
+  //   }
+  //   return 0;
+  // });
 
-  shows = shows.sort((a, b) => {
-    if (a.name < b.name) {
-      return -1;
-    }
-    if (a.name > b.name) {
-      return 1;
-    }
-    return 0;
-  });
+  // if (q1Loading) {
+  //   return <div>loading...</div>;
+  // }
 
-  if (q1Loading) {
-    return <div>loading...</div>;
-  }
-
-  let showImageSrc: string = '';
-  if (show.image) {
-    showImageSrc = show.image;
-  } else {
-    showImageSrc =
-      'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
-  }
-
-  const PageMetadata: PageMetadataType = {
-    title: `WETF 105.7 - ${show.name}`,
-    meta: {
-      name: {
-        description: `Jazz Radio WETF show ${show.name}`,
-        keywords: `WETF, Jazz, ${show.name}`,
-        author: `Alejandro Villanueva`,
-        viewport: `width=device-width, initial-scale=1.0`,
-      },
-      property: {
-        ogLocale: `en_US`,
-        ogType: `website`,
-        ogTitle: '',
-        ogDescription: '',
-      },
-    },
-  };
+  // let showImageSrc: string = '';
+  // if (show.image) {
+  //   showImageSrc = show.image;
+  // } else {
+  //   showImageSrc =
+  //     'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
+  // }
 
   return (
     <>
-      <div className='container  p-5 justify-content-center '>
+      <div>single show page</div>
+      {/* <div className='container  p-5 justify-content-center '>
         <div className='row'>
           <div className='card mb-3 col-md-8 ps-0'>
             <div className='row g-0'>
@@ -188,7 +171,7 @@ const SingleShow: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

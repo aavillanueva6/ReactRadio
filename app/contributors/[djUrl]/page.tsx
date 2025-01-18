@@ -1,24 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useQuery } from '@apollo/client';
-import { QUERY_SINGLE_DJ } from '../utils/queries';
-import { useParams, Link } from 'react-router-dom';
+// import { QUERY_SINGLE_DJ } from '../utils/queries';
+// import { useParams, Link } from 'react-router-dom';
+import { Metadata } from 'next';
 
 interface PageMetadataType {
   title: string;
-  meta: {
-    name: {
-      description: string;
-      keywords: string;
-      author: string;
-      viewport: string;
-    };
-    property: {
-      ogLocale: string;
-      ogType: string;
-      ogTitle: string;
-      ogDescription: string;
-    };
-  };
+  description: string;
 }
 
 interface DJType {
@@ -43,44 +31,37 @@ const textOutline: Record<string, string> = {
     1px -1px 0 #000`,
 };
 
+const pageMetaData: PageMetadataType = {
+  // title: `${dj.firstName} ${dj.lastName}`,
+  // description: `Jazz Radio WETF Board Member, ${dj.firstName} ${dj.lastName}.`,
+  title: 'placeholder',
+  description: 'placeholder',
+};
+
+export const metadata: Metadata = {
+  title: pageMetaData.title,
+  description: pageMetaData.description,
+  openGraph: {
+    title: pageMetaData.title,
+    description: pageMetaData.description,
+  },
+};
+
 const SingleDJ: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // const { djUrl } = useParams();
+  // const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
+  //   variables: { url: djUrl },
+  // });
+  // const dj: DJType = data?.singleDJ || {};
 
-  const { djUrl } = useParams();
-  const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
-    variables: { url: djUrl },
-  });
-  const dj: DJType = data?.singleDJ || {};
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  const PageMetadata: PageMetadataType = {
-    title: `WETF 105.7 - ${dj.firstName} ${dj.lastName}`,
-    meta: {
-      name: {
-        description: `Jazz Radio WETF contributor, ${dj.firstName} ${dj.lastName}`,
-        keywords: `WETF, Jazz, ${dj.firstName} ${dj.lastName}`,
-        author: `Alejandro Villanueva`,
-        viewport: `width=device-width, initial-scale=1.0`,
-      },
-      property: {
-        ogLocale: `en_US`,
-        ogType: `website`,
-        ogTitle: '',
-        ogDescription: '',
-      },
-    },
-  };
-  PageMetadata.meta.property.ogTitle = PageMetadata.title;
-  PageMetadata.meta.property.ogDescription = PageMetadata.meta.name.description;
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <>
-      <div className='container '>
+      <div>single dj page</div>
+      {/* <div className='container '>
         <div className='row row-cols-1 row-cols-lg-3 justify-content-center g-4 pt-5 bg-secondary'>
           <div className='d-flex col justify-content-center'>
             <img
@@ -140,7 +121,7 @@ const SingleDJ: React.FC = () => {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* {to do: add links to DJ social media (fb, twitter, insta, etc.)} */}
     </>
   );
