@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 // import { QUERY_SINGLE_DJ } from '../utils/queries';
 // import { useParams, Link } from 'react-router-dom';
 import { Metadata } from 'next';
@@ -9,27 +9,27 @@ interface PageMetadataType {
   description: string;
 }
 
-interface DJType {
-  Title: string;
-  bio: string[];
-  firstName: string;
-  image: string;
-  lastName: string;
-  nickName: string;
-  Shows: Array<{
-    name: string;
-    url: string;
-    _id: string;
-  }>;
-}
+// interface DJType {
+//   Title: string;
+//   bio: string[];
+//   firstName: string;
+//   image: string;
+//   lastName: string;
+//   nickName: string;
+//   Shows: Array<{
+//     name: string;
+//     url: string;
+//     _id: string;
+//   }>;
+// }
 
-const textOutline: Record<string, string> = {
-  color: '#fff',
-  textShadow: `1px 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000`,
-};
+// const textOutline: Record<string, string> = {
+//   color: '#fff',
+//   textShadow: `1px 1px 0 #000,
+//     -1px 1px 0 #000,
+//     -1px -1px 0 #000,
+//     1px -1px 0 #000`,
+// };
 
 const pageMetaData: PageMetadataType = {
   // title: `${dj.firstName} ${dj.lastName}`,

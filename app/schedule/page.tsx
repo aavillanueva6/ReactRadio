@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useQuery } from '@apollo/client';
+import React /*, { useState }*/ from 'react';
+// import { useQuery } from '@apollo/client';
 // import { QUERY_SINGLE_DAY } from '../utils/queries';
 // import ScheduleShowRow from '../components/ScheduleShowRow';
 // import PHScheduleShowRow from '../components/PHScheduleShowRow';
@@ -10,29 +10,29 @@ interface PageMetadataType {
   description: string;
 }
 
-interface ScheduleDataType {
-  printableSchedules: Array<{
-    src: string;
-    effectiveDate: string;
-  }>;
-}
+// interface ScheduleDataType {
+//   printableSchedules: Array<{
+//     src: string;
+//     effectiveDate: string;
+//   }>;
+// }
 
-interface ScheduleDataType {
-  day: string;
-  endTime12: string;
-  startTime12: string;
-  startTime24: number;
-  show: {
-    name: string;
-    shortDescription: string;
-    url: string;
-    host: Array<{
-      fullName: string;
-      nickName: string;
-      url: string;
-    }>;
-  };
-}
+// interface ScheduleDataType {
+//   day: string;
+//   endTime12: string;
+//   startTime12: string;
+//   startTime24: number;
+//   show: {
+//     name: string;
+//     shortDescription: string;
+//     url: string;
+//     host: Array<{
+//       fullName: string;
+//       nickName: string;
+//       url: string;
+//     }>;
+//   };
+// }
 
 // const date: Date = new Date();
 // const daysOfWeek: string[] = [

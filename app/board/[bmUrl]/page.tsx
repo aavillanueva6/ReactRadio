@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 // import { QUERY_SINGLE_BOARD_MEMBER } from '../utils/queries';
 // import { useParams } from 'react-router-dom';
 import { Metadata } from 'next';
@@ -9,22 +9,22 @@ interface PageMetadataType {
   description: string;
 }
 
-interface BoardMemberType {
-  Title: string;
-  bio: string[];
-  firstName: string;
-  image: string;
-  lastName: string;
-  nickName: string;
-}
+// interface BoardMemberType {
+//   Title: string;
+//   bio: string[];
+//   firstName: string;
+//   image: string;
+//   lastName: string;
+//   nickName: string;
+// }
 
-const textOutline: Record<string, string> = {
-  color: '#fff',
-  textShadow: `1px 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000`,
-};
+// const textOutline: Record<string, string> = {
+//   color: '#fff',
+//   textShadow: `1px 1px 0 #000,
+//     -1px 1px 0 #000,
+//     -1px -1px 0 #000,
+//     1px -1px 0 #000`,
+// };
 
 const pageMetaData: PageMetadataType = {
   // title: `${boardMember.firstName} ${boardMember.lastName}`,

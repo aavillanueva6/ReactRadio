@@ -1,5 +1,5 @@
 import React from 'react';
-import ScheduleShowCard from '../ScheduleShowCard';
+import ScheduleShowCard from '../components/ScheduleShowCard';
 
 interface Host {
   nickName: string;

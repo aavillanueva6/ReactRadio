@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface BoardMember {
   Title: string;
@@ -57,7 +57,7 @@ const BMCard = ({ bm }: { bm: BoardMember }) => {
       </div>
       <div className='lead'>{bm.nickName}</div>
       <p>
-        <Link to={`/board/${bm.url}`} className='btn btn-secondary'>
+        <Link href={`/board/${bm.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>

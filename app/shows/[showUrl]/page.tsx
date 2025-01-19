@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 // import { useParams, Link } from 'react-router-dom';
 // import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
 import { Metadata } from 'next';
@@ -9,28 +9,28 @@ interface PageMetadataType {
   description: string;
 }
 
-interface ShowType {
-  image: string;
-  longDescription: string[];
-  name: string;
-  _id: string;
-  host: Array<{
-    fullName: string;
-    nickName: string;
-    url: string;
-  }>;
-  schedule: Array<{
-    day: string;
-    endTime12: string;
-    startTime12: string;
-  }>;
-}
+// interface ShowType {
+//   image: string;
+//   longDescription: string[];
+//   name: string;
+//   _id: string;
+//   host: Array<{
+//     fullName: string;
+//     nickName: string;
+//     url: string;
+//   }>;
+//   schedule: Array<{
+//     day: string;
+//     endTime12: string;
+//     startTime12: string;
+//   }>;
+// }
 
-interface ShortShowType {
-  name: string;
-  url: string;
-  _id: string;
-}
+// interface ShortShowType {
+//   name: string;
+//   url: string;
+//   _id: string;
+// }
 
 const pageMetaData: PageMetadataType = {
   // title: `${show.name}`,

@@ -1,6 +1,7 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import donateData from '../lib/donateData.json';
 
 interface PageMetadataType {
   title: string;
@@ -53,7 +54,8 @@ export const metadata: Metadata = {
   },
 };
 
-const donateData: DonateDataType = require('../lib/donateData.json');
+// const donateData: DonateDataType = import('../lib/donateData.json');
+const typedDonateData: DonateDataType = donateData;
 
 const Donate: React.FC = () => {
   return (
@@ -62,7 +64,7 @@ const Donate: React.FC = () => {
         <div className='text-center px-5 pt-5 pb-3'>
           <h1 className='display-4'>Support Independent Radio</h1>
         </div>
-        {donateData.infoText.map((paragraph: string, i: number) => {
+        {typedDonateData.infoText.map((paragraph: string, i: number) => {
           return (
             <p className='text-body-secondary' key={i}>
               {paragraph}
@@ -74,8 +76,8 @@ const Donate: React.FC = () => {
         <div className='row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center'>
           <div className='col'>
             <Link
-              href={donateData.pledgeButton.url}
-              className={donateData.pledgeButton.theme}
+              href={typedDonateData.pledgeButton.url}
+              className={typedDonateData.pledgeButton.theme}
               target='_blank'
             >
               Pledge Today
@@ -85,15 +87,15 @@ const Donate: React.FC = () => {
       </div>
       <div className='container my-4'>
         <span
-          className={donateData.afterPledgeSection.textSection.class}
-          style={donateData.afterPledgeSection.textSection.style}
+          className={typedDonateData.afterPledgeSection.textSection.class}
+          style={typedDonateData.afterPledgeSection.textSection.style}
         >
-          {donateData.afterPledgeSection.textSection.text}
+          {typedDonateData.afterPledgeSection.textSection.text}
         </span>
       </div>
       <div className='container my-4'>
         <div className='row justify-content-between'>
-          {donateData.afterPledgeSection.otherSupportMethods.map(
+          {typedDonateData.afterPledgeSection.otherSupportMethods.map(
             (method: DonateMethodType) => (
               <Fragment key={method.header.text}>
                 <div className='col-sm-3'>

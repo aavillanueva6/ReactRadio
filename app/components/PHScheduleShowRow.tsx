@@ -1,5 +1,5 @@
 import React from 'react';
-import PHScheduleShowCard from '../PHScheduleShowCard';
+import PHScheduleShowCard from '../components/PHScheduleShowCard';
 
 const PHScheduleShowRow = ({ shows }: { shows: number[] }) => {
   return (

@@ -32,7 +32,7 @@ interface HomeDataType {
     img: StyledImgType;
   };
 }
-
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const homeData: HomeDataType = require('./lib/homeData.json');
 
 const Home: React.FC = () => {

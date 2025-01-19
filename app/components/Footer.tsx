@@ -21,6 +21,7 @@ const footerData: {
     imgClassName: string;
   };
   links: LinkInterface[];
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
 } = require('../lib/footerData.json');
 
 const Footer = () => {

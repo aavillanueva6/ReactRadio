@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 // import { QUERY_SHOWS } from '../utils/queries';
 // import ShowCardShort from '../components/ShowCardShort';
 // import PHShowCardShort from '../components/PHShowCardShort';
@@ -10,18 +10,18 @@ interface PageMetadataType {
   description: string;
 }
 
-interface ShowsType {
-  image: string;
-  name: string;
-  shortDescription: string;
-  url: string;
-  _id: string;
-  host: Array<{
-    fullName: string;
-    nickName: string;
-    url: string;
-  }>;
-}
+// interface ShowsType {
+//   image: string;
+//   name: string;
+//   shortDescription: string;
+//   url: string;
+//   _id: string;
+//   host: Array<{
+//     fullName: string;
+//     nickName: string;
+//     url: string;
+//   }>;
+// }
 
 const pageMetaData: PageMetadataType = {
   title: 'Shows',

@@ -38,6 +38,7 @@ interface HeaderData {
   navStyle: NavStyle;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const headerData: HeaderData = require('../lib/headerData.json');
 
 const navStyle: NavStyle = headerData.navStyle;

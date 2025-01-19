@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface Shows {
   name: string;
@@ -66,13 +66,13 @@ const DJCard = ({ dj }: { dj: DeeJay }) => {
           <Link
             className='text-decoration-none text-dark'
             key={show.name}
-            to={`/shows/${show.url}`}
+            href={`/shows/${show.url}`}
           >
             <div>{show.name}</div>
           </Link>
         ))}
       <p>
-        <Link to={`/contributors/${dj.url}`} className='btn btn-secondary'>
+        <Link href={`/contributors/${dj.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>

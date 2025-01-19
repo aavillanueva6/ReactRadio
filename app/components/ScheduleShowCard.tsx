@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface Host {
   nickName: string;
@@ -33,7 +33,7 @@ const ScheduleShowCard = ({ show }: { show: Schedule }) => {
           <div className='col-12'>
             <Link
               className='text-decoration-none'
-              to={`/shows/${show.show.url}`}
+              href={`/shows/${show.show.url}`}
             >
               <div className='w-auto text-dark'>{show.show.name}</div>
             </Link>
@@ -42,7 +42,7 @@ const ScheduleShowCard = ({ show }: { show: Schedule }) => {
                 <Link
                   key={i}
                   className='me-auto w-auto text-decoration-none'
-                  to={`/djs/${e.url}`}
+                  href={`/djs/${e.url}`}
                 >
                   <span className='w-auto text-secondary'>{e.fullName}</span>
                 </Link>
@@ -51,7 +51,7 @@ const ScheduleShowCard = ({ show }: { show: Schedule }) => {
                   <span className='w-auto text-secondary'>, </span>
                   <Link
                     className='me-auto w-auto text-decoration-none'
-                    to={`/djs/${e.url}`}
+                    href={`/djs/${e.url}`}
                   >
                     <span className='w-auto text-secondary'>{e.fullName}</span>
                   </Link>

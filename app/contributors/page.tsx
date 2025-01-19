@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 import { Metadata } from 'next';
 
 // import { QUERY_DJs } from '../utils/queries';
@@ -11,22 +11,22 @@ interface PageMetadataType {
   description: string;
 }
 
-interface ShowsType {
-  name: string;
-  url: string;
-}
+// interface ShowsType {
+//   name: string;
+//   url: string;
+// }
 
-interface DJsType {
-  Shows: ShowsType[];
-  Title: string;
-  firstName: string;
-  image: string;
-  lastName: string;
-  nickName: string;
-  sqImage: string;
-  url: string;
-  _id: string;
-}
+// interface DJsType {
+//   Shows: ShowsType[];
+//   Title: string;
+//   firstName: string;
+//   image: string;
+//   lastName: string;
+//   nickName: string;
+//   sqImage: string;
+//   url: string;
+//   _id: string;
+// }
 
 const pageMetaData: PageMetadataType = {
   title: 'Contributors',
