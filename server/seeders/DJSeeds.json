@@ -145,6 +145,19 @@
   },
 
   {
+    "firstName": "Jackson",
+    "lastName": "Garrison",
+    "fullName": "Jackson Garrison",
+    "nickName": "",
+    "Title": "WETF Host",
+    "Shows": [],
+    "image": "",
+    "sqImage": "",
+    "url": "jackson-garrison",
+    "bio": [""]
+  },
+
+  {
     "firstName": "Mark",
     "lastName": "Gridley",
     "fullName": "Mark Gridley",
@@ -234,6 +247,19 @@
       "Music, literature, and history are long-held enthusiasms for Johnson, but he came to jazz only in his mid-twenties.",
       "Johnson lives in Bloomington’s Near-Westside neighborhood, a short walk from the gravesite of Hoagy Carmichael."
     ]
+  },
+
+  {
+    "firstName": "Charlie",
+    "lastName": "Kohlhase",
+    "fullName": "Charlie Kohlhase",
+    "nickName": "",
+    "Title": "WETF Host",
+    "Shows": [],
+    "image": "",
+    "sqImage": "",
+    "url": "charlie-kohlhase",
+    "bio": [""]
   },
 
   {

@@ -12,5 +12,12 @@
     "startTime12": "6:00 PM",
     "endTime12": "7:00 PM",
     "hosturl": [{ "url": "monika-herzig" }]
+  },
+  {
+    "day": "Sunday",
+    "startTime24": "21",
+    "startTime12": "9:00 PM",
+    "endTime12": "10:00 PM",
+    "hosturl": [{ "url": "monika-herzig" }]
   }
 ]

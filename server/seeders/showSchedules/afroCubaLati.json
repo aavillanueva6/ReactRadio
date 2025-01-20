@@ -1,9 +1,9 @@
 [
   {
     "day": "Monday",
-    "startTime24": "14",
-    "startTime12": "2:00 PM",
-    "endTime12": "3:00 PM",
+    "startTime24": "9",
+    "startTime12": "9:00 AM",
+    "endTime12": "10:00 AM",
     "hosturl": [{ "url": "russ-hamer" }]
   },
   {
@@ -11,13 +11,6 @@
     "startTime24": "18",
     "startTime12": "6:00 PM",
     "endTime12": "7:00 PM",
-    "hosturl": [{ "url": "russ-hamer" }]
-  },
-  {
-    "day": "Friday",
-    "startTime24": "9",
-    "startTime12": "9:00 AM",
-    "endTime12": "10:00 AM",
     "hosturl": [{ "url": "russ-hamer" }]
   },
   {

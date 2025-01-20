@@ -1,12 +1,5 @@
 [
   {
-    "day": "Wednesday",
-    "startTime24": "19",
-    "startTime12": "7:00 PM",
-    "endTime12": "8:00 PM",
-    "hosturl": [{ "url": "lisa-yves" }]
-  },
-  {
     "day": "Saturday",
     "startTime24": "9",
     "startTime12": "9:00 AM",
