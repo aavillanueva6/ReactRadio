@@ -4,13 +4,15 @@
     "startTime24": "8",
     "startTime12": "8:00 AM",
     "endTime12": "8:30 AM",
-    "hosturl": [{ "url": "brent-banulis" }]
+    "hosturl": [{ "url": "brent-banulis" }],
+    "showurl": "big-band-blow-out"
   },
   {
     "day": "Tuesday",
     "startTime24": "18",
     "startTime12": "6:00 PM",
     "endTime12": "6:30 PM",
-    "hosturl": [{ "url": "brent-banulis" }]
+    "hosturl": [{ "url": "brent-banulis" }],
+    "showurl": "big-band-blow-out"
   }
 ]

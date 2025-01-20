@@ -29,7 +29,15 @@ const WeeklyScheduleSchema = new Schema({
       ref: 'DJ',
     },
   ],
-  hosturl: [{ type: Schema.Types.Mixed }],
+  hosturl: [
+    {
+      type: Schema.Types.Mixed,
+    },
+  ],
+  showurl: {
+    type: String,
+    trim: true,
+  },
 });
 
 const WeeklySchedule = model('WeeklySchedule', WeeklyScheduleSchema);
