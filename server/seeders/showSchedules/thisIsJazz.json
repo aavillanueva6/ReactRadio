@@ -71,13 +71,6 @@
   },
   {
     "day": "Thursday",
-    "startTime24": "11",
-    "startTime12": "11:00 AM",
-    "endTime12": "12:00 PM",
-    "hosturl": [{ "url": "john-hill" }]
-  },
-  {
-    "day": "Thursday",
     "startTime24": "15",
     "startTime12": "3:00 PM",
     "endTime12": "6:00 PM",
@@ -152,12 +145,5 @@
     "startTime12": "1:00 PM",
     "endTime12": "4:00 PM",
     "hosturl": [{ "url": "jana-lee-ross" }]
-  },
-  {
-    "day": "Sunday",
-    "startTime24": "20",
-    "startTime12": "8:00 PM",
-    "endTime12": "10:00 PM",
-    "hosturl": [{ "url": "dee-alexander" }]
   }
 ]

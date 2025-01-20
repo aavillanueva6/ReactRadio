@@ -12,10 +12,11 @@ const berkJazz = require('./showSchedules/berkJazz.json');
 const bigBandBlowOut = require('./showSchedules/bigBandBlowOut.json');
 const collChoi = require('./showSchedules/collChoi.json');
 const happBirtDearJazzArti = require('./showSchedules/happBirtDearJazzArti.json');
+const jackShell = require('./showSchedules/jackShell.json');
 const jazzALaMode = require('./showSchedules/jazzALaMode.json');
 const jazzAndMore = require('./showSchedules/jazzAndMore.json');
-const jazzEverLike = require('./showSchedules/jazzEverLike.json');
 const jazzFocu = require('./showSchedules/jazzFocu.json');
+const jazzForEver = require('./showSchedules/jazzForEver.json');
 const jazzForKids = require('./showSchedules/jazzForKids.json');
 const jazzHaven = require('./showSchedules/jazzHaven.json');
 const jazzScene = require('./showSchedules/jazzScene.json');
@@ -24,7 +25,6 @@ const lastCall = require('./showSchedules/lastCall.json');
 const mornGlor = require('./showSchedules/mornGlor.json');
 const mornWithLindKay = require('./showSchedules/mornWithLindKay.json');
 const mornWithMatt = require('./showSchedules/mornWithMatt.json');
-const mornWithMidd = require('./showSchedules/mornWithMidd.json');
 const mornWithMike = require('./showSchedules/mornWithMike.json');
 const mornWithTish = require('./showSchedules/mornWithTish.json');
 const newVint = require('./showSchedules/newVint.json');
@@ -33,6 +33,7 @@ const noct = require('./showSchedules/noct.json');
 const prebOnJazz = require('./showSchedules/prebOnJazz.json');
 const prog = require('./showSchedules/prog.json');
 const reflOnJazz = require('./showSchedules/reflOnJazz.json');
+const reseAndDeve = require('./showSchedules/reseAndDeve.json');
 const sounIdea = require('./showSchedules/sounIdea.json');
 const statOfIndi = require('./showSchedules/statOfIndi.json');
 const talkJazz = require('./showSchedules/talkJazz.json');
@@ -52,6 +53,7 @@ db.once('open', async () => {
     // Bulk create each model
     const djs = await DJ.insertMany(DJSeeds);
     const shows = await Show.insertMany(ShowSeeds);
+    console.log(shows);
     const boardMembers = await BoardMember.insertMany(BoardMemberSeeds);
     const afroCubaLatiData = await WeeklySchedule.insertMany(afroCubaLati);
     const amerSongData = await WeeklySchedule.insertMany(amerSong);
@@ -61,10 +63,11 @@ db.once('open', async () => {
     const happBirtDearJazzArtiData = await WeeklySchedule.insertMany(
       happBirtDearJazzArti
     );
+    const jackShellData = await WeeklySchedule.insertMany(jackShell);
     const jazzALaModeData = await WeeklySchedule.insertMany(jazzALaMode);
     const jazzAndMoreData = await WeeklySchedule.insertMany(jazzAndMore);
-    const jazzEverLikeData = await WeeklySchedule.insertMany(jazzEverLike);
     const jazzFocuData = await WeeklySchedule.insertMany(jazzFocu);
+    const jazzForEverData = await WeeklySchedule.insertMany(jazzForEver);
     const jazzForKidsData = await WeeklySchedule.insertMany(jazzForKids);
     const jazzHavenData = await WeeklySchedule.insertMany(jazzHaven);
     const jazzSceneData = await WeeklySchedule.insertMany(jazzScene);
@@ -77,7 +80,6 @@ db.once('open', async () => {
       mornWithLindKay
     );
     const mornWithMattData = await WeeklySchedule.insertMany(mornWithMatt);
-    const mornWithMiddData = await WeeklySchedule.insertMany(mornWithMidd);
     const mornWithMikeData = await WeeklySchedule.insertMany(mornWithMike);
     const mornWithTishData = await WeeklySchedule.insertMany(mornWithTish);
     const newVintData = await WeeklySchedule.insertMany(newVint);
@@ -86,6 +88,7 @@ db.once('open', async () => {
     const prebOnJazzData = await WeeklySchedule.insertMany(prebOnJazz);
     const progData = await WeeklySchedule.insertMany(prog);
     const reflOnJazzData = await WeeklySchedule.insertMany(reflOnJazz);
+    const reseAndDeveData = await WeeklySchedule.insertMany(reseAndDeve);
     const sounIdeaData = await WeeklySchedule.insertMany(sounIdea);
     const statOfIndiData = await WeeklySchedule.insertMany(statOfIndi);
     const talkJazzData = await WeeklySchedule.insertMany(talkJazz);
@@ -136,21 +139,21 @@ db.once('open', async () => {
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzALaModeData) {
+    for (e of jackShellData) {
       let tempShow = shows[6];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzAndMoreData) {
+    for (e of jazzALaModeData) {
       let tempShow = shows[7];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzEverLikeData) {
+    for (e of jazzAndMoreData) {
       let tempShow = shows[8];
       tempShow.schedule.push(e._id);
       await tempShow.save();
@@ -164,63 +167,63 @@ db.once('open', async () => {
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzForKidsData) {
+    for (e of jazzForEverData) {
       let tempShow = shows[10];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzHavenData) {
+    for (e of jazzForKidsData) {
       let tempShow = shows[11];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzSceneData) {
+    for (e of jazzHavenData) {
       let tempShow = shows[12];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of jazzWithDaviBassData) {
+    for (e of jazzSceneData) {
       let tempShow = shows[13];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of lastCallData) {
+    for (e of jazzWithDaviBassData) {
       let tempShow = shows[14];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of mornGlorData) {
+    for (e of lastCallData) {
       let tempShow = shows[15];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of mornWithLindKayData) {
+    for (e of mornGlorData) {
       let tempShow = shows[16];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of mornWithMattData) {
+    for (e of mornWithLindKayData) {
       let tempShow = shows[17];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of mornWithMiddData) {
+    for (e of mornWithMattData) {
       let tempShow = shows[18];
       tempShow.schedule.push(e._id);
       await tempShow.save();
@@ -283,50 +286,57 @@ db.once('open', async () => {
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of sounIdeaData) {
+    for (e of reseAndDeveData) {
       let tempShow = shows[27];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of statOfIndiData) {
+    for (e of sounIdeaData) {
       let tempShow = shows[28];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of talkJazzData) {
+    for (e of statOfIndiData) {
       let tempShow = shows[29];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of theJazzTraiData) {
+    for (e of talkJazzData) {
       let tempShow = shows[30];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of theNiteOwlData) {
+    for (e of theJazzTraiData) {
       let tempShow = shows[31];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of thisIsJazzData) {
+    for (e of theNiteOwlData) {
       let tempShow = shows[32];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
       await e.save();
     }
-    for (e of toucOfClassicsData) {
+    for (e of thisIsJazzData) {
       let tempShow = shows[33];
+      tempShow.schedule.push(e._id);
+      await tempShow.save();
+      e.show = tempShow._id;
+      await e.save();
+    }
+    for (e of toucOfClassicsData) {
+      let tempShow = shows[34];
       tempShow.schedule.push(e._id);
       await tempShow.save();
       e.show = tempShow._id;
