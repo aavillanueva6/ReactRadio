@@ -4,20 +4,23 @@
     "startTime24": "1",
     "startTime12": "1:00 AM",
     "endTime12": "2:00 AM",
-    "hosturl": [{ "url": "bill-oconnell" }]
+    "hosturl": [{ "url": "bill-oconnell" }],
+    "showurl": "new-vintage"
   },
   {
     "day": "Monday",
     "startTime24": "18",
     "startTime12": "6:00 PM",
     "endTime12": "7:00 PM",
-    "hosturl": [{ "url": "bill-oconnell" }]
+    "hosturl": [{ "url": "bill-oconnell" }],
+    "showurl": "new-vintage"
   },
   {
     "day": "Sunday",
     "startTime24": "16",
     "startTime12": "4:00 PM",
     "endTime12": "5:00 PM",
-    "hosturl": [{ "url": "bill-oconnell" }]
+    "hosturl": [{ "url": "bill-oconnell" }],
+    "showurl": "new-vintage"
   }
 ]

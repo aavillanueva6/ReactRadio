@@ -4,146 +4,167 @@
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "dave-schwan" }]
+    "hosturl": [{ "url": "dave-schwan" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Monday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "dave-schwan" }]
+    "hosturl": [{ "url": "dave-schwan" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Tuesday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Tuesday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Tuesday",
     "startTime24": "15",
     "startTime12": "3:00 PM",
     "endTime12": "6:00 PM",
-    "hosturl": [{ "url": "dave-schwan" }]
+    "hosturl": [{ "url": "dave-schwan" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Wednesday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Wednesday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Wednesday",
     "startTime24": "15",
     "startTime12": "3:00 PM",
     "endTime12": "6:00 PM",
-    "hosturl": [{ "url": "dave-schwan" }]
+    "hosturl": [{ "url": "dave-schwan" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Thursday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Thursday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Thursday",
     "startTime24": "15",
     "startTime12": "3:00 PM",
     "endTime12": "6:00 PM",
-    "hosturl": [{ "url": "dave-schwan" }]
+    "hosturl": [{ "url": "dave-schwan" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Friday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Friday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Friday",
     "startTime24": "11",
     "startTime12": "11:00 AM",
     "endTime12": "12:00 PM",
-    "hosturl": [{ "url": "john-hill" }]
+    "hosturl": [{ "url": "john-hill" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Friday",
     "startTime24": "13",
     "startTime12": "1:00 PM",
     "endTime12": "4:00 PM",
-    "hosturl": [{ "url": "jana-lee-ross" }]
+    "hosturl": [{ "url": "jana-lee-ross" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Saturday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "8:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Saturday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Saturday",
     "startTime24": "13",
     "startTime12": "1:00 PM",
     "endTime12": "4:00 PM",
-    "hosturl": [{ "url": "jana-lee-ross" }]
+    "hosturl": [{ "url": "jana-lee-ross" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Sunday",
     "startTime24": "3",
     "startTime12": "3:00 AM",
     "endTime12": "7:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Sunday",
     "startTime24": "10",
     "startTime12": "10:00 AM",
     "endTime12": "11:00 AM",
-    "hosturl": [{ "url": "dee-alexander" }]
+    "hosturl": [{ "url": "dee-alexander" }],
+    "showurl": "this-is-jazz"
   },
   {
     "day": "Sunday",
     "startTime24": "13",
     "startTime12": "1:00 PM",
     "endTime12": "4:00 PM",
-    "hosturl": [{ "url": "jana-lee-ross" }]
+    "hosturl": [{ "url": "jana-lee-ross" }],
+    "showurl": "this-is-jazz"
   }
 ]

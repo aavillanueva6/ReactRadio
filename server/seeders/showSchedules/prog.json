@@ -4,6 +4,7 @@
     "startTime24": "11",
     "startTime12": "11:00 AM",
     "endTime12": "12:00 PM",
-    "hosturl": [{ "url": "jake-longwell" }]
+    "hosturl": [{ "url": "jake-longwell" }],
+    "showurl": "progressions"
   }
 ]

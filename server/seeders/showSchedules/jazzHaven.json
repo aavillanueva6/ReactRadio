@@ -4,6 +4,7 @@
     "startTime24": "14",
     "startTime12": "2:00 PM",
     "endTime12": "3:00 PM",
-    "hosturl": [{ "url": "stan-welch" }]
+    "hosturl": [{ "url": "stan-welch" }],
+    "showurl": "jazz-haven"
   }
 ]

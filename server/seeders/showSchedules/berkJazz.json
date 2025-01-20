@@ -4,6 +4,7 @@
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "10:00 PM",
-    "hosturl": [{ "url": "phil-tierney" }]
+    "hosturl": [{ "url": "phil-tierney" }],
+    "showurl": "berkshire-jazz"
   }
 ]

@@ -4,6 +4,7 @@
     "startTime24": "22",
     "startTime12": "10:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "scott-prebys" }]
+    "hosturl": [{ "url": "scott-prebys" }],
+    "showurl": "prebys-on-jazz"
   }
 ]

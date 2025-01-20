@@ -4,34 +4,39 @@
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "bex-taylor" }]
+    "hosturl": [{ "url": "bex-taylor" }],
+    "showurl": "jazz-a-la-mode"
   },
   {
     "day": "Tuesday",
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "bex-taylor" }]
+    "hosturl": [{ "url": "bex-taylor" }],
+    "showurl": "jazz-a-la-mode"
   },
   {
     "day": "Wednesday",
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "bex-taylor" }]
+    "hosturl": [{ "url": "bex-taylor" }],
+    "showurl": "jazz-a-la-mode"
   },
   {
     "day": "Thursday",
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "bex-taylor" }]
+    "hosturl": [{ "url": "bex-taylor" }],
+    "showurl": "jazz-a-la-mode"
   },
   {
     "day": "Friday",
     "startTime24": "20",
     "startTime12": "8:00 PM",
     "endTime12": "11:00 PM",
-    "hosturl": [{ "url": "bex-taylor" }]
+    "hosturl": [{ "url": "bex-taylor" }],
+    "showurl": "jazz-a-la-mode"
   }
 ]
