@@ -7,7 +7,7 @@ export { default as PHDJCard } from './PHDJCard';
 export { default as PHScheduleShowCard } from './PHScheduleShowCard';
 export { default as PHScheduleShowRow } from './PHScheduleShowRow';
 export { default as PHShowCardShort } from './PHShowCardShort';
-export { default as ScheduleDaysButton } from './ScheduleDaysButton';
+export { default as SchedulePageClient } from './SchedulePageClient';
 export { default as ScheduleShowCard } from './ScheduleShowCard';
 export { default as ScheduleShowRow } from './ScheduleShowRow';
 export { default as ShowCardShort } from './ShowCardShort';
