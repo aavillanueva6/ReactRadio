@@ -1,18 +1,20 @@
-import { Schema, model, Document } from 'mongoose';
+import { Schema, model, models, Document } from 'mongoose';
+import { IShow } from './Show'; // Assuming you have a Show interface defined
 
-export interface IBoardMember extends Document {
+export interface IDJ extends Document {
   firstName: string;
   lastName: string;
   fullName?: string;
   nickName?: string;
   Title?: string;
+  Shows?: Schema.Types.ObjectId[] | IShow[];
   image?: string;
   sqImage?: string;
   url?: string;
   bio?: string[];
 }
 
-const BoardMemberSchema = new Schema<IBoardMember>({
+const DJSchema = new Schema({
   firstName: {
     type: String,
     required: true,
@@ -35,6 +37,12 @@ const BoardMemberSchema = new Schema<IBoardMember>({
     type: String,
     trim: true,
   },
+  Shows: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'Show',
+    },
+  ],
   image: {
     type: String,
     trim: true,
@@ -50,6 +58,6 @@ const BoardMemberSchema = new Schema<IBoardMember>({
   bio: [{ type: String }],
 });
 
-const BoardMember = model<IBoardMember>('BoardMember', BoardMemberSchema);
+const DJ = models.DJ || model<IDJ>('DJ', DJSchema);
 
-export default BoardMember;
+export default DJ;

@@ -64,6 +64,7 @@ export default function ScheduleDaysButton() {
   });
 
   const queryResults: ScheduleDataType[] = data?.schedule || [];
+  console.log('query results', queryResults);
 
   let orderedResults: ScheduleDataType[] = [...queryResults];
   orderedResults.sort((a, b) => {
@@ -118,8 +119,8 @@ export default function ScheduleDaysButton() {
                   type='button'
                   name={day}
                   onClick={handleClick}
-                  // onMouseEnter={prefetchData}
-                  // onFocus={prefetchData}
+                  onMouseEnter={prefetchData}
+                  onFocus={prefetchData}
                   key={`weekday-button-${day}`}
                 >
                   {day}

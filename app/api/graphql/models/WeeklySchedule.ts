@@ -1,4 +1,4 @@
-import { Schema, model, Document } from 'mongoose';
+import { Schema, model, models, Document } from 'mongoose';
 import { IDJ } from './DJ';
 import { IShow } from './Show';
 
@@ -48,9 +48,8 @@ const WeeklyScheduleSchema = new Schema<IWeeklySchedule>({
   hosturl: [{ type: Schema.Types.Mixed }],
 });
 
-const WeeklySchedule = model<IWeeklySchedule>(
-  'WeeklySchedule',
-  WeeklyScheduleSchema
-);
+const WeeklySchedule =
+  models.WeeklySchedule ||
+  model<IWeeklySchedule>('WeeklySchedule', WeeklyScheduleSchema);
 
 export default WeeklySchedule;
