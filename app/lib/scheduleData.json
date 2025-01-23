@@ -1,0 +1,12 @@
+{
+  "printableSchedules": [
+    {
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/weekly-schedule/Week-2504.2.pdf",
+      "effectiveDate": "Jan 20 2025"
+    },
+    {
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/weekly-schedule/Week-2411.pdf",
+      "effectiveDate": "Mar 11 2024"
+    }
+  ]
+}
