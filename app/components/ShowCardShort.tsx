@@ -7,7 +7,7 @@ interface Host {
   url: string;
 }
 
-interface Show {
+interface ShowType {
   host: Host[];
   image: string;
   name: string;
@@ -15,7 +15,11 @@ interface Show {
   url: string;
 }
 
-const ShowCardShort: React.FC<Show> = (show) => {
+interface Props {
+  show: ShowType;
+}
+
+const ShowCardShort: React.FC<Props> = ({ show }) => {
   let showImageSrc: string = '';
   if (show.image) {
     showImageSrc = show.image;
