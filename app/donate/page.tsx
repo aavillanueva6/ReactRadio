@@ -54,7 +54,6 @@ export const metadata: Metadata = {
   },
 };
 
-// const donateData: DonateDataType = import('../lib/donateData.json');
 const typedDonateData: DonateDataType = donateData;
 
 const Donate: React.FC = () => {
