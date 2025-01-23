@@ -46,7 +46,10 @@ import thisIsJazz from './showSchedules/thisIsJazz.json' assert { type: 'json' }
 import toucOfClassics from './showSchedules/toucOfClassics.json' assert { type: 'json' };
 
 const db = mongoose.connection;
-mongoose.connect('mongodb://127.0.0.1:27017/WETF-Local-dev');
+mongoose.connect(
+  process.env.NEXT_PUBLIC_MONGODB_URI ||
+    'mongodb://127.0.0.1:27017/WETF-Local-dev'
+);
 
 db.once('open', async () => {
   try {
