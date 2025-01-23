@@ -46,6 +46,7 @@ const typeDefs = gql`
     endTime12: String
     show: Show
     host: [DJ]
+    showurl: String
   }
   type Query {
     djs: [DJ]

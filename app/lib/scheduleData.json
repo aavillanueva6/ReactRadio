@@ -7,10 +7,6 @@
     {
       "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/weekly-schedule/Week-2411.pdf",
       "effectiveDate": "Mar 11 2024"
-    },
-    {
-      "src": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETF_schedule_old.pdf",
-      "effectiveDate": "Nov 10, 2023"
     }
   ]
 }

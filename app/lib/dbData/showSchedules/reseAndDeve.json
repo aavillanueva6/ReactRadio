@@ -1,0 +1,10 @@
+[
+  {
+    "day": "Monday",
+    "startTime24": "13",
+    "startTime12": "1:00 PM",
+    "endTime12": "3:00 PM",
+    "hosturl": [{ "url": "charlie-kohlhase" }],
+    "showurl": "research-and-development"
+  }
+]

@@ -65,6 +65,16 @@
     "source": "WETF - The Jazz Station"
   },
   {
+    "name": "Jack Shellac",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jack-shellac",
+    "image": "",
+    "schedule": [],
+    "hosturl": [{ "url": "jackson-garrison" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
     "name": "Jazz A La Mode",
     "shortDescription": "",
     "longDescription": [
@@ -94,16 +104,6 @@
     "source": "PRX???"
   },
   {
-    "name": "Jazz Everybody Likes",
-    "shortDescription": "",
-    "longDescription": ["", "", ""],
-    "url": "jazz-everybody-likes",
-    "image": "",
-    "schedule": [],
-    "hosturl": [{ "url": "larry-dwyer" }],
-    "source": "WETF - The Jazz Station"
-  },
-  {
     "name": "Jazz Focus",
     "shortDescription": "",
     "longDescription": ["", "", ""],
@@ -111,6 +111,16 @@
     "image": "",
     "schedule": [],
     "hosturl": [{ "url": "john-clark" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Jazz For Everyone",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "jazz-for-everyone",
+    "image": "",
+    "schedule": [],
+    "hosturl": [{ "url": "larry-dwyer" }],
     "source": "WETF - The Jazz Station"
   },
   {
@@ -198,16 +208,6 @@
     "source": "WETF - The Jazz Station"
   },
   {
-    "name": "Mornin' with Middie",
-    "shortDescription": "",
-    "longDescription": ["", "", ""],
-    "url": "mornin-with-middie",
-    "image": "",
-    "schedule": [],
-    "hosturl": [{ "url": "middleton-omalley" }],
-    "source": "WETF - The Jazz Station"
-  },
-  {
     "name": "Mornin' with Mike",
     "shortDescription": "",
     "longDescription": ["", "", ""],
@@ -291,6 +291,16 @@
     "image": "",
     "schedule": [],
     "hosturl": [{ "url": "mark-gridley" }],
+    "source": "WETF - The Jazz Station"
+  },
+  {
+    "name": "Research And Development",
+    "shortDescription": "",
+    "longDescription": ["", "", ""],
+    "url": "research-and-development",
+    "image": "",
+    "schedule": [],
+    "hosturl": [{ "url": "charlie-kohlhase" }],
     "source": "WETF - The Jazz Station"
   },
   {
