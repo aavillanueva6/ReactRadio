@@ -1,6 +1,3 @@
-// import { createRequire } from 'module';
-// const require = createRequire(import.meta.url);
-
 import mongoose from 'mongoose';
 import {
   DJ,
@@ -20,8 +17,8 @@ import collChoi from './showSchedules/collChoi.json' assert { type: 'json' };
 import happBirtDearJazzArti from './showSchedules/happBirtDearJazzArti.json' assert { type: 'json' };
 import jazzALaMode from './showSchedules/jazzALaMode.json' assert { type: 'json' };
 import jazzAndMore from './showSchedules/jazzAndMore.json' assert { type: 'json' };
-import jazzEverLike from './showSchedules/jazzEverLike.json' assert { type: 'json' };
 import jazzFocu from './showSchedules/jazzFocu.json' assert { type: 'json' };
+import jazzForEver from './showSchedules/jazzForEver.json' assert { type: 'json' };
 import jazzForKids from './showSchedules/jazzForKids.json' assert { type: 'json' };
 import jazzHaven from './showSchedules/jazzHaven.json' assert { type: 'json' };
 import jazzScene from './showSchedules/jazzScene.json' assert { type: 'json' };
@@ -30,7 +27,6 @@ import lastCall from './showSchedules/lastCall.json' assert { type: 'json' };
 import mornGlor from './showSchedules/mornGlor.json' assert { type: 'json' };
 import mornWithLindKay from './showSchedules/mornWithLindKay.json' assert { type: 'json' };
 import mornWithMatt from './showSchedules/mornWithMatt.json' assert { type: 'json' };
-import mornWithMidd from './showSchedules/mornWithMidd.json' assert { type: 'json' };
 import mornWithMike from './showSchedules/mornWithMike.json' assert { type: 'json' };
 import mornWithTish from './showSchedules/mornWithTish.json' assert { type: 'json' };
 import newVint from './showSchedules/newVint.json' assert { type: 'json' };
@@ -47,63 +43,8 @@ import theNiteOwl from './showSchedules/theNiteOwl.json' assert { type: 'json' }
 import thisIsJazz from './showSchedules/thisIsJazz.json' assert { type: 'json' };
 import toucOfClassics from './showSchedules/toucOfClassics.json' assert { type: 'json' };
 
-// const db = await (async () => {
-//   const dbConnection = await mongoose.connect(uri);
-//   return dbConnection.connection;
-// });
-
 const db = mongoose.connection;
 mongoose.connect('mongodb://127.0.0.1:27017/WETF-Local-dev');
-
-// const dbConnection async = await mongoose.connect(uri);
-// const db = dbConnection.connection;
-// const db = require('@/app/api/graphql/route.ts');
-// const {
-//   DJ,
-//   Show,
-//   WeeklySchedule,
-//   BoardMember,
-// } = require('@/app/api/graphql/models');
-// const WeeklySchedule = require('../models/WeeklySchedule');
-// const DJsData = require('@/app/lib/dbData/DJsData.json');
-// const ShowsData = require('@/app/lib/dbData/ShowsData.json');
-// const BoardMembersData = require('@/app/lib/dbData/BoardMembersData.json');
-
-//schedule data import
-// const afroCubaLati = require('./showSchedules/afroCubaLati.json');
-// const amerSong = require('./showSchedules/amerSong.json');
-// const berkJazz = require('./showSchedules/berkJazz.json');
-// const bigBandBlowOut = require('./showSchedules/bigBandBlowOut.json');
-// const collChoi = require('./showSchedules/collChoi.json');
-// const happBirtDearJazzArti = require('./showSchedules/happBirtDearJazzArti.json');
-// const jazzALaMode = require('./showSchedules/jazzALaMode.json');
-// const jazzAndMore = require('./showSchedules/jazzAndMore.json');
-// const jazzEverLike = require('./showSchedules/jazzEverLike.json');
-// const jazzFocu = require('./showSchedules/jazzFocu.json');
-// const jazzForKids = require('./showSchedules/jazzForKids.json');
-// const jazzHaven = require('./showSchedules/jazzHaven.json');
-// const jazzScene = require('./showSchedules/jazzScene.json');
-// const jazzWithDaviBass = require('./showSchedules/jazzWithDaviBass.json');
-// const lastCall = require('./showSchedules/lastCall.json');
-// const mornGlor = require('./showSchedules/mornGlor.json');
-// const mornWithLindKay = require('./showSchedules/mornWithLindKay.json');
-// const mornWithMatt = require('./showSchedules/mornWithMatt.json');
-// const mornWithMidd = require('./showSchedules/mornWithMidd.json');
-// const mornWithMike = require('./showSchedules/mornWithMike.json');
-// const mornWithTish = require('./showSchedules/mornWithTish.json');
-// const newVint = require('./showSchedules/newVint.json');
-// const nighLigh = require('./showSchedules/nighLigh.json');
-// const noct = require('./showSchedules/noct.json');
-// const prebOnJazz = require('./showSchedules/prebOnJazz.json');
-// const prog = require('./showSchedules/prog.json');
-// const reflOnJazz = require('./showSchedules/reflOnJazz.json');
-// const sounIdea = require('./showSchedules/sounIdea.json');
-// const statOfIndi = require('./showSchedules/statOfIndi.json');
-// const talkJazz = require('./showSchedules/talkJazz.json');
-// const theJazzTrai = require('./showSchedules/theJazzTrai.json');
-// const theNiteOwl = require('./showSchedules/theNiteOwl.json');
-// const thisIsJazz = require('./showSchedules/thisIsJazz.json');
-// const toucOfClassics = require('./showSchedules/toucOfClassics.json');
 
 db.once('open', async () => {
   try {
@@ -128,8 +69,8 @@ db.once('open', async () => {
     );
     importedSchedules.push(await WeeklySchedule.insertMany(jazzALaMode));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzAndMore));
-    importedSchedules.push(await WeeklySchedule.insertMany(jazzEverLike));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzFocu));
+    importedSchedules.push(await WeeklySchedule.insertMany(jazzForEver));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzForKids));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzHaven));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzScene));
@@ -138,7 +79,6 @@ db.once('open', async () => {
     importedSchedules.push(await WeeklySchedule.insertMany(mornGlor));
     importedSchedules.push(await WeeklySchedule.insertMany(mornWithLindKay));
     importedSchedules.push(await WeeklySchedule.insertMany(mornWithMatt));
-    importedSchedules.push(await WeeklySchedule.insertMany(mornWithMidd));
     importedSchedules.push(await WeeklySchedule.insertMany(mornWithMike));
     importedSchedules.push(await WeeklySchedule.insertMany(mornWithTish));
     importedSchedules.push(await WeeklySchedule.insertMany(newVint));
