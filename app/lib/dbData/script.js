@@ -15,6 +15,7 @@ import berkJazz from './showSchedules/berkJazz.json' assert { type: 'json' };
 import bigBandBlowOut from './showSchedules/bigBandBlowOut.json' assert { type: 'json' };
 import collChoi from './showSchedules/collChoi.json' assert { type: 'json' };
 import happBirtDearJazzArti from './showSchedules/happBirtDearJazzArti.json' assert { type: 'json' };
+import jackShel from './showSchedules/jackShel.json' assert { type: 'json' };
 import jazzALaMode from './showSchedules/jazzALaMode.json' assert { type: 'json' };
 import jazzAndMore from './showSchedules/jazzAndMore.json' assert { type: 'json' };
 import jazzFocu from './showSchedules/jazzFocu.json' assert { type: 'json' };
@@ -35,6 +36,7 @@ import noct from './showSchedules/noct.json' assert { type: 'json' };
 import prebOnJazz from './showSchedules/prebOnJazz.json' assert { type: 'json' };
 import prog from './showSchedules/prog.json' assert { type: 'json' };
 import reflOnJazz from './showSchedules/reflOnJazz.json' assert { type: 'json' };
+import reseAndDeve from './showSchedules/reseAndDeve.json' assert { type: 'json' };
 import sounIdea from './showSchedules/sounIdea.json' assert { type: 'json' };
 import statOfIndi from './showSchedules/statOfIndi.json' assert { type: 'json' };
 import talkJazz from './showSchedules/talkJazz.json' assert { type: 'json' };
@@ -67,6 +69,7 @@ db.once('open', async () => {
     importedSchedules.push(
       await WeeklySchedule.insertMany(happBirtDearJazzArti)
     );
+    importedSchedules.push(await WeeklySchedule.insertMany(jackShel));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzALaMode));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzAndMore));
     importedSchedules.push(await WeeklySchedule.insertMany(jazzFocu));
@@ -87,6 +90,7 @@ db.once('open', async () => {
     importedSchedules.push(await WeeklySchedule.insertMany(prebOnJazz));
     importedSchedules.push(await WeeklySchedule.insertMany(prog));
     importedSchedules.push(await WeeklySchedule.insertMany(reflOnJazz));
+    importedSchedules.push(await WeeklySchedule.insertMany(reseAndDeve));
     importedSchedules.push(await WeeklySchedule.insertMany(sounIdea));
     importedSchedules.push(await WeeklySchedule.insertMany(statOfIndi));
     importedSchedules.push(await WeeklySchedule.insertMany(talkJazz));
