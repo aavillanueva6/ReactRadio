@@ -1,36 +1,12 @@
 import React from 'react';
-// import { useQuery } from '@apollo/client';
-// import { useParams, Link } from 'react-router-dom';
-// import { QUERY_SHOW_NAMES_URLS, QUERY_SINGLE_SHOW } from '../utils/queries';
 import { Metadata } from 'next';
+import { Providers } from '@/app/providers';
+import SingleShowPageClient from '@/app/components/SingleShowPageClient';
 
 interface PageMetadataType {
   title: string;
   description: string;
 }
-
-// interface ShowType {
-//   image: string;
-//   longDescription: string[];
-//   name: string;
-//   _id: string;
-//   host: Array<{
-//     fullName: string;
-//     nickName: string;
-//     url: string;
-//   }>;
-//   schedule: Array<{
-//     day: string;
-//     endTime12: string;
-//     startTime12: string;
-//   }>;
-// }
-
-// interface ShortShowType {
-//   name: string;
-//   url: string;
-//   _id: string;
-// }
 
 const pageMetaData: PageMetadataType = {
   // title: `${show.name}`,
@@ -49,129 +25,11 @@ export const metadata: Metadata = {
 };
 
 const SingleShow: React.FC = () => {
-  // const { showUrl } = useParams();
-  // const { loading: q1Loading, data: q1Data } = useQuery(QUERY_SINGLE_SHOW, {
-  //   variables: { url: showUrl },
-  // });
-  // const show: ShowType = q1Data?.singleShow || {};
-  // const { data: q2Data } = useQuery(QUERY_SHOW_NAMES_URLS, {
-  //   variables: { url: showUrl },
-  // });
-  // let shows: ShortShowType[] = q2Data?.shows || [];
-  // shows = shows.filter((e) => e.name !== show.name);
-
-  // shows = shows.sort((a, b) => {
-  //   if (a.name < b.name) {
-  //     return -1;
-  //   }
-  //   if (a.name > b.name) {
-  //     return 1;
-  //   }
-  //   return 0;
-  // });
-
-  // if (q1Loading) {
-  //   return <div>loading...</div>;
-  // }
-
-  // let showImageSrc: string = '';
-  // if (show.image) {
-  //   showImageSrc = show.image;
-  // } else {
-  //   showImageSrc =
-  //     'https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/WETF_placeholder.svg';
-  // }
-
   return (
     <>
-      <div>single show page</div>
-      {/* <div className='container  p-5 justify-content-center '>
-        <div className='row'>
-          <div className='card mb-3 col-md-8 ps-0'>
-            <div className='row g-0'>
-              <div className='col-md-4'>
-                <img
-                  src={showImageSrc}
-                  className='img-fluid rounded-start'
-                  alt='showCard'
-                />
-              </div>
-              <div className='col-md-8'>
-                <div className='card-body'>
-                  <h5 className='card-title'>{show.name}</h5>
-                  <div className='mb-1'>
-                    <h6 className='card-text text-dark'>
-                      Hosted by:{' '}
-                      {show.host.map((host, i: number) =>
-                        i === 0 ? (
-                          <Link
-                            className=' link-dark link-underline-opacity-0'
-                            to={`/contributors/${host.url}`}
-                          >
-                            {host.fullName}
-                          </Link>
-                        ) : (
-                          <>
-                            <span>, </span>
-                            <Link
-                              className=' link-dark link-underline-opacity-0'
-                              to={`/contributors/${host.url}`}
-                            >
-                              {host.fullName}
-                            </Link>
-                          </>
-                        )
-                      )}
-                    </h6>
-                  </div>
-                  {show.longDescription &&
-                    show.longDescription.map((paragraph, i) => (
-                      <p
-                        className='card-text'
-                        key={`description paragraph-${i}`}
-                      >
-                        {paragraph}
-                      </p>
-                    ))}
-                  <div className='lead'>
-                    Listen to <span className='fw-bolder'>{show.name}</span>{' '}
-                    live:
-                  </div>
-                  {show.schedule.map((airing, i) => (
-                    <p key={`airing-${i}`} className='my-2'>
-                      {airing.day}s {airing.startTime12} to {airing.endTime12}
-                    </p>
-                  ))}
-                  <div className='mt-3 fs-6 fst-italic'>
-                    All times are listed in the Eastern time zone (EST/EDT)
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-4'>
-            <div className='dropdown'>
-              <button
-                className='btn btn-secondary dropdown-toggle'
-                type='button'
-                data-bs-toggle='dropdown'
-                aria-expanded='false'
-              >
-                Explore Other <span className='fw-bolder'>Shows</span>
-              </button>
-              <ul className='dropdown-menu'>
-                {shows.map((show, i) => (
-                  <li key={`${show.url}-list-item-${i}`}>
-                    <Link className='dropdown-item' to={`/shows/${show.url}`}>
-                      {show.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      <Providers>
+        <SingleShowPageClient />
+      </Providers>
     </>
   );
 };
