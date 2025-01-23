@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import donateData from '../lib/donateData.json';
+import donateData from '@/app/lib/donateData.json';
 
 interface PageMetadataType {
   title: string;
