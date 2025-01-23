@@ -1,4 +1,4 @@
-import { Schema, model, models, Document } from 'mongoose';
+import mongoose, { Schema, model, Document } from 'mongoose';
 import { IDJ } from './DJ';
 import { IWeeklySchedule } from './WeeklySchedule';
 
@@ -62,6 +62,6 @@ const showSchema = new Schema<IShow>({
   hosturl: [{ type: Object }],
 });
 
-const Show = models.Show || model<IShow>('Show', showSchema);
+const Show = mongoose.models.Show || model<IShow>('Show', showSchema);
 
 export default Show;

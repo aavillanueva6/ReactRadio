@@ -1,4 +1,4 @@
-import { Schema, model, models, Document } from 'mongoose';
+import mongoose, { Schema, model, Document } from 'mongoose';
 import { IDJ } from './DJ';
 import { IShow } from './Show';
 
@@ -14,6 +14,7 @@ export interface IWeeklySchedule extends Document {
   show?: IShow;
   dj?: IDJ[];
   hosturl?: IHosturl[];
+  showurl?: string;
 }
 
 const WeeklyScheduleSchema = new Schema<IWeeklySchedule>({
@@ -46,10 +47,11 @@ const WeeklyScheduleSchema = new Schema<IWeeklySchedule>({
     },
   ],
   hosturl: [{ type: Schema.Types.Mixed }],
+  showurl: { type: String },
 });
 
 const WeeklySchedule =
-  models.WeeklySchedule ||
+  mongoose.models.WeeklySchedule ||
   model<IWeeklySchedule>('WeeklySchedule', WeeklyScheduleSchema);
 
 export default WeeklySchedule;

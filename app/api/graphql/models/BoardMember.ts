@@ -1,4 +1,4 @@
-import { Schema, model, models, Document } from 'mongoose';
+import mongoose, { Schema, model, Document } from 'mongoose';
 
 export interface IBoardMember extends Document {
   firstName: string;
@@ -51,6 +51,7 @@ const BoardMemberSchema = new Schema<IBoardMember>({
 });
 
 const BoardMember =
-  models.BoardMember || model<IBoardMember>('BoardMember', BoardMemberSchema);
+  mongoose.models.BoardMember ||
+  model<IBoardMember>('BoardMember', BoardMemberSchema);
 
 export default BoardMember;

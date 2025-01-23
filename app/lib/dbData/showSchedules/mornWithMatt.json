@@ -1,0 +1,10 @@
+[
+  {
+    "day": "Thursday",
+    "startTime24": "8",
+    "startTime12": "8:00 AM",
+    "endTime12": "9:00 AM",
+    "hosturl": [{ "url": "matt-merten" }],
+    "showurl": "mornin-with-matt"
+  }
+]

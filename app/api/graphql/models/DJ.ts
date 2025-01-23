@@ -1,4 +1,4 @@
-import { Schema, model, models, Document } from 'mongoose';
+import mongoose, { Schema, model, Document } from 'mongoose';
 import { IShow } from './Show'; // Assuming you have a Show interface defined
 
 export interface IDJ extends Document {
@@ -58,6 +58,6 @@ const DJSchema = new Schema({
   bio: [{ type: String }],
 });
 
-const DJ = models.DJ || model<IDJ>('DJ', DJSchema);
+const DJ = mongoose.models.DJ || model<IDJ>('DJ', DJSchema);
 
 export default DJ;

@@ -1,0 +1,18 @@
+[
+  {
+    "day": "Wednesday",
+    "startTime24": "9",
+    "startTime12": "9:00 AM",
+    "endTime12": "10:00 AM",
+    "hosturl": [{ "url": "clay-ryder" }],
+    "showurl": "sound-ideas"
+  },
+  {
+    "day": "Saturday",
+    "startTime24": "18",
+    "startTime12": "6:00 PM",
+    "endTime12": "7:00 PM",
+    "hosturl": [{ "url": "clay-ryder" }],
+    "showurl": "sound-ideas"
+  }
+]
