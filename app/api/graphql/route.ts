@@ -39,8 +39,3 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   return handler(request);
 }
-
-export async function connectToDB() {
-  const dbConnection = await mongoose.connect(uri);
-  return dbConnection.connection;
-}
