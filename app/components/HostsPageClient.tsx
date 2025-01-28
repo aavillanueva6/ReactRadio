@@ -22,6 +22,7 @@ interface DJsType {
   url: string;
   _id: string;
   bio: string[];
+  shortBio: string;
 }
 
 const HostsPageClient: React.FC = () => {

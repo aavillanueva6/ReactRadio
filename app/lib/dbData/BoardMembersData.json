@@ -8,7 +8,10 @@
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/brent-banulis.webp",
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/brent-banulis-sq.webp",
     "url": "brent-banulis",
-    "bio": [""]
+    "bio": [
+      "WETF president and program director. founder of the New New Jazz Alliance and the New England Jazz Hall of Fame and host of “Collector's Choice”, “Big Band Blowout” and “Saturday Night/Last Call”."
+    ],
+    "shortBio": "WETF president and program director. founder of the New New Jazz Alliance and the New England Jazz Hall of Fame and host of “Collector's Choice”, “Big Band Blowout” and “Saturday Night/Last Call”."
   },
 
   {
@@ -20,7 +23,10 @@
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/mike-finnerty.webp",
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/mike-finnerty-sq.webp",
     "url": "mike-finnerty",
-    "bio": [""]
+    "bio": [
+      "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector's Choice” and “Mornin' with Mike.”"
+    ],
+    "shortBio": "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector's Choice” and “Mornin' with Mike.”"
   },
   {
     "firstName": "Glenda Rae",
@@ -32,8 +38,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/glenda-rae-hernandez-sq.webp",
     "url": "glenda-rae-hernandez",
     "bio": [
-      "Founding member of the WETF board, and the station’s secretary/treasurer."
-    ]
+      "Founding member of the WETF board, and the station's secretary/treasurer."
+    ],
+    "shortBio": "Founding member of the WETF board and station secretary/treasurer emeritus."
   },
   {
     "firstName": "Stephen",
@@ -45,8 +52,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/steve-merriman-sq.webp",
     "url": "stephen-merriman",
     "bio": [
-      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans’ Playhouse, South Bend’s only jazz club."
-    ]
+      "WETF founding board member, jazz drummer, co-founder and producer for Merrimans' Playhouse, South Bend's only jazz club."
+    ],
+    "shortBio": "WETF founding board member, jazz drummer, co-founder and producer for Merrimans' Playhouse, South Bend's only jazz club."
   },
   {
     "firstName": "Matt",
@@ -57,7 +65,10 @@
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/matt-merten.webp",
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/matt-merten-sq.webp",
     "url": "matt-merten",
-    "bio": [""]
+    "bio": [
+      "WETF governing board member, host of “Mornin' with Matt” at 8 a.m. Thursdays, a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology. Also, a trombonist/arranger and founder of Notre Dame's New Orleans Brass Band."
+    ],
+    "shortBio": "WETF governing board member, host of “Mornin' with Matt” at 8 a.m. Thursdays, a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology. Also, a trombonist/arranger and founder of Notre Dame's New Orleans Brass Band."
   },
   {
     "firstName": "Marian",
@@ -68,7 +79,10 @@
     "image": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-images/marian-stetler-emery.jpg",
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/marian-stetler-emery-sq.webp",
     "url": "marian-stetler-emery",
-    "bio": [""]
+    "bio": [
+      "Marian, who joined the WETF board of directors in December 2024, has built a career performing and teaching jazz and classical piano and teaching music theory and composition. She holds a master's in music degree and has served on the board of the Fischoff National Chamber Music Assn., the Stickley Foundation Board and the advisory board for the Raclin School of the Arts at Indiana University, South Bend."
+    ],
+    "shortBio": "Marian, who joined the WETF board of directors in December 2024, has built a career performing and teaching jazz and classical piano and teaching music theory and composition. She holds a master's in music degree and has served on the board of the Fischoff National Chamber Music Assn., the Stickley Foundation Board and the advisory board for the Raclin School of the Arts at Indiana University, South Bend."
   },
   {
     "firstName": "Eliud",
@@ -81,6 +95,7 @@
     "url": "eliud-villanueva",
     "bio": [
       "Founder of WETF-LP 105.7 fm and jazzradiowetf.org; station manager and chief engineer."
-    ]
+    ],
+    "shortBio": "Founder and secretary/treasurer of WETF-LP 105.7 fm and jazzradiowetf.org. He is also station manager and chief engineer."
   }
 ]

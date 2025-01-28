@@ -10,6 +10,7 @@ export interface IBoardMember extends Document {
   sqImage?: string;
   url?: string;
   bio?: string[];
+  shortBio?: string;
 }
 
 const BoardMemberSchema = new Schema<IBoardMember>({
@@ -48,6 +49,10 @@ const BoardMemberSchema = new Schema<IBoardMember>({
     trim: true,
   },
   bio: [{ type: String }],
+  shortBio: {
+    type: String,
+    trim: true,
+  },
 });
 
 const BoardMember =

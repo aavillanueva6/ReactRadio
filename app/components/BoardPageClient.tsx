@@ -15,6 +15,7 @@ interface BoardMemberType {
   sqImage: string;
   url: string;
   _id: string;
+  shortBio: string;
 }
 
 const BoardPageClient: React.FC = () => {

@@ -9,8 +9,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/adriana-ponce-diaz-sq.webp",
     "url": "adriana-ponce-diaz",
     "bio": [
-      "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else’s tasks."
-    ]
+      "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else's tasks."
+    ],
+    "shortBio": "Programmer, trouble-shooter and key member of the WETF family since the station went on the air a decade ago. Through the years, Adriana has been invaluable as a coordinator willing to handle the deadline pressures of the broadcasting business and to facilitate everyone else's tasks."
   },
   {
     "firstName": "Tish",
@@ -23,8 +24,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/tish-adams-sq.webp",
     "url": "tish-adams",
     "bio": [
-      "Jazz vocalist and 25-plus-year radio veteran who brings a passion for standards and not-so-standards to WETF. Tish has utmost respect for the jazz legends, is grateful for those who carry the torch today and always inspired by those young artists who are eager to carry jazz into tomorrow. Her program, “Mornin’ with Tish”, spans her own musical library with a wide range of moods and textures."
-    ]
+      "Jazz vocalist and 25-plus-year radio veteran who brings a passion for standards and not-so-standards to WETF. Tish has utmost respect for the jazz legends, is grateful for those who carry the torch today and always inspired by those young artists who are eager to carry jazz into tomorrow. Her program, “Mornin' with Tish”, spans her own musical library with a wide range of moods and textures."
+    ],
+    "shortBio": "Jazz vocalist and 25-plus-year radio veteran who brings a passion for standards and not-so-standards to WETF. Tish has utmost respect for the jazz legends, is grateful for those who carry the torch today and always inspired by those young artists who are eager to carry jazz into tomorrow. Her program, “Mornin' with Tish”, spans her own musical library with a wide range of moods and textures."
   },
 
   {
@@ -39,8 +41,9 @@
     "url": "dee-alexander",
     "bio": [
       "Prominent Chicago-based jazz vocalist and host of “This Is Jazz” originating out of WFMT-Chicago.",
-      "Dee Alexander is one of Chicago’s most gifted and respected vocalists/songwriters. Her musical interests span virtually every genre, especially those related to the African diaspora, including Gospel, R&B, Blues, Neo-soul and other musical forms. Her true heart and soul though, are ultimately expressed in their purest form through her explorations in Jazz, the one idiom that can encompass all her interests and influences. Ms. Alexander gravitated toward this musical form at an early age. She names Sarah Vaughan, Billie Holiday, Nina Simone and Ella Fitzgerald among her many major influences. Chicago saxophonist “Light” Henry Huff, as well, profoundly influenced her by encouraging the taking of risks and the crossing of boundaries, setting her on a path to emerge as one of the most celebrated vocal improvisers on the scene today. From a sultry traditional ballad to a contemporary jazz-funk groove, a high-flying swing, or scat-filled romp, Alexander delivers each style with a passion and love of music that comes across in each and every note, and with a style and grace that is truly her own."
-    ]
+      "Dee Alexander is one of Chicago's most gifted and respected vocalists/songwriters. Her musical interests span virtually every genre, especially those related to the African diaspora, including Gospel, R&B, Blues, Neo-soul and other musical forms. Her true heart and soul though, are ultimately expressed in their purest form through her explorations in Jazz, the one idiom that can encompass all her interests and influences. Ms. Alexander gravitated toward this musical form at an early age. She names Sarah Vaughan, Billie Holiday, Nina Simone and Ella Fitzgerald among her many major influences. Chicago saxophonist “Light” Henry Huff, as well, profoundly influenced her by encouraging the taking of risks and the crossing of boundaries, setting her on a path to emerge as one of the most celebrated vocal improvisers on the scene today. From a sultry traditional ballad to a contemporary jazz-funk groove, a high-flying swing, or scat-filled romp, Alexander delivers each style with a passion and love of music that comes across in each and every note, and with a style and grace that is truly her own."
+    ],
+    "shortBio": "Prominent Chicago-based jazz vocalist and host of “This Is Jazz” originating out of WFMT-Chicago."
   },
 
   {
@@ -55,7 +58,8 @@
     "url": "david-basse",
     "bio": [
       "Host of “Jazz with David Basse”, began broadcasting career at Kansas University decades ago, creator of NPR comedy/jazz series “Twelfth Street Jump”."
-    ]
+    ],
+    "shortBio": "Host of “Jazz with David Basse”, began broadcasting career at Kansas University decades ago, creator of NPR comedy/jazz series “Twelfth Street Jump”."
   },
 
   {
@@ -69,8 +73,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/brent-banulis-sq.webp",
     "url": "brent-banulis",
     "bio": [
-      "WETF board member and program director, founder of the New England Jazz Hall of Fame, host of “Collector’s Choice”, “Big Band Blowout” and “Saturday Night/Last Call.”"
-    ]
+      "WETF board member and program director, founder of the New England Jazz Hall of Fame, host of “Collector's Choice”, “Big Band Blowout” and “Saturday Night/Last Call.”"
+    ],
+    "shortBio": "WETF president and program director. founder of the New New Jazz Alliance and the New England Jazz Hall of Fame and host of “Collector's Choice”, “Big Band Blowout” and “Saturday Night/Last Call”."
   },
 
   {
@@ -84,8 +89,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/john-clark-sq.webp",
     "url": "john-clark",
     "bio": [
-      "Clarinetist, sax man and leader of “The Wolverines”, one of the nation’s most highly acclaimed exponents of “traditional” jazz; a highly respected researcher and lecturer on the subject and host of “Jazz Focus.” For more on the Wolverines and Clark’s writings, research and podcasts, visit John Clark/New England Traditional Jazz Plus."
-    ]
+      "Clarinetist, sax man and leader of “The Wolverines”, one of the nation's most highly acclaimed exponents of “traditional” jazz; a highly respected researcher and lecturer on the subject and host of “Jazz Focus.” For more on the Wolverines and Clark's writings, research and podcasts, visit John Clark/New England Traditional Jazz Plus."
+    ],
+    "shortBio": "Clarinetist, sax man and leader of “The Wolverines”, one of the nation's most highly acclaimed exponents of “traditional” jazz; a highly respected researcher and lecturer on the subject and host of “Jazz Focus.” For more on the Wolverines and Clark's writings, research and podcasts, visit John Clark/New England Traditional Jazz Plus."
   },
 
   {
@@ -100,7 +106,8 @@
     "url": "larry-dwyer",
     "bio": [
       "Host of “Jazz Everybody Likes,” pianist/trombonist, leader of the most popular jazz trio in South Bend for decades, director of jazz studies at the University of Notre Dame."
-    ]
+    ],
+    "shortBio": "Host of “Jazz for Everyone”, pianist/trombonist, leader of the most popular jazz trio in South Bend for decades and director of jazz studies at Notre Dame."
   },
 
   {
@@ -114,8 +121,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/mike-finnerty-sq.webp",
     "url": "mike-finnerty",
     "bio": [
-      "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector’s Choice” and “Mornin’ with Mike.”"
-    ]
+      "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector's Choice” and “Mornin' with Mike.”"
+    ],
+    "shortBio": "(a.k.a. The Phantom of the Bopera) Jazz tenor man, moved to South Bend from Chicago, member of the WETF board of directors and host of “Collector's Choice” and “Mornin' with Mike.”"
   },
 
   {
@@ -128,7 +136,8 @@
     "image": "",
     "sqImage": "",
     "url": "jane-fischer",
-    "bio": [""]
+    "bio": [""],
+    "shortBio": ""
   },
 
   {
@@ -141,7 +150,8 @@
     "image": "",
     "sqImage": "",
     "url": "leslie-fuller",
-    "bio": [""]
+    "bio": [""],
+    "shortBio": ""
   },
 
   {
@@ -154,7 +164,8 @@
     "image": "",
     "sqImage": "",
     "url": "jackson-garrison",
-    "bio": [""]
+    "bio": [""],
+    "shortBio": "Host of “Jack Shellac's Speakeasy 78s,” Garrison totes his tantalizing tunes via turntables and 78 rpm shellac discs from the 1950s back to the dawn of jazz music. Jack deejays for both live and radio audiences, previously producing his IBS award-winning “Off the Record” program at Indiana University as well as co-hosting Nauck's Vintage Records's “Bidder Request Show” in Houston."
   },
 
   {
@@ -168,8 +179,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/mark-gridley-sq.webp",
     "url": "mark-gridley",
     "bio": [
-      "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America’s most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
-    ]
+      "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America's most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
+    ],
+    "shortBio": "Award-winning jazz flutist, host of “Reflections on Jazz Styles,” author of America's most widely used introductions to jazz: “Jazz Styles” and its abridged edition, “Concise Guide to Jazz.” To hear podcasts or read articles by Gridley, go to jazzstyles.net."
   },
   {
     "firstName": "Russ",
@@ -183,7 +195,8 @@
     "url": "russ-hamer",
     "bio": [
       "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
-    ]
+    ],
+    "shortBio": "Host of “Afro-Cuban Latin Jazz”, a jazz-lover steeped in Afro-Cuban music. Taught Cuban Salsa dance professionally for 25 years. A neuroscientist who studies the neural basis of musical rhythm. His appreciation of the music of the African Diaspora was expanded greatly after living in Brazil for seven years."
   },
   {
     "firstName": "Monika",
@@ -196,8 +209,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/monika-herzig-sq.webp",
     "url": "monika-herzig",
     "bio": [
-      "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener’s Companion”, leader of international touring group Sheroes, Indiana University Bloomington Arts Administration faculty and editor of “Jazz Education in Research and Practice”.  monikaherzig.com"
-    ]
+      "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener's Companion”, leader of international touring group Sheroes, Indiana University Bloomington Arts Administration faculty and editor of “Jazz Education in Research and Practice”.  monikaherzig.com"
+    ],
+    "shortBio": "Host of “Talking Jazz”, jazz pianist, composer, entrepreneur and author of “David Baker: A Legacy in Music” and “Experiencing Chick Corea: A Listener's Companion”, leader of international touring group, “The Sheroes” and editor of “Jazz Education in Research and Practice”. Splits her time between Indiana and Austria.”  monikaherzig.com"
   },
   {
     "firstName": "John",
@@ -211,8 +225,9 @@
     "url": "john-hill",
     "bio": [
       "Jazz aficionado, 35-year veteran as a jazz radio broadcaster and host of “This is Jazz” originating out of WFMT Chicago.",
-      "As a Jazz radio host, producer, program or music director for commercial and public Jazz radio stations, Chicago native John Hill has gained over 35 years of Jazz radio experience. His broadcast career started at Fisk University in Nashville, Tennessee, where he was instrumental in putting their Jazz-formatted radio station on the air. Afterward he served Detroit’s WJZZ as a staff announcer and Music Director for nearly a decade. John’s next opportunity brought him back home to Chicago, programming the popular Jazz and Gospel-formatted WBEE radio in suburban Harvey, serving Chicago’s south side. Also broadcasting at Northern Illinois University’s News and Blues-formatted WNIJ, John feels extremely fortunate to reprise the relationship with Jazz he describes as a calling. “Ever since, out of sheer curiosity, I bought an Ahmad Jamal LP from a neighborhood grocery store rack and discovered Jazz art, or maybe it was first hearing Nancy Wilson during one of [legendary Chicago Jazz radio announcer] Daddy-O Daylie’s shows... when the opportunity came to play this great music on the radio, it was really like the fulfillment of a dream. So now, joining the WFMT Jazz Network is both a privilege and a real pleasure,” he said."
-    ]
+      "As a Jazz radio host, producer, program or music director for commercial and public Jazz radio stations, Chicago native John Hill has gained over 35 years of Jazz radio experience. His broadcast career started at Fisk University in Nashville, Tennessee, where he was instrumental in putting their Jazz-formatted radio station on the air. Afterward he served Detroit's WJZZ as a staff announcer and Music Director for nearly a decade. John's next opportunity brought him back home to Chicago, programming the popular Jazz and Gospel-formatted WBEE radio in suburban Harvey, serving Chicago's south side. Also broadcasting at Northern Illinois University's News and Blues-formatted WNIJ, John feels extremely fortunate to reprise the relationship with Jazz he describes as a calling. “Ever since, out of sheer curiosity, I bought an Ahmad Jamal LP from a neighborhood grocery store rack and discovered Jazz art, or maybe it was first hearing Nancy Wilson during one of [legendary Chicago Jazz radio announcer] Daddy-O Daylie's shows... when the opportunity came to play this great music on the radio, it was really like the fulfillment of a dream. So now, joining the WFMT Jazz Network is both a privilege and a real pleasure,” he said."
+    ],
+    "shortBio": "Jazz aficionado, 35-year veteran as a jazz radio broadcaster and host of “This is Jazz” originating out of WFMT Chicago."
   },
 
   {
@@ -226,8 +241,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/rob-hoff-sq.webp",
     "url": "rob-hoff",
     "bio": [
-      "During his undergraduate years in New York City in the 1960s, Rob took the opportunity to hear many legendary jazz artists, which deepened his appreciation for the genre. With a passion to share the music with others, he became a jazz radio broadcaster with WQLN, an NPR station in Erie, PA. Five decades later, his enthusiasm is undiminished as you will hear on his Friday noon and Sunday 9 p.m. “Collector’s Choice” and his “Nocturne” show at 11 p.m. Sundays."
-    ]
+      "During his undergraduate years in New York City in the 1960s, Rob took the opportunity to hear many legendary jazz artists, which deepened his appreciation for the genre. With a passion to share the music with others, he became a jazz radio broadcaster with WQLN, an NPR station in Erie, PA. Five decades later, his enthusiasm is undiminished as you will hear on his Friday noon and Sunday 9 p.m. “Collector's Choice” and his “Nocturne” show at 11 p.m. Sundays."
+    ],
+    "shortBio": "During his undergraduate years in New York City in the 1960s, Rob took the opportunity to hear many legendary jazz artists, which deepened his appreciation for the genre. With a passion to share the music with others, he became a jazz radio broadcaster with WQLN, an NPR station in Erie, PA. Five decades later, his enthusiasm is undiminished as you will hear on his Friday noon and Sunday 9 p.m. “Collector's Choice” and his “Nocturne” show at 11 p.m. Sundays."
   },
 
   {
@@ -241,12 +257,13 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/david-brent-johnson-sq.webp",
     "url": "david-brent-johnson",
     "bio": [
-      "For the past fifteen years David Brent Johnson has hosted WFIU’s nationally-syndicated historical jazz program Night Lights.",
-      "He is also the host of WFIU’s long-running jazz show Just You And Me  and creator of WFIU documentaries about 1920s jazz legend Bix Beiderbecke and Duke Ellington’s 1941 civil-rights musical Jump for Joy. In 2012 he produced a four-part series about the history of Indiana jazz.",
-      "An Indianapolis native and IU alumnus, David began his radio career at Bloomington community radio station WFHB, where he hosted the weekly jazz program All That Jazz. A writer who’s published frequently in Bloom Magazine, The Ryder, the Bloomington Independent, and Indianapolis Nuvo, he has won two Society of Professional Journalists awards for his arts writing.  From 2011 to 2016 he was a contributor to NPR's jazz site A Blog Supreme.",
+      "For the past fifteen years David Brent Johnson has hosted WFIU's nationally-syndicated historical jazz program Night Lights.",
+      "He is also the host of WFIU's long-running jazz show Just You And Me  and creator of WFIU documentaries about 1920s jazz legend Bix Beiderbecke and Duke Ellington's 1941 civil-rights musical Jump for Joy. In 2012 he produced a four-part series about the history of Indiana jazz.",
+      "An Indianapolis native and IU alumnus, David began his radio career at Bloomington community radio station WFHB, where he hosted the weekly jazz program All That Jazz. A writer who's published frequently in Bloom Magazine, The Ryder, the Bloomington Independent, and Indianapolis Nuvo, he has won two Society of Professional Journalists awards for his arts writing.  From 2011 to 2016 he was a contributor to NPR's jazz site A Blog Supreme.",
       "Music, literature, and history are long-held enthusiasms for Johnson, but he came to jazz only in his mid-twenties.",
-      "Johnson lives in Bloomington’s Near-Westside neighborhood, a short walk from the gravesite of Hoagy Carmichael."
-    ]
+      "Johnson lives in Bloomington's Near-Westside neighborhood, a short walk from the gravesite of Hoagy Carmichael."
+    ],
+    "shortBio": "Host of “Night Lights” at 10 p.m. Sundays, originating out of WFIU in Bloomington, Indiana and featuring jazz, 1945-90 — a time span that Johnson notes “weirdly parallels Miles Davis's recording and the Cold War.”"
   },
 
   {
@@ -259,7 +276,10 @@
     "image": "",
     "sqImage": "",
     "url": "charlie-kohlhase",
-    "bio": [""]
+    "bio": [
+      "Host of “Research and Development” at 1 p.m. Mondays, Kohlhase is an accomplished baritone saxophone player and band leader based in the Boston area. He has recorded eight CDs with his own bands and has co-led recordings with John Tchicai and Roswell Rudd. He has placed among the leading baritone sax players in both the readers' and critics' polls in Downbeat. He also is on the faculty of the Longy School of Music in Cambridge, Mass."
+    ],
+    "shortBio": "Host of “Research and Development” at 1 p.m. Mondays, Kohlhase is an accomplished baritone saxophone player and band leader based in the Boston area. He has recorded eight CDs with his own bands and has co-led recordings with John Tchicai and Roswell Rudd. He has placed among the leading baritone sax players in both the readers' and critics' polls in Downbeat. He also is on the faculty of the Longy School of Music in Cambridge, Mass."
   },
 
   {
@@ -273,8 +293,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/gloria-krolak-sq.webp",
     "url": "gloria-krolak",
     "bio": [
-      "Gloria is the first and only radio host to present a regular program featuring the vibraphone. She is a 14-year veteran of radio, a journalist who has written for “Jersey Jazz” and was that magazine’s first poetry editor. Gloria produced the “Jazz Vibes Showcase” at the Arts Center of Coastal Carolina in Hilton Head, South Carolina, featuring five of the world’s outstanding vibraphonists. Her book “Jazz Lines…free verse in the key of jazz”, was released in 2019, and most recently, she and vibraphonist Steve Yeager shared the billing on “Jazz Lines Spoken”, which featured her poetry set to Yeager’s music. Check out her website at www.gloriajazz.com."
-    ]
+      "Gloria is the first and only radio host to present a regular program featuring the vibraphone. She is a 14-year veteran of radio, a journalist who has written for “Jersey Jazz” and was that magazine's first poetry editor. Gloria produced the “Jazz Vibes Showcase” at the Arts Center of Coastal Carolina in Hilton Head, South Carolina, featuring five of the world's outstanding vibraphonists. Her book “Jazz Lines…free verse in the key of jazz”, was released in 2019, and most recently, she and vibraphonist Steve Yeager shared the billing on “Jazz Lines Spoken”, which featured her poetry set to Yeager's music. Check out her website at www.gloriajazz.com."
+    ],
+    "shortBio": "Gloria is the first and only radio host to present a regular program featuring the vibraphone. She is a 14-year veteran of radio, a journalist who has written for “Jersey Jazz” and was that magazine's first poetry editor. Gloria produced the “Jazz Vibes Showcase” at the Arts Center of Coastal Carolina in Hilton Head, South Carolina, featuring five of the world's outstanding vibraphonists. Her book “Jazz Lines…free verse in the key of jazz”, was released in 2019, Check out her website at www.gloriajazz.com."
   },
 
   {
@@ -288,8 +309,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jake-longwell-sq.webp",
     "url": "jake-longwell",
     "bio": [
-      "Longwell has always had a passion for radio, obtaining an associate’s degree in radio and working at several stations in Geneva, New York. Host of “Jazz Scene”, “Jazz Progressions”, and “Jazz and More.” Jake is blind, able to see only slightly out of one eye, which requires him to produce his shows from his apartment, where he sorts his CDs and reads liner notes just inches from his face."
-    ]
+      "Longwell has always had a passion for radio, obtaining an associate's degree in radio and working at several stations in Geneva, New York. Host of “Jazz Scene”, “Jazz Progressions”, and “Jazz and More.” Jake is blind, able to see only slightly out of one eye, which requires him to produce his shows from his apartment, where he sorts his CDs and reads liner notes just inches from his face."
+    ],
+    "shortBio": "Longwell has always had a passion for radio, obtaining an associate's degree in radio and working at several stations in Geneva, New York. Host of “Jazz Scene”, “Jazz Progressions”, and “Jazz and More.” Jake is blind, able to see only slightly out of one eye, which requires him to produce his shows from his apartment, where he sorts his CDs and reads liner notes just inches from his face."
   },
 
   {
@@ -304,7 +326,8 @@
     "url": "joan-merrill",
     "bio": [
       "Host of “The Great American Songbook”, producer of 14 “Jazz Profiles” shows for NPR, representative for major jazz singers, wrote liner notes, produced several records and websites, including carmenmcrae.com, and the documentary film “Say It With Jazz.” She lives in the Seattle area."
-    ]
+    ],
+    "shortBio": "Host of “The Great American Songbook”, producer of 14 “Jazz Profiles” shows for NPR, representative for major jazz singers, wrote liner notes, produced several records and websites, including carmenmcrae.com, and the documentary film “Say It With Jazz.” She lives in the Seattle area."
   },
 
   {
@@ -318,8 +341,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/matt-merten-sq.webp",
     "url": "matt-merten",
     "bio": [
-      "Host of “Mornin’ with Matt,” a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology; trombonist/ arranger, founder of Notre Dame’s New Orleans Brass Band."
-    ]
+      "Host of “Mornin' with Matt,” a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology; trombonist/ arranger, founder of Notre Dame's New Orleans Brass Band."
+    ],
+    "shortBio": "WETF governing board member, host of “Mornin' with Matt” at 8 a.m. Thursdays, a music educator at the University of Notre Dame with a passion for jazz, New Orleans culture and music technology. Also, a trombonist/arranger and founder of Notre Dame's New Orleans Brass Band."
   },
 
   {
@@ -333,10 +357,11 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/bill-oconnell-sq.webp",
     "url": "bill-oconnell",
     "bio": [
-      "Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WETF’s radio program “New Vintage”, hosted by Bill O’Connell. He formed his own big band in 1988, knowing that his calling was playing modern big band arrangements.",
+      "Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WETF's radio program “New Vintage”, hosted by Bill O'Connell. He formed his own big band in 1988, knowing that his calling was playing modern big band arrangements.",
       "The history of the big band era is well documented. Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WDCB's radio program New Vintage, hosted by Bill O'Connell. Bill got turned on to the big band sounds in 1974 when he saw Maynard Ferguson perform at Gordon Tech High School in Chicago. After establishing himself as a professional educator at Triton College in River Grove, IL, Bill grew tired of playing wedding music and formed his own big band in 1988. Early on, Bill's big band received calls primarily from dance clubs. Though it was steady work, Bill knew that his calling was playing modern big band arrangements. Celebrate America's greatest contribution to world music history. You can catch Bill every Sunday at 6pm. Jazz. Ever innovative, always changing.",
       "And don't forget: No one cares how much you know, until they know how much you care."
-    ]
+    ],
+    "shortBio": "Though the days of touring big bands are long gone, there are a good number of regional bands keeping alive this great art form. That is the mission of WETF's radio program “New Vintage”, hosted by Bill O'Connell. He formed his own big band in 1988, knowing that his calling was playing modern big band arrangements. "
   },
 
   {
@@ -350,8 +375,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/middleton-omalley-sq.webp",
     "url": "middleton-omalley",
     "bio": [
-      "Host of “Mornin’ with Middie” at 8 a.m. Mondays (Eastern Time). His interest in jazz began in a country kitchen dancing with his mom to Erroll Garner’s “Concert By The Sea”. Then eagerly awaiting each issue of Down Beat and buying vinyl records. He has seen Dizzy in Berlin; Mongo at the Lighthouse, sold a house to Terence Blanchard, and had terrifying conversations with Lorraine Gordon at the Village Vanguard. He idolized Boston Jazz deejay Eric Jackson and has spent years as a Jazz deejay in New Orleans. His mission? Honor the musicians and entertain his listeners."
-    ]
+      "Host of “Mornin' with Middie” at 8 a.m. Mondays (Eastern Time). His interest in jazz began in a country kitchen dancing with his mom to Erroll Garner's “Concert By The Sea”. Then eagerly awaiting each issue of Down Beat and buying vinyl records. He has seen Dizzy in Berlin; Mongo at the Lighthouse, sold a house to Terence Blanchard, and had terrifying conversations with Lorraine Gordon at the Village Vanguard. He idolized Boston Jazz deejay Eric Jackson and has spent years as a Jazz deejay in New Orleans. His mission? Honor the musicians and entertain his listeners."
+    ],
+    "shortBio": "Voice of WETF's morning daily birthday tributes to jazz artists. His interest in jazz began in a country kitchen dancing with his mom to Erroll Garner's “Concert By The Sea”. Then eagerly awaiting each issue of Down Beat and buying vinyl records. He idolized Boston Jazz deejay Eric Jackson and has spent years as a Jazz deejay in New Orleans. His mission? Honor the musicians and entertain his listeners."
   },
 
   {
@@ -365,8 +391,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/linda-poindexter-sq.webp",
     "url": "linda-poindexter",
     "bio": [
-      "Host of (Wednesday) “Mornin’ with Linda Kay”, Linda’s radio career began in the 1970s and included on-air host, interviewer and producer. She enjoys sharing and utilizing her voice and talents in various ways. An avid listener of music, Linda loves the creative vibes of jazz. She makes her home in the New Haven, Connecticut area."
-    ]
+      "Host of (Wednesday) “Mornin' with Linda Kay”, Linda's radio career began in the 1970s and included on-air host, interviewer and producer. She enjoys sharing and utilizing her voice and talents in various ways. An avid listener of music, Linda loves the creative vibes of jazz. She makes her home in the New Haven, Connecticut area."
+    ],
+    "shortBio": "Host of (Wednesday) “Mornin' with Linda Kay”, Linda's radio career began in the 1970s and included on-air host, interviewer and producer. She enjoys sharing and utilizing her voice and talents in various ways. An avid listener of music, Linda loves the creative vibes of jazz. She makes her home in the New Haven, Connecticut area."
   },
 
   {
@@ -380,8 +407,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jon-pollack-sq.webp",
     "url": "jon-pollack",
     "bio": [
-      "One of the Boston area’s most veteran jazz hosts, whose show, “The Jazz Train”, originates from WMBR-FM on the MIT campus in Cambridge."
-    ]
+      "One of the Boston area's most veteran jazz hosts, whose show, “The Jazz Train”, originates from WMBR-FM on the MIT campus in Cambridge."
+    ],
+    "shortBio": "One of the Boston area's most veteran jazz hosts, whose show “The Jazz Train”, consists of recordings made from years past on the same date as his shows."
   },
 
   {
@@ -396,7 +424,8 @@
     "url": "scott-prebys",
     "bio": [
       "Native son of South Bend, jazz percussionist, retired director of jazz studies at the University of Mary in Bismarck, N.D. Host of “Prebys on Jazz” which originated on the “Prairie Public Radio” network."
-    ]
+    ],
+    "shortBio": "Native son of South Bend, jazz percussionist, retired director of jazz studies at the University of Mary in Bismarck, N.D. Host of “Prebys on Jazz” which originated on the “Prairie Public Radio” network."
   },
 
   {
@@ -410,8 +439,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/tom-reney-sq.webp",
     "url": "tom-reney",
     "bio": [
-      "Historian, author of books and articles on jazz, longtime host of “Jazz a la Mode” which is simulcast out of New England Public Media in Springfield/Amherst, Mass. For a look at Reney’s podcasts and published works, including profiles and obituaries on significant jazz artists, club owners, producers, journalists and broadcasters, search the internet for JazzBeat with Tom Reney."
-    ]
+      "Historian, author of books and articles on jazz, longtime host of “Jazz a la Mode” which is simulcast out of New England Public Media in Springfield/Amherst, Mass. For a look at Reney's podcasts and published works, including profiles and obituaries on significant jazz artists, club owners, producers, journalists and broadcasters, search the internet for JazzBeat with Tom Reney."
+    ],
+    "shortBio": "Historian, author of books and articles on jazz, longtime host of “Jazz a la Mode” which is simulcast out of New England Public Media in Springfield/Amherst, Mass. For a look at Reney's podcasts and published works, including profiles and obituaries on significant jazz artists, club owners, producers, journalists and broadcasters, search the internet for JazzBeat with Tom Reney."
   },
 
   {
@@ -426,7 +456,8 @@
     "url": "richard-rose",
     "bio": [
       "Professor emeritus at Miami Dade College and professional bassist and composer. Dr. Rose has helped Mark Gridley create and produce “Reflections on Jazz Styles” for WETF. He holds a Doctor of Musical Arts degree from the University of Texas at Austin, Master of Science degree from Florida International University and a Bachelor of Music degree from the University of Miami and has completed post-doctoral work at FIU and Loyola University, New Orleans. Versed in a number of musical styles, he has taught about the music business and music production as well as jazz and popular music appreciation."
-    ]
+    ],
+    "shortBio": "Professor emeritus at Miami Dade College and professional bassist and composer. Dr. Rose has helped Mark Gridley create and produce “Reflections on Jazz Styles” for WETF. He holds a Doctor of Musical Arts degree from the University of Texas at Austin, Master of Science degree from Florida International University and a Bachelor of Music degree from the University of Miami and has completed post-doctoral work at FIU and Loyola University, New Orleans."
   },
 
   {
@@ -440,11 +471,12 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/jana-lee-ross-sq.webp",
     "url": "jana-lee-ross",
     "bio": [
-      "Lifelong pianist and vocalist, Jana Lee is comfortable with classical music as well as jazz, and she often combines the two in her performances. Host of “This is Jazz” out of WFMT, she began her career as host of “Jazz Beyond Midnight” in Colorado Springs, which is still her home, and worked her way up to become director of music for Classical 88.7 KCME. She also went on to help launch KCME’s sister station, Jazz 93.5.",
-      "Jana Lee Ross is a lifelong pianist and vocalist with a repertoire that blurs the lines between classical music and jazz. Unifying these two art forms is the overall arch of her career as a performer, composer and broadcaster. Jana Lee worked her way up from the long dark jazz night of the graveyard shift disc jockey as host of Jazz Beyond Midnight to become Director of Music for Classical 88.7 KCME in Colorado Springs. Capping off her 20‐year stay at KCME, she steered the launch of KCME’s sister station, Jazz 93.5, while still wearing her classical hat. Jana Lee has produced the weekly programs Ladies Who Lunch, which highlights the accomplishments of women in classical music, and The Bridge, which explored music and musicians that cross the bridge between classical music and jazz. Always up for a little retro fun, her nightly Bachelor Pad Cocktail Hour was a listener favorite.",
-      "In addition to her broadcasting work, Jana Lee Ross has a thriving performance career. She is in demand as a pianist and vocalist, incorporating Bach, BeBop, Bill Evans, and David Bowie into her personalized sound. She works regularly throughout Colorado as a sideman, accompanist, and music director. Between gigs as a honky‐tonk barroom groover and five‐star‐resort ivory‐tickler, she leads her own \"punk jazz\" combo, Jana Lee and the Powers That Be.",
-      "At the heart of Jana Lee's love of jazz is a fascination with how this art form reveals the players' musical lineage and expresses the individual's soul. Respect for the past, an eye toward the future, and playing rooted firmly in the present moment ‐‐ that is her favorite sound."
-    ]
+      "Lifelong pianist and vocalist, Jana Lee is comfortable with classical music as well as jazz, and she often combines the two in her performances. Host of “This is Jazz” out of WFMT, she began her career as host of “Jazz Beyond Midnight” in Colorado Springs, which is still her home, and worked her way up to become director of music for Classical 88.7 KCME. She also went on to help launch KCME's sister station, Jazz 93.5.",
+      "Jana Lee Ross is a lifelong pianist and vocalist with a repertoire that blurs the lines between classical music and jazz. Unifying these two art forms is the overall arch of her career as a performer, composer and broadcaster. Jana Lee worked her way up from the long dark jazz night of the graveyard shift disc jockey as host of Jazz Beyond Midnight to become Director of Music for Classical 88.7 KCME in Colorado Springs. Capping off her 20-year stay at KCME, she steered the launch of KCME's sister station, Jazz 93.5, while still wearing her classical hat. Jana Lee has produced the weekly programs Ladies Who Lunch, which highlights the accomplishments of women in classical music, and The Bridge, which explored music and musicians that cross the bridge between classical music and jazz. Always up for a little retro fun, her nightly Bachelor Pad Cocktail Hour was a listener favorite.",
+      "In addition to her broadcasting work, Jana Lee Ross has a thriving performance career. She is in demand as a pianist and vocalist, incorporating Bach, BeBop, Bill Evans, and David Bowie into her personalized sound. She works regularly throughout Colorado as a sideman, accompanist, and music director. Between gigs as a honky-tonk barroom groover and five-star-resort ivory-tickler, she leads her own \"punk jazz\" combo, Jana Lee and the Powers That Be.",
+      "At the heart of Jana Lee's love of jazz is a fascination with how this art form reveals the players' musical lineage and expresses the individual's soul. Respect for the past, an eye toward the future, and playing rooted firmly in the present moment -- that is her favorite sound."
+    ],
+    "shortBio": "Lifelong pianist and vocalist, Jana Lee is comfortable with classical music as well as jazz, and she often combines the two in her performances. Host of “This is Jazz” out of WFMT, she began her career as host of “Jazz Beyond Midnight” in Colorado Springs, which is still her home, and worked her way up to become director of music for Classical 88.7 KCME. She also went on to help launch KCME's sister station, Jazz 93.5. "
   },
 
   {
@@ -459,7 +491,8 @@
     "url": "clay-ryder",
     "bio": [
       "Clay Ryder, host of “Sound Ideas”, is also a pianist, record collector, and all-around jazz afficionado. He studied music at California State University, Chico in the mid-1980s, and his love for jazz dates back to his earliest years listening to KJAZ and KRE in the San Francisco Bay Area, during which time he also began performing in various ensembles."
-    ]
+    ],
+    "shortBio": "Clay Ryder, host of “Sound Ideas”, is also a pianist, record collector, and all-around jazz afficionado. He studied music at California State University, Chico in the mid-1980s, and his love for jazz dates back to his earliest years listening to KJAZ and KRE in the San Francisco Bay Area, during which time he also began performing in various ensembles."
   },
 
   {
@@ -473,9 +506,10 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/dave-schwan-sq.webp",
     "url": "dave-schwan",
     "bio": [
-      "Native of northwest Indiana, avid jazz fan since age 5, longtime host of WFMT’s “This Is Jazz.”",
-      "Born and raised in Northwest Indiana very near Chicago, Dave Schwan has been around music all of his life. Thanks to musical family members, Dave was exposed to jazz as early as age five and never looked back. While playing and performing music on an amateur level, Dave has had a life-long fascination with the history of jazz, American music and its contributions to the world. Dave believes that jazz is a true art form and agrees with Duke Ellington’s dictum: “If it sounds good, it is good.” He has worked as a broadcast journalist and program host for nearly 40 years and has been associated with Chicago’s WFMT-FM since 2010. In addition to music, travel is one of his main interests and that has taken him to all 50 U.S. states, Europe and Peru. Along with taking in the history of these places, Dave has always made a point to seek out their musical culture as well, something that never fails to enhance a journey anywhere in the world."
-    ]
+      "Native of northwest Indiana, avid jazz fan since age 5, longtime host of WFMT's “This Is Jazz.”",
+      "Born and raised in Northwest Indiana very near Chicago, Dave Schwan has been around music all of his life. Thanks to musical family members, Dave was exposed to jazz as early as age five and never looked back. While playing and performing music on an amateur level, Dave has had a life-long fascination with the history of jazz, American music and its contributions to the world. Dave believes that jazz is a true art form and agrees with Duke Ellington's dictum: “If it sounds good, it is good.” He has worked as a broadcast journalist and program host for nearly 40 years and has been associated with Chicago's WFMT-FM since 2010. In addition to music, travel is one of his main interests and that has taken him to all 50 U.S. states, Europe and Peru. Along with taking in the history of these places, Dave has always made a point to seek out their musical culture as well, something that never fails to enhance a journey anywhere in the world."
+    ],
+    "shortBio": "Native of northwest Indiana, avid jazz fan since age 5, longtime host of WFMT's “This Is Jazz.”"
   },
 
   {
@@ -490,7 +524,8 @@
     "url": "avery-sharpe",
     "bio": [
       "Friday night host of “Jazz a la Mode”, Avery is a bassist/bandleader/recording artist/composer/ educator, whose credits include performances with Archie Shepp, Art Blakey, Dizzy Gillespie, Wynton Marsalis, Yusef Lateef and 20-plus years performing and recording with McCoy Tyner. Educational activities include numerous workshops, clinics and residencies in the US and abroad. Recognitions include The NAACP Martin Luther King Special Achievement Award, several National Endowment of the Arts grants and the New England for the Arts Achievement in Jazz Award. For more, visit www.averysharpe.com"
-    ]
+    ],
+    "shortBio": "Friday night hosr of “Jazz a la Mode”, Avery is a bassist/bandleader/recording artist/composer/ educator, whose credits include performances with Archie Shepp, Art Blakey, Dizzy Gillespie, Wynton Marsalis, Yusef Lateef and 20-plus years performing and recording with McCoy Tyner. Educational activities include numerous workshops, clinics and residencies in the US and abroad. For more, visit www.averysharpe.com"
   },
 
   {
@@ -505,7 +540,8 @@
     "url": "peter-sokolowski",
     "bio": [
       "Alternate voice of “Jazz a la Mode” from New England Public Media, freelance musician, blogger and podcaster."
-    ]
+    ],
+    "shortBio": "Alternate voice of “Jazz a la Mode” from New England Public Media, freelance musician, blogger and podcaster."
   },
 
   {
@@ -520,7 +556,8 @@
     "url": "bex-taylor",
     "bio": [
       "Wednesday night host of “Jazz a la Mode” from New England Public Media (Springfield/Amherst, Mass.) Avid record collector with a love of Blue Note Records and the Great American Songbook."
-    ]
+    ],
+    "shortBio": "Wednesday night host of “Jazz a la Mode” from New England Public Media (Springfield/Amherst, Mass.) Avid record collector with a love of Blue Note Records and the Great American Songbook."
   },
 
   {
@@ -534,8 +571,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/phil-tierney-sq.webp",
     "url": "phil-tierney",
     "bio": [
-      "Retired high school history teacher Phil Tierney has always had a love of jazz, from its earliest performances to it’s modern marvels. He’s taken that love of the genre and turned it into action in his beloved Berkshire County in Massachusetts. He currently serves as a board member of Berkshires Jazz Inc., as the producer of the organization’s local jazz performance television series, and as the host of “Berkshire Jazz,” a program which originates from 89.7 WTBR-FM, Pittsfield Community Radio."
-    ]
+      "Retired high school history teacher Phil Tierney has always had a love of jazz, from its earliest performances to it's modern marvels. He's taken that love of the genre and turned it into action in his beloved Berkshire County in Massachusetts. He currently serves as a board member of Berkshires Jazz Inc., as the producer of the organization's local jazz performance television series, and as the host of “Berkshire Jazz,” a program which originates from 89.7 WTBR-FM, Pittsfield Community Radio."
+    ],
+    "shortBio": "Phil, a retired high school history teacher, has loved jazz from its roots to its modern marvels. He has served the genre as a member of Berkshires Jazz, Inc., as producer of the organization's local jazz TV series and as host of “Berkshires Jazz”, which originates from WTBR-FM in Pittsfield, Mass., and airs on WETF at 8 p.m. Saturdays."
   },
 
   {
@@ -549,8 +587,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/dick-vacca-sq.webp",
     "url": "dick-vacca",
     "bio": [
-      "Alternate host for Brent Banulis on Wednesday’s “Collector’s Choice/Jazz From New England” series, author of “Boston Jazz Chronicles”, the definitive history of jazz in Boston. For a look at his archival material and latest articles, visit richardvacca.com."
-    ]
+      "Alternate host for Brent Banulis on Wednesday's “Collector's Choice/Jazz From New England” series, author of “Boston Jazz Chronicles”, the definitive history of jazz in Boston. For a look at his archival material and latest articles, visit richardvacca.com."
+    ],
+    "shortBio": "Alternate host for Brent Banulis on Wednesday's “Collector's Choice/Jazz From New England” series, author of “Boston Jazz Chronicles”, the definitive history of jazz in Boston. For a look at his archival material and latest articles, visit richardvacca.com."
   },
 
   {
@@ -564,8 +603,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/laurie-villanueva-sq.webp",
     "url": "laurie-villanueva",
     "bio": [
-      "Laurie, contributor of WETF’s “Happy Birthday, Dear Jazz Artist” feature that airs at 10 a.m. (Eastern Time) throughout the week, has been working with fellow WETF family members, such as Joan Merrill and Rob Hoff, as well as National Public Media to ensure that WETF listeners will never forget those who have shaped America’s only original art form over the past 100-plus years."
-    ]
+      "Laurie, contributor of WETF's “Happy Birthday, Dear Jazz Artist” feature that airs at 10 a.m. (Eastern Time) throughout the week, has been working with fellow WETF family members, such as Joan Merrill and Rob Hoff, as well as National Public Media to ensure that WETF listeners will never forget those who have shaped America's only original art form over the past 100-plus years."
+    ],
+    "shortBio": "Laurie, contributor of WETF's “Happy Birthday, Dear Jazz Artist” feature that airs at 10 a.m. (Eastern Time) throughout the week, has been working with fellow WETF family members, such as Joan Merrill and Rob Hoff, as well as National Public Media to ensure that WETF listeners will never forget those who have shaped America's only original art form over the past 100-plus years."
   },
 
   {
@@ -579,8 +619,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/stanley-welch-sq.webp",
     "url": "stan-welch",
     "bio": [
-      "WETF’s “Night Owl” host at 11 p.m. Monday-Friday. Welch began his jazz programming and hosting career more than 45 years ago in New Haven, Conn., and has been hosting the weekly “Jazz Haven” program at WNHH in New Haven since 2017. (jazzhaven.org   newhavenindependent.org)"
-    ]
+      "WETF's “Night Owl” host at 11 p.m. Monday-Friday. Welch began his jazz programming and hosting career more than 45 years ago in New Haven, Conn., and has been hosting the weekly “Jazz Haven” program at WNHH in New Haven since 2017. (jazzhaven.org   newhavenindependent.org)"
+    ],
+    "shortBio": "WETF's “Night Owl” host at 11 p.m. Monday-Friday. Welch began his jazz programming and hosting career more than 45 years ago in New Haven, Conn., and has been hosting the weekly “Jazz Haven” program at WNHH in New Haven since 2017. (jazzhaven.org   newhavenindependent.org)"
   },
 
   {
@@ -594,8 +635,9 @@
     "sqImage": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/WETF-Prod/member-sq-images/lori-williams-sq.webp",
     "url": "lori-williams",
     "bio": [
-      "Immersed in traditional jazz from an early age, Lori is a veteran jazz vocalist and music educator with a BA in mass media. Founder of “positivemusicpm.org”, Ms. Williams’s “Collector’s Choice” sessions focus on women in jazz, the international scene and young performers dedicated to the roots and traditions of the music. She is based in Atlanta, Georgia."
-    ]
+      "Immersed in traditional jazz from an early age, Lori is a veteran jazz vocalist and music educator with a BA in mass media. Founder of “positivemusicpm.org”, Ms. Williams's “Collector's Choice” sessions focus on women in jazz, the international scene and young performers dedicated to the roots and traditions of the music. She is based in Atlanta, Georgia."
+    ],
+    "shortBio": "Immersed in traditional jazz from an early age, Lori is a veteran jazz vocalist and music educator with a BA in mass media. Founder of “positivemusicpm.org”, Ms. Williams's “Collector's Choice” sessions focus on women in jazz, the international scene and young performers dedicated to the roots and traditions of the music. She is based in Atlanta, Georgia."
   },
 
   {
@@ -610,6 +652,7 @@
     "url": "lisa-yves",
     "bio": [
       "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "
-    ]
+    ],
+    "shortBio": "Creator of  “Jazz for Kids” series, recording artist, musician, vocalist, composer, host of “Jazz for Kids, 1 to 92”. She lives in Foxboro, Massachusetts. "
   }
 ]

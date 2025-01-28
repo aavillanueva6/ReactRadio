@@ -12,6 +12,7 @@ export interface IDJ extends Document {
   sqImage?: string;
   url?: string;
   bio?: string[];
+  shortBio?: string;
 }
 
 const DJSchema = new Schema({
@@ -56,6 +57,10 @@ const DJSchema = new Schema({
     trim: true,
   },
   bio: [{ type: String }],
+  shortBio: {
+    type: String,
+    trim: true,
+  },
 });
 
 const DJ = mongoose.models.DJ || model<IDJ>('DJ', DJSchema);
