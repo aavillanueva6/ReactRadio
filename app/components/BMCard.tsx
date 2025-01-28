@@ -11,6 +11,7 @@ interface BoardMember {
   sqImage: string;
   url: string;
   _id: string;
+  shortBio: string;
 }
 
 const BMCard = ({ bm }: { bm: BoardMember }) => {
@@ -56,6 +57,7 @@ const BMCard = ({ bm }: { bm: BoardMember }) => {
         {bm.firstName} {bm.lastName}
       </div>
       <div className='lead'>{bm.nickName}</div>
+      <p className='mb-0 text-start'>{bm.shortBio}</p>
       <p>
         <Link href={`/board/${bm.url}`} className='btn btn-secondary'>
           View profile »
