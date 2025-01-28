@@ -38,7 +38,7 @@ async function fetchBoardMember(bmUrl: string) {
   });
 
   if (!response.ok) {
-    throw new Error('Failed to fetch board members');
+    throw new Error('Failed to fetch board member');
   }
 
   const { data } = await response.json();
