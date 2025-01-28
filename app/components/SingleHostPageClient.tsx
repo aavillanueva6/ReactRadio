@@ -28,7 +28,7 @@ const textOutline: Record<string, string> = {
     1px -1px 0 #000`,
 };
 
-const SingleContributorPageClient: React.FC = () => {
+const SingleHostPageClient: React.FC = () => {
   const { hostUrl } = useParams();
   const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
     variables: { url: hostUrl },
@@ -107,4 +107,4 @@ const SingleContributorPageClient: React.FC = () => {
   );
 };
 
-export default SingleContributorPageClient;
+export default SingleHostPageClient;

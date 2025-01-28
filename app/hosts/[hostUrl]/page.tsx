@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Providers } from '@/app/providers';
-import SingleContributorPageClient from '@/app/components/SingleContributorPageClient';
+import SingleHostPageClient from '@/app/components/SingleHostPageClient';
 
 type Props = {
   params: Promise<{
@@ -103,14 +103,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const SingleContributor = async ({ params }: Props) => {
+const SingleHost = async ({ params }: Props) => {
   return (
     <>
       <Providers>
-        <SingleContributorPageClient />
+        <SingleHostPageClient />
       </Providers>
     </>
   );
 };
 
-export default SingleContributor;
+export default SingleHost;
