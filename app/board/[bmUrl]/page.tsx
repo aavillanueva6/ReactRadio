@@ -3,12 +3,10 @@ import { Metadata } from 'next';
 import { Providers } from '@/app/providers';
 import SingleBoardMemberPageClient from '@/app/components/SingleBoardMemberPageClient';
 
-interface Params {
-  bmUrl: string;
-}
-
 type Props = {
-  params: Params;
+  params: Promise<{
+    bmUrl: string;
+  }>;
 };
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
