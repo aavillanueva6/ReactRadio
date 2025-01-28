@@ -44,12 +44,92 @@ const Home: React.FC = () => {
   return (
     <>
       {/* banner image */}
-      <img
-        className={homeData.bannerImg.class}
-        alt={homeData.bannerImg.alt}
-        src={homeData.bannerImg.src}
+      <div
+        className='position-relative mx-auto'
         style={homeData.bannerImg.style}
-      ></img>
+      >
+        <img
+          className={homeData.bannerImg.class}
+          alt={homeData.bannerImg.alt}
+          src={homeData.bannerImg.src}
+          style={homeData.bannerImg.style}
+        />
+        <div
+          className='position-absolute top-0 start-0 p-4 text-primary w-50'
+          style={{ backgroundColor: 'rgba(25, 35, 120, 0.7)' }}
+        >
+          <p
+            className='fw-bold  text-nowrap mb-0'
+            style={{ fontSize: 'min(4vw,51px)' }}
+          >
+            WETF-LP
+          </p>
+          <p className='my-2 text-nowrap' style={{ fontSize: 'min(3vw,38px)' }}>
+            105.7 FM - The Jazz Station
+          </p>
+          <p
+            className='mb-0 text-nowrap '
+            style={{ fontSize: 'min(3vw,38px)' }}
+          >
+            South Bend, Indiana
+          </p>
+        </div>
+        <div
+          className='position-absolute bottom-0 text-secondary w-25'
+          style={{
+            backgroundColor: 'rgba(25, 35, 120, 0.7)',
+            right: '10%',
+            padding: '1rem',
+          }}
+        >
+          <div className='text-center mb-3'>
+            <img
+              src='/WETF_icon.svg'
+              alt='Overlay Icon'
+              className='img-fluid'
+              style={{
+                maxWidth: '50%',
+                height: 'auto',
+              }}
+            />
+          </div>
+          <div className='text-center'>
+            <p
+              className='fw-bold text-nowrap'
+              style={{ fontSize: 'min(2vw,25px)' }}
+            >
+              <Link
+                className='link-underline link-underline-opacity-0 text-white'
+                href='/hosts'
+              >
+                WETF Hosts
+              </Link>
+            </p>
+            <p
+              className='fw-bold text-nowrap'
+              style={{ fontSize: 'min(2vw,25px)' }}
+            >
+              <Link
+                className='link-underline link-underline-opacity-0 text-white'
+                href='/donate'
+              >
+                Support WETF
+              </Link>
+            </p>
+            <p
+              className='fw-bold text-nowrap'
+              style={{ fontSize: 'min(2vw,25px)' }}
+            >
+              <Link
+                className='link-underline link-underline-opacity-0 text-white'
+                href='/schedule'
+              >
+                Weekly Schedule
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
       <div className='container my-0 pt-5 px-5 bg-body-tertiary rounded-3'>
         <h1 className={homeData.aboutText.heading.class}>
           {homeData.aboutText.heading.text}
