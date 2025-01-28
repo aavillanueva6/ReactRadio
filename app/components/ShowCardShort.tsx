@@ -55,7 +55,7 @@ const ShowCardShort: React.FC<Props> = ({ show }) => {
                 i === 0 ? (
                   <Link
                     className=' link-dark link-underline-opacity-0'
-                    href={`/contributors/${host.url}`}
+                    href={`/hosts/${host.url}`}
                     key={i}
                   >
                     {host.fullName}
@@ -65,7 +65,7 @@ const ShowCardShort: React.FC<Props> = ({ show }) => {
                     <span>, </span>
                     <Link
                       className=' link-dark link-underline-opacity-0'
-                      href={`/contributors/${host.url}`}
+                      href={`/hosts/${host.url}`}
                     >
                       {host.fullName}
                     </Link>

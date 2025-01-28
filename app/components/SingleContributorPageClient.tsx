@@ -29,9 +29,9 @@ const textOutline: Record<string, string> = {
 };
 
 const SingleContributorPageClient: React.FC = () => {
-  const { djUrl } = useParams();
+  const { hostUrl } = useParams();
   const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
-    variables: { url: djUrl },
+    variables: { url: hostUrl },
   });
   const dj: DJType = data?.singleDJ || {};
 

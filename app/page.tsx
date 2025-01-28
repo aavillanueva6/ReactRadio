@@ -109,7 +109,7 @@ const Home: React.FC = () => {
             two dozen carefully selected jazz hosts from throughout the country.
             See our{' '}
             <strong>
-              <Link href='/contributors'>contributors page</Link>
+              <Link href='/hosts'>hosts page</Link>
             </strong>{' '}
             for details on our hosts.
           </p>

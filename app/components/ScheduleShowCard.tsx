@@ -42,7 +42,7 @@ const ScheduleShowCard = ({ show }: { show: Schedule }) => {
                 <Link
                   key={i}
                   className='me-auto w-auto text-decoration-none'
-                  href={`/contributors/${e.url}`}
+                  href={`/hosts/${e.url}`}
                 >
                   <span className='w-auto text-secondary'>{e.fullName}</span>
                 </Link>
@@ -51,7 +51,7 @@ const ScheduleShowCard = ({ show }: { show: Schedule }) => {
                   <span className='w-auto text-secondary'>, </span>
                   <Link
                     className='me-auto w-auto text-decoration-none'
-                    href={`/contributors/${e.url}`}
+                    href={`/hosts/${e.url}`}
                   >
                     <span className='w-auto text-secondary'>{e.fullName}</span>
                   </Link>
