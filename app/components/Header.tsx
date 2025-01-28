@@ -107,8 +107,8 @@ const Header = () => {
     <>
       <Navbar expand='sm' className='sticky-top' style={navStyle}>
         <Container>
-          <Link href={headerData.logoLink.destination}>
-            <Navbar.Brand>
+          <Link href={headerData.logoLink.destination} className='me-3'>
+            <Navbar.Brand className='py-0 mx-0'>
               <img
                 alt={headerData.logoLink.imgAlt}
                 src={headerData.logoLink.imgSrc}
