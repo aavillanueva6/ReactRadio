@@ -13,6 +13,7 @@ const typeDefs = gql`
     sqImage: String
     url: String
     bio: [String]
+    shortBio: String
   }
   type BoardMember {
     _id: ID
@@ -25,6 +26,7 @@ const typeDefs = gql`
     sqImage: String
     url: String
     bio: [String]
+    shortBio: String
   }
   type Show {
     _id: ID

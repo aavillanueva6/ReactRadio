@@ -16,6 +16,7 @@ export const QUERY_DJs = gql`
       sqImage
       url
       bio
+      shortBio
     }
   }
 `;
@@ -32,6 +33,7 @@ export const QUERY_BOARD = gql`
       image
       sqImage
       url
+      shortBio
     }
   }
 `;

@@ -16,6 +16,7 @@ interface DeeJay {
   url: string;
   _id: string;
   bio: string[];
+  shortBio: string;
 }
 
 const DJCard = ({ dj }: { dj: DeeJay }) => {
@@ -71,11 +72,7 @@ const DJCard = ({ dj }: { dj: DeeJay }) => {
             <div>{show.name}</div>
           </Link>
         ))}
-      <p className='mb-0 text-start'>
-        {dj.bio.map((paragraph: string, i) => {
-          return <span key={i}>{paragraph} </span>;
-        })}
-      </p>
+      <p className='mb-0 text-start'>{dj.shortBio}</p>
       <p>
         <Link href={`/hosts/${dj.url}`} className='btn btn-secondary'>
           View profile »
