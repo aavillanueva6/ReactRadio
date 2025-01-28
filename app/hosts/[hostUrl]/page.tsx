@@ -1,17 +1,17 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Providers } from '@/app/providers';
-import SingleContributorPageClient from '@/app/components/SingleContributorPageClient';
+import SingleHostPageClient from '@/app/components/SingleHostPageClient';
 
 type Props = {
   params: Promise<{
-    djUrl: string;
+    hostUrl: string;
   }>;
 };
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
-async function fetchHost(djUrl: string) {
+async function fetchHost(hostUrl: string) {
   const response = await fetch(`${baseUrl}/api/graphql`, {
     method: 'POST',
     headers: {
@@ -36,7 +36,7 @@ async function fetchHost(djUrl: string) {
         }
       `,
       variables: {
-        url: djUrl,
+        url: hostUrl,
       },
     }),
     next: { revalidate: 3600 }, // Cache for 1 hour
@@ -57,7 +57,7 @@ async function getParams(params: Props['params']) {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const resolvedParams = await getParams(params);
-    const host = await fetchHost(resolvedParams.djUrl);
+    const host = await fetchHost(resolvedParams.hostUrl);
 
     if (!host) {
       return {
@@ -103,14 +103,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const SingleContributor = async ({ params }: Props) => {
+const SingleHost = async ({ params }: Props) => {
   return (
     <>
       <Providers>
-        <SingleContributorPageClient />
+        <SingleHostPageClient />
       </Providers>
     </>
   );
 };
 
-export default SingleContributor;
+export default SingleHost;

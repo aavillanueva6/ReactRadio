@@ -28,10 +28,10 @@ const textOutline: Record<string, string> = {
     1px -1px 0 #000`,
 };
 
-const SingleContributorPageClient: React.FC = () => {
-  const { djUrl } = useParams();
+const SingleHostPageClient: React.FC = () => {
+  const { hostUrl } = useParams();
   const { loading, data } = useQuery(QUERY_SINGLE_DJ, {
-    variables: { url: djUrl },
+    variables: { url: hostUrl },
   });
   const dj: DJType = data?.singleDJ || {};
 
@@ -107,4 +107,4 @@ const SingleContributorPageClient: React.FC = () => {
   );
 };
 
-export default SingleContributorPageClient;
+export default SingleHostPageClient;

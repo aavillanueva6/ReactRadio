@@ -15,6 +15,7 @@ interface DeeJay {
   sqImage: string;
   url: string;
   _id: string;
+  bio: string[];
 }
 
 const DJCard = ({ dj }: { dj: DeeJay }) => {
@@ -60,7 +61,6 @@ const DJCard = ({ dj }: { dj: DeeJay }) => {
         {dj.firstName} {dj.lastName}
       </div>
       <div className='lead'>{dj.nickName}</div>
-
       {dj.Shows &&
         dj.Shows.map((show: Shows) => (
           <Link
@@ -71,8 +71,13 @@ const DJCard = ({ dj }: { dj: DeeJay }) => {
             <div>{show.name}</div>
           </Link>
         ))}
+      <p className='mb-0 text-start'>
+        {dj.bio.map((paragraph: string, i) => {
+          return <span key={i}>{paragraph} </span>;
+        })}
+      </p>
       <p>
-        <Link href={`/contributors/${dj.url}`} className='btn btn-secondary'>
+        <Link href={`/hosts/${dj.url}`} className='btn btn-secondary'>
           View profile »
         </Link>
       </p>

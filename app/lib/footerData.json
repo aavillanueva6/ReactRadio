@@ -35,10 +35,10 @@
       "text": "WETF Board"
     },
     {
-      "destination": "/contributors",
+      "destination": "/hosts",
       "className": "nav-link px-2 text-body-secondary",
       "role": "listitem",
-      "text": "Contributors"
+      "text": "Hosts"
     },
     {
       "destination": "/shows",

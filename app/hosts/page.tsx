@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Providers } from '@/app/providers';
-import ContributorsPageClient from '@/app/components/ContributorsPageClient';
+import HostsPageClient from '@/app/components/HostsPageClient';
 
 interface PageMetadataType {
   title: string;
@@ -9,8 +9,8 @@ interface PageMetadataType {
 }
 
 const pageMetaData: PageMetadataType = {
-  title: 'Contributors',
-  description: 'Jazz Radio WETF Contributors.',
+  title: 'Hosts',
+  description: 'Jazz Radio WETF Hosts.',
 };
 
 export const metadata: Metadata = {
@@ -27,10 +27,10 @@ const DJs: React.FC = () => {
     <>
       <div className='container'>
         <div className='p-5 text-center'>
-          <h1 className='display-4'>WETF Contributors</h1>
+          <h1 className='display-4'>WETF Hosts</h1>
         </div>
         <Providers>
-          <ContributorsPageClient />
+          <HostsPageClient />
         </Providers>
       </div>
     </>

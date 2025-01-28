@@ -87,7 +87,7 @@ const SingleShowPageClient: React.FC = () => {
                           <Fragment key={host.url}>
                             <Link
                               className=' link-dark link-underline-opacity-0'
-                              href={`/contributors/${host.url}`}
+                              href={`/hosts/${host.url}`}
                             >
                               {host.fullName}
                             </Link>
@@ -97,7 +97,7 @@ const SingleShowPageClient: React.FC = () => {
                             <span>, </span>
                             <Link
                               className=' link-dark link-underline-opacity-0'
-                              href={`/contributors/${host.url}`}
+                              href={`/hosts/${host.url}`}
                             >
                               {host.fullName}
                             </Link>
