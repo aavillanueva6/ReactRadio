@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   } catch (error) {
     console.error(error);
     return {
-      title: 'Board Member | Organization Name',
+      title: 'Board Member',
       description: 'Meet our board member',
     };
   }
