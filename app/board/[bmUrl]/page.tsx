@@ -4,9 +4,8 @@ import { Providers } from '@/app/providers';
 import SingleBoardMemberPageClient from '@/app/components/SingleBoardMemberPageClient';
 
 type Props = {
-  params: {
-    bmUrl: string;
-  };
+  params: { bmUrl: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 };
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
