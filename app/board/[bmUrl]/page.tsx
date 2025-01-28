@@ -3,9 +3,12 @@ import { Metadata } from 'next';
 import { Providers } from '@/app/providers';
 import SingleBoardMemberPageClient from '@/app/components/SingleBoardMemberPageClient';
 
+interface Params {
+  bmUrl: string;
+}
+
 type Props = {
-  params: { bmUrl: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  params: Params;
 };
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
@@ -97,7 +100,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const SingleBoardMember: React.FC = () => {
+const SingleBoardMember = async ({ params }: Props) => {
   return (
     <>
       <div className='container '>
@@ -106,7 +109,6 @@ const SingleBoardMember: React.FC = () => {
           <SingleBoardMemberPageClient />
         </Providers>
       </div>
-      {/* {to do: add links to DJ social media (fb, twitter, insta, etc.)} */}
     </>
   );
 };
