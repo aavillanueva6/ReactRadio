@@ -1,0 +1,58 @@
+{
+  "navStyle": {
+    "backgroundImage": "url('/images/content/WETFBannerLightsCity_forHeader.webp')",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backdropFilter": "blur(300px)"
+  },
+  "logoLink": {
+    "destination": "/",
+    "imgAlt": "WETF Logo",
+    "imgSrc": "/WETF_icon.svg",
+    "imgWidth": "50",
+    "imgHeight": "50",
+    "imgClassName": "d-inline-block align-top"
+  },
+  "audioElement": {
+    "src": "https://ssl-proxy.icastcenter.com/get.php?type=Icecast&server=199.180.72.2&port=9007&mount=/stream&data=mp3",
+    "type": "audio/mp3"
+  },
+  "dropdownLinks": [
+    {
+      "destination": "/",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Home"
+    },
+    {
+      "destination": "/schedule",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Schedule"
+    },
+    {
+      "destination": "/board",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "WETF Board"
+    },
+    {
+      "destination": "/contributors",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Contributors"
+    },
+    {
+      "destination": "/shows",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Shows"
+    },
+    {
+      "destination": "/donate",
+      "className": "nav-link px-3 py-1 text-body-secondary dropdown-item",
+      "role": "button",
+      "text": "Support WETF"
+    }
+  ]
+}
