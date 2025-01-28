@@ -15,6 +15,7 @@ export const QUERY_DJs = gql`
       image
       sqImage
       url
+      bio
     }
   }
 `;
